@@ -1,0 +1,279 @@
+<<EARNINGS_SEASON_RECAP_BEGIN>>
+SEASON: Q1 2026
+AS_OF: 2026-05-03
+FILE_TYPE: Earnings Season Recap
+STYLE: Global Macro PM
+
+<<GLOBAL_MACRO_PM_READ_ACROSS_BEGIN>>
+
+US GROWTH
+
+The earnings season still argues against an imminent US hard landing. The bank cluster showed capital-markets reopening, stable credit, and active trading; Verizon showed subscriber momentum; Boeing, GE Aerospace and RTX confirmed aerospace / defense demand; Nucor and Texas Instruments showed selective cyclical recovery. The growth signal is positive but barbelled: AI infrastructure, defense, power, capital markets and selected industrial recovery are strong, while fuel-sensitive, rate-sensitive and some consumer-facing areas remain more uneven.
+
+US CONSUMER
+
+The US consumer is intact but bifurcated. American Express shows the premium consumer remains very healthy, with spending acceleration and clean credit. PepsiCo and Procter & Gamble show that the mass consumer is price-sensitive but still responsive to affordability and brand support. Ally pushes back against the auto-credit stress narrative, while Progressive and American Airlines show that insurance and travel demand are still functioning, though fuel and cost pressure are constraining earnings in transport.
+
+FINANCIAL CONDITIONS / CREDIT
+
+Financial conditions are not easy, but they are open enough to sustain activity. JPM, BAC, MS, GS and Citi all showed strong capital-markets and trading activity, while credit remained broadly benign outside specific provisioning noise. Regional and spread-sensitive banks are more mixed: USB looks stable, TFC remains capped by NII/NIM pressure, and PNC is still acquisition-shaped. The financial-system read is not one of credit accident; it is a transition from NII-led earnings to fees, trading, capital markets and selective lending.
+
+AI / CAPEX / INFRASTRUCTURE
+
+AI is now the clearest first-order earnings impulse in the tape. TSM, ASMI, LRCX, TXN, INTC, CDNS, CLS, GEV, VRT and NEE all point to a broadening AI infrastructure cycle across foundry, semicap, analog power, EDA, EMS manufacturing, data-center power, cooling, gas turbines, grid infrastructure and utility origination. The debate is no longer whether AI demand exists; it is whether supply, margins, capital intensity and valuation can keep pace with demand.
+
+EUROPE
+
+Europe looks better than feared in high-quality global franchises. ASMI confirms that European semicap is tightly plugged into the AI capex cycle. L’Oréal delivered a major positive surprise and pushed back against a weak global beauty / China consumer narrative. Eni showed strong upstream production and capital return despite refining drag. Europe is not giving a broad macro boom signal, but select global champions remain resilient and highly investable.
+
+ASIA
+
+Asia remains the hard manufacturing core of the AI and industrial cycle. TSM is the clearest expression of supply-constrained AI demand, while ASMI’s customer base and semicap demand reinforce the same chain. Rio Tinto and BHP suggest China / Asia industrial demand is uneven but not collapsing, with iron ore, copper and long-cycle projects still supported. The Asian signal is stronger in industrial / AI supply chains than in broad consumer demand.
+
+CROSS-ASSET PM TAKE
+
+The strongest earnings impulses are AI infrastructure, capital markets, defense / power, and selective cyclical industry. The main headwinds are Middle East / fuel / logistics shocks, rate-sensitive NII pressure, software margin and cash-flow skepticism, and consumer cost pressure. The tape is not a broad reacceleration boom, but it is also not a hard-landing tape. It is late-cycle resilience with a powerful AI / infrastructure capex overlay.
+
+BOTTOM LINE
+
+Global PM read: no imminent US hard landing; consumer intact but bifurcated; AI now first-order rather than second-order; Europe and Asia have resilient high-quality pockets; Middle East conflict is now visible through fuel, logistics, oilfield disruption and industrial revenue timing. The dominant tension is that institutional / infrastructure earnings are much stronger than household-facing earnings, and the market is only rewarding that growth when capital discipline and margin credibility are also present.
+
+<<GLOBAL_MACRO_PM_READ_ACROSS_END>>
+
+<<SECTOR_RECAP_BEGIN>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Financials
+
+[GS — Goldman Sachs Group, Inc. — Financials / Investment Banking & Markets — United States | PUBLI_DATE: 2026-04-13 | IMPORTANCE: ****]
+Improvement. Headline results were very strong, with record equities and a genuine advisory rebound, but the composition was not clean. FICC weakness, AWM lightness, provision overshoot and CET1 drift meant the market traded the quality of the beat rather than the size of the beat. PM read: capital markets are reopening, but all-desk breadth still matters for rerating.
+
+[JPM — JPMorgan Chase & Co. — Financials / Banking — United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: ****]
+Improvement. JPM delivered a very strong franchise quarter with record markets, strong IB, benign credit and healthy capital, but the trimmed 2026 NII guide capped the stock reaction. PM read: JPM remains the quality benchmark, but the earnings mix is shifting from NII-led to fee-and-markets-led.
+
+[C — Citigroup Inc. — Financials / Banking — United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: ***]
+Improvement. Citi printed one of the clearest turnaround proof points in the bank group, with decade-best revenue and ROTCE above the firm’s target zone. The result was not just trading-led; Services, Markets and restructuring execution all mattered. PM read: the debate shifts from whether Fraser’s restructuring is credible to whether this return level is durable.
+
+[WFC — Wells Fargo & Company — Financials / Banking — United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: ***]
+Stabilization. Wells showed loan and deposit franchise healing, and the held NII guide was supportive versus JPM’s guide cut. But the revenue miss and tax-benefit-aided EPS beat kept the result from being a clean improvement signal. PM read: recovery is intact, but the market still needs cleaner revenue quality before giving full rerating credit.
+
+[BLK — BlackRock, Inc. — Financials / Asset Management — United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: ***]
+Improvement. BlackRock’s quarter showed resilient organic flow, record ETF momentum, stronger performance fees, tech revenue growth and private-markets contribution despite market-beta drag on AUM. PM read: the story is broadening from passive beta to higher-quality private-markets, technology and performance-fee earnings.
+
+[BAC — Bank of America Corporation — Financials / Banking — United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: ****]
+Improvement. BAC delivered one of the cleanest large-bank prints: NII strength, record equities, solid FICC, better IB, resilient deposits and benign credit. PM read: this was not just a trading quarter; BAC moved from a rate-leverage waiting room into a broader earnings-power story.
+
+[MS — Morgan Stanley — Financials / Investment Banking & Wealth — United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: ****]
+Improvement. MS delivered record revenue, record equities, strong FICC and very high ROTCE, making it one of the highest-quality capital-markets prints in the group. Investment Management was softer, but not enough to disrupt the thesis. PM read: MS confirmed capital-markets leadership, not just participation in the cycle turn.
+
+[PNC — PNC Financial Services Group, Inc. — Financials / Banking — United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: **]
+Continuation. FirstBank integration looked accretive at the gate, supporting NII, loans and deposits, but the quarter was too acquisition-shaped to read as a clean organic inflection. PM read: constructive, but investors need another one or two quarters to separate deal lift from core franchise momentum.
+
+[PGR — Progressive Corporation — Financials / Property & Casualty Insurance — United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: ***]
+Stabilization. Progressive remained highly profitable, with strong policy growth and an excellent combined ratio, but full-quarter underwriting was not quite as clean as March’s improving trend. PM read: the auto-insurance cycle is normalizing, not breaking; monthly trend confirmation matters more than the headline quarter.
+
+[SCHW — The Charles Schwab Corporation — Financials / Brokerage & Wealth — United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: ***]
+Improvement. Schwab showed record revenue, record EPS and record trading activity, while sweep cash improved. This suggests the cash-sorting overhang that dominated the prior two years is fading. PM read: Schwab is moving from cleanup mode into normalized earnings power.
+
+[USB — U.S. Bancorp — Financials / Banking — United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: **]
+Stabilization. USB delivered a steady bank print with EPS growth, revenue growth, fee-income improvement and another quarter of positive operating leverage. The result was credible rather than catalytic. PM read: this remains a “boring but improving” regional-bank tape with stable credit and better fee diversification.
+
+[STT — State Street Corporation — Financials / Custody Banking & Asset Servicing — United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: ***]
+Improvement. State Street delivered record revenue, record fee revenue, higher NII, strong FX trading and upgraded both fee and NII guidance. PM read: custody and servicing platforms are direct beneficiaries of elevated volatility, institutional repositioning and market activity.
+
+[TFC — Truist Financial Corporation — Financials / Banking — United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: **]
+Stabilization. Truist beat on EPS and showed strong fee momentum, but the NII guide cut under a no-rate-cut assumption remains the cap on the story. PM read: the franchise is healing, but rerating requires NIM/NII confirmation.
+
+[ALLY — Ally Financial Inc. — Financials / Consumer Finance & Auto Lending — United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: ***]
+Improvement. Ally delivered cleaner credit, better NIM trajectory and still-solid auto demand, directly challenging the “auto consumer is cracking” bear case. PM read: the credit inflection narrative is becoming investable, but it needs Q2 confirmation.
+
+[AXP — American Express Company — Financials / Consumer Finance & Payments — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ***]
+Continuation. AXP showed the premium consumer remains very healthy, with spending growth at a three-year high, strong T&E / luxury activity and clean credit. Management reinvested upside into growth rather than maximizing short-term EPS. PM read: upper-income demand remains one of the cleanest consumer signals in the season.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Semiconductors / AI Infrastructure / Electronics
+
+[TSM — Taiwan Semiconductor Manufacturing Company Limited — Semiconductors / Foundry — Taiwan | PUBLI_DATE: 2026-04-16 | IMPORTANCE: ****]
+Continuation. TSMC remains the cleanest hard-data proof of the global AI capex cycle: AI/HPC dominates the mix, advanced-node revenue supports margins, and FY growth guidance moved higher. PM read: demand is not plateauing; supply, execution and geopolitics are the constraints.
+
+[ASMI — ASM International N.V. — Semiconductors / Deposition Equipment — Netherlands | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ***]
+Continuation. ASMI guided Q2 well above consensus and confirmed strength in leading-edge logic/foundry demand, while mature-node demand also rebounded. PM read: AI semicap demand is broadening and is not confined to one customer or one part of the supply chain.
+
+[LRCX — Lam Research Corporation — Semiconductors / Wafer Fab Equipment — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Improvement. Lam’s beat and forward guide confirmed that wafer-fab-equipment demand is strengthening, especially where AI, HBM and memory capacity overlap. PM read: a clean downstream confirmation of the AI / WFE cycle.
+
+[TXN — Texas Instruments Incorporated — Semiconductors / Analog & Embedded — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ****]
+Reversal. TXN delivered one of the most important cyclical signals of the season, with industrial demand up more than 30%, data-center demand strong and Q2 guidance well above consensus. PM read: the analog / industrial destocking cycle is over, and AI power content is becoming a real growth leg.
+
+[INTC — Intel Corporation — Semiconductors — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ****]
+Reversal. Intel’s large beat, DCAI growth and Q2 guide well above consensus challenged the multi-year decline narrative. The turnaround is product-led for now, not foundry-led, but the stock reaction shows that expectations were deeply depressed. PM read: AI/data-center relevance is returning faster than the market expected.
+
+[CDNS — Cadence Design Systems, Inc. — Software / Electronic Design Automation — United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ***]
+Continuation. Cadence raised revenue guidance and reported record backlog, confirming sustained demand for AI chip-design and EDA tools. PM read: EDA bookings are a leading indicator of future chip production, and the AI design cycle remains steep.
+
+[CLS — Celestica Inc. — Technology Hardware / Electronics Manufacturing Services — Canada | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ***]
+Continuation. Celestica delivered exceptional revenue growth and margin expansion, making it one of the clearest public reads on AI data-center hardware manufacturing outside the hyperscalers. PM read: the AI hardware outsourcing wave remains strong and profitable.
+
+[AMKR — Amkor Technology, Inc. — Semiconductors / Packaging & Testing — United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: **]
+Stabilization. Amkor’s EPS beat showed demand is still present, but Q2 margin guidance disappointed and kept the tape less clean than the broader AI semicap group. PM read: advanced-packaging demand is structurally attractive, but near-term margin cadence remains the issue.
+
+[RMBS — Rambus Inc. — Semiconductors / Memory & Interface IP — United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: **]
+Stabilization. Rambus remained aligned with the DDR5 / memory-interface upgrade thesis, but the in-line print was not enough for elevated expectations and the stock sold off. PM read: fundamentals are intact, but this was more of an expectations reset than a macro-bearing signal.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Technology / Software / Digital Platforms
+
+[NFLX — Netflix, Inc. — Communication Services / Streaming Media — United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: ***]
+False dawn. Netflix’s core business remained solid, with revenue and margin strength, but EPS was distorted by the WBD termination fee, Q2 guidance missed expectations and full-year guidance was only maintained. PM read: fundamentals are not broken, but the stock needed a raise and got a hold.
+
+[IBM — International Business Machines Corporation — Technology / Software, Consulting & Infrastructure — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Stabilization. IBM’s software and infrastructure results were strong, with mainframe momentum and AI-related software growth, but consulting remained too soft to fully rebut the AI-disruption bear case. PM read: the stock is hostage to whether consulting can prove AI is additive rather than erosive.
+
+[NOW — ServiceNow, Inc. — Software / Enterprise Workflow & AI — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ****]
+False dawn. ServiceNow delivered a strong beat-and-raise operationally, with accelerating AI monetization, but Q2 margin pressure, FCF miss and Middle East deal delays dominated the stock reaction. PM read: AI demand is real, but SaaS multiples now require margin and cash-flow credibility.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Industrials / Aerospace / Defense / Transportation
+
+[GE — GE Aerospace — Aerospace — United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ***]
+Improvement. GE Aerospace posted very strong orders, services growth and FCF, but held guidance conservatively because of fuel, macro and geopolitical risks. PM read: the selloff was a setup problem; demand and backlog remain highly supportive, and supply-chain conversion is the main constraint.
+
+[RTX — RTX Corporation — Aerospace & Defense — United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ***]
+Improvement. RTX raised guidance with record backlog and strong defense profit growth, while commercial softness looked manageable. PM read: defense demand is structurally strong and RTX is converting it better than some peers.
+
+[BA — The Boeing Company — Aerospace & Defense — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Stabilization. Boeing is still loss-making and cash-burning, but deliveries, revenue and backlog improved enough to make the turnaround more credible. PM read: not yet a clean cash story, but the recovery is no longer hypothetical.
+
+[LMT — Lockheed Martin Corporation — Aerospace & Defense — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ***]
+Deterioration. Lockheed’s quarter was a genuine operational miss, with flat revenue, EPS miss, negative FCF and weaker margins. PM read: defense demand is not the issue; conversion, program execution and cash flow are.
+
+[HON — Honeywell International Inc. — Industrials / Multi-Industry — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: **]
+Stabilization. Honeywell’s underlying margin execution and orders were acceptable, but the revenue miss, Middle East drag and Q2 guide disappointment kept the print noisy. PM read: the aerospace spin remains the key rerating event, while pre-spin earnings are being obscured by macro and restructuring noise.
+
+[AAL — American Airlines Group Inc. — Airlines / Transportation — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: **]
+Stabilization. American Airlines showed strong revenue and demand, but full-year EPS guidance was cut sharply because fuel costs surged. PM read: travel demand is not the problem; the earnings compression is the oil shock.
+
+[NSC — Norfolk Southern Corporation — Rail Transportation — United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: **]
+Stabilization. Norfolk Southern was hit by fuel and merger-related costs, and GAAP operating-ratio optics were poor, but freight demand did not collapse. PM read: not a clean freight upcycle yet, but not a demand breakdown either; Q2 operating-ratio improvement is the next test.
+
+[VZ — Verizon Communications Inc. — Telecommunications — United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ***]
+Improvement. Verizon delivered its first positive Q1 postpaid phone net additions since 2013, record adjusted EBITDA and raised EPS guidance. PM read: the subscriber-turnaround thesis is becoming visible in the numbers.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Healthcare / Life Sciences
+
+[UNH — UnitedHealth Group Incorporated — Healthcare / Managed Care — United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ****]
+Reversal. UNH delivered the first clear evidence that the managed-care repair story is working, with MCR improvement, Optum recovery and an EPS guide raise. PM read: this is a genuine sector thesis reset if the cost trend holds.
+
+[DHR — Danaher Corporation — Life Sciences & Diagnostics — United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ***]
+Improvement. Danaher’s key signal was bioprocessing equipment orders turning positive for the first time in nearly two years, offsetting respiratory weakness at Cepheid. PM read: the long life-sciences destocking cycle finally looks to be ending, though the recovery is measured rather than explosive.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Consumer
+
+[PEP — PepsiCo, Inc. — Consumer Staples / Food & Beverages — United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: ***]
+Stabilization. PepsiCo beat expectations and showed the first concrete evidence that affordability actions are working in North America Foods. PM read: the consumer is price-sensitive but responsive, which weakens the “consumer is rolling over” bear case.
+
+[TSLA — Tesla, Inc. — Automobiles / EV & Clean Tech — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ****]
+Mixed. Tesla showed real gross-margin recovery, but capex guidance jumped sharply and inventory built. PM read: the market is no longer trading only auto margin stabilization; it is being asked to fund another large AI / robotics / autonomy duration cycle.
+
+[PM — Philip Morris International Inc. — Consumer Staples / Tobacco & Smoke-Free Nicotine — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Continuation. PM remains one of the strongest transformation stories in staples, with IQOS leadership confirmed and ZYN underlying demand still intact despite shipment normalization. PM read: smoke-free transition remains strong, but nicotine-pouch growth is less linear than before.
+
+[OR — L’Oréal S.A. — Consumer / Beauty & Personal Care — France | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Reversal. L’Oréal delivered one of the biggest positive surprises of the season, with organic growth far above expectations and China / selective beauty improving. PM read: beauty demand is more resilient than feared, and L’Oréal is taking share.
+
+[PG — The Procter & Gamble Company — Consumer Staples / Household & Personal Care — United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ***]
+Stabilization. P&G delivered volume-led organic growth, which is a positive demand signal after a pricing-heavy cycle, but cost, tariff and logistics pressure pushed EPS expectations toward the lower end of guidance. PM read: demand resilience is there, but margin defense is harder again.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Energy / Utilities / Power
+
+[GEV — GE Vernova Inc. — Power Equipment & Electrification — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ****]
+Continuation. GEV remains one of the deepest listed AI-electrification upcycles, with 71% organic order growth, backlog expansion and gas turbine slot reservations extending visibility. PM read: demand is not the constraint; supply and execution are.
+
+[VRT — Vertiv Holdings Co — Data Center Infrastructure / Power & Cooling — United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ***]
+Improvement. Vertiv’s full-year data-center power and cooling thesis remains strong, but Q2 guidance failed to clear high expectations. PM read: structurally intact, tactically noisy.
+
+[NEE — NextEra Energy, Inc. — Utilities / Power & Renewables — United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ***]
+Continuation. NextEra showed record origination, a large renewables / storage backlog, and visible data-center power demand. PM read: AI electricity load is now a real utility-sector growth driver, not just a technology-sector theme.
+
+[SLB — SLB (Schlumberger Limited) — Energy / Oilfield Services — United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ***]
+Deterioration. SLB’s organic business was hit directly by Middle East disruption, with ChampionX cushioning the reported result. PM read: this looks like a geopolitical interruption rather than a broken upstream thesis, but margin and FCF pressure are real.
+
+[E — Eni S.p.A. — Energy / Integrated Oil & Gas — Italy | PUBLI_DATE: 2026-04-24 | IMPORTANCE: **]
+Improvement. Eni’s EPS miss was less important than strong upstream production, a 20% cash-flow guide increase and a sharply higher buyback floor. PM read: upstream and capital return matter more than refining weakness.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Materials / Mining / Metals
+
+[RIO — Rio Tinto plc — Materials / Mining — United Kingdom / Australia | PUBLI_DATE: 2026-04-21 | IMPORTANCE: **]
+Continuation. Rio’s update was operationally clean rather than thesis-changing: Pilbara production was strong, copper-equivalent output rose and Simandou moved into first shipment. PM read: execution and project delivery remain solid, with no fresh near-term China demand scare.
+
+[BHP — BHP Group Limited — Materials / Mining — Australia | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **]
+Continuation. BHP reinforced disciplined execution across copper, iron ore and long-cycle growth projects, with copper now expected in the upper half of guidance. PM read: the copper rerating thesis remains intact, but this was confirmation rather than new inflection.
+
+[NUE — Nucor Corporation — Materials / Steel — United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ***]
+Reversal. Nucor confirmed a decisive steel-cycle turn, with EPS up sharply, record shipments and Q2 expected higher across all segments. PM read: pricing, volume, trade protection and capital harvest are all working in the same direction.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Out of scope / excluded
+
+[BN — Brookfield Corporation — Financials / Alternatives & Asset Management — Canada | PUBLI_DATE: 2026-05-14 | IMPORTANCE: **]
+Out of scope. Brookfield reports outside the current April earnings window. Keep as a later scout candidate for alternatives, infrastructure, insurance assets and asset-management read-across.
+
+[CHL — Ambiguous ticker — Unknown — Unknown | PUBLI_DATE: n/a | IMPORTANCE: *]
+Excluded. Ticker mapping is ambiguous in this context and should not be ingested without clarification.
+
+<<SECTOR_END>>
+
+<<SECTOR_RECAP_END>>
+
+<<KEY_CROSS_THEMES_BEGIN>>
+
+THEME: AI infrastructure cycle broadening
+COMMENTARY: The AI signal is now visible across foundry, semicap, EDA, analog power, packaging, EMS manufacturing, data-center power, cooling, grid, gas turbines and utilities. This is the strongest cross-sector earnings impulse in the season.
+
+THEME: Middle East shock visible in earnings
+COMMENTARY: The geopolitical shock is now an earnings variable, not only a macro headline. It appears through airline fuel costs, rail fuel pressure, SLB operational disruption, Honeywell revenue timing, P&G input/logistics pressure and broader risk commentary.
+
+THEME: Consumer bifurcation
+COMMENTARY: AXP confirms the premium consumer is still strong; PEP and PG show the mass consumer is price-sensitive but responsive; ALLY pushes back against auto-credit stress; AAL shows demand is healthy but energy costs can overwhelm earnings.
+
+THEME: Capital markets reopening
+COMMENTARY: JPM, GS, BAC, MS and Citi all show that trading, equities and investment banking are improving. The key split is composition quality: BAC and MS were cleaner, GS was mixed, JPM was capped by NII guide, Citi delivered the clearest turnaround proof point.
+
+THEME: Defense demand strong, execution diverges
+COMMENTARY: RTX and GE Aerospace converted demand well, while LMT showed that backlog and defense demand are not enough if program execution, margins and cash flow disappoint.
+
+THEME: Financial conditions open but not easy
+COMMENTARY: Credit is not flashing broad stress, but NII/NIM slopes are mixed. The earnings engine is shifting toward fees, markets, capital markets and selective lending rather than easy spread income.
+
+THEME: Europe and Asia high-quality resilience
+COMMENTARY: ASMI and TSM confirm the AI/manufacturing cycle; OR shows beauty resilience and China improvement; ENI shows commodity cash-flow leverage; RIO and BHP show China-linked industrial demand is uneven but not collapsing.
+
+THEME: Cyclical industry selective recovery
+COMMENTARY: TXN and NUE are important reversal prints. Analog semis and U.S. steel both show that destocking / cycle trough conditions are ending in selected parts of the industrial economy.
+
+THEME: Software AI tension
+COMMENTARY: NOW and IBM show that AI can be both a growth driver and a valuation risk. The market is rewarding AI demand only when margin, cash-flow and capital discipline are credible.
+
+<<KEY_CROSS_THEMES_END>>
+
+<<EARNINGS_SEASON_RECAP_END>>
