@@ -116,14 +116,54 @@ _COMPANY_BLOCK_RE = re.compile(
     re.DOTALL,
 )
 _KV_LINE_RE = re.compile(r"^\s*([A-Z][A-Z0-9 _/\-]*?)\s*:\s*(.+?)\s*$")
-_SECTOR_BRACKET_RE = re.compile(
+
+# Bracket lines inside <<SECTOR_BEGIN>> blocks. Two layouts are accepted:
+#
+#   v2.4 (current — 5 fields between brackets, em-dash separated):
+#     [TICKER — Company — Sector — Subsector — Country
+#      | PUBLICATION_DATE: YYYY-MM-DD | IMPORTANCE: *** ]
+#
+#   legacy (4 fields, no subsector, "PUBLI_DATE" key):
+#     [TICKER — Company — Sector — Country
+#      | PUBLI_DATE: YYYY-MM-DD | IMPORTANCE: *** ]
+#
+# We try the 5-field shape first; the parser falls back to the 4-field shape
+# below. Both forms accept either ``PUBLICATION_DATE`` or ``PUBLI_DATE`` as the
+# date label. Em dashes are tolerated as ``—`` or ``-``.
+_SECTOR_BRACKET_RE_V24 = re.compile(
+    r"^\s*\[\s*(?P<ticker>[^\—|\[\]]+?)\s+[—\-]\s+"
+    r"(?P<company>.+?)\s+[—\-]\s+"
+    r"(?P<sector>.+?)\s+[—\-]\s+"
+    r"(?P<subsector>.+?)\s+[—\-]\s+"
+    r"(?P<country>.+?)\s*\|\s*"
+    r"(?:PUBLICATION_DATE|PUBLI_DATE)\s*:\s*(?P<date>[^|]+?)\s*\|\s*"
+    r"IMPORTANCE\s*:\s*(?P<importance>\*+|\*?)\s*\]\s*$"
+)
+_SECTOR_BRACKET_RE_LEGACY = re.compile(
     r"^\s*\[\s*(?P<ticker>[^\—|\[\]]+?)\s+[—\-]\s+"
     r"(?P<company>.+?)\s+[—\-]\s+"
     r"(?P<sector>.+?)\s+[—\-]\s+"
     r"(?P<country>.+?)\s*\|\s*"
-    r"PUBLI_DATE\s*:\s*(?P<date>[^|]+?)\s*\|\s*"
+    r"(?:PUBLICATION_DATE|PUBLI_DATE)\s*:\s*(?P<date>[^|]+?)\s*\|\s*"
     r"IMPORTANCE\s*:\s*(?P<importance>\*+|\*?)\s*\]\s*$"
 )
+
+
+def _match_sector_bracket(line: str) -> dict[str, str] | None:
+    """Return groupdict for a sector bracket line, or ``None`` if no match.
+
+    The dict always contains ``subsector`` (empty string in the legacy 4-field
+    layout) so downstream code does not need to special-case it.
+    """
+    m = _SECTOR_BRACKET_RE_V24.match(line)
+    if m:
+        return m.groupdict()
+    m = _SECTOR_BRACKET_RE_LEGACY.match(line)
+    if m:
+        d = m.groupdict()
+        d["subsector"] = ""
+        return d
+    return None
 
 
 def _extract_block(text: str, name: str) -> str | None:
@@ -240,22 +280,47 @@ def _parse_macro_sections(text: str) -> dict[str, str]:
 
 
 def _parse_sector_block(text: str) -> dict[str, Any]:
-    """Parse one ``<<SECTOR_BEGIN>> ... <<SECTOR_END>>`` body."""
+    """Parse one ``<<SECTOR_BEGIN>> ... <<SECTOR_END>>`` body.
+
+    Each block contains:
+    - one ``SECTOR: <name>`` header line,
+    - zero-or-more bracketed stock entries followed by a commentary paragraph,
+    - optional ALL-CAPS sector-level notes (e.g. ``ENERGY EPS-QUALITY CAVEAT``)
+      followed by their own paragraph. These are stored separately in
+      ``notes`` so they don't pollute the previous stock's commentary.
+
+    Stocks expose v2.4 fields ``sector`` / ``subsector`` (empty string when the
+    block uses the legacy 4-dash layout) and ``publication_date`` (with the
+    legacy ``publi_date`` alias retained for backward compatibility).
+    """
     sector_name = ""
     stocks: list[dict[str, Any]] = []
+    notes: list[dict[str, str]] = []
 
     lines = text.splitlines()
-    current_meta: dict[str, Any] | None = None
+    # current_target is whichever dict is "owning" current_buf right now —
+    # either a stock dict or a note dict. ``current_kind`` says which.
+    current_target: dict[str, Any] | None = None
+    current_kind: str | None = None  # "stock" | "note" | None
     current_buf: list[str] = []
 
+    # Heuristic to spot inline sector-note headers: an ALL-CAPS line that is
+    # not the SECTOR: label and not a bracket line.
+    note_header_re = re.compile(r"^[A-Z][A-Z0-9 /\-\(\)\&\.]+$")
+
     def _flush() -> None:
-        nonlocal current_meta, current_buf
-        if current_meta is not None:
-            current_meta["commentary"] = " ".join(
+        """Flush whichever target is currently accumulating into ``current_buf``."""
+        nonlocal current_target, current_kind, current_buf
+        if current_target is not None:
+            current_target["commentary"] = " ".join(
                 ln.strip() for ln in current_buf if ln.strip()
             ).strip()
-            stocks.append(current_meta)
-        current_meta = None
+            if current_kind == "stock":
+                stocks.append(current_target)
+            elif current_kind == "note":
+                notes.append(current_target)
+        current_target = None
+        current_kind = None
         current_buf = []
 
     for raw in lines:
@@ -266,28 +331,43 @@ def _parse_sector_block(text: str) -> dict[str, Any]:
         if s.upper().startswith("SECTOR:"):
             sector_name = s.split(":", 1)[1].strip()
             continue
-        m = _SECTOR_BRACKET_RE.match(s)
-        if m:
+
+        d = _match_sector_bracket(s)
+        if d is not None:
             _flush()
-            d = m.groupdict()
-            current_meta = {
+            sector_v = d.get("sector", "").strip()
+            subsector_v = d.get("subsector", "").strip()
+            current_target = {
                 "ticker": d["ticker"].strip(),
                 "company": d["company"].strip(),
-                "sector": d["sector"].strip(),
+                "sector": sector_v,
+                "subsector": subsector_v,
+                "display_sector": sector_v,
+                "display_subsector": subsector_v,
                 "country": d["country"].strip(),
-                "publi_date": d["date"].strip(),
+                "publication_date": d["date"].strip(),
+                "publi_date": d["date"].strip(),  # legacy alias
                 "importance": d["importance"].strip(),
                 "importance_n": _stars_to_count(d["importance"]),
                 "sector_group": sector_name,
                 "commentary": "",
             }
-            current_buf = []
+            current_kind = "stock"
             continue
-        if current_meta is not None:
+
+        # ALL-CAPS line that is neither SECTOR: nor a bracket → sector-level note.
+        if note_header_re.match(s) and len(s) <= 80 and not s.endswith("."):
+            _flush()
+            current_target = {"title": s, "commentary": ""}
+            current_kind = "note"
+            continue
+
+        # Otherwise, it's part of whichever paragraph we're currently building.
+        if current_target is not None:
             current_buf.append(s)
 
     _flush()
-    return {"sector": sector_name, "stocks": stocks}
+    return {"sector": sector_name, "stocks": stocks, "notes": notes}
 
 
 def _parse_themes_block(text: str) -> list[dict[str, str]]:

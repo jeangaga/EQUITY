@@ -216,10 +216,24 @@ def _render_sector_dashboard(
 
     company_lookup = {c["ticker"]: c for c in company_blocks}
 
+    # Build a quick lookup: sector_name -> list[notes] from the parsed recap.
+    sector_notes_lookup: dict[str, list[dict[str, str]]] = {
+        sec["sector"]: sec.get("notes", []) or [] for sec in sectors
+    }
+
     for sec_name, stocks in by_sector.items():
         st.markdown(f"### {sec_name}")
         for s in stocks:
             _render_sector_card(s, company_state.get(s["ticker"], ""), company_lookup)
+        # Surface any sector-level notes (e.g. ENERGY EPS-QUALITY CAVEAT) under
+        # the cards so they're not silently dropped on the floor.
+        for note in sector_notes_lookup.get(sec_name, []):
+            title = html.escape(note.get("title", ""))
+            body = html.escape(note.get("commentary", ""))
+            st.markdown(
+                f'<div class="e-macro"><h4>{title}</h4><p>{body}</p></div>',
+                unsafe_allow_html=True,
+            )
 
 
 def _render_sector_card(
@@ -229,14 +243,20 @@ def _render_sector_card(
 ) -> None:
     ticker = html.escape(s["ticker"])
     company = html.escape(s["company"])
-    sector = html.escape(s["sector"])
-    country = html.escape(s["country"])
-    date = html.escape(s["publi_date"])
+    sector = s.get("sector", "")
+    subsector = s.get("subsector", "")
+    sector_text = f"{sector} / {subsector}" if subsector else sector
+    sector_html = html.escape(sector_text)
+    country = html.escape(s.get("country", ""))
+    # Prefer v2.4 publication_date; fall back to legacy publi_date.
+    date = html.escape(s.get("publication_date") or s.get("publi_date", ""))
     importance_n = s.get("importance_n", 0)
-    commentary = html.escape(s["commentary"])
+    commentary = html.escape(s.get("commentary", ""))
 
     state_html = styles.state_badge_html(state) if state else ""
     stars = styles.stars_html(importance_n)
+
+    meta_bits = " • ".join(p for p in [sector_html, country, date] if p)
 
     card = f"""
 <div class="e-card">
@@ -246,7 +266,7 @@ def _render_sector_card(
     {stars}
     {state_html}
   </div>
-  <div class="meta">{sector} • {country} • {date}</div>
+  <div class="meta">{meta_bits}</div>
   <div class="commentary">{commentary}</div>
 </div>
 """
