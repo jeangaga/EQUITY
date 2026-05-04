@@ -73,12 +73,16 @@ CHL | Ambiguous | Unknown | PUBLI_DATE: n/a | IMPORTANCE: * | STATUS: Excluded
 <<GS_EARNINGS_BEGIN>>
 TICKER: GS
 COMPANY: The Goldman Sachs Group, Inc.
-SECTOR: Financials / Investment Banking & Markets
+SECTOR: Financials
+SUBSECTOR: Investment Banking & Markets
 COUNTRY: United States
-PUBLI_DATE: 2026-04-13
+PUBLICATION_DATE: 2026-04-13
 EVENT: Q1 2026
 STATE_TRANSITION: Improvement
 IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Stock down roughly 3% pre-market despite EPS/revenue beat; reaction partly affected by broader Middle East / risk-off session.
+PM_READ: M&A / equities / capital-markets recovery signal strengthened materially, but FICC weakness, EPS-quality issues and CET1 drawdown prevent a clean all-desk rerating.
 THEMES: Investment banking recovery, M&A backlog, record equities, FICC miss, capital return, Middle East macro volatility
 SEGMENT_TABLE_STATUS: Full
 SOURCE_ROLE: Full note
@@ -89,30 +93,60 @@ Improvement. Goldman delivered a historically strong capital-markets quarter, wi
 The quality was not fully clean: FICC missed the dominant market expectation, the tax rate helped EPS, provisions normalized from a Q4 benefit, and the aggressive buyback reduced capital ratios.
 PM read: the M&A / equities / capital-markets recovery signal strengthened materially, but the next test is whether backlog conversion and IPO activity survive Middle East-driven volatility, higher energy prices and rates uncertainty.
 
-REPORTED FACTS
+HEADLINE EARNINGS TABLE
 
-Revenue:
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $17.23B net revenues | $16.95B consensus | +$0.28B / +1.7% | +14% | +28% | Very strong revenue quarter. |
+| EPS / Earnings | $17.55 diluted EPS | $16.47 consensus | +$1.08 / +6.6% | +24% | +25% | Strong headline beat; partly helped by tax rate and buyback. |
+| Profitability / Margin | ROE 19.8%; ROTE 21.3%; efficiency ratio 60.5% | ROE +2.9pp YoY; ROTE +3.3pp YoY | — | Positive | — | High-return quarter, but quality diluted by tax and buyback effects. |
+| Guidance / Outlook | No formal numeric guidance | — | — | — | — | Management tone supported capital-markets recovery but flagged macro/geopolitical uncertainty. |
+| Market reaction | Mixed | — | Stock down roughly 3% pre-market | — | — | Market looked through headline beat due to FICC miss, EPS-quality issues, CET1 drawdown and macro risk-off. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Global Banking & Markets revenue | $12.74B | $10.69B Q1 2025 / $10.47B Q4 2025 | +19% YoY / +22% QoQ | Record GBM quarter; core franchise signal improved. |
+| Investment banking fees | $2.84B | $1.92B Q1 2025 | +48% YoY | Clear evidence that capital-markets recovery converted into revenue. |
+| Advisory revenue | $1.49B | $786M Q1 2025 | +89% YoY | Highest-quality signal in the print; M&A recovery became visible. |
+| Equity underwriting | $535M | $369M Q1 2025 | +45% YoY | Supports reopening of equity capital markets. |
+| Debt underwriting | $811M | $750M Q1 2025 | +8% YoY | Positive but less dramatic than advisory and equity underwriting. |
+| FICC revenue | $4.01B | $4.48B Q1 2025 / $3.11B Q4 2025 | -10% YoY / +29% QoQ | Main friction point; rates, mortgages and credit were weak. |
+| Equities revenue | $5.33B | $4.19B Q1 2025 / $4.31B Q4 2025 | +27% YoY / +24% QoQ | Record equities quarter; strongest trading-quality signal. |
+| Asset & Wealth Management revenue | $4.08B | $3.68B Q1 2025 / $4.73B Q4 2025 | +10% YoY / -14% QoQ | Solid YoY but weaker sequentially; less central than GBM this quarter. |
+| AUS | $3.65T | — | Record level | Supports fee-base durability. |
+| CET1 | 12.5% | 14.3% at YE2025 | -1.8pp | Capital ratio drawdown is the main capital-quality issue after buyback and balance-sheet growth. |
+| Capital returned | $6.38B | — | — | Large shareholder return; positive for EPS but relevant to CET1 drawdown. |
+| Provision for credit losses | $315M | $287M Q1 2025 / net benefit of $2.12B Q4 2025 | Normalized from Q4 benefit | Provision normalization reduces cleanliness versus headline EPS. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
 Net revenues were $17.23B, +14% YoY from $15.06B and +28% QoQ from $13.45B.
 
 Consensus:
 EPS of $17.55 beat consensus of $16.47 by $1.08.
 Revenue of $17.23B beat consensus of $16.95B.
 
-EPS:
+EPS / Earnings:
 Diluted EPS was $17.55, +24% YoY from $14.12 and +25% QoQ from $14.01.
-
-Net income:
 Net earnings were $5.63B, +19% YoY.
 
-Margins / Returns:
+Profitability / Margins:
 Annualized ROE was 19.8%.
 ROTE was reported at 21.3%.
 Book value per common share was $361.19, +1.0% during the quarter.
+Operating expenses were $10.43B, +14% YoY and +7% QoQ.
+Efficiency ratio was 60.5%.
+Effective tax rate was 13.2%.
 
 Key KPI:
 Global Banking & Markets net revenues were $12.74B, +19% YoY and +22% QoQ.
 Investment banking fees were $2.84B, +48% YoY.
 Advisory was $1.49B, +89% YoY.
+Equity underwriting was $535M, +45% YoY.
+Debt underwriting was $811M, +8% YoY.
 FICC was $4.01B, -10% YoY and +29% QoQ.
 Equities was $5.33B, +27% YoY and +24% QoQ.
 Asset & Wealth Management revenues were $4.08B, +10% YoY and -14% QoQ.
@@ -120,12 +154,6 @@ Assets under supervision were $3.65T.
 Long-term AUS net inflows were $62B.
 Alternative AUS was $429B.
 Platform Solutions revenue was $411M, -33% YoY.
-
-Provision / Expenses:
-Provision for credit losses was $315M, compared with $287M in Q1 2025 and a net benefit of $2.12B in Q4 2025.
-Operating expenses were $10.43B, +14% YoY and +7% QoQ.
-Efficiency ratio was 60.5%.
-Effective tax rate was 13.2%.
 
 Guidance headline:
 No formal numeric guidance provided.
@@ -136,19 +164,23 @@ The firm repurchased 5.4M shares at an average cost of $923.49.
 Quarterly dividend declared at $4.50 per common share.
 Standardized CET1 ratio was 12.5%, down from 14.3% at year-end 2025.
 
+Other relevant official details:
+Provision for credit losses was $315M, compared with $287M in Q1 2025 and a net benefit of $2.12B in Q4 2025.
+
 SEGMENT / BUSINESS BREAKDOWN
 
 SEGMENT TABLE
 
-Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary
-Global Banking & Markets | 74% | $12.74B | +19% | Strong returns; segment ROE indicated above 22% in scout tape | Record quarterly revenue; led by Equities record and investment banking recovery.
-Advisory | 9% | $1.49B | +89% | Not disclosed | Completed M&A volumes drove the strongest signal in the investment banking recovery.
-Equity underwriting | 3% | $535M | +45% | Not disclosed | Higher convertible offerings supported underwriting recovery.
-Debt underwriting | 5% | $811M | +8% | Not disclosed | Investment-grade and ABS activity offset weaker leveraged finance.
-FICC | 23% | $4.01B | -10% | Weaker YoY | Lower rates, mortgages and credit; partially offset by higher commodities and currencies. Sequential recovery from Q4 remained positive.
-Equities | 31% | $5.33B | +27% | Strong | Record quarterly revenue; driven by equities financing / prime financing and higher cash intermediation.
-Asset & Wealth Management | 24% | $4.08B | +10% | Mixed | Higher management fees from higher average AUS; private banking and lending weaker on Marcus deposit spreads.
-Platform Solutions | 2% | $411M | -33% | Not meaningful | Revenue affected by Apple Card loan portfolio markdowns after transfer to held for sale.
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Global Banking & Markets | 74% | $12.74B | +19% | Strong returns; segment ROE indicated above 22% in scout tape | Record quarterly revenue; led by Equities record and investment banking recovery. |
+| Advisory | 9% | $1.49B | +89% | Not disclosed | Completed M&A volumes drove the strongest signal in the investment banking recovery. |
+| Equity underwriting | 3% | $535M | +45% | Not disclosed | Higher convertible offerings supported underwriting recovery. |
+| Debt underwriting | 5% | $811M | +8% | Not disclosed | Investment-grade and ABS activity offset weaker leveraged finance. |
+| FICC | 23% | $4.01B | -10% | Weaker YoY | Lower rates, mortgages and credit; partially offset by higher commodities and currencies. Sequential recovery from Q4 remained positive. |
+| Equities | 31% | $5.33B | +27% | Strong | Record quarterly revenue; driven by equities financing / prime financing and higher cash intermediation. |
+| Asset & Wealth Management | 24% | $4.08B | +10% | Mixed | Higher management fees from higher average AUS; private banking and lending weaker on Marcus deposit spreads. |
+| Platform Solutions | 2% | $411M | -33% | Not meaningful | Revenue affected by Apple Card loan portfolio markdowns after transfer to held for sale. |
 
 COMMENTARY
 
