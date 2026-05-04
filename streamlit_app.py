@@ -1,7 +1,14 @@
 """Macro / Earnings dashboard — Streamlit entry point.
 
-Currently exposes one main tab: **Earnings**. To add more tabs (e.g. Macro,
-Rates, FX), append them to the ``st.tabs([...])`` call below.
+The five earnings sub-tabs are exposed at the top level so **PM Read-Across**
+is the first thing the user sees on launch (Streamlit always selects the
+first tab by default).
+
+When you add more dashboards in the future (e.g. Rates, FX, Macro), wrap the
+earnings sub-tabs in an outer ``st.tabs([...])`` again — but keep
+``"PM Read-Across"`` (or whatever earnings sub-tab you want to lead with) at
+position 0 inside the earnings group, and put the earnings group at position 0
+of the outer tabs so the landing view stays PM Read-Across.
 """
 
 from __future__ import annotations
@@ -21,7 +28,4 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Add more top-level tabs here as the dashboard grows.
-tabs = st.tabs(["Earnings"])
-with tabs[0]:
-    render_earnings_tab()
+render_earnings_tab()
