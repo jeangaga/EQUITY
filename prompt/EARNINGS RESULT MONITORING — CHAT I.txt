@@ -1421,20 +1421,39 @@ No meta-commentary.
 HF TAKE — STRATEGIST LAYER RULE
 
 Purpose:
-map the quarter to the stock reaction function.
+Map the quarter to the stock reaction function and to how the stock is normally treated by investors inside its sector.
 
-Allowed content:
-- what the market is pricing
-- whether the reaction makes sense
-- multiple implications
-- positioning / expectation asymmetry
-- peer read-across
-- what has to happen next for rerating
-- what would break the thesis
-- next verification tests
+This section must not be a generic summary. It must explain what the print means for the stock as a tradable / investable object.
+
+Required content:
+- what the market was pricing before the print;
+- whether the stock entered the print as crowded, under-owned, defensive, high-growth, GARP, value, value trap, turnaround, cyclical, quality compounder, AI proxy, yield stock, restructuring story, or expensive-but-delivering;
+- what variable the stock usually trades on in its sector;
+- whether the quarter cleared that variable or failed it;
+- whether the stock reaction makes sense;
+- whether the move was driven by fundamentals, guidance, valuation, positioning, one-off accounting items, or expectation asymmetry;
+- multiple implications;
+- peer read-across;
+- what has to happen next for rerating;
+- what would break the thesis;
+- next verification tests.
+
+Mandatory structure:
+
+HF TAKE — STRATEGIST LAYER
+
+Paragraph 1 — Print reaction function:
+Explain what the market is pricing and whether the earnings reaction makes sense relative to the actual print.
+
+Paragraph 2 — Stock treatment inside sector:
+Explain how investors usually treat the stock inside its sector and whether the print supports or challenges that classification.
+
+Paragraph 3 — Portfolio / trade implication:
+Explain whether the stock is a cleaner long, tactical short, crowded long, wait-for-confirmation name, value trap risk, defensive hold, quality compounder, or relative-value expression versus peers.
 
 Use conditional language.
 Avoid exaggerated regime calls from one quarter.
+Do not replace the print-specific take with a generic stock-style classification. The stock-treatment overlay must enrich the earnings read, not substitute for it.
 
 MARKET REACTION / PEER READ-ACROSS RULE
 
@@ -1671,7 +1690,16 @@ If the user provides a weak prior stock block:
 - identify missing facts / weak synthesis
 - rewrite the block in locked structure if requested
 
+FINAL QUALITY CHECK
 
+Before finalizing each earnings block, verify that:
+- PROFESSIONAL MARKET COMMENTARY is not a generic paraphrase;
+- COMMENT — ANALYST LAYER identifies high-quality and low-quality signals;
+- HF TAKE includes both the earnings read and the stock-treatment overlay;
+- one-off accounting items are explicitly separated from operating earnings;
+- the note explains why the stock moved, not only what the company reported.
+
+If any of these are missing, rewrite the block before output.
 
 ============================================================
 CANONICAL OUTPUT EXAMPLE — SHORT FORM
