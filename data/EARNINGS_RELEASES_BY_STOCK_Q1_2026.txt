@@ -5479,3 +5479,716 @@ Spotify’s margin and FCF story continues, but Q2 guidance did not clear a high
 The next issue is whether the stock digests expectations while the business keeps compounding.
 
 <<SPOT_EARNINGS_END>>
+
+
+<<GOOGL_EARNINGS_BEGIN>>
+TICKER: GOOGL
+COMPANY: Alphabet Inc.
+SECTOR: Communication Services
+SUBSECTOR: Search / Cloud / AI Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-04-29
+EVENT: Q1 2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose after-hours as investors rewarded Search resilience, Google Cloud acceleration and backlog growth despite higher capex and EPS-quality distortion from equity gains.
+PM_READ: Alphabet delivered one of the strongest operating prints in mega-cap tech, but reported EPS is low-cleanliness because equity-security gains inflated net income materially.
+THEMES: Search resilience, Google Cloud, AI capex, Gemini, backlog, equity gains, EPS quality, FCF compression, AI Overviews
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Continuation. Alphabet delivered 22% revenue growth, Search +19%, Google Cloud +63%, and Cloud backlog nearly doubled.
+The operating signal is very strong: AI is not cannibalizing Search, and Cloud is supply-constrained rather than demand-constrained.
+PM read: the print is fundamentally positive, but EPS must be adjusted for the $37.7B equity-security gain.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $109.9B revenue | Consensus not confirmed | Beat tone | +22%; +19% cc | — | Very strong top-line acceleration. |
+| EPS / Earnings | $5.11 reported EPS; ~$2.76 ex-equity gain | Consensus not confirmed | Reported beat, low-cleanliness | +82% reported | — | EPS materially inflated by equity-security gains. |
+| Profitability / Margin | Cloud operating margin 32.9%; FCF pressured | Prior lower Cloud margin | Mixed quality | Positive operating; FCF down | — | Operating strength offset by capex intensity. |
+| Guidance / Outlook | 2026 capex $180B-$190B; 2027 capex to increase again | Prior $175B-$185B | Capex raised | — | — | AI infrastructure arms race intensifies. |
+| Market reaction | Positive | — | Stock +~6.5% AH | — | — | Market looked through capex because growth accelerated. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Consolidated revenue | $109.9B | Q1 2025 | +22% YoY | Strongest mega-cap top-line print. |
+| Google Services revenue | $89.6B | Q1 2025 | +16% YoY | Core engine healthy. |
+| Search & Other revenue | +19% | Q1 2025 | Strong | AI Overviews not cannibalizing monetization. |
+| YouTube ads | +11% | Q1 2025 | Positive | Solid but less explosive than Cloud. |
+| Google Cloud revenue | $20.0B | Q1 2025 | +63% YoY | Standout hyperscaler growth. |
+| Cloud backlog | $460B+ | Prior quarter | Nearly doubled QoQ | Major AI infrastructure visibility. |
+| Cloud operating margin | 32.9% | Prior lower | Strong | Cloud now profit engine. |
+| Reported EPS | $5.11 | Q1 2025 | +82% YoY | Distorted by gains. |
+| Equity-security gain | $37.7B | — | Non-operating | EPS-quality caveat. |
+| EPS contribution from gain | $2.35/share | — | Material | Adjust headline EPS. |
+| Core EPS ex-gain | ~$2.76 | — | Cleaner | Better operating read. |
+| 2026 capex guide | $180B-$190B | Prior $175B-$185B | Raised | AI capex pressure. |
+| FCF | Down 47% YoY | Q1 2025 | Negative | Capex consumed cash. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Consolidated revenue rose 22% to $109.9B, or 19% constant currency. Google Services revenue rose 16% to $89.6B. Google Cloud revenue rose 63% to $20.0B.
+
+Consensus:
+Consensus not confirmed in the provided scout.
+
+EPS / Earnings:
+Reported EPS rose 82% to $5.11. However, reported earnings included a net gain of $37.7B from unrealized gains on equity securities, adding approximately $2.35 per share. Core EPS excluding this gain was approximately $2.76.
+
+Profitability / Margins:
+Google Cloud operating margin reached 32.9%. Free cash flow declined 47% YoY because capex rose sharply.
+
+Key KPI:
+Search grew 19%, Google Cloud grew 63%, and Cloud backlog nearly doubled QoQ to above $460B.
+
+Guidance headline:
+2026 capex guidance was raised to $180B-$190B, from $175B-$185B. Management indicated 2027 capex would increase significantly again.
+
+Capital allocation:
+Capital allocation is dominated by AI infrastructure spend. The question is not demand, but capex-to-FCF conversion.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Google Services | 82% | $89.6B | +16% | Strong | Search remains resilient despite AI disruption fears. |
+| Google Search & Other | Not disclosed here | Not confirmed | +19% | Strong | AI experiences driving usage and queries. |
+| YouTube Ads | Not disclosed here | Not confirmed | +11% | Stable | Solid growth, not main catalyst. |
+| Google Cloud | 18% | $20.0B | +63% | Strong | Supply-constrained AI cloud acceleration. |
+| Equity Securities / Other Income | Not operating | $37.7B gain | Not meaningful | EPS distortion | Non-operating gain materially inflates EPS. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The capex raise is the main friction. Alphabet is leaning further into AI infrastructure, and management indicated spending would increase again in 2027.
+
+The market accepted this because Search and Cloud growth both accelerated. But future FCF recovery now depends on converting that capex into Cloud revenue and AI monetization.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The professional tape framed the quarter as a major AI validation print: Search monetization held up, Cloud accelerated sharply, and Cloud backlog almost doubled.
+
+The main quality caveat was EPS inflation from equity-security gains and FCF compression from capex.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is Search +19%. This directly challenges the bear thesis that AI Overviews would cannibalize query monetization.
+
+The second key signal is Cloud +63% with backlog nearly doubling. Alphabet’s Cloud business is supply-constrained, not demand-constrained.
+
+The lowest-quality signal is EPS. Reported EPS is not the right metric because equity gains added $2.35/share.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether AI would destroy Search economics or reinforce Alphabet’s distribution advantage. Q1 strongly supports the reinforcement view. The debate now shifts to capex discipline and FCF recovery.
+
+HF TAKE — STRATEGIST LAYER
+
+GOOGL is a full-stack AI winner in this print, but not a clean EPS story.
+
+For PM purposes, focus on Search, Cloud backlog, Cloud margin and capex conversion. Do not capitalize the full reported EPS beat.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Shares rose after-hours. Read-across is positive for AI cloud infrastructure, search monetization and enterprise AI demand, but cautionary for mega-cap capex intensity.
+
+KEY ISSUES TO MONITOR
+
+Search monetization
+Why it matters: The AI disruption bear case fails if Search keeps growing near this pace.
+
+Cloud backlog conversion
+Why it matters: $460B+ backlog must convert into revenue and margin.
+
+Capex / FCF pressure
+Why it matters: The market is increasingly sensitive to AI infrastructure spend.
+
+EPS-quality adjustment
+Why it matters: Equity gains materially distort reported EPS.
+
+BOTTOM LINE
+
+Very strong operating print, low-cleanliness EPS.
+Alphabet proved Search resilience and Cloud acceleration, but reported earnings were materially inflated by equity gains.
+The next issue is whether capex converts into Cloud revenue and FCF recovery.
+
+<<GOOGL_EARNINGS_END>>
+
+<<MSFT_EARNINGS_BEGIN>>
+TICKER: MSFT
+COMPANY: Microsoft Corporation
+SECTOR: Information Technology
+SUBSECTOR: Cloud / Software / AI Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-04-29
+EVENT: Q3 FY2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell after-hours as investors focused on higher capex and a Q4 revenue guide slightly below consensus despite strong Azure and AI ARR growth.
+PM_READ: Microsoft’s AI monetization is real and large, but the market is showing capex fatigue even when spend is linked to contractual backlog.
+THEMES: Azure, AI ARR, Microsoft Cloud, RPO, Copilot, capex, AI infrastructure, software monetization, guide fatigue
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Continuation. Microsoft delivered 18% revenue growth, 20% operating income growth, Azure +40%, and AI ARR above $37B.
+The operating signal remains very strong: AI revenue is now large, fast-growing and embedded across cloud and software.
+PM read: the stock sold on capex fatigue, not on fundamental weakness.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $82.9B revenue | Consensus not confirmed | Beat tone | +18%; +15% cc | — | Strong growth at scale. |
+| EPS / Earnings | $4.27 diluted EPS | Consensus not confirmed | Beat tone | +23% | — | Clean earnings growth. |
+| Profitability / Margin | $38.4B operating income | Prior lower | Beat tone | +20% | — | Strong operating leverage. |
+| Guidance / Outlook | Q4 revenue $86.7B-$87.8B; FY26 capex ~$190B | LSEG midpoint ~$87.53B | Slight revenue guide miss; capex raised | — | — | Capex fatigue drove reaction. |
+| Market reaction | Negative | — | Stock -~4% | — | — | Market focused on spend, not AI revenue. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Revenue | $82.9B | Q3 FY2025 | +18% YoY | Strong at scale. |
+| Operating income | $38.4B | Q3 FY2025 | +20% YoY | High-quality growth. |
+| Net income | $31.8B | Q3 FY2025 | +23% GAAP | Strong. |
+| Diluted EPS | $4.27 | Q3 FY2025 | +23% GAAP | Clean beat tone. |
+| Azure growth | +40% | Prior year | Very strong | Core AI monetization. |
+| Azure cc growth | +39% | Prior year | Strong | Durable. |
+| Microsoft Cloud revenue | $54.5B | Q3 FY2025 | +29% YoY | Cloud engine. |
+| Commercial RPO | $627B | Prior year | +99% YoY | Contractual visibility. |
+| AI business ARR | $37B | Prior year | +123% YoY | AI is monetizing. |
+| Paid Copilot seats | >20M | Prior lower | Scaling | Software AI adoption. |
+| FY26 capex | ~$190B | Prior lower | Raised | Stock overhang. |
+| Q4 revenue guide midpoint | $87.25B | LSEG ~$87.53B | Slight miss | Minor vs scale. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $82.9B, up 18% reported and 15% constant currency.
+
+Consensus:
+Consensus not fully confirmed except Q4 revenue consensus around $87.53B. Q4 guide midpoint was approximately $87.25B, slightly below consensus.
+
+EPS / Earnings:
+Net income was $31.8B, up 23% GAAP. Diluted EPS was $4.27, up 23%.
+
+Profitability / Margins:
+Operating income was $38.4B, up 20% YoY.
+
+Key KPI:
+Azure grew 40%, or 39% constant currency. Microsoft Cloud revenue was $54.5B, up 29%. Commercial RPO rose 99% to $627B. AI business ARR surpassed $37B, up 123%.
+
+Guidance headline:
+Q4 FY2026 revenue guidance was $86.7B-$87.8B. FY2026 capex was raised to roughly $190B.
+
+Capital allocation:
+AI capex is the dominant capital allocation issue. The spend is heavy but supported by RPO and AI ARR growth.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Microsoft Cloud | 66% | $54.5B | +29% | Strong | Core AI / cloud monetization engine. |
+| Azure | Not separately disclosed | Not confirmed | +40% | Strong | Highest-quality growth signal. |
+| AI Business | Not segment | $37B ARR | +123% | Scaling | Monetization now material. |
+| Copilot / Productivity AI | Embedded | Not confirmed | >20M paid seats | Emerging | Software AI adoption proof. |
+| Commercial RPO | Backlog metric | $627B | +99% | Visibility | Contractual support for capex. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The Q4 guide was slightly below consensus, but the magnitude was small relative to the business scale. The larger issue is capex.
+
+Microsoft is spending heavily, but unlike weaker capex stories, the spend is tied to contractual backlog and visible AI ARR. The market reaction reflects fatigue with the entire hyperscaler capex complex.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The professional tape focused on the tension between very strong AI monetization and rising AI infrastructure spend. Azure +40% and AI ARR +123% are hard to fade, but capex sensitivity has become acute.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is AI ARR above $37B. This is no longer a vague AI narrative; it is a large revenue stream.
+The lowest-quality issue is capex intensity. Even if well justified, it suppresses near-term FCF and sentiment.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Microsoft could convert AI leadership into revenue. Q3 says yes. The debate now shifts to whether AI capex remains value-accretive at this scale.
+
+HF TAKE — STRATEGIST LAYER
+
+MSFT remains the cleanest AI monetization story in software, but not immune to capex fatigue. The stock can sell off even on good numbers if spend keeps rising faster than consensus.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Shares fell after-hours. Read-across is cautionary for all hyperscalers: even clear AI revenue does not fully protect against capex anxiety.
+
+KEY ISSUES TO MONITOR
+
+Azure growth
+Why it matters: Azure is the key AI monetization metric.
+
+AI ARR
+Why it matters: Confirms AI revenue is real and scaling.
+
+Capex growth
+Why it matters: The market needs proof of returns on AI infrastructure.
+
+Commercial RPO conversion
+Why it matters: $627B backlog must convert into revenue and cash.
+
+BOTTOM LINE
+
+Strong AI quarter, negative capex reaction.
+Microsoft fundamentals remain excellent, but the market is no longer giving hyperscalers a free pass on AI spending.
+The next issue is whether Azure and AI ARR keep outgrowing the capex concern.
+
+<<MSFT_EARNINGS_END>>
+
+<<META_EARNINGS_BEGIN>>
+TICKER: META
+COMPANY: Meta Platforms, Inc.
+SECTOR: Communication Services
+SUBSECTOR: Social Media / Digital Advertising / AI Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-04-29
+EVENT: Q1 2026
+STATE_TRANSITION: False dawn
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell after-hours as investors focused on the capex raise and user disruption despite a very strong revenue beat and tax-benefit-inflated EPS.
+PM_READ: Meta’s ad engine is exceptionally strong, but the EPS beat is low-cleanliness because of an $8.03B tax benefit and the capex raise triggered mega-cap AI spending fatigue.
+THEMES: Digital ads, AI capex, tax benefit, EPS quality, ad impressions, price per ad, Lattice, GEM, user disruption, Iran
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+False dawn. Meta delivered 33% revenue growth and a massive reported EPS beat, but headline EPS was inflated by an $8.03B income tax benefit.
+The core ad business is very strong: impressions +19% and price per ad +12%.
+PM read: operating strength is real, but the stock sold off because capex guidance rose again and EPS quality was not clean.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $56.31B revenue | ~$55.52B consensus | Beat | +33% | — | Exceptional ad growth. |
+| EPS / Earnings | $10.44 GAAP EPS; ~$7.31 ex-tax benefit | ~$6.66 consensus | Beat, low-cleanliness | Strong | — | EPS inflated by $8.03B tax benefit. |
+| Profitability / Margin | FCF $12.4B; strong ad margin | Prior lower | Positive | Strong | — | Core profitability strong. |
+| Guidance / Outlook | Q2 revenue $58B-$61B; 2026 capex $125B-$145B | Prior capex $115B-$135B | Capex raised | — | — | Main negative catalyst. |
+| Market reaction | Negative | — | Stock -6% to -10% | — | — | Capex fatigue outweighed revenue beat. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Revenue | $56.31B | Consensus $55.52B | Beat | Very strong. |
+| GAAP EPS | $10.44 | Consensus $6.66 | Beat | Distorted by tax benefit. |
+| EPS ex-tax benefit | ~$7.31 | Consensus $6.66 | +~9.6% | Cleaner operating beat. |
+| Income tax benefit | $8.03B | — | Non-operating | EPS-quality caveat. |
+| Ad impressions | +19% | Q1 2025 | Strong | Demand / engagement healthy. |
+| Avg. price per ad | +12% | Q1 2025 | Strong | Monetization strong. |
+| Q1 capex | $19.84B | Prior lower | High | Infrastructure spend rising. |
+| FY capex guide | $125B-$145B | Prior $115B-$135B | Raised | Main stock negative. |
+| FCF | $12.4B | — | Strong | Still cash generative. |
+| Total expense guide | $162B-$169B | Prior guide | Unchanged | Some discipline remains. |
+| Q2 revenue guide | $58B-$61B | — | Strong | Demand still healthy. |
+| AI ad conversion lift | >6% | — | New disclosure | AI improves ad efficiency. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $56.31B, up 33% YoY and above consensus.
+
+Consensus:
+Revenue consensus was approximately $55.52B and EPS consensus approximately $6.66.
+
+EPS / Earnings:
+GAAP EPS was $10.44, but it included an $8.03B income tax benefit. Excluding the tax benefit, EPS was approximately $7.31.
+
+Profitability / Margins:
+Free cash flow was $12.4B. Core advertising profitability remained strong.
+
+Key KPI:
+Ad impressions rose 19% YoY and average price per ad rose 12%. AI-driven ad conversion uplift was quantified at above 6%.
+
+Guidance headline:
+Q2 revenue guidance was $58B-$61B. FY2026 capex guidance was raised to $125B-$145B from $115B-$135B. Total expense guidance was unchanged.
+
+Capital allocation:
+Capex is the dominant capital-allocation issue. Meta is set to spend more in 2026 than in 2025 and 2024 combined.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Family of Apps / Ads | Core | Not confirmed | Revenue +33%; impressions +19%; price +12% | Strong | Core ad engine at peak. |
+| AI Ad Infrastructure | Embedded | Not confirmed | Conversion lift >6% | Improving | Lattice / GEM improving ad ROI. |
+| Reality Labs / AI Capex | Strategic drag | Not confirmed | Capex rising | Negative for FCF | Capex raise drives stock reaction. |
+| Tax Benefit | Not operating | $8.03B benefit | Not meaningful | EPS distortion | Must adjust EPS. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The guide confirms strong demand but raises the spending problem. Capex moved to $125B-$145B, above the prior $115B-$135B range.
+
+The tax benefit creates an EPS-quality issue: Meta beat operationally, but not by the full reported EPS gap.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The professional tape focused on the mismatch: exceptional revenue growth and ad performance, but a sharp stock decline because investors are increasingly penalizing AI capex escalation.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is the core ad business: impressions and pricing both grew strongly.
+The lowest-quality signal is reported EPS. The $8.03B tax benefit makes headline EPS unsuitable as the clean earnings measure.
+
+State transition: False dawn
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Meta’s AI ad investments would translate into better monetization. Q1 says yes. The new debate is whether infrastructure spending is becoming too open-ended.
+
+HF TAKE — STRATEGIST LAYER
+
+Meta is a great operating print with a bad capital-allocation reaction. The market is not saying ads are weak; it is saying AI capex must start proving returns faster.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Shares fell after-hours. Read-across is negative for mega-cap AI capex sentiment and consistent with Microsoft’s capex reaction.
+
+KEY ISSUES TO MONITOR
+
+Capex trajectory
+Why it matters: The market is no longer tolerating unlimited AI spend.
+
+Ad pricing
+Why it matters: +12% price per ad is the strongest monetization signal.
+
+EPS ex-tax benefit
+Why it matters: Reported EPS materially overstates clean profitability.
+
+User disruptions
+Why it matters: Iran-related internet disruption affected user metrics but appears external.
+
+BOTTOM LINE
+
+Strong ad print, bad capex reaction.
+Meta’s operating business is excellent, but reported EPS is tax-benefit inflated and capex guidance rose again.
+The next issue is whether AI-driven ad improvements justify the infrastructure spend.
+
+<<META_EARNINGS_END>>
+
+<<QCOM_EARNINGS_BEGIN>>
+TICKER: QCOM
+COMPANY: Qualcomm Incorporated
+SECTOR: Semiconductors
+SUBSECTOR: Mobile / Automotive / Custom Silicon
+COUNTRY: United States
+PUBLICATION_DATE: 2026-04-29
+EVENT: Q2 FY2026
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose sharply as investors looked through handset weakness and rewarded record automotive revenue plus disclosure of a hyperscaler custom-chip engagement.
+PM_READ: Qualcomm remains in handset digestion, but the auto ramp and hyperscaler custom silicon optionality make the diversification thesis materially more investable.
+THEMES: Handsets, automotive, IoT, QTL, hyperscaler custom silicon, AI inference, agentic AI, memory dynamics, China OEMs
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Stabilization. Qualcomm revenue was down 3% YoY as handsets remained soft, but EPS beat and automotive reached a record.
+The key new signal is strategic: Qualcomm disclosed a hyperscaler custom-chip engagement with initial shipments expected in December 2026.
+PM read: core handset weakness is temporary; non-handset growth vectors are now large enough to matter.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $10.6B revenue | Consensus roughly met | In-line | -3% | — | Handset softness offsets auto strength. |
+| EPS / Earnings | $2.65 non-GAAP EPS | ~$2.56 consensus | Beat | — | — | EPS delivered at high end of guide. |
+| Profitability / Margin | Margin not confirmed | — | — | — | — | Mix improvement from auto / IoT matters. |
+| Guidance / Outlook | Q3 revenue $9.2B-$10.0B; EPS $2.10-$2.30 | — | Conservative | — | — | Handset recovery expected later. |
+| Market reaction | Positive | — | Stock +~8% | — | — | Custom-chip disclosure drove rerating. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Revenue | $10.6B | Q2 FY2025 | -3% YoY | Handset drag. |
+| Non-GAAP EPS | $2.65 | Consensus $2.56 | Beat | Good execution. |
+| Handset revenue | $6.0B | Q2 FY2025 | -13% YoY | Temporary memory / OEM headwind. |
+| Automotive revenue | $1.33B | Q2 FY2025 | +38% YoY | Record. |
+| Automotive run-rate | >$5B annualized | Prior lower | Strong | Diversification now material. |
+| FY26 auto exit run-rate | >$6B | Current run-rate | Higher | Structural growth. |
+| IoT revenue | $1.73B | Q2 FY2025 | +9% YoY | Positive. |
+| QTL licensing | $1.38B | Q2 FY2025 | +5% YoY | Stable cash engine. |
+| Q3 handset guide | ~$4.9B | Q2 $6.0B | Lower QoQ | Troughing / memory dynamics. |
+| Automotive Q3 guide | ~+50% YoY | Prior year | Strong | Auto momentum continues. |
+| Hyperscaler custom chip | Initial shipments Dec 2026 | — | New vector | AI inference optionality. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $10.6B, down 3% YoY and roughly in line with consensus.
+
+Consensus:
+Non-GAAP EPS consensus was approximately $2.56. Qualcomm delivered $2.65.
+
+EPS / Earnings:
+Non-GAAP EPS was $2.65, at the high end of guidance.
+
+Profitability / Margins:
+Margin detail not confirmed in the scout. Mix is improving through automotive and IoT, but handset weakness remains the near-term drag.
+
+Key KPI:
+Automotive revenue reached a record $1.33B, up 38% YoY. IoT revenue rose 9%. Handsets fell 13%.
+
+Guidance headline:
+Q3 FY2026 revenue guidance was $9.2B-$10.0B and non-GAAP EPS guidance $2.10-$2.30. Automotive Q3 is expected to grow roughly 50% YoY.
+
+Capital allocation:
+Capital allocation was not the core issue. Strategic investment is shifting toward custom silicon, automotive and AI inference.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Handsets | 57% | $6.0B | -13% | Weak | Memory dynamics suppressed OEM builds. |
+| Automotive | 13% | $1.33B | +38% | Improving | Record revenue; exit run-rate >$6B expected. |
+| IoT | 16% | $1.73B | +9% | Stable | Diversification support. |
+| QTL Licensing | 13% | $1.38B | +5% | High margin | Stable cash engine. |
+| Custom Silicon / Hyperscaler | Emerging | Not meaningful | New | Not meaningful | Initial AI inference shipments expected Dec 2026. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The Q3 guide is conservative because handset weakness is not fully resolved. But the market focused on two forward positives: automotive growth and custom-chip optionality.
+
+The hyperscaler engagement changes the strategic narrative. Qualcomm is no longer only a handset / auto chip name; it has a credible AI inference route.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The professional tape framed the stock move as driven by the custom silicon disclosure rather than the quarter itself. Automotive strength also reinforced diversification.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is automotive. At above $5B annualized and still growing, this is now earnings-relevant.
+The lowest-quality issue is handsets. A 13% decline confirms the core franchise is still digesting inventory / memory dynamics.
+
+State transition: Stabilization
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Qualcomm could diversify beyond handsets. Q2 strengthens the answer materially. Handsets remain soft, but the non-handset story is becoming real.
+
+HF TAKE — STRATEGIST LAYER
+
+QCOM is a diversification rerating trade. The stock works if the market starts valuing auto and custom silicon separately from handset cyclicality.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Shares rose about 8%. Read-across is positive for automotive semis and AI inference custom silicon, mixed for handset suppliers.
+
+KEY ISSUES TO MONITOR
+
+Hyperscaler custom-chip progress
+Why it matters: This is the new long-term TAM expansion vector.
+
+Automotive run-rate
+Why it matters: Auto is now large enough to affect valuation.
+
+Handset recovery
+Why it matters: Core segment weakness still caps near-term earnings.
+
+BOTTOM LINE
+
+Stabilization with strategic upside.
+Handsets are soft, but auto and custom silicon change the forward story.
+The next issue is whether the hyperscaler chip engagement turns into a multi-year revenue stream.
+
+<<QCOM_EARNINGS_END>>
+
+<<AMZN_EARNINGS_BEGIN>>
+TICKER: AMZN
+COMPANY: Amazon.com, Inc.
+SECTOR: Communication Services
+SUBSECTOR: E-Commerce / Cloud Infrastructure / Digital Advertising
+COUNTRY: United States
+PUBLICATION_DATE: 2026-04-29
+EVENT: Q1 2026
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Shares initially reacted positively to the AWS reacceleration and operating beat, but the move was capped by capex / FCF pressure and the Anthropic-driven EPS-quality debate.
+PM_READ: AWS reacceleration and retail margin improvement strengthened the operating thesis, but the reported EPS beat is low-cleanliness because net income was materially inflated by the $16.8B pre-tax Anthropic gain.
+THEMES: AWS reacceleration, AI capex, Anthropic equity gain, EPS quality, retail margin, advertising growth, custom silicon, Trainium, free cash flow compression
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Improvement, but not a clean EPS beat. Amazon delivered a strong operating quarter: net sales +17%, AWS +28%, operating income +30%, and strong North America / International margin progression.
+The key quality caveat is material: reported net income included a $16.8B pre-tax non-operating gain from Anthropic investments, so EPS overstates clean earnings power.
+PM read: the operating signal is bullish, but the stock debate is now AWS backlog monetization versus AI capex / FCF compression.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $181.5B net sales | ~$177.3B consensus | Beat | +17%; +15% ex-FX | — | Broad beat, with AWS and retail both contributing. |
+| EPS / Earnings | $2.78 diluted EPS; $30.3B net income | ~$1.63 consensus; $1.59 Q1 2025 EPS | Beat, but low-cleanliness | EPS +75%; net income +77% | — | Reported EPS materially inflated by $16.8B pre-tax Anthropic gain. |
+| Profitability / Margin | $23.9B operating income; 13.1% operating margin | ~$20.8B operating income consensus; $18.4B Q1 2025 | Beat | Operating income +30% | — | Operating income is the cleaner earnings signal than EPS. |
+| Guidance / Outlook | Q2 sales $194B-$199B; Q2 operating income $20B-$24B | Street revenue lower; Q2 2025 OI $19.2B | Sales guide beat; OI range mixed | Sales +16% to +19% guide | — | Guide supports growth but leaves margin / capex debate open. |
+| Market reaction | Mixed | — | Initial positive, then capped | — | — | Market rewarded AWS but questioned FCF and EPS quality. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| AWS revenue | $37.6B | $29.3B Q1 2025 | +28% YoY | Fastest growth in 15 quarters; core bull signal. |
+| AWS operating income | $14.2B | $11.5B Q1 2025 | +23% YoY | High-quality operating profit. |
+| AWS operating margin | 37.7% | 39.5% Q1 2025 | -180bps YoY | Still very high, but investment intensity rising. |
+| North America revenue | $104.1B | $92.9B Q1 2025 | +12% YoY | Retail still compounding. |
+| North America operating income | $8.3B | $5.8B Q1 2025 | +42% YoY | Retail margin improvement is important. |
+| North America operating margin | 7.9% | 6.3% Q1 2025 | +160bps YoY | Structural efficiency signal. |
+| International revenue | $39.8B | $33.5B Q1 2025 | +19% YoY; +11% ex-FX | Better ex-US growth. |
+| International operating income | $1.4B | $1.0B Q1 2025 | +40% YoY | International profitability improving. |
+| Advertising services | $17.2B | Prior year | +24% YoY | High-margin growth engine. |
+| Operating cash flow TTM | $148.5B | $113.9B TTM Q1 2025 | +30% YoY | Strong cash from operations. |
+| Free cash flow TTM | $1.2B | $25.9B TTM Q1 2025 | -95% YoY | AI capex is consuming cash flow. |
+| Q1 P&E purchases | $44.2B | $25.0B Q1 2025 | +77% YoY | AI infrastructure spend is the main bear line. |
+| Anthropic pre-tax gain | $16.8B | — | Non-operating gain | Material EPS-quality distortion. |
+| Chips run-rate | >$20B annual revenue run rate | — | Triple-digit YoY growth | Trainium / Graviton becoming strategic. |
+| Q2 revenue guide | $194B-$199B | Q2 2025 base | +16% to +19% YoY | Strong top-line guide. |
+| Q2 operating income guide | $20B-$24B | $19.2B Q2 2025 | Positive but wide | Margin uncertainty remains. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Net sales increased 17% to $181.5B, or 15% excluding FX. North America sales were $104.1B, up 12%. International sales were $39.8B, up 19%, or 11% excluding FX. AWS sales were $37.6B, up 28%.
+
+Consensus:
+Revenue consensus was approximately $177.3B and EPS consensus approximately $1.63. Amazon beat both, but the EPS beat is not clean because of the Anthropic gain.
+
+EPS / Earnings:
+Net income was $30.3B, or $2.78 diluted EPS, versus $17.1B and $1.59 diluted EPS in Q1 2025. First-quarter 2026 net income included $16.8B of pre-tax gains in non-operating income from Amazon’s Anthropic investments.
+
+Profitability / Margins:
+Operating income increased to $23.9B from $18.4B. North America operating income rose to $8.3B from $5.8B. International operating income rose to $1.4B from $1.0B. AWS operating income rose to $14.2B from $11.5B.
+
+Key KPI:
+AWS grew 28%, its fastest growth in 15 quarters. Advertising services revenue grew 24%. TTM operating cash flow rose 30% to $148.5B, but TTM FCF fell to $1.2B from $25.9B because of AI-driven property and equipment investment.
+
+Guidance headline:
+For Q2 2026, Amazon guided net sales to $194B-$199B, or 16%-19% YoY growth. Operating income is expected to be $20B-$24B versus $19.2B in Q2 2025.
+
+Capital allocation:
+The capital-allocation story is AI infrastructure spend. Q1 purchases of property and equipment were $44.2B, versus $25.0B in Q1 2025. The investment case now depends on converting AI capex into AWS backlog, revenue and operating income quickly enough to repair FCF.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| North America | 57% | $104.1B | +12% | Improving | Operating income +42%; retail efficiency remains a major operating signal. |
+| International | 22% | $39.8B | +19%; +11% ex-FX | Improving | Profitability continued to improve, but FX helped reported growth. |
+| AWS | 21% | $37.6B | +28% | Strong but investment-heavy | Fastest growth in 15 quarters; AI demand and backlog are the core bull case. |
+| Advertising Services | Not disclosed in segment mix | $17.2B | +24% | High quality | High-margin growth engine inside the ecosystem. |
+| Non-operating / Anthropic | Not operating segment | $16.8B pre-tax gain | Not meaningful | EPS distortion | Non-operating gain materially inflates net income and EPS. |
+
+COMMENTARY
+
+The business mix was strong: AWS accelerated, retail operating income improved, International stayed profitable, and advertising continued to compound. The issue is not the operating quarter; it is the quality of the EPS headline and the cash cost of the AI buildout.
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Q2 sales guidance of $194B-$199B is constructive and implies continued strong top-line growth. The operating income range of $20B-$24B is wide enough to preserve the margin debate.
+
+Capital allocation is the central risk. Amazon is spending aggressively on AI infrastructure: Q1 P&E purchases were $44.2B and TTM FCF collapsed to $1.2B. Management’s defense is demand visibility and customer commitments, but the market will require proof that capex converts into AWS growth and durable operating income.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The social-adjacent professional tape was Bull / Mixed. The dominant positive signal was AWS reacceleration to 28%, repeatedly framed as the core driver of analyst target hikes and renewed confidence in Amazon’s AI infrastructure position.
+
+The main caution was focused, not broad: AI capex / FCF pressure and EPS-quality distortion. Named analyst and media commentary generally remained constructive on AWS, but financial media and professional commentary flagged that the reported EPS beat was flattered by the Anthropic gain.
+
+COMMENT — ANALYST LAYER
+
+Amazon delivered a strong operating quarter, but not a clean earnings-quality quarter.
+
+The highest-quality signal is AWS. A 28% growth rate on a $150B-plus annualized revenue base changes the cloud debate: AWS is no longer simply lagging Azure and Google Cloud; it is showing real AI-driven reacceleration.
+
+The second high-quality signal is retail margin. North America operating income rose 42% YoY and International profit expanded, showing that cost discipline and logistics efficiency are still monetizing.
+
+The lowest-quality signal is reported EPS. The $16.8B pre-tax Anthropic gain is non-operating and materially inflates net income. The correct PM read is to focus on operating income, AWS growth, advertising, retail margins and FCF conversion, not reported EPS alone.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Amazon’s AI capex would show up fast enough in AWS growth to justify the cash drag. Q1 strengthens the bull case because AWS accelerated sharply and operating income beat. The debate now shifts from “is demand real?” to “does capex convert into FCF fast enough?”
+
+HF TAKE — STRATEGIST LAYER
+
+This is a high-quality operating beat with a low-cleanliness EPS headline.
+
+For a PM, the trade is not “Amazon beat EPS.” The trade is whether AWS acceleration and custom silicon demand can outgrow the FCF drag from AI capex. If AWS stays near this growth rate and operating income keeps expanding, the capex is strategic. If FCF remains compressed while growth slows, the stock’s AI premium becomes vulnerable.
+
+The Anthropic gain matters because it prevents investors from capitalizing the full EPS beat. The cleaner signal is operating income and AWS revenue, not net income.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The market reaction was mixed: initial positive response to AWS and the operating beat, then a capped move as investors focused on FCF compression and EPS quality.
+
+Peer read-across:
+- Positive for AI cloud infrastructure demand.
+- Positive for custom silicon / Trainium ecosystem.
+- Positive for digital advertising and retail margin recovery.
+- Cautionary for mega-cap AI capex intensity and free-cash-flow conversion.
+- Important cross-theme with GOOGL and META: reported EPS quality in mega-cap tech requires adjustment for non-operating gains or tax benefits.
+
+KEY ISSUES TO MONITOR
+
+AWS growth durability
+Why it matters: AWS reacceleration is the central bull anchor. If growth remains near this level, Amazon’s AI capex case strengthens materially.
+
+AI capex / FCF conversion
+Why it matters: TTM FCF fell to $1.2B as AI infrastructure spending surged. The market needs proof of monetization, not just demand claims.
+
+Anthropic / non-operating EPS distortion
+Why it matters: Reported EPS overstates clean earnings power. Future blocks and recap must separate operating income from equity-gain-driven net income.
+
+Retail operating leverage
+Why it matters: North America and International margin expansion provide a second earnings driver beyond AWS.
+
+Advertising growth
+Why it matters: Advertising remains a high-margin revenue stream that supports consolidated margin even as infrastructure capex rises.
+
+BOTTOM LINE
+
+Strong operating quarter, low-cleanliness EPS beat.
+AWS reaccelerated sharply and retail margins improved, but the reported EPS beat was materially inflated by the Anthropic gain.
+The next issue is whether AI capex converts into AWS growth and FCF recovery quickly enough to justify the scale of spending.
+
+<<AMZN_EARNINGS_END>>
