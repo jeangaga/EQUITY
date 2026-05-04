@@ -1,15 +1,18 @@
-"""Parsers for Q1 2026 earnings recap + stock-by-stock notes.
+"""Parsers for Q1 2026 earnings recap + stock-by-stock notes (v2.3).
 
 The parsers are intentionally tolerant of whitespace and extra blank lines but
 strict about the documented block markers (e.g. ``<<TICKER_EARNINGS_BEGIN>>``).
 They never invent or summarize content — they only re-shape what the text
 already says.
+
+Both v2.3 and the older block layout are supported: see
+``LEGACY_SECTION_ALIASES`` and the ``PUBLICATION_DATE`` / ``PUBLI_DATE``
+fallback in ``_parse_one_company_block``.
 """
 
 from __future__ import annotations
 
 import re
-from io import StringIO
 from typing import Any
 
 import pandas as pd
@@ -39,10 +42,16 @@ STATE_TRANSITIONS: list[str] = [
     "Mixed",
 ]
 
-# Sections that may appear inside a company block, in canonical order.
+# Canonical sections that may appear inside a company block (v2.3 + legacy).
+# Order here is the *recognized* order; the renderer chooses display order.
+# REPORTED FACTS is kept for legacy detection only — at parse time it is
+# normalized to OFFICIAL EARNINGS DETAIL so the rest of the app sees one name.
 COMPANY_SECTIONS: list[str] = [
     "EXEC SUMMARY",
-    "REPORTED FACTS",
+    "HEADLINE EARNINGS TABLE",          # v2.3
+    "SECTOR KPI TABLE",                 # v2.3
+    "OFFICIAL EARNINGS DETAIL",         # v2.3 (replaces REPORTED FACTS)
+    "REPORTED FACTS",                   # legacy alias -> normalized
     "SEGMENT / BUSINESS BREAKDOWN",
     "GUIDANCE / CAPITAL ALLOCATION",
     "PROFESSIONAL MARKET COMMENTARY",
@@ -54,16 +63,29 @@ COMPANY_SECTIONS: list[str] = [
     "BOTTOM LINE",
 ]
 
+# Legacy section header -> canonical (v2.3) name.
+LEGACY_SECTION_ALIASES: dict[str, str] = {
+    "REPORTED FACTS": "OFFICIAL EARNINGS DETAIL",
+}
+
 # Metadata keys at the top of a company block, before any section header.
+# Both v2.3 and legacy keys are recognized; consumers should read the
+# v2.3 names from the parsed dict and only fall back to the legacy keys
+# when the v2.3 ones are absent.
 COMPANY_META_KEYS: list[str] = [
     "TICKER",
     "COMPANY",
     "SECTOR",
+    "SUBSECTOR",                # v2.3
     "COUNTRY",
-    "PUBLI_DATE",
+    "PUBLICATION_DATE",         # v2.3 (legacy: PUBLI_DATE)
+    "PUBLI_DATE",               # legacy fallback
     "EVENT",
     "STATE_TRANSITION",
     "IMPORTANCE",
+    "MARKET_REACTION",          # v2.3
+    "MARKET_REACTION_DETAIL",   # v2.3
+    "PM_READ",                  # v2.3
     "THEMES",
     "SEGMENT_TABLE_STATUS",
     "SOURCE_ROLE",
@@ -207,7 +229,6 @@ def _parse_macro_sections(text: str) -> dict[str, str]:
             continue
         # Header heuristic: ALL-CAPS short line, no terminal punctuation.
         if header_re.match(line) and len(line) <= 60 and not line.endswith("."):
-            # also: must not contain lowercase letters (already ensured)
             header_idx.append((i, line))
 
     for k, (start, name) in enumerate(header_idx):
@@ -223,7 +244,6 @@ def _parse_sector_block(text: str) -> dict[str, Any]:
     sector_name = ""
     stocks: list[dict[str, Any]] = []
 
-    # Walk lines: SECTOR: header, then alternating bracket-line + paragraph.
     lines = text.splitlines()
     current_meta: dict[str, Any] | None = None
     current_buf: list[str] = []
@@ -242,7 +262,6 @@ def _parse_sector_block(text: str) -> dict[str, Any]:
         line = raw.rstrip()
         s = line.strip()
         if not s:
-            # blank line — keep accumulating, blanks delimit paragraphs visually
             continue
         if s.upper().startswith("SECTOR:"):
             sector_name = s.split(":", 1)[1].strip()
@@ -264,7 +283,6 @@ def _parse_sector_block(text: str) -> dict[str, Any]:
             }
             current_buf = []
             continue
-        # part of the current commentary paragraph
         if current_meta is not None:
             current_buf.append(s)
 
@@ -296,7 +314,6 @@ def _parse_themes_block(text: str) -> list[dict[str, str]]:
             cur["commentary"] = s.split(":", 1)[1].strip()
             cur_field = "commentary"
             continue
-        # continuation line
         if cur is not None and cur_field == "commentary":
             cur["commentary"] = (cur["commentary"] + " " + s).strip()
 
@@ -311,12 +328,7 @@ def _parse_themes_block(text: str) -> list[dict[str, str]]:
 
 
 def parse_scout_tracker(text: str) -> pd.DataFrame:
-    """Parse ``<<SCOUT_TRACKER_BEGIN>>`` rows into a DataFrame.
-
-    Each row has the form::
-
-        TICKER | Sector | Country | PUBLI_DATE: YYYY-MM-DD | IMPORTANCE: *** | STATUS: Done
-    """
+    """Parse ``<<SCOUT_TRACKER_BEGIN>>`` rows into a DataFrame."""
     body = _extract_block(text, "SCOUT_TRACKER") or ""
     rows: list[dict[str, Any]] = []
     window = ""
@@ -356,12 +368,7 @@ def parse_scout_tracker(text: str) -> pd.DataFrame:
 
 
 def parse_company_blocks(text: str) -> list[dict[str, Any]]:
-    """Detect every ``<<TICKER_EARNINGS_BEGIN>>`` block and parse it.
-
-    Returns a list of company dicts in document order. Tickers are NOT
-    hard-coded — any block matching the ``[TICKER]_EARNINGS_BEGIN`` shape is
-    picked up.
-    """
+    """Detect every ``<<TICKER_EARNINGS_BEGIN>>`` block and parse it."""
     blocks: list[dict[str, Any]] = []
     for m in _COMPANY_BLOCK_RE.finditer(text):
         ticker = m.group(1).strip()
@@ -372,11 +379,9 @@ def parse_company_blocks(text: str) -> list[dict[str, Any]]:
 
 
 def _parse_one_company_block(body: str, *, ticker_hint: str) -> dict[str, Any]:
-    """Parse the body of one company block."""
+    """Parse the body of one company block (v2.3 with legacy fallback)."""
     lines = body.splitlines()
 
-    # Step 1: split off the metadata header (consecutive KEY: value lines, then
-    # the first all-caps section header marks the start of the sections).
     section_start = _find_first_section_start(lines)
     meta_lines = lines[:section_start]
     section_lines = lines[section_start:]
@@ -389,43 +394,81 @@ def _parse_one_company_block(body: str, *, ticker_hint: str) -> dict[str, Any]:
 
     sections = _split_sections(section_lines)
 
-    # Pull out the segment table (if any) from the SEGMENT/BUSINESS section.
+    # ----- Pull out the segment table (if any) ------------------------------
     seg_section_text = sections.get("SEGMENT / BUSINESS BREAKDOWN", "")
     seg_table_df, seg_commentary = _split_segment_table_and_commentary(
         seg_section_text
     )
     if seg_table_df is not None and not seg_table_df.empty:
-        # Replace the section text with just the commentary part — the table is
-        # rendered separately in the UI.
         sections["SEGMENT / BUSINESS BREAKDOWN"] = seg_commentary
 
+    # ----- Pull out the v2.3 markdown tables (if present) -------------------
+    headline_table = parse_markdown_table(
+        sections.get("HEADLINE EARNINGS TABLE", "")
+    )
+    sector_kpi_table = parse_markdown_table(
+        sections.get("SECTOR KPI TABLE", "")
+    )
+
     importance = meta_kv.get("IMPORTANCE", "").strip()
+
+    # ----- v2.3 metadata with legacy fallback -------------------------------
+    publication_date = (
+        meta_kv.get("PUBLICATION_DATE", "").strip()
+        or meta_kv.get("PUBLI_DATE", "").strip()
+    )
+    sector_raw = meta_kv.get("SECTOR", "").strip()
+    subsector = meta_kv.get("SUBSECTOR", "").strip()
+    display_sector, display_subsector = _split_legacy_sector(sector_raw, subsector)
 
     return {
         "ticker": ticker,
         "company": meta_kv.get("COMPANY", "").strip(),
-        "sector": meta_kv.get("SECTOR", "").strip(),
+        "sector": sector_raw,
+        "subsector": subsector,
+        "display_sector": display_sector,
+        "display_subsector": display_subsector,
         "country": meta_kv.get("COUNTRY", "").strip(),
-        "publi_date": meta_kv.get("PUBLI_DATE", "").strip(),
+        "publication_date": publication_date,
+        # legacy alias retained so older callers / UI bits keep working
+        "publi_date": publication_date,
         "event": meta_kv.get("EVENT", "").strip(),
         "state_transition": meta_kv.get("STATE_TRANSITION", "").strip(),
         "importance": importance,
         "importance_n": _stars_to_count(importance),
+        "market_reaction": meta_kv.get("MARKET_REACTION", "").strip(),
+        "market_reaction_detail": meta_kv.get("MARKET_REACTION_DETAIL", "").strip(),
+        "pm_read": meta_kv.get("PM_READ", "").strip(),
         "themes": themes,
         "segment_table_status": meta_kv.get("SEGMENT_TABLE_STATUS", "").strip(),
         "source_role": meta_kv.get("SOURCE_ROLE", "").strip(),
         "sections": sections,
         "segment_table": seg_table_df,
+        "headline_table": headline_table,
+        "sector_kpi_table": sector_kpi_table,
+        "is_legacy_block": "PUBLI_DATE" in meta_kv and "PUBLICATION_DATE" not in meta_kv,
     }
 
 
-def _find_first_section_start(lines: list[str]) -> int:
-    """Return the index of the first section header line in ``lines``.
+def _split_legacy_sector(sector_raw: str, subsector: str) -> tuple[str, str]:
+    """Derive display sector / subsector from a legacy combined SECTOR field.
 
-    A section header is one of the canonical headers in :data:`COMPANY_SECTIONS`
-    (matched by upper-cased equality after stripping). If none are found,
-    returns ``len(lines)``.
+    If a SUBSECTOR is already present, the v2.3 fields win and nothing is
+    inferred. Otherwise, if SECTOR contains ``" / "`` (as in the legacy
+    "Financials / Banking" form), the first part is treated as the sector and
+    the remainder as the subsector for *display purposes only*. The raw
+    SECTOR value is left untouched in the parsed dict.
     """
+    if subsector:
+        return sector_raw, subsector
+    if " / " in sector_raw:
+        head, tail = sector_raw.split(" / ", 1)
+        return head.strip(), tail.strip()
+    return sector_raw, ""
+
+
+def _find_first_section_start(lines: list[str]) -> int:
+    """Return the index of the first section header line in ``lines``."""
     canon = {h.upper() for h in COMPANY_SECTIONS}
     for i, raw in enumerate(lines):
         s = raw.strip()
@@ -440,8 +483,9 @@ def _split_sections(lines: list[str]) -> dict[str, str]:
     """Split the post-metadata body into ``{SECTION_HEADER: body_text}``.
 
     Headers are only those listed in :data:`COMPANY_SECTIONS` (compared
-    upper-case). Anything that is not a recognized header is treated as content
-    of the current section.
+    upper-case). Legacy section names defined in
+    :data:`LEGACY_SECTION_ALIASES` are normalized to their v2.3 equivalents
+    so the rest of the app sees a single canonical key set.
     """
     canon = {h.upper(): h for h in COMPANY_SECTIONS}
 
@@ -451,9 +495,8 @@ def _split_sections(lines: list[str]) -> dict[str, str]:
 
     def _flush() -> None:
         nonlocal buf, current
-        if current is not None:
+        if current is not None and current not in sections:
             text = "\n".join(buf).strip("\n")
-            # collapse trailing whitespace but keep paragraph breaks
             sections[current] = text.rstrip()
         buf = []
 
@@ -462,10 +505,10 @@ def _split_sections(lines: list[str]) -> dict[str, str]:
         upper = s.upper()
         if upper in canon and current != canon[upper]:
             _flush()
-            current = canon[upper]
+            header = canon[upper]
+            current = LEGACY_SECTION_ALIASES.get(header, header)
             continue
         if current is None:
-            # content before any header — ignore (shouldn't happen after split)
             continue
         buf.append(raw)
 
@@ -474,12 +517,76 @@ def _split_sections(lines: list[str]) -> dict[str, str]:
 
 
 # ---------------------------------------------------------------------------
-# Segment table
+# Markdown / pipe tables
+# ---------------------------------------------------------------------------
+
+
+def parse_markdown_table(text: str) -> pd.DataFrame | None:
+    """Extract a Markdown-style pipe table from arbitrary section text.
+
+    Recognized shape::
+
+        | Header 1 | Header 2 | Header 3 |
+        |---|---:|:---:|              <- alignment row, ignored
+        | cell    | cell    | cell    |
+        ...
+
+    Tolerant of:
+    - leading and trailing whitespace
+    - extra blank lines between table rows
+    - alignment markers ``:---``, ``---:``, ``:---:``
+    - non-table text appearing before / after the table
+
+    Returns
+    -------
+    pandas.DataFrame  or  ``None`` if no usable table is found.
+    All cells are strings.  The em dash ``—`` is preserved verbatim.
+    """
+    if not text:
+        return None
+
+    rows: list[list[str]] = []
+    in_table = False
+    for raw in text.splitlines():
+        ln = raw.strip()
+        if not ln.startswith("|") or not ln.endswith("|"):
+            if in_table:
+                break
+            continue
+        in_table = True
+        cells = [c.strip() for c in ln.strip("|").split("|")]
+        # Skip the GitHub-style alignment row: each cell is only `-` and `:`.
+        if cells and all(set(c) <= {"-", ":"} and c for c in cells):
+            continue
+        rows.append(cells)
+
+    if len(rows) < 2:
+        return None
+
+    header = [h.strip() for h in rows[0]]
+    width = len(header)
+    data: list[list[str]] = []
+    for r in rows[1:]:
+        if not any(c.strip() for c in r):
+            continue
+        if len(r) < width:
+            r = r + [""] * (width - len(r))
+        elif len(r) > width:
+            r = r[: width - 1] + [" | ".join(r[width - 1 :])]
+        data.append(r)
+
+    if not data:
+        return None
+    return pd.DataFrame(data, columns=header)
+
+
+# ---------------------------------------------------------------------------
+# Segment table (legacy + v2.3)
 # ---------------------------------------------------------------------------
 
 _SEGMENT_HEADER_RE = re.compile(
-    r"^\s*Segment\s*\|\s*%\s*of\s*Total\s*\|\s*Revenue\s*\|\s*"
-    r"YoY\s*Growth\s*\|\s*Margin\s*Trend\s*\|\s*Key\s*Commentary\s*$",
+    r"^\s*\|?\s*Segment\s*\|\s*%\s*of\s*Total\s*\|\s*Revenue\s*\|\s*"
+    r"YoY\s*Growth\s*\|\s*Margin\s*Trend\s*\|\s*Key\s*Commentary\s*\|?\s*$",
     re.IGNORECASE,
 )
 
@@ -487,6 +594,7 @@ _SEGMENT_HEADER_RE = re.compile(
 def parse_segment_table(section_text: str) -> pd.DataFrame | None:
     """Extract the segment table from a 'SEGMENT / BUSINESS BREAKDOWN' body.
 
+    Works on both the v2.3 markdown form and the legacy bare-pipe form.
     Returns a DataFrame, or ``None`` if no table is present.
     """
     df, _ = _split_segment_table_and_commentary(section_text)
@@ -496,7 +604,12 @@ def parse_segment_table(section_text: str) -> pd.DataFrame | None:
 def _split_segment_table_and_commentary(
     section_text: str,
 ) -> tuple[pd.DataFrame | None, str]:
-    """Locate the pipe-delimited segment table and split off the commentary.
+    """Locate the segment table and split off the commentary text.
+
+    Handles both:
+    - v2.3 Markdown-style table (``| ... |`` rows with a ``---`` separator)
+    - legacy bare pipe table (``Segment | % of Total | ...`` header, no pipes
+      on the outside, no separator row)
 
     Returns ``(dataframe_or_None, commentary_text)``. The commentary is the
     text *after* the table (typically introduced by a 'COMMENTARY' header).
@@ -505,48 +618,31 @@ def _split_segment_table_and_commentary(
         return None, section_text or ""
 
     lines = section_text.splitlines()
-    header_idx = -1
-    for i, raw in enumerate(lines):
-        if _SEGMENT_HEADER_RE.match(raw):
-            header_idx = i
-            break
+    header_idx = _find_segment_header_idx(lines)
     if header_idx == -1:
         return None, section_text
 
-    # Collect contiguous pipe-rows after the header. Stop at first non-pipe,
-    # non-blank line (that's where the commentary begins).
-    data_rows: list[list[str]] = []
-    j = header_idx + 1
+    # Walk forward consuming all contiguous pipe-rows (and any alignment row).
+    j = header_idx
+    table_lines: list[str] = []
     while j < len(lines):
-        row = lines[j]
-        if not row.strip():
+        ln = lines[j]
+        s = ln.strip()
+        if not s:
             j += 1
-            continue
-        if "|" not in row:
             break
-        parts = [c.strip() for c in row.split("|")]
-        if len(parts) < 6:
+        if "|" not in s:
             break
-        # take exactly 6 columns; merge any extras into Key Commentary
-        if len(parts) > 6:
-            parts = parts[:5] + [" | ".join(parts[5:])]
-        data_rows.append(parts)
+        table_lines.append(ln)
         j += 1
 
-    columns = [
-        "Segment",
-        "% of Total",
-        "Revenue",
-        "YoY Growth",
-        "Margin Trend",
-        "Key Commentary",
-    ]
-    df = pd.DataFrame(data_rows, columns=columns) if data_rows else None
+    df = parse_markdown_table("\n".join(table_lines))
+    if df is None:
+        df = _parse_legacy_segment_pipe_table(table_lines)
 
-    # Commentary: everything after the table, with an optional 'COMMENTARY'
-    # header line stripped.
+    # Commentary: everything after the table region, with an optional
+    # 'COMMENTARY' header line stripped.
     tail_lines = lines[j:]
-    # Drop leading blanks and an optional 'COMMENTARY' label
     while tail_lines and not tail_lines[0].strip():
         tail_lines.pop(0)
     if tail_lines and tail_lines[0].strip().upper() == "COMMENTARY":
@@ -555,9 +651,8 @@ def _split_segment_table_and_commentary(
             tail_lines.pop(0)
     commentary = "\n".join(tail_lines).rstrip()
 
-    # Also keep anything that appeared *before* the SEGMENT TABLE label
-    # (rare, but defensive). We treat the lines between the start and the
-    # 'SEGMENT TABLE' label as part of the section preface.
+    # Defensive: keep any preface text that appeared between the section
+    # header and the SEGMENT TABLE label.
     preface_lines: list[str] = []
     for raw in lines[:header_idx]:
         s = raw.strip()
@@ -569,6 +664,44 @@ def _split_segment_table_and_commentary(
         commentary = (preface + "\n\n" + commentary).strip() if commentary else preface
 
     return df, commentary
+
+
+def _find_segment_header_idx(lines: list[str]) -> int:
+    """Return the index of the segment-table header row (or -1)."""
+    for i, raw in enumerate(lines):
+        if _SEGMENT_HEADER_RE.match(raw):
+            return i
+    return -1
+
+
+def _parse_legacy_segment_pipe_table(
+    table_lines: list[str],
+) -> pd.DataFrame | None:
+    """Parse the legacy bare-pipe segment table (no leading/trailing pipes)."""
+    if not table_lines:
+        return None
+    columns = [
+        "Segment",
+        "% of Total",
+        "Revenue",
+        "YoY Growth",
+        "Margin Trend",
+        "Key Commentary",
+    ]
+    data_rows: list[list[str]] = []
+    for ln in table_lines[1:]:  # skip header row
+        s = ln.strip()
+        if not s or "|" not in s:
+            continue
+        parts = [c.strip() for c in s.strip("|").split("|")]
+        if len(parts) < 6:
+            continue
+        if len(parts) > 6:
+            parts = parts[:5] + [" | ".join(parts[5:])]
+        data_rows.append(parts)
+    if not data_rows:
+        return None
+    return pd.DataFrame(data_rows, columns=columns)
 
 
 # ---------------------------------------------------------------------------
@@ -586,12 +719,14 @@ def build_company_dataframe(
                 "Ticker",
                 "Company",
                 "Sector",
+                "Subsector",
                 "Country",
-                "Publi Date",
+                "Publication Date",
                 "Event",
                 "Importance",
                 "Importance N",
                 "State Transition",
+                "Market Reaction",
                 "Themes",
                 "Segment Table Status",
                 "Source Role",
@@ -604,13 +739,16 @@ def build_company_dataframe(
             {
                 "Ticker": c["ticker"],
                 "Company": c["company"],
-                "Sector": c["sector"],
+                "Sector": c.get("display_sector") or c["sector"],
+                "Subsector": c.get("display_subsector", ""),
                 "Country": c["country"],
-                "Publi Date": c["publi_date"],
+                # Use the v2.3 canonical name everywhere possible
+                "Publication Date": c.get("publication_date") or c.get("publi_date", ""),
                 "Event": c["event"],
                 "Importance": c["importance"],
                 "Importance N": c["importance_n"],
                 "State Transition": c["state_transition"],
+                "Market Reaction": c.get("market_reaction", ""),
                 "Themes": ", ".join(c["themes"]),
                 "Themes List": c["themes"],
                 "Segment Table Status": c["segment_table_status"],
@@ -618,8 +756,7 @@ def build_company_dataframe(
             }
         )
     df = pd.DataFrame(rows)
-    # Try to coerce Publi Date to datetime for sorting; ignore on failure.
-    df["Publi Date"] = pd.to_datetime(df["Publi Date"], errors="coerce")
+    df["Publication Date"] = pd.to_datetime(df["Publication Date"], errors="coerce")
     return df
 
 
@@ -638,3 +775,14 @@ def companies_for_theme(
     """Return company blocks whose THEMES metadata contains ``theme`` (ci)."""
     needle = theme.strip().casefold()
     return [c for c in company_blocks if any(needle == t.casefold() for t in c["themes"])]
+
+
+def first_paragraph(text: str) -> str:
+    """Return the first paragraph of a section body (split on blank line)."""
+    if not text:
+        return ""
+    for para in text.split("\n\n"):
+        p = para.strip()
+        if p:
+            return p
+    return text.strip()

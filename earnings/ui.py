@@ -373,7 +373,13 @@ def _render_company_notes(
 
     with left:
         st.markdown("**Filters**")
-        sectors = sorted({c["sector"] for c in company_blocks if c["sector"]})
+        # Prefer the display_sector (v2.3 SECTOR) so legacy + v2.3 blocks group
+        # under the same top-level sector value.
+        sectors = sorted({
+            (c.get("display_sector") or c.get("sector", ""))
+            for c in company_blocks
+            if c.get("display_sector") or c.get("sector")
+        })
         sector_sel = st.multiselect("Sector", sectors, key="cn_sector")
 
         imp_present = [i for i in reversed(IMPORTANCE_LEVELS) if any(c["importance"] == i for c in company_blocks)]
@@ -386,7 +392,8 @@ def _render_company_notes(
 
         # Apply filters to derive the ticker selectbox options
         def keep(c: dict[str, Any]) -> bool:
-            if sector_sel and c["sector"] not in sector_sel:
+            sector_for_filter = c.get("display_sector") or c.get("sector", "")
+            if sector_sel and sector_for_filter not in sector_sel:
                 return False
             if imp_sel and c["importance"] not in imp_sel:
                 return False
@@ -394,7 +401,8 @@ def _render_company_notes(
                 return False
             if search:
                 blob = (
-                    f"{c['ticker']} {c['company']} {c['sector']} "
+                    f"{c['ticker']} {c['company']} {c.get('sector', '')} "
+                    f"{c.get('subsector', '')} {c.get('pm_read', '')} "
                     f"{' '.join(c['themes'])} "
                     f"{' '.join(c['sections'].values())}"
                 ).lower()
@@ -421,55 +429,112 @@ def _render_company_notes(
 
 
 def _render_company_block(c: dict[str, Any], *, in_expander: bool) -> None:
-    """Render one full company note. Used in Company Notes + Sector expanders."""
+    """Render one full company note. v2.3 layout with legacy fallback.
+
+    Default ("PM compact") view, top to bottom:
+
+    1. Header card  (TICKER, company, importance ★, state badge,
+                     market-reaction pill, sector / subsector · country ·
+                     publication_date · event)
+    2. PM_READ      (compact highlighted line, when present)
+    3. EXEC SUMMARY (always open)
+    4. HEADLINE EARNINGS TABLE (always visible if present)
+    5. SECTOR KPI TABLE        (always visible if present)
+    6. SEGMENT TABLE           (always visible if present, with
+                                'Partial disclosure' badge when relevant)
+       + segment commentary
+    7. HF TAKE — STRATEGIST LAYER preview (first paragraph) + expander
+    8. Other sections in collapsed expanders, in canonical order
+    9. BOTTOM LINE              (highlighted, at the bottom)
+    """
 
     # ---- header ----------------------------------------------------------
     ticker = html.escape(c["ticker"])
     company = html.escape(c["company"])
-    state_html = styles.state_badge_html(c["state_transition"])
-    stars = styles.stars_html(c["importance_n"])
+    state_html = styles.state_badge_html(c.get("state_transition", ""))
+    stars = styles.stars_html(c.get("importance_n", 0))
+    market_html = styles.market_reaction_badge_html(c.get("market_reaction", ""))
+
+    # Prefer v2.3 display fields; fall back to legacy combined sector if needed.
+    display_sector = c.get("display_sector") or c.get("sector", "")
+    display_subsector = c.get("display_subsector", "")
+    sector_text = display_sector
+    if display_subsector:
+        sector_text = f"{display_sector} / {display_subsector}"
+    pub_date = c.get("publication_date") or c.get("publi_date", "")
+    event = c.get("event", "")
+
     themes_html = ""
-    if c["themes"]:
+    if c.get("themes"):
         themes_html = " ".join(
             f'<span class="reltick">{html.escape(t)}</span>' for t in c["themes"]
         )
     if not in_expander:
         st.markdown(f"## {ticker} — {company}")
-    meta_line = (
-        f"{html.escape(c['sector'])} • {html.escape(c['country'])} • "
-        f"{html.escape(c['publi_date'])} • {html.escape(c['event'])}"
-    )
+
+    meta_parts = [sector_text, c.get("country", ""), pub_date, event]
+    meta_line = " • ".join(html.escape(p) for p in meta_parts if p)
+
     st.markdown(
         f"<div class='meta'>{meta_line}</div>"
-        f"<div style='margin:6px 0;'>{stars} {state_html}</div>"
+        f"<div style='margin:6px 0;'>{stars} {state_html} {market_html}</div>"
         f"<div>{themes_html}</div>",
         unsafe_allow_html=True,
     )
-    st.write("")
+
+    # Optional verbose market reaction detail under the badges
+    mrd = c.get("market_reaction_detail", "")
+    if mrd:
+        st.caption(f"Market reaction: {mrd}")
+
+    # ---- PM_READ (compact highlighted line) ------------------------------
+    pm_read = c.get("pm_read", "")
+    if pm_read:
+        st.markdown(
+            f'<div class="e-pmread"><span class="lbl">PM read</span>'
+            f'{html.escape(pm_read)}</div>',
+            unsafe_allow_html=True,
+        )
 
     sections = c["sections"]
 
-    # EXEC SUMMARY — open
-    _render_section(sections, "EXEC SUMMARY", expanded=True)
+    # ---- EXEC SUMMARY (always open) --------------------------------------
+    _render_open_section(sections, "EXEC SUMMARY")
 
-    # REPORTED FACTS — collapsed
-    _render_section(sections, "REPORTED FACTS", expanded=False)
+    # ---- HEADLINE EARNINGS TABLE (compact, visible) ----------------------
+    _render_compact_table(
+        title="Headline earnings",
+        df=c.get("headline_table"),
+        fallback_text=sections.get("HEADLINE EARNINGS TABLE", ""),
+    )
 
-    # SEGMENT / BUSINESS BREAKDOWN — special: table + commentary
-    _render_segment_section(c)
+    # ---- SECTOR KPI TABLE (compact, visible) -----------------------------
+    _render_compact_table(
+        title="Sector KPIs",
+        df=c.get("sector_kpi_table"),
+        fallback_text=sections.get("SECTOR KPI TABLE", ""),
+    )
 
-    for name in [
+    # ---- SEGMENT TABLE (compact, visible) --------------------------------
+    _render_segment_compact(c)
+
+    # ---- HF TAKE preview (first paragraph) + full expander ----------------
+    _render_hf_take_preview(sections.get("HF TAKE — STRATEGIST LAYER", ""))
+
+    # ---- Remaining sections as expanders, canonical order ----------------
+    expander_order = [
+        "OFFICIAL EARNINGS DETAIL",
         "GUIDANCE / CAPITAL ALLOCATION",
         "PROFESSIONAL MARKET COMMENTARY",
         "COMMENT — ANALYST LAYER",
         "CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE",
-        "HF TAKE — STRATEGIST LAYER",
         "MARKET REACTION / PEER READ-ACROSS",
         "KEY ISSUES TO MONITOR",
-    ]:
+    ]
+    for name in expander_order:
         _render_section(sections, name, expanded=False)
 
-    # BOTTOM LINE — open + highlighted
+    # ---- BOTTOM LINE (highlighted) ---------------------------------------
     bottom = sections.get("BOTTOM LINE", "").strip()
     if bottom:
         st.markdown(
@@ -477,6 +542,81 @@ def _render_company_block(c: dict[str, Any], *, in_expander: bool) -> None:
             f'<p>{html.escape(bottom).replace(chr(10), "<br/>")}</p></div>',
             unsafe_allow_html=True,
         )
+
+
+def _render_open_section(sections: dict[str, str], name: str) -> None:
+    body = sections.get(name, "").strip()
+    if not body:
+        return
+    st.markdown(f"**{name}**")
+    st.markdown(_format_paragraphs(body))
+
+
+def _render_compact_table(
+    *, title: str, df, fallback_text: str
+) -> None:
+    """Render a table inline in the compact view.
+
+    If the table parsed cleanly to a DataFrame, render with ``st.dataframe``.
+    If parsing failed but raw text exists, fall back to ``st.markdown`` so the
+    user still sees the content.
+    """
+    if df is not None and not df.empty:
+        st.markdown(f"**{title}**")
+        st.dataframe(df, hide_index=True, width="stretch")
+        return
+    raw = (fallback_text or "").strip()
+    if raw and "|" in raw:
+        st.markdown(f"**{title}**")
+        st.markdown(raw)
+
+
+def _render_segment_compact(c: dict[str, Any]) -> None:
+    """Compact-view segment table + commentary (handles status flags)."""
+    status = (c.get("segment_table_status") or "").strip()
+    table = c.get("segment_table")
+    commentary = c["sections"].get("SEGMENT / BUSINESS BREAKDOWN", "").strip()
+    show_table = (
+        status.lower() != "not meaningful"
+        and table is not None
+        and not table.empty
+    )
+    if not (show_table or commentary or status):
+        return
+
+    title_html = "Segment / business breakdown"
+    if show_table and status.lower() == "partial":
+        title_html += ' <span class="e-partial">Partial disclosure</span>'
+    st.markdown(f"**{title_html}**", unsafe_allow_html=True)
+
+    if status and status.lower() == "not meaningful":
+        st.caption("Segment table not meaningful for this issuer.")
+
+    if show_table:
+        st.dataframe(table, hide_index=True, width="stretch")
+
+    if commentary:
+        st.markdown(_format_paragraphs(commentary))
+
+
+def _render_hf_take_preview(text: str) -> None:
+    """Show the first paragraph as a highlighted teaser, full text in expander."""
+    text = (text or "").strip()
+    if not text:
+        return
+    paras = [p.strip() for p in text.split("\n\n") if p.strip()]
+    first = paras[0] if paras else ""
+    rest = "\n\n".join(paras[1:]) if len(paras) > 1 else ""
+
+    if first:
+        st.markdown(
+            f'<div class="e-hf-preview"><span class="lbl">HF take</span>'
+            f'{html.escape(first)}</div>',
+            unsafe_allow_html=True,
+        )
+    if rest:
+        with st.expander("HF TAKE — STRATEGIST LAYER (continued)", expanded=False):
+            st.markdown(_format_paragraphs(rest))
 
 
 def _render_section(sections: dict[str, str], name: str, *, expanded: bool) -> None:
@@ -496,30 +636,6 @@ def _format_paragraphs(text: str) -> str:
     # Split on blank line into paragraphs; render each as markdown.
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
     return "\n\n".join(paras)
-
-
-def _render_segment_section(c: dict[str, Any]) -> None:
-    """Render the SEGMENT / BUSINESS BREAKDOWN according to status."""
-    status = (c.get("segment_table_status") or "").strip()
-    table = c.get("segment_table")
-    commentary = c["sections"].get("SEGMENT / BUSINESS BREAKDOWN", "").strip()
-
-    # If status is "Not meaningful", do not render the table even if present.
-    show_table = status.lower() != "not meaningful" and table is not None and not table.empty
-
-    label = "SEGMENT / BUSINESS BREAKDOWN"
-    with st.expander(label, expanded=False):
-        if show_table and status.lower() == "partial":
-            st.markdown(
-                '<span class="e-partial">Partial disclosure</span>',
-                unsafe_allow_html=True,
-            )
-        elif status and status.lower() == "not meaningful":
-            st.caption("Segment table not meaningful for this issuer.")
-        if show_table:
-            st.dataframe(table, hide_index=True, width="stretch")
-        if commentary:
-            st.markdown(_format_paragraphs(commentary))
 
 
 # ---------------------------------------------------------------------------

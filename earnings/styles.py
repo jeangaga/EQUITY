@@ -29,6 +29,19 @@ STATUS_COLORS: dict[str, tuple[str, str]] = {
     "Excluded":      ("#7f1d1d", "#fee2e2"),
 }
 
+# Market-reaction badge — fuzzy match by lower-cased keyword. Free-text values
+# are accepted; whatever the note says wins.
+MARKET_REACTION_COLORS: list[tuple[str, tuple[str, str]]] = [
+    ("strong positive", ("#064e3b", "#a7f3d0")),
+    ("very positive",   ("#064e3b", "#a7f3d0")),
+    ("positive",        ("#0f5132", "#d1e7dd")),
+    ("strong negative", ("#7f1d1d", "#fecaca")),
+    ("very negative",   ("#7f1d1d", "#fecaca")),
+    ("negative",        ("#7f1d1d", "#fee2e2")),
+    ("mixed",           ("#854d0e", "#fef3c7")),
+    ("neutral",         ("#3f3f46", "#e5e7eb")),
+]
+
 CSS = """
 <style>
 .earnings-root {
@@ -107,6 +120,45 @@ CSS = """
   margin: 0;
   font-size: 0.92rem;
   line-height: 1.5;
+}
+
+.e-pmread {
+  border-left: 3px solid #93c5fd;
+  background: rgba(147,197,253,0.08);
+  padding: 8px 12px;
+  margin: 6px 0 12px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+.e-pmread .lbl {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #93c5fd;
+  font-weight: 700;
+  margin-right: 8px;
+  vertical-align: 2px;
+}
+.e-hf-preview {
+  border-left: 3px solid #c4b5fd;
+  background: rgba(196,181,253,0.08);
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.e-hf-preview .lbl {
+  display: inline-block;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #c4b5fd;
+  font-weight: 700;
+  margin-right: 8px;
+  vertical-align: 2px;
 }
 
 .e-bottom-line {
@@ -226,4 +278,25 @@ def status_badge_html(status: str) -> str:
     bg, fg = STATUS_COLORS.get(status, ("#3f3f46", "#e5e7eb"))
     return (
         f'<span class="e-badge" style="background:{bg};color:{fg};">{status}</span>'
+    )
+
+
+def market_reaction_badge_html(reaction: str) -> str:
+    """Render the MARKET_REACTION metadata as a colored pill.
+
+    The reaction string is free-text per the v2.3 spec; we color it via a
+    keyword match (positive / negative / mixed / neutral) and otherwise show a
+    neutral grey pill. The original text is preserved verbatim.
+    """
+    if not reaction:
+        return ""
+    low = reaction.lower()
+    bg, fg = ("#3f3f46", "#e5e7eb")
+    for keyword, colors in MARKET_REACTION_COLORS:
+        if keyword in low:
+            bg, fg = colors
+            break
+    return (
+        f'<span class="e-badge" style="background:{bg};color:{fg};" '
+        f'title="MARKET_REACTION">{reaction}</span>'
     )
