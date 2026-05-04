@@ -106,6 +106,7 @@ def _render_pm_read_across(recap: dict[str, Any]) -> None:
 
     # Render in canonical order; fall back to insertion order for anything else.
     canonical = [
+        "INDEX-LEVEL EARNINGS PICTURE",
         "US GROWTH",
         "US CONSUMER",
         "FINANCIAL CONDITIONS / CREDIT",
@@ -115,18 +116,18 @@ def _render_pm_read_across(recap: dict[str, Any]) -> None:
         "CROSS-ASSET PM TAKE",
     ]
     seen: set[str] = set()
-    cols = st.columns(2)
-    for i, key in enumerate(canonical + [k for k in macro if k not in canonical and k != "BOTTOM LINE"]):
+    # Single-column stack (full width). Easier to scan a long-form macro
+    # paragraph and avoids ragged column heights when paragraph lengths differ.
+    for key in canonical + [k for k in macro if k not in canonical and k != "BOTTOM LINE"]:
         if key in seen or key not in macro or key == "BOTTOM LINE":
             continue
         seen.add(key)
         body = macro[key]
-        with cols[i % 2]:
-            st.markdown(
-                f'<div class="e-macro"><h4>{html.escape(key.title())}</h4>'
-                f'<p>{html.escape(body)}</p></div>',
-                unsafe_allow_html=True,
-            )
+        st.markdown(
+            f'<div class="e-macro"><h4>{html.escape(key.title())}</h4>'
+            f'<p>{html.escape(body)}</p></div>',
+            unsafe_allow_html=True,
+        )
 
 
 # ---------------------------------------------------------------------------
