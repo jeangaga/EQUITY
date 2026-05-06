@@ -5,71 +5,112 @@ FILE_TYPE: Full Earnings Notes
 STYLE: Institutional Equity Desk / PM
 
 <<SCOUT_TRACKER_BEGIN>>
-WINDOW: 2026-04-13 to 2026-04-27
+WINDOW: 2026-04-13 to 2026-05-05
+
+--- WEEK: 2026-04-13 to 2026-04-19 ---
 
 GS | Financials / Investment Banking & Markets | United States | PUBLI_DATE: 2026-04-13 | IMPORTANCE: **** | STATUS: Done
+
 JPM | Financials / Banking | United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: **** | STATUS: Done
 C | Financials / Banking | United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: *** | STATUS: Done
 WFC | Financials / Banking | United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: *** | STATUS: Done
 BLK | Financials / Asset Management | United States | PUBLI_DATE: 2026-04-14 | IMPORTANCE: *** | STATUS: Done
+
 BAC | Financials / Banking | United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: **** | STATUS: Done
 MS | Financials / Investment Banking & Wealth | United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: **** | STATUS: Done
 PNC | Financials / Banking | United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: ** | STATUS: Done
 PGR | Financials / Property & Casualty Insurance | United States | PUBLI_DATE: 2026-04-15 | IMPORTANCE: *** | STATUS: Done
+
 SCHW | Financials / Brokerage & Wealth | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: *** | STATUS: Done
 USB | Financials / Banking | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: ** | STATUS: Done
+TSM | Semiconductors / Foundry | Taiwan | PUBLI_DATE: 2026-04-16 | IMPORTANCE: **** | STATUS: Done
+NFLX | Communication Services / Streaming Media | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: *** | STATUS: Done
+PEP | Consumer Staples / Food & Beverages | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: *** | STATUS: Done
+
 STT | Financials / Custody Banking & Asset Servicing | United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: *** | STATUS: Done
 TFC | Financials / Banking | United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: ** | STATUS: Done
 ALLY | Financials / Consumer Finance & Auto Lending | United States | PUBLI_DATE: 2026-04-17 | IMPORTANCE: *** | STATUS: Done
-AXP | Financials / Consumer Finance & Payments | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
 
-TSM | Semiconductors / Foundry | Taiwan | PUBLI_DATE: 2026-04-16 | IMPORTANCE: **** | STATUS: Done
+--- WEEK: 2026-04-20 to 2026-04-26 ---
+
 ASMI | Semiconductors / Deposition Equipment | Netherlands | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
+GE | Aerospace | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
+RTX | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
+UNH | Healthcare / Managed Care | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: **** | STATUS: Done
+DHR | Life Sciences & Diagnostics | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
+RIO | Materials / Mining | United Kingdom / Australia | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ** | STATUS: Done
+
 LRCX | Semiconductors / Wafer Fab Equipment | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
 TXN | Semiconductors / Analog & Embedded | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
+IBM | Technology / Software, Consulting & Infrastructure | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
+NOW | Software / Enterprise Workflow & AI | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
+BA | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
+TSLA | Automobiles / EV & Clean Tech | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
+PM | Consumer Staples / Tobacco & Smoke-Free Nicotine | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
+OR | Consumer / Beauty & Personal Care | France | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
+GEV | Power Equipment & Electrification | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
+VRT | Data Center Infrastructure / Power & Cooling | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
+BHP | Materials / Mining | Australia | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ** | STATUS: Done
+
+AXP | Financials / Consumer Finance & Payments | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
 INTC | Semiconductors | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: **** | STATUS: Done
+LMT | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
+HON | Industrials / Multi-Industry | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ** | STATUS: Done
+AAL | Airlines / Transportation | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ** | STATUS: Done
+NEE | Utilities / Power & Renewables | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
+
+NSC | Rail Transportation | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ** | STATUS: Done
+PG | Consumer Staples / Household & Personal Care | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: *** | STATUS: Done
+SLB | Energy / Oilfield Services | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: *** | STATUS: Done
+E | Energy / Integrated Oil & Gas | Italy | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ** | STATUS: Done
+
+--- WEEK: 2026-04-27 to 2026-05-03 ---
+
 CDNS | Software / Electronic Design Automation | United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: *** | STATUS: Done
 CLS | Technology Hardware / Electronics Manufacturing Services | Canada | PUBLI_DATE: 2026-04-27 | IMPORTANCE: *** | STATUS: Done
 AMKR | Semiconductors / Packaging & Testing | United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ** | STATUS: Brief
 RMBS | Semiconductors / Memory & Interface IP | United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: ** | STATUS: Brief
-
-NFLX | Communication Services / Streaming Media | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: *** | STATUS: Done
-IBM | Technology / Software, Consulting & Infrastructure | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
-NOW | Software / Enterprise Workflow & AI | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
-
-GE | Aerospace | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
-RTX | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
-BA | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
-LMT | Aerospace & Defense | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
-HON | Industrials / Multi-Industry | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ** | STATUS: Done
-AAL | Airlines / Transportation | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: ** | STATUS: Done
-NSC | Rail Transportation | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ** | STATUS: Done
 VZ | Telecommunications | United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: *** | STATUS: Done
-
-UNH | Healthcare / Managed Care | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: **** | STATUS: Done
-DHR | Life Sciences & Diagnostics | United States | PUBLI_DATE: 2026-04-21 | IMPORTANCE: *** | STATUS: Done
-
-PEP | Consumer Staples / Food & Beverages | United States | PUBLI_DATE: 2026-04-16 | IMPORTANCE: *** | STATUS: Done
-TSLA | Automobiles / EV & Clean Tech | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
-PM | Consumer Staples / Tobacco & Smoke-Free Nicotine | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
-OR | Consumer / Beauty & Personal Care | France | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
-PG | Consumer Staples / Household & Personal Care | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: *** | STATUS: Done
-
-GEV | Power Equipment & Electrification | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: **** | STATUS: Done
-VRT | Data Center Infrastructure / Power & Cooling | United States | PUBLI_DATE: 2026-04-22 | IMPORTANCE: *** | STATUS: Done
-NEE | Utilities / Power & Renewables | United States | PUBLI_DATE: 2026-04-23 | IMPORTANCE: *** | STATUS: Done
-SLB | Energy / Oilfield Services | United States | PUBLI_DATE: 2026-04-24 | IMPORTANCE: *** | STATUS: Done
-E | Energy / Integrated Oil & Gas | Italy | PUBLI_DATE: 2026-04-24 | IMPORTANCE: ** | STATUS: Done
-
-RIO | Materials / Mining | United Kingdom / Australia | PUBLI_DATE: 2026-04-21 | IMPORTANCE: ** | STATUS: Done
-BHP | Materials / Mining | Australia | PUBLI_DATE: 2026-04-22 | IMPORTANCE: ** | STATUS: Done
 NUE | Materials / Steel | United States | PUBLI_DATE: 2026-04-27 | IMPORTANCE: *** | STATUS: Done
+
+META | Communication Services / Social Media & Digital Advertising | United States | PUBLI_DATE: 2026-04-29 | IMPORTANCE: **** | STATUS: Done
+MSFT | Information Technology / Cloud, Software & AI Infrastructure | United States | PUBLI_DATE: 2026-04-29 | IMPORTANCE: **** | STATUS: Done
+GOOGL | Communication Services / Search, Cloud & AI Infrastructure | United States | PUBLI_DATE: 2026-04-29 | IMPORTANCE: **** | STATUS: Done
+
+--- WEEK: 2026-05-04 to 2026-05-10 ---
+
+TSN | Consumer Staples / Protein & Food | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+NCLH | Consumer Discretionary / Cruise & Travel | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: ** | STATUS: Done
+PLTR | Software / Enterprise AI & Government | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: **** | STATUS: Done
+VRTX | Healthcare / Biotechnology & Specialty Pharma | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+WMB | Energy / Midstream Natural Gas | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+FANG | Energy / E&P / Permian | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+ON | Semiconductors / Power, Automotive & AI Data Center | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+PINS | Communication Services / Social Media & Digital Advertising | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+DUOL | Consumer / Education Technology | United States | PUBLI_DATE: 2026-05-04 | IMPORTANCE: *** | STATUS: Done
+
+SHOP | Software / E-commerce Platform & AI Commerce | Canada / United States-listed | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Done
+PYPL | Financials / Payments & Digital Wallets | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: ** | STATUS: Done
+AMD | Semiconductors / AI GPUs & Data Center | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: **** | STATUS: Done
+ANET | Technology Hardware / AI Networking | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Done
+LITE | Technology Hardware / Optical Components & AI Infrastructure | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: **** | STATUS: Done
+MSTR | Financials / Bitcoin Treasury & Enterprise Software | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Done
+PFE | Healthcare / Pharmaceuticals | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Done
+ET | Energy / Midstream, NGL & LNG Infrastructure | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+OXY | Energy / E&P & Integrated Oil | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+SU | Energy / Integrated Oil & Oil Sands | Canada | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+DUK | Utilities / Regulated Power & Data Center Load | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+CMI | Industrials / Engines & Power Generation | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+TDG | Industrials / Aerospace Components & Aftermarket | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: **** | STATUS: Brief
+LYV | Communication Services / Live Entertainment & Ticketing | United States | PUBLI_DATE: 2026-05-05 | IMPORTANCE: *** | STATUS: Brief
+CPNG | Consumer Discretionary / E-commerce & Logistics | South Korea / United States-listed | PUBLI_DATE: 2026-05-05 | IMPORTANCE: ** | STATUS: Brief
+
+--- OUT_OF_WINDOW / EXCLUDED ---
 
 BN | Financials / Alternatives & Asset Management | Canada | PUBLI_DATE: 2026-05-14 | IMPORTANCE: ** | STATUS: Out_of_window
 CHL | Ambiguous | Unknown | PUBLI_DATE: n/a | IMPORTANCE: * | STATUS: Excluded
 
 <<SCOUT_TRACKER_END>>
-
 <<GS_EARNINGS_BEGIN>>
 TICKER: GS
 COMPANY: The Goldman Sachs Group, Inc.
