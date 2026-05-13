@@ -15051,3 +15051,661 @@ Housing remains effectively flat and management is not assuming recovery.
 Q2 EBITDA guidance caused the stock reversal.
 Improvement in the business, but not yet a clean stock re-rating.
 <<Z_EARNINGS_END>>
+
+<<SNAP_EARNINGS_BEGIN>>
+TICKER: SNAP
+COMPANY: Snap Inc.
+SECTOR: Communication Services
+SUBSECTOR: Social Media / Digital Advertising / Camera Platform
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ***
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares initially rose after-hours but reversed to roughly -7.4% as investors focused on Q2 uncertainty, Perplexity contribution ending and ad-market softness.
+PM_READ: Snap is stabilizing operationally with DAU growth, EBITDA recovery and cost cuts, but the forward ad signal remains too murky for a clean rerating.
+THEMES: DAU growth, ad revenue, Snapchat+, cost reduction, Perplexity termination, Middle East ad drag, EBITDA recovery, FCF
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Stabilization. Snap delivered revenue of $1.53B, up 12% YoY and at the high end of guidance, with DAU growth returning to +5% and adjusted EBITDA more than doubling YoY to $233M.
+
+The positive signal is cost and engagement stabilization: FCF rose 150%, DAUs returned to growth, and April restructuring should reduce the annualized cost base by more than $500M in H2 2026.
+
+The negative signal is forward visibility. Q2 guidance was murky, Perplexity will not contribute in Q2, and Middle East geopolitical disruption hit March ad revenue by $20M-$25M.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$1.53B	~$1.52B forecast	Slight beat	+12%	Not confirmed	High end of guidance, but ad quality mixed.
+EPS / Earnings	-$0.05 adjusted EPS	-$0.07 consensus	Beat	Not confirmed	Not confirmed	Loss narrower than expected.
+Profitability / Margin	Adj. EBITDA $233M; FCF $286M	EBITDA consensus $215M	Beat	EBITDA +116%; FCF +150%	Not confirmed	Cost discipline working.
+Guidance / Outlook	Q2 revenue $1.52B-$1.55B; restructuring charges $95M-$130M	Not confirmed	Mixed	Not applicable	Not applicable	Forward ad setup still uncertain.
+Market reaction	Initial +1.96% AH, then roughly -7.4% AH	Not applicable	Negative	Not applicable	Not applicable	Market faded the beat on Q2 uncertainty.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+DAU	483M	Prior year	+5% YoY	Return to user growth.
+MAU	956M	Not confirmed	Not confirmed	Large scale, but monetization weaker.
+Advertising revenue	$1.24B	Prior year	+3%	Large-customer weakness in North America.
+Other revenue	$285M	Prior year	+87%	Snapchat+, Memories Storage and Lens+ scaling.
+Adjusted EBITDA	$233M	$215M consensus	+8.6% beat	Profitability stabilization.
+FCF	$286M	Prior year	+150%	Cash generation improved.
+Net loss	-$89M	Prior year	Improved by $51M	Loss narrowing.
+Middle East ad impact	-$20M to -$25M	Not applicable	Negative	Geopolitical drag.
+Cost reduction	>$500M annualized H2 2026	April restructuring	Positive	Key margin lever.
+Perplexity contribution	No Q2 contribution	Prior contribution existed	Negative	Forward revenue headwind.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed
+
+Adjustment issue:
+No major non-operating gain identified, but Q2 will include $95M-$130M pretax restructuring charges.
+
+PM interpretation:
+Use adjusted EBITDA, FCF, DAU growth, ad revenue and other revenue as the clean metrics. GAAP loss is less relevant than whether ad revenue accelerates after restructuring and Perplexity termination.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: DAU return to growth and adjusted EBITDA +116% show the platform is no longer deteriorating mechanically.
+
+Lowest-quality signal: advertising revenue only +3%, Middle East disruption and Perplexity termination reduce confidence in Q2 acceleration.
+
+State transition: Stabilization
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market initially rewarded the Q1 beat but sold the Q2 uncertainty. That makes sense: Snap needs evidence that ad revenue can accelerate, not just cost cuts. The next rerating requires Q2 ad growth, DAU continuation and proof that Snapchat+ / other revenue can offset ad softness.
+
+Stock identity:
+Turnaround, setup-risk stock. Snap is no longer a pure deterioration story, but it is not yet a high-quality compounder. The print supports stabilization, not a full thesis reset.
+
+KEY ISSUES TO MONITOR
+
+Q2 ad revenue / Why it matters: This determines whether stabilization becomes improvement.
+Perplexity termination / Why it matters: Removes a contribution and complicates Q2 growth.
+Cost reduction / Why it matters: $500M annualized savings can support EBITDA.
+Other revenue / Why it matters: +87% growth is the strongest diversification signal.
+DAU growth / Why it matters: +5% must continue after several weaker quarters.
+
+BOTTOM LINE
+
+Snap stabilized, but did not clear the forward bar.
+DAUs returned to growth and EBITDA recovered sharply.
+Ad revenue remains weak and Q2 visibility is poor.
+The stock reaction reflects guidance distrust, not a Q1 miss.
+
+<<SNAP_EARNINGS_END>>
+
+<<MAR_EARNINGS_BEGIN>>
+TICKER: MAR
+COMPANY: Marriott International, Inc.
+SECTOR: Consumer Discretionary
+SUBSECTOR: Hotels / Lodging / Travel
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ***
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares were modestly positive as investors rewarded the EPS beat, FY guidance raise and resilient RevPAR despite Middle East headwinds.
+PM_READ: Marriott confirms global travel resilience, with international RevPAR, luxury demand, fee growth and a record pipeline offsetting fuel / Middle East pressure.
+THEMES: Travel demand, RevPAR, luxury travel, APAC, Middle East drag, World Cup, credit card fees, residential branding, pipeline
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Continuation. Marriott delivered revenue of $6.65B, up 6.2% YoY, and adjusted EPS of $2.72, beating consensus by roughly 5%-7%.
+
+The clean signal is global lodging resilience. Worldwide RevPAR rose 4.2%, international RevPAR rose 4.6%, APAC rose 7%, luxury RevPAR rose 7%, and gross fees rose 12%.
+
+Management raised FY2026 guidance despite assuming a 100-125bps Middle East drag to RevPAR, partly offset by a 30-35bps World Cup benefit.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$6.65B	$6.59B consensus	Beat	+6.2%	Not confirmed	Lodging demand resilient.
+EPS / Earnings	$2.72 adjusted EPS	$2.55-$2.58 consensus	Beat	+17%	Not confirmed	Clean operating beat.
+Profitability / Margin	Adj. EBITDA $1.40B	Prior year lower	Beat tone	+15%	Not confirmed	Fee growth supports leverage.
+Guidance / Outlook	FY EPS $11.38-$11.63; FY RevPAR +2% to +3%	Prior RevPAR +1.5% to +2.5%	Raised	Not applicable	Not applicable	Guide raised despite ME drag.
+Market reaction	+1.3% to +2.1% day range	Not applicable	Positive	Not applicable	Not applicable	Modest reward; valuation caps upside.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Worldwide RevPAR	+4.2%	Guidance lower	Beat	Core hotel demand strong.
+US / Canada RevPAR	+4.0%	Prior year	Positive	Domestic demand stable.
+International RevPAR	+4.6%	Prior year	Positive	Resilient global demand.
+APAC RevPAR	+7.0%	Prior year	Strong	Best macro travel signal.
+Luxury RevPAR	+7.0%	Prior year	Strong	Premium consumer intact.
+Gross fees	$1.43B	Prior year	+12%	Asset-light fee engine working.
+Co-branded card fees	+37%	Prior year	Strong	High-quality ancillary fee growth.
+Residential branding fees	+70%+	Prior year	Strong	Structural fee engine.
+Pipeline	4,100+ properties / 618K rooms	Prior record	Record	Long-term growth visibility.
+Capital returns	>$4.4B FY target	Not confirmed	Strong	Supports equity story.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean
+
+Adjustment issue:
+No material non-operating item identified in the supplied scout.
+
+PM interpretation:
+Use adjusted EPS, RevPAR, gross fees, EBITDA and pipeline growth as the clean measures. The Middle East RevPAR drag is operational / macro, not accounting noise.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: APAC +7% RevPAR, luxury +7% and fee growth confirm travel demand is still healthy.
+
+Lowest-quality signal: Middle East conflict is expected to reduce FY RevPAR by 100-125bps, and valuation around 37x P/E limits multiple expansion.
+
+State transition: Continuation
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market expected resilient travel, and Marriott delivered with a guidance raise. The modest stock move is rational because the print confirms rather than changes the thesis. A stronger rerating requires sustained RevPAR upside and evidence that the Middle East drag stays contained.
+
+Stock identity:
+Quality compounder, defensive compounder, expensive but deliverable. Marriott remains one of the cleanest asset-light travel compounders, but the stock is already priced for quality.
+
+KEY ISSUES TO MONITOR
+
+RevPAR guidance / Why it matters: Raised guide confirms travel demand resilience.
+APAC growth / Why it matters: +7% is the best international signal.
+Middle East drag / Why it matters: 100-125bps FY headwind can widen if conflict escalates.
+Fee growth / Why it matters: Credit card and residential fees are high-quality earnings.
+Pipeline / Why it matters: Record pipeline underpins long-term growth.
+
+BOTTOM LINE
+
+Marriott delivered a clean continuation print.
+Travel demand remains resilient across global and luxury segments.
+Guidance was raised despite Middle East pressure.
+Valuation is the main friction, not fundamentals.
+
+<<MAR_EARNINGS_END>>
+
+<<KHC_EARNINGS_BEGIN>>
+TICKER: KHC
+COMPANY: The Kraft Heinz Company
+SECTOR: Consumer Staples
+SUBSECTOR: Packaged Food / Condiments / Frozen / Cheese
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Stabilization
+IMPORTANCE: **
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose roughly 2%-3% pre-market as EPS, EBITDA and FCF beat expectations while market-share losses narrowed.
+PM_READ: Kraft Heinz is showing early stabilization through margin, FCF and share-loss improvement, but organic sales are still negative and Q2 guidance remains weak.
+THEMES: Packaged food, volume pressure, market share, gross margin, FCF, debt tender, dividend yield, SNAP headwind, turnaround
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Stabilization. Kraft Heinz reported revenue of $6.05B, up 0.8% YoY and above consensus, with adjusted EPS of $0.58 beating consensus by roughly 15%.
+
+The encouraging signal is not top-line growth; organic net sales were still down 0.4%. The real improvement is margin and cash: adjusted EBITDA beat by 12.5%, FCF rose 58.9%, and U.S. mix-adjusted share loss narrowed to 30bps from 90bps.
+
+The print supports early turnaround traction, but Q2 revenue guidance of -3% to -5% means the top-line inflection has not yet arrived.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$6.05B	$5.90B-$5.94B consensus	Beat	+0.8%	Not confirmed	Reported sales beat, but organic sales still negative.
+EPS / Earnings	$0.58 adjusted EPS	$0.50 consensus	Beat	Not confirmed	Not confirmed	Cost and margin help drove EPS upside.
+Profitability / Margin	Adj. EBITDA $1.39B; FCF $766M	EBITDA $1.24B consensus	Beat	FCF +58.9%	Not confirmed	Cash generation is the best signal.
+Guidance / Outlook	FY EPS $1.98-$2.10 reaffirmed; Q2 revenue -3% to -5%	Consensus near FY midpoint	Mixed	Not applicable	Not applicable	Q2 still weak.
+Market reaction	+2.3% to +2.75% pre-market	Not applicable	Positive	Not applicable	Not applicable	Market rewarded stabilization signs.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Organic net sales	-0.4%	Prior trend weaker	Still negative	Top-line not yet fixed.
+Sales volume	-1.2%	Prior trend worse	Improved	Volume pressure easing.
+Adjusted EBITDA	$1.39B	$1.24B consensus	+12.5% beat	Strong margin / cost result.
+Adjusted EBITDA margin	23%	Prior lower	Positive	Turnaround support.
+FCF	$766M	Prior year	+58.9%	High-quality cash signal.
+OCF	$1.006B	Prior year	+39.7%	Cash conversion improved.
+U.S. mix-adjusted share loss	30bps YTD	90bps prior year	Improved	Competitive position stabilizing.
+FY organic sales guide	-1.5% to -3.5%	Prior guide	Reaffirmed	Still negative.
+Q2 revenue guide	-3% to -5%	Not confirmed	Weak	Easter and SNAP headwinds.
+Tender offer	$1.1B senior notes	Not applicable	Positive	Debt management.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean to Mixed
+
+Adjustment issue:
+No major non-operating earnings gain identified, but investors should separate EPS / EBITDA improvement from still-negative organic sales.
+
+PM interpretation:
+Use organic sales, volumes, EBITDA margin, FCF and market-share losses as the cleaner turnaround measures. EPS beat alone overstates the quality if the top line remains negative.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: FCF +58.9% and share-loss narrowing from 90bps to 30bps show the operating base is stabilizing.
+
+Lowest-quality signal: organic sales -0.4% and Q2 revenue guidance -3% to -5% mean the top-line recovery is not yet visible.
+
+State transition: Stabilization
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market rewarded stabilization because expectations were low. The move makes sense, but it is not a full turnaround call. What needs to happen next is organic sales stabilization, volume improvement and proof that investments do not dilute margin.
+
+Stock identity:
+Yield / income stock, turnaround, value trap risk. The 6.9% dividend yield and debt tender support the income case, but sustained negative organic sales keep value-trap risk alive.
+
+KEY ISSUES TO MONITOR
+
+Organic sales / Why it matters: The top line must turn before the stock rerates.
+Volume trend / Why it matters: -1.2% is better but still negative.
+Market share / Why it matters: Share loss narrowing is the strongest turnaround signal.
+FCF / Why it matters: Supports dividend and debt reduction.
+Q2 guide / Why it matters: -3% to -5% revenue guide keeps pressure on the story.
+
+BOTTOM LINE
+
+Kraft Heinz is stabilizing, not yet growing.
+EPS, EBITDA and FCF beat expectations.
+Share losses are narrowing.
+Organic sales and Q2 guide remain weak.
+The stock is an income / turnaround setup, not a clean compounder.
+
+<<KHC_EARNINGS_END>>
+
+<<CVS_EARNINGS_BEGIN>>
+TICKER: CVS
+COMPANY: CVS Health Corporation
+SECTOR: Healthcare
+SUBSECTOR: Managed Care / Pharmacy / PBM / Retail Health
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose roughly 7% as investors rewarded a large revenue beat, EPS beat, Aetna MBR improvement and FY guidance raise.
+PM_READ: CVS delivered the clearest healthcare turnaround proof point of the cohort, with Aetna MBR 170bps better than consensus and FY EPS / revenue guidance raised.
+THEMES: Managed care turnaround, Aetna MBR, PBM, pharmacy, Health100, Google Cloud AI, STELARA biosimilar, guidance raise, cash flow
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Improvement. CVS reported revenue of $100.43B, up 6.2% YoY and more than 5% above consensus, with adjusted EPS of $2.57 beating consensus by roughly 16%.
+
+The decisive signal is Aetna. Medical benefit ratio was 84.6%, improving from 87.3% YoY and 170bps better than consensus. Health Care Benefits adjusted operating income rose 52.6% to $3B.
+
+Management raised FY2026 adjusted EPS guidance to $7.30-$7.50 from $7.00-$7.20 and revenue guidance to at least $405B from $400B. This is the first clean evidence that the managed-care reset is working.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$100.43B	$95.09B-$96B consensus	Large beat	+6.2%	Not confirmed	Broad segment beat.
+EPS / Earnings	$2.57 adjusted EPS	$2.20-$2.21 consensus	Beat	Not confirmed	Not confirmed	EPS beat around 16%.
+Profitability / Margin	Adj. operating income $5.2B	Prior year lower	Beat	+12%	Not confirmed	Aetna drove improvement.
+Guidance / Outlook	FY EPS $7.30-$7.50; revenue ≥$405B	Prior EPS $7.00-$7.20; revenue ≥$400B	Raised	Not applicable	Not applicable	Turnaround credibility improved.
+Market reaction	+7%	Not applicable	Positive	Not applicable	Not applicable	Market rewarded MBR and guide raise.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Aetna MBR	84.6%	86.3% consensus; 87.3% prior year	Better by 170bps vs consensus	Core turnaround signal.
+Health Care Benefits adj. op income	$3.0B	Prior year	+52.6%	Managed care recovery.
+Health Services revenue	$48B+	Prior year	+11%	PBM / services strong.
+Pharmacy same-store sales	+3%	Prior year	Positive	Retail pharmacy stable.
+Scripts	+7%	Prior year	Positive	Volume growth.
+Medical members	26M	-600K sequential	Lower	Exchange exit effect.
+FY revenue guide	≥$405B	≥$400B prior	Raised	Top-line confidence.
+FY adj. EPS guide	$7.30-$7.50	$7.00-$7.20 prior	Raised	Model upgrade.
+Operating CF guide	≥$9.5B	Prior guide not confirmed	Strong	Cash-flow support.
+Leverage	3.84x	Not confirmed	Elevated	Balance sheet still watch item.
+Health100	Google Cloud AI subsidiary	New	Positive option	New growth vector.
+STELARA biosimilar transition	July 2026	Upcoming	Catalyst	Caremark execution watch.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean
+
+Adjustment issue:
+No material non-operating distortion identified in the supplied scout.
+
+PM interpretation:
+Use adjusted EPS, Aetna MBR, adjusted operating income, segment performance and operating cash flow as clean metrics. The MBR improvement is the key quality signal.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: Aetna MBR 84.6%, 170bps better than consensus, is the metric investors have waited for after two years of managed-care pressure.
+
+Lowest-quality signal: medical members fell 600K sequentially because of individual exchange exit, and leverage remains elevated at 3.84x.
+
+State transition: Improvement
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing CVS as a troubled healthcare turnaround. The MBR beat and FY guide raise changed the debate from “is Aetna still deteriorating?” to “how much recovery is sustainable?” The move makes sense because the improvement is in the most important line item.
+
+Stock identity:
+Turnaround, value recovery, yield / income stock. CVS is still not a clean compounder, but the print moves it materially away from value-trap territory.
+
+KEY ISSUES TO MONITOR
+
+Aetna MBR / Why it matters: The entire turnaround depends on sustained medical-cost control.
+FY guidance / Why it matters: Raise confirms management confidence.
+Medical membership / Why it matters: Exchange exit reduces members but may improve mix.
+Health100 / Why it matters: AI / Google Cloud partnership creates optionality.
+STELARA biosimilar / Why it matters: PBM execution and formulary management test.
+
+BOTTOM LINE
+
+CVS delivered the cleanest healthcare turnaround print.
+Aetna MBR beat consensus by 170bps.
+All three segments beat.
+FY EPS and revenue guidance were raised.
+Improvement is now supported by hard data, not just restructuring narrative.
+
+<<CVS_EARNINGS_END>>
+
+<<EXC_EARNINGS_BEGIN>>
+TICKER: EXC
+COMPANY: Exelon Corporation
+SECTOR: Utilities
+SUBSECTOR: Regulated Electric & Gas Utility / Transmission & Distribution
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ***
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares dipped roughly 1.35% despite the beat, likely because headline EPS was flat YoY and the structural data-center capex story was already understood.
+PM_READ: Exelon remains a clean regulated-utility AI-power-demand beneficiary, with data-center load driving a larger capital plan and top-end EPS CAGR confidence.
+THEMES: Regulated utility, data centers, rate base, capex plan, EPS CAGR, power demand, transmission, ComEd, PECO, BGE, PHI
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Continuation. Exelon reported adjusted operating EPS of $0.91, beating consensus of $0.88, and revenue of $7.24B, up 7.9% YoY and ahead of consensus.
+
+The structural signal is not Q1 EPS; it is the capital plan. Exelon affirmed FY2026 EPS guidance and now points to the top end of its 5%-7% EPS CAGR target through 2029, supported by a raised $41.7B four-year capital plan.
+
+Data-center demand is the primary driver of the capex expansion. This makes Exelon a regulated, lower-volatility expression of the AI power theme.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$7.24B	$6.93B consensus	Beat	+7.9%	Not confirmed	Revenue beat, regulated base stable.
+EPS / Earnings	$0.91 adjusted operating EPS; $0.90 GAAP EPS	$0.88 consensus	Beat	Slightly below $0.92 prior-year adjusted EPS; GAAP flat	Not confirmed	Beat but flat YoY headline capped reaction.
+Profitability / Margin	Utility net income mixed by region	Prior year segment levels	Mixed	ComEd / PECO / BGE up; PHI down	Not confirmed	PHI plan reconciliation drag.
+Guidance / Outlook	FY EPS $2.81-$2.91; near top end 5%-7% CAGR through 2029	Prior guide affirmed	Reaffirmed / constructive	Not applicable	Not applicable	Long-term plan intact.
+Market reaction	-1.35%	Not applicable	Negative	Not applicable	Not applicable	Stock focused on flat EPS and valuation.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Adjusted operating EPS	$0.91	$0.88 consensus	Beat	Q1 execution fine.
+GAAP EPS	$0.90	$0.90 prior year	Flat	Explains muted reaction.
+Revenue	$7.24B	$6.93B consensus	+4.5% beat	Solid regulated revenue.
+ComEd net income	$310M	Prior year lower	Positive	Segment growth.
+PECO net income	$278M	Prior year lower	Positive	Segment growth.
+BGE net income	$298M	Prior year lower	Positive	Segment growth.
+PHI net income	$169M	Prior year higher	Decline	Pepco Maryland plan reconciliation drag.
+FY EPS guide	$2.81-$2.91	Prior guide	Affirmed	Stability.
+Capital plan	$41.7B four-year plan	Prior plan lower	Raised	Data-center demand driver.
+Rate base growth	7.9%	Prior target	Strong	Utility AI-load monetization.
+EPS CAGR target	5%-7% through 2029	Prior target	Near top end	Long-term confidence.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean
+
+Adjustment issue:
+No material non-operating item identified. PHI weakness reflects regulatory plan reconciliation, not accounting distortion.
+
+PM interpretation:
+Use adjusted operating EPS, rate base growth, capex plan and utility-segment earnings as clean measures. Data-center load is the strategic variable.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: $41.7B capital plan and 7.9% rate-base growth tied to data-center demand.
+
+Lowest-quality signal: GAAP EPS flat YoY and PHI earnings down, which explain the muted stock reaction.
+
+State transition: Continuation
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The stock reaction was muted because Exelon is a regulated utility and Q1 did not materially change near-term earnings. The strategic case is still intact: AI/data-center load growth expands the rate base. The next rerating requires regulatory execution and visible load conversion.
+
+Stock identity:
+Defensive compounder, yield / income stock, AI power infrastructure proxy. The print reinforces Exelon as a regulated AI-load beneficiary rather than a high-beta power trade.
+
+KEY ISSUES TO MONITOR
+
+Data-center load / Why it matters: Primary driver of capital-plan expansion.
+Regulatory approvals / Why it matters: Rate-base growth only matters if recoverable.
+PHI earnings / Why it matters: Segment decline offsets strength elsewhere.
+EPS CAGR / Why it matters: Near top end of 5%-7% is the core investment case.
+Capex execution / Why it matters: $41.7B plan must convert into regulated earnings.
+
+BOTTOM LINE
+
+Exelon delivered a clean continuation print.
+Q1 beat but headline EPS was flat YoY.
+The real story is data-center-driven rate-base growth.
+AI power demand is now embedded in the utility capex plan.
+Stock reaction was muted, but thesis remains intact.
+
+<<EXC_EARNINGS_END>>
+
+<<AXON_EARNINGS_BEGIN>>
+TICKER: AXON
+COMPANY: Axon Enterprise, Inc.
+SECTOR: Industrials
+SUBSECTOR: Public Safety Technology / Defense-Tech / AI Software / Connected Devices
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose modestly after-hours despite a strong print, reflecting a prior 30%+ derating and high expectations rather than weak fundamentals.
+PM_READ: Axon delivered one of the strongest defense-tech / public-safety AI prints, with revenue +34%, ARR +35%, AI revenue +700% and FY guidance raised.
+THEMES: Public safety, AI software, ARR, NRR, connected devices, counter-drone, Dedrone, bookings, international growth, FCF, defense-tech
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Improvement. Axon reported revenue of $807M, up 34% YoY and ahead of consensus, marking a ninth consecutive quarter above 30% growth. Adjusted EPS beat, ARR rose 35%, NRR was 125%, and future contracted bookings rose 44% to $14.3B.
+
+The key signal is AI monetization. AI product revenue rose more than 700% YoY, Axon Assistant surpassed 1M uses, and counter-drone / Dedrone bookings rose 500% YoY.
+
+FY2026 revenue guidance was raised to 30%-32% growth from 27%-30%, while the 2028 target of $6B revenue and 28% adjusted EBITDA margin was maintained.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$807M	$778M consensus	Beat	+34%	Not confirmed	Ninth straight quarter above 30% growth.
+EPS / Earnings	$1.61 adjusted EPS	$1.28-$1.60 consensus range	Beat	Not confirmed	Not confirmed	Wide consensus dispersion, but beat on most measures.
+Profitability / Margin	FY adj. EBITDA margin guide 25.5%; FCF ~$450M FY guide	Prior guide maintained	Positive	Not applicable	Not applicable	Growth with margin discipline.
+Guidance / Outlook	FY revenue growth 30%-32%; 2028 target $6B revenue / 28% EBITDA margin	Prior FY growth 27%-30%	Raised	Not applicable	Not applicable	Guidance upgrade supports acceleration.
+Market reaction	+1.38% AH	Not applicable	Positive but muted	Not applicable	Not applicable	Prior derating limited immediate move.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Revenue growth	+34%	Prior year	Strong	Sustained >30% growth.
+ARR	$1.5B	Prior year	+35%	High-quality recurring signal.
+NRR	125%	Not confirmed	Strong	Expansion within installed base.
+Future contracted bookings	$14.3B	Prior year	+44%	Long visibility.
+AI product revenue	>700% YoY	Prior year	Very strong	Most explicit AI monetization signal.
+Software & services revenue	$355M	Prior year	+35%	Higher-quality mix.
+Connected devices revenue	$453M	Prior year	+33%	Hardware still strong.
+Platform solutions	+95%	Prior year	Strong	Platform expansion.
+International revenue	20% of total	Prior year	+100%+	Global scaling.
+Dedrone bookings	+500% YoY	Prior year	Very strong	Counter-drone growth.
+Dedrone revenue	+300% YoY	Prior year	Strong	Defense-tech pull-through.
+FY revenue guide	+30%-32%	+27%-30% prior	Raised	Upward revisions likely.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean
+
+Adjustment issue:
+No material non-operating item identified in the supplied scout.
+
+PM interpretation:
+Use revenue growth, ARR, NRR, future contracted bookings, AI revenue and FY guidance as the clean measures. The strongest signal is AI product monetization, not one-quarter EPS.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: AI product revenue +700%, ARR +35% and bookings +44% show the business is compounding across software, devices and backlog.
+
+Lowest-quality signal: stock reaction was muted because the shares had already de-rated sharply over the prior six months, and expectations remain high.
+
+State transition: Improvement
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market had already reset the stock after a 30%+ drawdown, so even a strong print produced only a modest AH reaction. The fundamentals are stronger than the stock move implies. What needs to happen next is sustained AI revenue, international growth and proof that Dedrone can scale without margin dilution.
+
+Stock identity:
+High-growth compounder, quality compounder, expensive but deliverable, defense-tech optionality stock. Axon remains a rare public-safety technology compounder with explicit AI monetization.
+
+KEY ISSUES TO MONITOR
+
+AI revenue / Why it matters: +700% is the central monetization proof point.
+ARR / NRR / Why it matters: Recurring expansion validates software quality.
+Future bookings / Why it matters: $14.3B backlog extends visibility.
+Dedrone / counter-drone / Why it matters: Defense-tech optionality is accelerating.
+2028 targets / Why it matters: $6B revenue and 28% EBITDA margin anchor the long-term multiple.
+
+BOTTOM LINE
+
+Axon delivered a strong improvement print.
+Revenue, ARR, bookings and AI revenue all accelerated.
+FY revenue guidance was raised.
+The muted stock reaction reflects prior derating, not weak fundamentals.
+This is one of the cleanest defense-tech / AI monetization stories in the cohort.
+
+<<AXON_EARNINGS_END>>
+
+<<ALB_EARNINGS_BEGIN>>
+TICKER: ALB
+COMPANY: Albemarle Corporation
+SECTOR: Materials
+SUBSECTOR: Lithium / Energy Storage / Specialty Chemicals
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-06
+EVENT: Q1 2026
+STATE_TRANSITION: Reversal
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose roughly 8%-11.5% as investors rewarded a very large EPS beat, EBITDA +148%, lithium price recovery and debt reduction.
+PM_READ: Albemarle delivered the clearest EV-commodity cycle reversal of the season, with lithium price +51%, Energy Storage margin expansion and a major balance-sheet reset.
+THEMES: Lithium, EV cycle, energy storage, lithium pricing, supply tightening, Zimbabwe export ban, China mine suspensions, EBITDA recovery, debt reduction, FCF
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Reversal. Albemarle reported revenue of $1.43B, up 33% YoY and more than 7% above consensus, with adjusted EPS of $2.95 beating consensus by 125%-175% depending on source.
+
+The key signal is lithium price and margin recovery. Energy Storage net sales rose 70%, volumes rose 14%, price rose 51%, adjusted EBITDA rose 196%, and segment margin expanded to 62% from 36%.
+
+This is no longer a forecasted lithium recovery; Q1 provides hard data that the 2024-2025 trough has reversed. The bear case now shifts to whether H2 supply response rebuilds surplus.
+
+HEADLINE EARNINGS TABLE
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$1.43B	$1.32B-$1.34B consensus	Beat	+33%	Not confirmed	Clear top-line recovery.
+EPS / Earnings	$2.95 adjusted EPS	$1.07-$1.31 consensus range	Very large beat	Not confirmed	Not confirmed	Largest surprise in the cohort.
+Profitability / Margin	Adj. EBITDA $664M; Energy Storage margin 62%	EBITDA consensus $468M; Energy Storage margin 36% prior	Large beat	EBITDA +148%	Not confirmed	Lithium price and volume both positive.
+Guidance / Outlook	Specialties FY sales $1.3B-$1.5B; EBITDA $225M-$275M	Prior guide lower	Raised	Not applicable	Not applicable	Specialty guide improved.
+Market reaction	+8% to +11.49%	Not applicable	Positive	Not applicable	Not applicable	Market priced lithium-cycle reversal.
+
+SECTOR KPI TABLE
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Revenue	$1.43B	$1.32B-$1.34B consensus	+7%+ beat	Strong recovery.
+Adjusted EPS	$2.95	$1.07-$1.31 consensus	+125%-175% beat	Massive surprise.
+Net income	$319M	$41M prior year	+672%	Earnings inflection.
+Adjusted EBITDA	$664M	$468M consensus	+42% beat	Strong operating leverage.
+Energy Storage sales	$891M	Prior year	+70%	Core lithium recovery.
+Energy Storage volume	+14%	Prior year	Positive	Demand improving.
+Energy Storage price	+51%	Prior year	Strong	Lithium pricing inflected.
+Energy Storage EBITDA	$551M	Prior year	+196%	Margin expansion.
+Energy Storage margin	62%	36% prior year	+26pp	Best quality signal.
+Average lithium price	$17/kg	Prior lower	Recovery	Confirms market tightening.
+Operating cash flow	$346M	Not confirmed	Positive	Cash generation back.
+FCF	$248M	Not confirmed	Positive	Balance sheet support.
+Debt repayment	$1.3B	Not applicable	Positive	Major deleveraging.
+Liquidity	$2.7B	Not confirmed	Strong	Balance sheet stabilized.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean
+
+Adjustment issue:
+No major non-operating earnings distortion identified. Divestiture proceeds of $648M were used for balance-sheet repair and should not be confused with operating EBITDA recovery.
+
+PM interpretation:
+Use Energy Storage volume, lithium price, adjusted EBITDA, FCF and debt repayment as the clean metrics. The operating improvement is real because price and volume moved together.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: Energy Storage price +51% and volume +14% simultaneously. That combination signals cycle reversal rather than cost-only recovery.
+
+Lowest-quality signal: lithium supply remains contested. Goldman’s surplus thesis versus Morgan Stanley’s deficit thesis is still the institutional debate for H2 2026.
+
+State transition: Reversal
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing Albemarle as a cyclical trough name with uncertain timing. Q1 forced a reset because EBITDA, EPS, lithium price and debt reduction all moved in the right direction. The reaction makes sense. The next test is whether lithium pricing holds as supply responds.
+
+Stock identity:
+Cyclical value, turnaround, secular growth at a cyclical multiple. The print shifts ALB from value-trap risk toward cyclical recovery, but the stock remains lithium-price sensitive.
+
+KEY ISSUES TO MONITOR
+
+Lithium price / Why it matters: +51% pricing is the entire reversal signal.
+Energy Storage margin / Why it matters: 62% margin shows powerful operating leverage.
+Supply response / Why it matters: H2 surplus risk remains the bear case.
+Debt reduction / Why it matters: $1.3B repayment reduces balance-sheet stress.
+China / Zimbabwe supply policy / Why it matters: Export bans and mine suspensions tightened the market.
+
+BOTTOM LINE
+
+Albemarle delivered a clear reversal print.
+EPS and EBITDA beats were very large.
+Lithium price recovery is now visible in reported numbers.
+Energy Storage margins expanded by roughly 26pp.
+The cycle has turned, but H2 supply response remains the key risk.
+
+<<ALB_EARNINGS_END>>
