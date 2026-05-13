@@ -14718,8 +14718,7 @@ Investment spending limits near-term margin, but the market accepted it.
 Improvement: the local-commerce flywheel is accelerating.
 
 <<DASH_EARNINGS_END>>
- 
- <<APP_EARNINGS_BEGIN>>
+<<APP_EARNINGS_BEGIN>>
 TICKER: APP
 COMPANY: AppLovin Corporation
 SECTOR: Information Technology
@@ -14735,73 +14734,143 @@ PM_READ: AppLovin delivered the strongest ad-tech print of the season, with cons
 THEMES: AI ad-tech, Axon, consumer vertical, e-commerce ads, self-serve launch, EBITDA margin, FCF, buybacks, ROAS, creative AI, CTV optionality
 SEGMENT_TABLE_STATUS: Partial
 SOURCE_ROLE: Full note
+
 EXEC SUMMARY
+
 Improvement. AppLovin delivered revenue of $1.84B, up 59% YoY and 11% QoQ, above consensus, with adjusted EPS of $3.56 and adjusted EBITDA of $1.56B at a record 85% margin. The operating model is unusual: hypergrowth revenue with software-like margin expansion and very high FCF conversion.
+
 The key signal is the consumer vertical. March advertiser spend was up 25% versus January, April reached an all-time monthly high above all prior Q4 peaks, and management linked the acceleration to a material model release that improved ROAS. That makes the consumer vertical look less like a one-off extension and more like a second Axon-style compounding layer.
+
 PM read: the Q1 print is already strong, but the June 2026 Axon public launch is the next structural catalyst. AppLovin is moving from closed advertiser access to global self-serve, potentially expanding from a roughly $15B historical pool toward a much larger e-commerce / digital advertising TAM.
+
 HEADLINE EARNINGS TABLE
-MetricActualConsensus / PriorBeat / MissYoYQoQPM CommentRevenue / Sales$1.84B$1.77B-$1.78B consensusBeat+59%+11%Strongest ad-tech growth signal in the batch.EPS / Earnings$3.56 adjusted EPS$3.40-$3.44 consensusBeatNot confirmedNot confirmedEPS beat confirms operating leverage.Profitability / MarginAdj. EBITDA $1.56B; margin 85%; FCF $1.29BPrior EBITDA lower; FCF elevated by tax timingBeatEBITDA +66%; margin +400bpsNot confirmed85% EBITDA margin is the standout quality signal.Guidance / OutlookQ2 revenue $1.915B-$1.945B; adj. EBITDA $1.615B-$1.645BPrior consensus lowerBeat / raised tone+52% to +55% revenue guide+4% to +6% revenue guideForward growth remains exceptional despite scale.Market reaction+6.4% since earnings releaseNot applicablePositiveNot applicableNot applicableMarket increasingly priced June Axon launch after call details.
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$1.84B	$1.77B-$1.78B consensus	Beat	+59%	+11%	Strongest ad-tech growth signal in the batch.
+EPS / Earnings	$3.56 adjusted EPS	$3.40-$3.44 consensus	Beat	Not confirmed	Not confirmed	EPS beat confirms operating leverage.
+Profitability / Margin	Adj. EBITDA $1.56B; margin 85%; FCF $1.29B	Prior EBITDA lower; FCF elevated by tax timing	Beat	EBITDA +66%; margin +400bps	Not confirmed	85% EBITDA margin is the standout quality signal.
+Guidance / Outlook	Q2 revenue $1.915B-$1.945B; adj. EBITDA $1.615B-$1.645B	Prior consensus lower	Beat / raised tone	+52% to +55% revenue guide	+4% to +6% revenue guide	Forward growth remains exceptional despite scale.
+Market reaction	+6.4% since earnings release	Not applicable	Positive	Not applicable	Not applicable	Market increasingly priced June Axon launch after call details.
+
 SECTOR KPI TABLE
-KPIActualPrior / BenchmarkChangePM CommentRevenue growth+59% YoYQ1 2025StrongHypergrowth at scale.QoQ revenue growth+11%Q4 2025PositiveSequential acceleration still present.Adjusted EBITDA$1.56BPrior year lower+66% YoYRecord profitability.Adjusted EBITDA margin85%Prior year+400bpsExceptional ad-tech margin profile.FCF$1.29BTax timing elevatedStrongNormalized FY conversion around 75% of EBITDA.Net income$1.2BPrior yearRoughly doubledGAAP quality solid.Buybacks$1B / 2.23M sharesNot applicableStrongCapital return absorbs dilution.Remaining authorization$2.3BPrior authorizationAvailableSupports equity story.Q2 revenue guide midpoint$1.93BPrior consensus lowerBeatConfirms growth durability.Q2 EBITDA guide midpoint$1.63BPrior consensus lowerBeatMargin stays around 84%-85%.Consumer vertical March spend+25% vs JanuaryJanuary 2026AccelerationROAS model release working.Consumer vertical April spendAll-time monthly highPrior Q4 peaksSurpassedStrongest forward signal.
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Revenue growth	+59% YoY	Q1 2025	Strong	Hypergrowth at scale.
+QoQ revenue growth	+11%	Q4 2025	Positive	Sequential acceleration still present.
+Adjusted EBITDA	$1.56B	Prior year lower	+66% YoY	Record profitability.
+Adjusted EBITDA margin	85%	Prior year	+400bps	Exceptional ad-tech margin profile.
+FCF	$1.29B	Tax timing elevated	Strong	Normalized FY conversion around 75% of EBITDA.
+Net income	$1.2B	Prior year	Roughly doubled	GAAP quality solid.
+Buybacks	$1B / 2.23M shares	Not applicable	Strong	Capital return absorbs dilution.
+Remaining authorization	$2.3B	Prior authorization	Available	Supports equity story.
+Q2 revenue guide midpoint	$1.93B	Prior consensus lower	Beat	Confirms growth durability.
+Q2 EBITDA guide midpoint	$1.63B	Prior consensus lower	Beat	Margin stays around 84%-85%.
+Consumer vertical March spend	+25% vs January	January 2026	Acceleration	ROAS model release working.
+Consumer vertical April spend	All-time monthly high	Prior Q4 peaks	Surpassed	Strongest forward signal.
+
 OFFICIAL EARNINGS DETAIL
+
 Revenue / Sales:
 Revenue was $1.84B, up 59% YoY and 11% QoQ, beating public consensus of roughly $1.77B-$1.78B by about 3.9%.
+
 Consensus:
 Revenue consensus was approximately $1.77B-$1.78B. Adjusted EPS consensus was approximately $3.40-$3.44.
+
 EPS / Earnings:
 Adjusted EPS was $3.56, above consensus by roughly 4%-5%. Net income was $1.2B, roughly doubled YoY.
+
 Profitability / Margins:
 Adjusted EBITDA was $1.56B, up 66% YoY, at a record 85% margin, up roughly 400bps YoY. FCF was $1.29B, elevated by tax timing, with FY2026 normalized conversion expected around 75% of EBITDA.
+
 Key KPI:
 Consumer vertical advertiser spend accelerated sharply: March +25% versus January, and April reached an all-time monthly high, above prior Q4 peaks.
+
 Guidance headline:
 Q2 revenue was guided to $1.915B-$1.945B, implying roughly +52% to +55% YoY and +4% to +6% QoQ. Q2 adjusted EBITDA was guided to $1.615B-$1.645B, implying 84%-85% margin.
+
 Capital allocation:
 AppLovin repurchased $1B of stock in Q1, equal to 2.23M shares, and had $2.3B remaining under authorization.
+
 ACCOUNTING / EPS QUALITY CHECK
+
 Reported earnings quality:
 Clean
+
 Adjustment issue:
 No material non-operating income item identified. FCF was elevated by tax timing, so run-rate FCF should be normalized around management’s FY conversion framework.
+
 PM interpretation:
 Use revenue growth, consumer vertical spend, adjusted EBITDA margin, normalized FCF conversion and buybacks as the clean measures. GAAP earnings quality is not the problem; sustainability of consumer vertical growth and June Axon execution are the key debates.
+
 SEGMENT / BUSINESS BREAKDOWN
+
 SEGMENT TABLE
-Segment% of TotalRevenueYoY GrowthMargin TrendKey CommentaryCore Axon / gaming advertisingCoreNot separately disclosedStrongVery high marginOriginal engine remains healthy.Consumer vertical / e-commerce adsEmerging major driverNot disclosedRapid accelerationStrong ROAS-drivenApril all-time high above Q4 peaks.Axon self-serve public launchFuture growth layerNot applicableLaunch in June 2026Potentially highly accretiveOpens platform to global advertisers.Creative AI toolsEmbeddedNot disclosedAdoption risingCosts pass-throughInteractive page generator adopted; video tool rolling out.CTVFuture optionalityNot meaningfulNot 2026 priorityNot meaningfulLong-term TAM extension, not near-term catalyst.
+
+Segment	% of Total	Revenue	YoY Growth	Margin Trend	Key Commentary
+Core Axon / gaming advertising	Core	Not separately disclosed	Strong	Very high margin	Original engine remains healthy.
+Consumer vertical / e-commerce ads	Emerging major driver	Not disclosed	Rapid acceleration	Strong ROAS-driven	April all-time high above Q4 peaks.
+Axon self-serve public launch	Future growth layer	Not applicable	Launch in June 2026	Potentially highly accretive	Opens platform to global advertisers.
+Creative AI tools	Embedded	Not disclosed	Adoption rising	Costs pass-through	Interactive page generator adopted; video tool rolling out.
+CTV	Future optionality	Not meaningful	Not 2026 priority	Not meaningful	Long-term TAM extension, not near-term catalyst.
+
 GUIDANCE / CAPITAL ALLOCATION
+
 Q2 guidance confirms the business is not decelerating meaningfully despite very large absolute scale. Revenue is guided above prior consensus and EBITDA margin remains in the mid-80s, which is the reason investors can underwrite a premium multiple.
+
 Revision direction: upward revisions. Analysts should raise Q2 / FY revenue and EBITDA expectations, and may begin embedding incremental self-serve Axon contribution after the June launch. FCF revisions should normalize for tax timing.
+
 PROFESSIONAL MARKET COMMENTARY
+
 The market cared less about the headline beat than about the forward architecture. AppLovin is already growing revenue at +59% with an 85% EBITDA margin; the incremental question is whether consumer vertical and public Axon access create another multi-quarter growth runway.
+
 Management tone also mattered. Foroughi avoided defending the stock or addressing short-seller noise and instead framed the company as entering its best forward setup. That tone shift matters because prior debates often centered on sustainability and credibility.
+
 The delayed stock reaction is also relevant. The initial move was not explosive, but the stock strengthened as investors processed the call detail on consumer vertical acceleration and the June public launch. That suggests more fundamental absorption than pure headline momentum.
+
 COMMENT — ANALYST LAYER
+
 The highest-quality signal is the consumer vertical surpassing prior Q4 peaks in April. For an advertising business, beating seasonal Q4 peaks in April suggests structural ROAS improvement rather than normal seasonality.
+
 The lowest-quality / most fragile signal is the $7B first-year cohort math around self-serve Axon. It is useful as a TAM illustration, not a forecast. Execution friction, advertiser onboarding, fraud / quality control and attribution must be monitored after launch.
+
 Analysts are likely to raise revenue, EBITDA and TAM confidence assumptions, but may keep some valuation discount for execution risk around self-serve launch and regulatory / short-seller overhang.
+
 State transition: Improvement
+
 CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
 The prior debate was whether AppLovin’s AI ad engine could extend beyond gaming into consumer / e-commerce at scale. Q1 says yes, with consumer spend accelerating after model releases and April exceeding prior Q4 peaks. The next debate is whether the June self-serve Axon launch can broaden the platform without diluting ROAS quality or margin.
+
 HF TAKE — STRATEGIST LAYER
+
 Print reaction function:
 The market was pricing a very strong business but still debating sustainability and valuation. Q1 raised the bar because consumer vertical acceleration, Q2 guidance and 85% EBITDA margin all reinforced the bull case. The +6.4% sustained gain makes sense because the real catalyst is forward: June Axon self-serve. What needs to happen next is clean launch execution, evidence of broad advertiser adoption and no degradation in ROAS. What would break the thesis is if self-serve growth brings low-quality spend, fraud, lower conversion, or margin leakage.
+
 Stock identity:
 High-growth compounder, expensive but deliverable, beat-and-raise machine, setup-risk stock. The print reinforces AppLovin as one of the rare growth names with both hypergrowth and extreme margin. It remains setup-risk because expectations, valuation and controversy risk are high.
+
 MARKET REACTION / PEER READ-ACROSS
+
 Shares rose as investors increasingly absorbed that AppLovin is not just beating on Q1 but potentially opening a much larger advertiser funnel in June. Read-across is positive for AI-driven ad targeting, performance marketing and ad-tech names with measurable ROAS. It is less directly positive for traditional brand-ad platforms that lack AppLovin’s performance loop.
+
 KEY ISSUES TO MONITOR
+
 June Axon self-serve launch / Why it matters: This is the next structural catalyst and determines whether TAM expansion becomes real.
 Consumer vertical spend / Why it matters: April above prior Q4 peaks is the strongest forward growth signal.
 ROAS durability / Why it matters: Advertiser budgets scale only if returns remain measurable.
 EBITDA margin / Why it matters: 85% margin is central to the valuation premium.
 FCF normalization / Why it matters: Q1 FCF was tax-timing elevated, so run-rate conversion must be monitored.
+
 BOTTOM LINE
+
 AppLovin delivered the strongest ad-tech print of the season.
 Revenue +59% with 85% EBITDA margin is exceptional.
 The consumer vertical is accelerating after model releases.
 June Axon public launch is the next major catalyst.
 Improvement: the business is expanding from a closed high-margin engine into a broader self-serve performance platform.
+
 <<APP_EARNINGS_END>>
+
 <<WBD_EARNINGS_BEGIN>>
 TICKER: WBD
 COMPANY: Warner Bros. Discovery, Inc.
@@ -14818,73 +14887,144 @@ PM_READ: WBD’s adjusted EBITDA and streaming subscriber progress are stabilizi
 THEMES: Streaming transition, EBITDA beat, Netflix termination fee, Paramount Skydance merger, leverage, FCF, NBA advertising headwind, studio recovery, Harry Potter, disclosure quality
 SEGMENT_TABLE_STATUS: Partial
 SOURCE_ROLE: Full note
+
 EXEC SUMMARY
+
 Stabilization. WBD reported revenue of $8.89B, essentially flat YoY and in line with consensus, but GAAP EPS of -$1.17 was massively distorted by a $2.8B Netflix termination fee and $1.3B of acquisition-related amortization / restructuring charges. The cleaner operating metric was adjusted EBITDA of $2.20B, ahead of consensus by roughly 12%.
+
 The business is not collapsing: streaming subscribers exceeded 140M globally, up 14% YoY, and management expects to finish 2026 above 150M. Studios also have a stronger creative slate, including 11 Academy Awards and the future Harry Potter series. But FCF was negative $476M, advertising declined and leverage remains the structural constraint.
+
 PM read: the market correctly ignored the GAAP EPS catastrophe, but it also refused to reward the EBITDA beat because WBD still has not shown the cash-flow bridge needed for deleveraging and streaming transition credibility.
+
 HEADLINE EARNINGS TABLE
-MetricActualConsensus / PriorBeat / MissYoYQoQPM CommentRevenue / Sales$8.89B~$8.89B consensusIn line / slight beatFlatNot confirmedRevenue stability, not growth.EPS / Earnings-$1.17 GAAP EPS-$0.09 to -$0.11 consensus rangeLarge reported missNot meaningfulNot confirmedEPS distorted by $2.8B Netflix termination fee.Profitability / MarginAdj. EBITDA $2.20B; operating margin -27.8%; FCF -$476MAdj. EBITDA $1.97B consensus; FCF +$302M prior yearEBITDA beat; FCF negativeEBITDA positive; FCF worseNot confirmedEBITDA is signal; FCF remains structural issue.Guidance / Outlook>150M global subscribers by FY2026; WB Studios target ≥$3B adj. EBITDA in 2027>140M current subscribersPositive subscriber guideNot applicableNot applicableStreaming scale improving but disclosure reduced.Market reactionApprox. flat / -0.29%Not applicableNeutralNot applicableNot applicableMarket parsed GAAP noise but stayed cautious.
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$8.89B	~$8.89B consensus	In line / slight beat	Flat	Not confirmed	Revenue stability, not growth.
+EPS / Earnings	-$1.17 GAAP EPS	-$0.09 to -$0.11 consensus range	Large reported miss	Not meaningful	Not confirmed	EPS distorted by $2.8B Netflix termination fee.
+Profitability / Margin	Adj. EBITDA $2.20B; operating margin -27.8%; FCF -$476M	Adj. EBITDA $1.97B consensus; FCF +$302M prior year	EBITDA beat; FCF negative	EBITDA positive; FCF worse	Not confirmed	EBITDA is signal; FCF remains structural issue.
+Guidance / Outlook	>150M global subscribers by FY2026; WB Studios target ≥$3B adj. EBITDA in 2027	>140M current subscribers	Positive subscriber guide	Not applicable	Not applicable	Streaming scale improving but disclosure reduced.
+Market reaction	Approx. flat / -0.29%	Not applicable	Neutral	Not applicable	Not applicable	Market parsed GAAP noise but stayed cautious.
+
 SECTOR KPI TABLE
-KPIActualPrior / BenchmarkChangePM CommentTotal revenue$8.89BConsensus ~$8.89BIn lineStable but not growth.GAAP EPS-$1.17-$0.09 to -$0.11 consensusMissDistorted by termination fee.Adjusted EBITDA$2.20B$1.97B consensus+11.8% beatCleaner operating metric.FCF-$476M+$302M prior yearDeteriorationCash-flow bridge still weak.Global streaming subscribers>140MPrior year+14%Streaming scale improving.FY subscriber target>150MCurrent >140MPositiveManagement confident on scale.Advertising revenue$1.85BPrior year-8% ex-FXNBA absence and linear pressure.NBA absence impact-7pp ad revenue impactNot applicableNegativeMajor programming headwind.Distribution revenueNot confirmedPrior year-1% ex-FXLinear still pressured.Netflix termination fee$2.8BNot applicableNon-operating / transactionExplains GAAP loss.Merger / restructuring / amortization charges$1.3B pre-taxNot applicableNegativeAdditional earnings distortion.Studios 2027 EBITDA target≥$3BCurrent lowerPositive targetRequires slate execution.
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Total revenue	$8.89B	Consensus ~$8.89B	In line	Stable but not growth.
+GAAP EPS	-$1.17	-$0.09 to -$0.11 consensus	Miss	Distorted by termination fee.
+Adjusted EBITDA	$2.20B	$1.97B consensus	+11.8% beat	Cleaner operating metric.
+FCF	-$476M	+$302M prior year	Deterioration	Cash-flow bridge still weak.
+Global streaming subscribers	>140M	Prior year	+14%	Streaming scale improving.
+FY subscriber target	>150M	Current >140M	Positive	Management confident on scale.
+Advertising revenue	$1.85B	Prior year	-8% ex-FX	NBA absence and linear pressure.
+NBA absence impact	-7pp ad revenue impact	Not applicable	Negative	Major programming headwind.
+Distribution revenue	Not confirmed	Prior year	-1% ex-FX	Linear still pressured.
+Netflix termination fee	$2.8B	Not applicable	Non-operating / transaction	Explains GAAP loss.
+Merger / restructuring / amortization charges	$1.3B pre-tax	Not applicable	Negative	Additional earnings distortion.
+Studios 2027 EBITDA target	≥$3B	Current lower	Positive target	Requires slate execution.
+
 OFFICIAL EARNINGS DETAIL
+
 Revenue / Sales:
 Revenue was $8.89B, essentially flat YoY and approximately in line with consensus.
+
 Consensus:
 Revenue consensus was roughly $8.89B. GAAP EPS consensus ranged around -$0.09 to -$0.11. Adjusted EBITDA consensus was approximately $1.97B.
+
 EPS / Earnings:
 GAAP EPS was -$1.17, a large miss versus consensus, but the result was heavily distorted by a $2.8B Netflix termination fee tied to the pending Paramount Skydance transaction and $1.3B of pre-tax amortization / restructuring charges.
+
 Profitability / Margins:
 Adjusted EBITDA was $2.20B, beating consensus by roughly 11.8%. Operating margin was -27.8% on a GAAP basis because of transaction-related costs. FCF was -$476M versus +$302M prior year.
+
 Key KPI:
 Global streaming subscribers exceeded 140M, up 14% YoY, with management guiding to more than 150M by year-end 2026.
+
 Guidance headline:
 FY2026 subscriber target above 150M. WB Studios targets at least $3B of annual adjusted EBITDA from an 18-film slate in 2027.
+
 Capital allocation:
 Capital allocation remains constrained by high leverage and negative FCF. Deleveraging remains the central investor requirement.
+
 ACCOUNTING / EPS QUALITY CHECK
+
 Reported earnings quality:
 Distorted
+
 Adjustment issue:
 GAAP EPS was distorted by the $2.8B Netflix termination fee linked to the pending Paramount Skydance merger, plus $1.3B of pre-tax acquisition-related amortization and restructuring charges.
+
 PM interpretation:
 Use adjusted EBITDA, FCF, streaming subscriber growth, advertising revenue, and leverage metrics as the cleaner measures. GAAP EPS is not the operative measure this quarter.
+
 SEGMENT / BUSINESS BREAKDOWN
+
 SEGMENT TABLE
-Segment% of TotalRevenueYoY GrowthMargin TrendKey CommentaryStreaming / DTCCore transition assetNot separately disclosedSubscribers +14%Improving scale>140M subscribers; >150M FY target.Linear networksLegacy coreNot confirmedAdvertising -8% ex-FXPressuredNBA absence and audience declines hurt ads.StudiosCore IP engineNot confirmedNot confirmedImproving slate11 Oscars; 2027 ≥$3B EBITDA target.AdvertisingRevenue line$1.85B-8% ex-FXWeakNBA absence cost about 7pp.DistributionRevenue lineNot confirmed-1% ex-FXSoftLinear pressure continues.Merger / transaction cost layerNot operating$2.8B feeNot meaningfulGAAP distortionParamount / Netflix-related termination fee.
+
+Segment	% of Total	Revenue	YoY Growth	Margin Trend	Key Commentary
+Streaming / DTC	Core transition asset	Not separately disclosed	Subscribers +14%	Improving scale	>140M subscribers; >150M FY target.
+Linear networks	Legacy core	Not confirmed	Advertising -8% ex-FX	Pressured	NBA absence and audience declines hurt ads.
+Studios	Core IP engine	Not confirmed	Not confirmed	Improving slate	11 Oscars; 2027 ≥$3B EBITDA target.
+Advertising	Revenue line	$1.85B	-8% ex-FX	Weak	NBA absence cost about 7pp.
+Distribution	Revenue line	Not confirmed	-1% ex-FX	Soft	Linear pressure continues.
+Merger / transaction cost layer	Not operating	$2.8B fee	Not meaningful	GAAP distortion	Paramount / Netflix-related termination fee.
+
 GUIDANCE / CAPITAL ALLOCATION
+
 Guidance is constructive on streaming subscribers and longer-term studio EBITDA, but the financial bridge is still incomplete because FCF remains negative and leverage remains high. The decision to stop reporting granular streaming metrics / ARPU reduces visibility at an important transition point.
+
 Revision direction: revision direction not clear. Adjusted EBITDA assumptions may move up, but FCF / leverage models and EPS quality adjustments likely offset. Streaming subscriber models may rise, but disclosure quality may get a discount.
+
 PROFESSIONAL MARKET COMMENTARY
+
 The market treated the GAAP EPS loss as noise because it was transaction-driven. The stock did not collapse despite the enormous reported EPS miss, which shows investors understood the accounting distortion.
+
 But WBD also did not rally on the EBITDA beat because the key institutional issue is FCF and leverage. Adjusted EBITDA can beat, but if FCF is negative, deleveraging remains delayed and the equity multiple stays capped.
+
 The reduced streaming disclosure is a governance / transparency issue. At the moment WBD wants investors to believe in streaming scale, it is giving them less granular subscriber / ARPU detail.
+
 COMMENT — ANALYST LAYER
+
 The highest-quality signal is adjusted EBITDA beating consensus by almost 12% while streaming subscribers grew to more than 140M. That shows the operating base is stabilizing.
+
 The lowest-quality signal is GAAP EPS, which is distorted, but the most important negative signal is FCF deterioration. Negative FCF is the real constraint for a highly levered media company.
+
 Analysts may raise EBITDA estimates modestly but remain cautious on FCF, leverage, merger risk and streaming-disclosure quality. Consensus is unlikely to re-rate the stock until cash flow improves.
+
 State transition: Stabilization
+
 CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
 The prior debate was whether WBD could transition from linear decline to streaming scale while reducing leverage. Q1 shows operational stabilization but not enough cash conversion. The debate remains whether streaming and studios can offset linear decay quickly enough to fix the balance sheet.
+
 HF TAKE — STRATEGIST LAYER
+
 Print reaction function:
 The market was pricing WBD as a high-leverage transition story with poor earnings visibility. The print did not worsen the thesis because the GAAP EPS miss was transaction noise and adjusted EBITDA beat. But it also did not fix the thesis because FCF stayed negative. What needs to happen next is sustained EBITDA, positive FCF, clearer merger path and deleveraging. What would break the thesis is continued FCF burn combined with regulatory delays or blocked merger economics.
+
 Stock identity:
 Turnaround, value trap risk, optionality stock. The print supports stabilization but not a full turnaround. WBD remains a high-leverage optionality name where the equity can work only if streaming scale, studio recovery and deleveraging align.
+
 MARKET REACTION / PEER READ-ACROSS
+
 The flat stock reaction was rational. The market looked through the GAAP loss but did not capitalize the EBITDA beat because cash flow and leverage remain unresolved. Read-across to media is mixed: streaming scale is possible, but legacy linear and transaction complexity continue to suppress equity value.
+
 KEY ISSUES TO MONITOR
+
 FCF recovery / Why it matters: Deleveraging requires cash, not just adjusted EBITDA.
 Streaming disclosure / Why it matters: Reduced subscriber / ARPU detail may lower investor confidence.
 Merger regulatory review / Why it matters: FCC scrutiny adds timing and deal-completion risk.
 Advertising ex-NBA / Why it matters: NBA absence created a major ad headwind.
 Harry Potter / studio slate / Why it matters: Studios need to deliver the ≥$3B 2027 EBITDA target.
+
 BOTTOM LINE
+
 WBD is not as bad as GAAP EPS suggests.
 The $2.8B Netflix termination fee makes the reported loss largely non-operating.
 Adjusted EBITDA and streaming subscribers are stabilizing.
 FCF, leverage and merger risk still dominate the equity story.
 Stabilization, not improvement.
+
 <<WBD_EARNINGS_END>>
+
 <<FTNT_EARNINGS_BEGIN>>
 TICKER: FTNT
 COMPANY: Fortinet, Inc.
@@ -14901,73 +15041,145 @@ PM_READ: Fortinet delivered a thesis-improving cybersecurity print, with billing
 THEMES: Cybersecurity, AI security, secure networking, SASE, OT security, FortiGate, billings, FCF, product revenue, Check Point divergence, AI data center security
 SEGMENT_TABLE_STATUS: Full
 SOURCE_ROLE: Full note
+
 EXEC SUMMARY
+
 Improvement. Fortinet reported revenue of $1.85B, up 20% YoY and nearly 7% above consensus, with non-GAAP EPS of $0.82, up 41% YoY and more than 30% above consensus. Billings rose 31%, product revenue rose 41%, and FCF reached a record $1.01B.
+
 The most important sector signal is competitive divergence. Secure Networking billings grew 32% even as Check Point had reported deceleration, implying Fortinet is gaining share rather than simply benefiting from sector growth. OT billings +70% and AI-driven security operations billings +23% show AI is expanding cybersecurity demand.
+
 PM read: this is a genuine upgrade to the growth trajectory. The market reaction was not just a relief rally; it repriced Fortinet as an AI-security and platform-convergence winner with unusually strong cash conversion.
+
 HEADLINE EARNINGS TABLE
-MetricActualConsensus / PriorBeat / MissYoYQoQPM CommentRevenue / Sales$1.85B$1.73B consensusBeat+20%Not confirmedRevenue beat broad-based.EPS / Earnings$0.82 non-GAAP EPS; $0.72 GAAP EPS$0.61-$0.62 consensusLarge beatNon-GAAP +41%; GAAP +29%Not confirmedEPS beat of 32%-34% is the re-rating catalyst.Profitability / MarginNon-GAAP op margin 35.8%; GAAP op margin 31.4%; FCF $1.01BPrior-year margin lowerBeatMargin +160bps; FCF recordNot confirmedProfitability and cash flow both strong.Guidance / OutlookFY revenue $7.71B-$7.87B; FY billings $8.8B-$9.1B; FY EPS $3.10-$3.16FY EPS consensus around $2.91Raised / beatNot applicableNot applicableFY EPS guide >7% above consensus.Market reactionPositive; up to +16% AH in cited sourceNot applicablePositiveNot applicableNot applicableMarket repriced billings and EPS trajectory.
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$1.85B	$1.73B consensus	Beat	+20%	Not confirmed	Revenue beat broad-based.
+EPS / Earnings	$0.82 non-GAAP EPS; $0.72 GAAP EPS	$0.61-$0.62 consensus	Large beat	Non-GAAP +41%; GAAP +29%	Not confirmed	EPS beat of 32%-34% is the re-rating catalyst.
+Profitability / Margin	Non-GAAP op margin 35.8%; GAAP op margin 31.4%; FCF $1.01B	Prior-year margin lower	Beat	Margin +160bps; FCF record	Not confirmed	Profitability and cash flow both strong.
+Guidance / Outlook	FY revenue $7.71B-$7.87B; FY billings $8.8B-$9.1B; FY EPS $3.10-$3.16	FY EPS consensus around $2.91	Raised / beat	Not applicable	Not applicable	FY EPS guide >7% above consensus.
+Market reaction	Positive; up to +16% AH in cited source	Not applicable	Positive	Not applicable	Not applicable	Market repriced billings and EPS trajectory.
+
 SECTOR KPI TABLE
-KPIActualPrior / BenchmarkChangePM CommentRevenue$1.85B$1.73B consensus+6.9% beatStrong top-line surprise.Non-GAAP EPS$0.82$0.61-$0.62 consensus+32% to +34% beatBiggest quality signal.Billings$2.09BPrior year+31%Demand acceleration.Product revenue$645MPrior year+41%Hardware / platform cycle improving.Service revenue$1.21BPrior year+11%Recurring base healthy.Non-GAAP operating margin35.8%Prior year+160bpsRecord Q1 margin.Operating cash flow$1.08BPrior lowerRecordCash conversion excellent.FCF$1.01BPrior lowerRecord58% adjusted FCF margin.Adjusted FCF$1.07BNot confirmedStrongHigh-quality cash model.Secure Networking billings+32%Check Point decelerationOutperformanceSector share-gain signal.OT billings+70%Prior yearStrongFastest growth vector.AI security operations billings+23%Prior yearPositiveAI threat demand emerging.Large enterprise deal value>60% growthPrior yearStrongEnterprise traction.
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Revenue	$1.85B	$1.73B consensus	+6.9% beat	Strong top-line surprise.
+Non-GAAP EPS	$0.82	$0.61-$0.62 consensus	+32% to +34% beat	Biggest quality signal.
+Billings	$2.09B	Prior year	+31%	Demand acceleration.
+Product revenue	$645M	Prior year	+41%	Hardware / platform cycle improving.
+Service revenue	$1.21B	Prior year	+11%	Recurring base healthy.
+Non-GAAP operating margin	35.8%	Prior year	+160bps	Record Q1 margin.
+Operating cash flow	$1.08B	Prior lower	Record	Cash conversion excellent.
+FCF	$1.01B	Prior lower	Record	58% adjusted FCF margin.
+Adjusted FCF	$1.07B	Not confirmed	Strong	High-quality cash model.
+Secure Networking billings	+32%	Check Point deceleration	Outperformance	Sector share-gain signal.
+OT billings	+70%	Prior year	Strong	Fastest growth vector.
+AI security operations billings	+23%	Prior year	Positive	AI threat demand emerging.
+Large enterprise deal value	>60% growth	Prior year	Strong	Enterprise traction.
+
 OFFICIAL EARNINGS DETAIL
+
 Revenue / Sales:
 Revenue was $1.85B, up 20% YoY and above consensus of roughly $1.73B.
+
 Consensus:
 Revenue consensus was around $1.73B. Non-GAAP EPS consensus was around $0.61-$0.62. FY non-GAAP EPS consensus was around $2.91.
+
 EPS / Earnings:
 Non-GAAP EPS was $0.82, up 41% YoY and 32%-34% above consensus. GAAP EPS was $0.72, up 29% YoY.
+
 Profitability / Margins:
 Non-GAAP operating margin was 35.8%, a record Q1 margin and up 160bps YoY. GAAP operating margin was 31.4%. Operating cash flow was a record $1.08B and FCF was a record $1.01B.
+
 Key KPI:
 Billings rose 31% YoY, Secure Networking billings rose 32%, OT billings rose 70%, and AI-driven security operations billings rose 23%.
+
 Guidance headline:
 FY2026 billings guidance was raised to $8.8B-$9.1B. FY revenue guidance was $7.71B-$7.87B. FY non-GAAP EPS guidance was $3.10-$3.16, above consensus around $2.91. Q2 EPS guidance of $0.72-$0.76 was also above consensus around $0.68.
+
 Capital allocation:
 FCF generation is the main capital-allocation signal. The scout also notes roughly $10B returned to shareholders via buybacks since the 2009 IPO.
+
 ACCOUNTING / EPS QUALITY CHECK
+
 Reported earnings quality:
 Clean
+
 Adjustment issue:
 No material non-operating item identified.
+
 PM interpretation:
 Use billings, product revenue, Secure Networking growth, OT billings, non-GAAP EPS, operating margin and FCF as the clean operating measures. The print is not driven by accounting distortion.
+
 SEGMENT / BUSINESS BREAKDOWN
+
 SEGMENT TABLE
-Segment% of TotalRevenueYoY GrowthMargin TrendKey CommentaryProduct~35% of revenue$645M+41%StrongProduct cycle materially accelerated.Service~65% of revenue$1.21B+11%StableRecurring base supports durability.Secure NetworkingBillings categoryNot disclosed+32% billingsStrongShare gains vs Check Point read-across.OT SecurityGrowth verticalNot disclosed+70% billingsStrongCritical infrastructure demand accelerating.AI Security OperationsGrowth verticalNot disclosed+23% billingsPositiveAI threat intensification supports demand.SASE / SD-WANPlatform expansionNot disclosedGrowingPositiveLarge enterprise adoption rising.
+
+Segment	% of Total	Revenue	YoY Growth	Margin Trend	Key Commentary
+Product	~35% of revenue	$645M	+41%	Strong	Product cycle materially accelerated.
+Service	~65% of revenue	$1.21B	+11%	Stable	Recurring base supports durability.
+Secure Networking	Billings category	Not disclosed	+32% billings	Strong	Share gains vs Check Point read-across.
+OT Security	Growth vertical	Not disclosed	+70% billings	Strong	Critical infrastructure demand accelerating.
+AI Security Operations	Growth vertical	Not disclosed	+23% billings	Positive	AI threat intensification supports demand.
+SASE / SD-WAN	Platform expansion	Not disclosed	Growing	Positive	Large enterprise adoption rising.
+
 GUIDANCE / CAPITAL ALLOCATION
+
 Fortinet raised FY billings, revenue and EPS guidance, with FY EPS guidance more than 7% above consensus. This transforms Q1 from a one-quarter beat into a forward model reset.
+
 Revision direction: upward revisions. Analysts should raise FY EPS, billings and FCF estimates, with a more positive mix assumption for product revenue and Secure Networking share gains.
+
 PROFESSIONAL MARKET COMMENTARY
+
 The market cared about the magnitude of the EPS beat and the billings acceleration. A 32%-34% EPS beat combined with +31% billings and a raised FY EPS guide is enough to force a real model reset.
+
 The most important sector read-across was JPMorgan’s question on Check Point divergence. Fortinet growing Secure Networking billings +32% while a peer decelerates implies share gain and platform displacement, not simply an improving market.
+
 AI is now part of the cybersecurity demand function. Management explicitly linked AI to more complex threats, OT billings rose 70%, and FortiGate G-series targets AI data-center security workloads.
+
 COMMENT — ANALYST LAYER
+
 The highest-quality signal is billings +31% with product revenue +41%. This confirms that demand is not just renewal-driven; product adoption and new workloads are accelerating.
+
 The lowest-quality or most fragile signal is valuation absorption. RBC staying Sector Perform despite the print shows some investors may see the business as high quality but not cheap.
+
 Analysts will likely raise billings, EPS, FCF and product revenue estimates. Consensus was too low on operating leverage and product-cycle strength.
+
 State transition: Improvement
+
 CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
 The prior debate was whether firewall / secure networking growth was decelerating across the sector. Q1 says Fortinet is not participating in that slowdown; it appears to be gaining share. The debate now shifts to whether AI security and OT can sustain an upgraded growth rate through FY2026.
+
 HF TAKE — STRATEGIST LAYER
+
 Print reaction function:
 The market was pricing a quality cybersecurity name but not a 30%+ EPS beat with 31% billings growth. The reaction makes sense because the print changed both near-term numbers and sector positioning. What needs to happen next is sustained billings growth, continued product revenue strength, and proof that OT / AI security remain durable growth vectors. What would break the thesis is if Q2 billings normalize sharply or product growth proves one-off.
+
 Stock identity:
 Quality compounder, GARP, beat-and-raise machine. Fortinet’s Q1 reinforces a high-quality platform identity: strong billings, high margins, record FCF and visible AI / OT growth. It is not a speculative AI name; it is a cash-generative cybersecurity compounder with AI-driven demand acceleration.
+
 MARKET REACTION / PEER READ-ACROSS
+
 The positive AH move was justified by the EPS beat, billings acceleration and guidance raise. Read-across is negative for slower firewall peers and positive for cybersecurity platforms exposed to AI threat complexity, OT security and secure networking convergence.
+
 KEY ISSUES TO MONITOR
+
 Secure Networking billings / Why it matters: Confirms whether Fortinet is structurally gaining share.
 OT billings / Why it matters: +70% growth is a major new demand vector.
 AI security operations / Why it matters: AI threat complexity is becoming a spending driver.
 Product revenue / Why it matters: +41% growth must prove sustainable beyond Q1.
 Valuation / Why it matters: Strong fundamentals may still face multiple discipline.
+
 BOTTOM LINE
+
 Fortinet delivered a true improvement print.
 Billings +31%, product +41% and EPS +32%-34% beat consensus.
 Check Point divergence makes this a share-gain story.
 AI and OT security are now real growth accelerants.
 FY guidance raise should drive upward revisions.
+
 <<FTNT_EARNINGS_END>>
+
 <<Z_EARNINGS_BEGIN>>
 TICKER: Z / ZG
 COMPANY: Zillow Group, Inc.
@@ -14984,72 +15196,143 @@ PM_READ: Zillow is operationally improving through mortgage, rentals and enhance
 THEMES: Housing, mortgage, rentals, enhanced markets, Zillow Home Loans, frozen housing market, Q2 EBITDA, Zillow Preview, FTC trial, transaction platform
 SEGMENT_TABLE_STATUS: Full
 SOURCE_ROLE: Full note
+
 EXEC SUMMARY
+
 Improvement. Zillow reported official revenue of $708M, up 18.4% YoY and slightly above consensus, with adjusted EPS of $0.53, adjusted EBITDA of $182M and FCF of $127M. The operating quarter was broadly strong: mortgage revenue rose 56%, purchase loan origination volume rose 96%, rentals revenue rose 30%, and enhanced markets reached 49% of total connections.
+
 The stock reaction was negative because the market looked forward, not backward. Management said the housing market is effectively flat and is not planning for improvement. Q2 EBITDA guidance was below expectations, and the FTC trial remains a structural risk.
+
 PM read: the company is executing a platform transition in a frozen housing market. Zillow is gaining share in mortgage and rentals, but the equity will struggle to re-rate until EBITDA guidance clears and housing turnover stops acting as a ceiling.
+
 HEADLINE EARNINGS TABLE
-MetricActualConsensus / PriorBeat / MissYoYQoQPM CommentRevenue / Sales$708M official revenue~$704.9M-$705.3M consensusSlight beat / in line+18.4%Not confirmedUse $708M official figure; $748M alternate source likely broader total.EPS / Earnings$0.53 adjusted EPS$0.45-$0.46 consensusBeatNot confirmedNot confirmedEPS beat 15.8%-17.8%.Profitability / MarginAdj. EBITDA $182M; margin 25.7%; FCF $127MEBITDA $168.4M consensusBeatFCF +44%; operating margin improvedNot confirmedQ1 profitability good, but Q2 guide soft.Guidance / OutlookFY revenue growth mid-teens; rentals ~30%; EBITDA margin expansion; SBC down >15%Prior SBC guide down >10%Mixed positive FY / soft Q2Not applicableNot applicableSoft Q2 EBITDA drove reversal.Market reaction+3.81% initial AH, then -8.4% AH; next day -1.76%Not applicableMixed / negativeNot applicableNot applicableMarket focused on Q2 EBITDA and housing macro.
+
+Metric	Actual	Consensus / Prior	Beat / Miss	YoY	QoQ	PM Comment
+Revenue / Sales	$708M official revenue	~$704.9M-$705.3M consensus	Slight beat / in line	+18.4%	Not confirmed	Use $708M official figure; $748M alternate source likely broader total.
+EPS / Earnings	$0.53 adjusted EPS	$0.45-$0.46 consensus	Beat	Not confirmed	Not confirmed	EPS beat 15.8%-17.8%.
+Profitability / Margin	Adj. EBITDA $182M; margin 25.7%; FCF $127M	EBITDA $168.4M consensus	Beat	FCF +44%; operating margin improved	Not confirmed	Q1 profitability good, but Q2 guide soft.
+Guidance / Outlook	FY revenue growth mid-teens; rentals ~30%; EBITDA margin expansion; SBC down >15%	Prior SBC guide down >10%	Mixed positive FY / soft Q2	Not applicable	Not applicable	Soft Q2 EBITDA drove reversal.
+Market reaction	+3.81% initial AH, then -8.4% AH; next day -1.76%	Not applicable	Mixed / negative	Not applicable	Not applicable	Market focused on Q2 EBITDA and housing macro.
+
 SECTOR KPI TABLE
-KPIActualPrior / BenchmarkChangePM CommentOfficial revenue$708M$704.9M-$705.3M consensusSlight beatOfficial comparison metric.Alternate revenue figure$748MOther sourced figureNot comparableLikely includes broader items.Adjusted EPS$0.53$0.45-$0.46 consensusBeatStrong bottom-line result.Adjusted EBITDA$182M$168.4M consensus+8.1% beatQ1 margin strong.EBITDA margin25.7%Prior lowerPositiveProfitability improved.Operating margin+5.1%-1.5% prior year+660bpsOperating leverage improved.FCF$127MPrior year lower+44%Cash conversion improving.For Sale revenue$514MPrior year+12%Core listing marketplace resilient.Residential revenue$450MPrior year+8%Outrunning flat housing.Mortgage revenue$64MPrior year+56%Strongest segment signal.Purchase loan origination volume$1.5BPrior year+96%Top-25 lender milestone.Rentals revenue$130MPrior year+30%Housing-turnover-insulated growth.Enhanced markets connections49%44% in Q4 2025+5ppPlatform integration progressing.
+
+KPI	Actual	Prior / Benchmark	Change	PM Comment
+Official revenue	$708M	$704.9M-$705.3M consensus	Slight beat	Official comparison metric.
+Alternate revenue figure	$748M	Other sourced figure	Not comparable	Likely includes broader items.
+Adjusted EPS	$0.53	$0.45-$0.46 consensus	Beat	Strong bottom-line result.
+Adjusted EBITDA	$182M	$168.4M consensus	+8.1% beat	Q1 margin strong.
+EBITDA margin	25.7%	Prior lower	Positive	Profitability improved.
+Operating margin	+5.1%	-1.5% prior year	+660bps	Operating leverage improved.
+FCF	$127M	Prior year lower	+44%	Cash conversion improving.
+For Sale revenue	$514M	Prior year	+12%	Core listing marketplace resilient.
+Residential revenue	$450M	Prior year	+8%	Outrunning flat housing.
+Mortgage revenue	$64M	Prior year	+56%	Strongest segment signal.
+Purchase loan origination volume	$1.5B	Prior year	+96%	Top-25 lender milestone.
+Rentals revenue	$130M	Prior year	+30%	Housing-turnover-insulated growth.
+Enhanced markets connections	49%	44% in Q4 2025	+5pp	Platform integration progressing.
+
 OFFICIAL EARNINGS DETAIL
+
 Revenue / Sales:
 Zillow official IR and transcript sources show Q1 revenue of $708M, up 18.4% YoY. Some sources show $748M, but the scout indicates $708M is the operative revenue figure for comparisons.
+
 Consensus:
 Consensus for the official revenue figure was around $704.9M-$705.3M. Adjusted EPS consensus was roughly $0.45-$0.46. Adjusted EBITDA consensus was approximately $168.4M.
+
 EPS / Earnings:
 Adjusted EPS was $0.53, beating consensus by roughly 16%-18%. Net income was $46M, with a 6% margin, up 500bps YoY.
+
 Profitability / Margins:
 Adjusted EBITDA was $182M, an 8.1% beat, with a 25.7% margin. Operating margin improved to +5.1% from -1.5% prior year. FCF was $127M, up 44% YoY.
+
 Key KPI:
 Mortgage revenue rose 56%, purchase loan origination volume rose 96% to $1.5B, rentals revenue rose 30%, and enhanced markets reached 49% of total connections.
+
 Guidance headline:
 FY2026 total revenue growth guided to mid-teens, rentals revenue growth around 30%, continued EBITDA margin expansion, and SBC down more than 15% YoY. Q2 EBITDA guidance was below market expectations.
+
 Capital allocation:
 Capital allocation not central in the supplied scout. The key financial issue is EBITDA conversion and FCF growth.
+
 ACCOUNTING / EPS QUALITY CHECK
+
 Reported earnings quality:
 Mixed
+
 Adjustment issue:
 No major non-operating gain or loss identified, but revenue comparability is complicated by conflicting sourced revenue figures of $708M and $748M. The official $708M should be used for operating comparison.
+
 PM interpretation:
 Use the official $708M revenue, adjusted EPS, adjusted EBITDA, FCF, mortgage origination volume, rentals growth and enhanced-market connections as the clean measures. Avoid using the $748M figure unless the Streamlit parser labels it separately as an alternate / broader revenue source.
+
 SEGMENT / BUSINESS BREAKDOWN
+
 SEGMENT TABLE
-Segment% of TotalRevenueYoY GrowthMargin TrendKey CommentaryFor Sale~73% of official revenue$514M+12%ImprovingCore marketplace still growing in flat housing.Residential~64% of official revenue$450M+8%StableOutrunning industry transaction growth.Mortgage~9% of official revenue$64M+56%ImprovingZillow Home Loans now top-25 lender.Rentals~18% of official revenue$130M+30%PositiveInsulated from transaction freeze.Enhanced marketsPlatform metricNot disclosed49% of connectionsPositiveTarget is 75%+ over time.Zillow PreviewProduct layerNot disclosed60+ brokerages onboardedInvestment phasePremarket listings / agent workflow strategy.
+
+Segment	% of Total	Revenue	YoY Growth	Margin Trend	Key Commentary
+For Sale	~73% of official revenue	$514M	+12%	Improving	Core marketplace still growing in flat housing.
+Residential	~64% of official revenue	$450M	+8%	Stable	Outrunning industry transaction growth.
+Mortgage	~9% of official revenue	$64M	+56%	Improving	Zillow Home Loans now top-25 lender.
+Rentals	~18% of official revenue	$130M	+30%	Positive	Insulated from transaction freeze.
+Enhanced markets	Platform metric	Not disclosed	49% of connections	Positive	Target is 75%+ over time.
+Zillow Preview	Product layer	Not disclosed	60+ brokerages onboarded	Investment phase	Premarket listings / agent workflow strategy.
+
 GUIDANCE / CAPITAL ALLOCATION
+
 Management guided to mid-teens revenue growth despite explicitly assuming no improvement in the housing market. That makes the guide both conservative and execution-dependent: mortgage, rentals and enhanced markets must carry the growth algorithm.
+
 Revision direction: mix-shift revisions. Q1 operating metrics support revenue and platform-share confidence, but Q2 EBITDA guidance likely drives near-term downward EBITDA revisions. Longer-term estimates may shift toward mortgage / rentals / enhanced-market mix.
+
 PROFESSIONAL MARKET COMMENTARY
+
 The professional tape focused on the disconnect between Q1 operating quality and Q2 guide quality. Zillow beat on adjusted EPS and EBITDA and showed acceleration across mortgage, rentals and enhanced markets, but the call emphasized a flat housing market and softer Q2 EBITDA.
+
 The official revenue discrepancy also matters for investor communication. The $708M official revenue figure appears to be the correct comparison metric, while the $748M figure in other sources creates headline confusion.
+
 The stock reaction was rational in the short term because investors were not arguing with Q1; they were discounting Q2 EBITDA and the housing backdrop.
+
 COMMENT — ANALYST LAYER
+
 The highest-quality signal is mortgage: $1.5B of purchase loan origination volume, up 96%, and Zillow Home Loans now a top-25 national lender. That supports the thesis that Zillow is becoming a transaction platform rather than just a listings marketplace.
+
 The second-quality signal is rentals +30%, which is valuable because it is less dependent on housing turnover. Enhanced markets at 49% of connections shows the integrated model is progressing.
+
 The weakest signal is Q2 EBITDA guidance. The company can be structurally improving but still disappoint the stock if growth investments and flat housing keep near-term margins below expectations.
+
 State transition: Improvement
+
 CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
 The prior debate was whether Zillow could grow in a frozen housing market. Q1 says it can, through mortgage, rentals and enhanced markets. The debate now shifts to whether those engines can produce margin expansion quickly enough to satisfy investors before housing turnover recovers.
+
 HF TAKE — STRATEGIST LAYER
+
 Print reaction function:
 The market initially bought the Q1 beat, then sold the call detail. That makes sense: the backward-looking operating data were strong, but the Q2 EBITDA guide and flat housing assumption lowered near-term earnings confidence. What needs to happen next is Q2 EBITDA delivery, continued mortgage share gain and enhanced-market conversion toward the 75% target. What would break the thesis is a housing slowdown that hurts residential while investment spending prevents EBITDA leverage.
+
 Stock identity:
 Turnaround, GARP, setup-risk stock. Zillow is improving operationally but remains highly sensitive to housing macro and guide quality. The platform transition is real, but the stock is not yet a beat-and-raise machine.
+
 MARKET REACTION / PEER READ-ACROSS
+
 The reaction was mixed-to-negative. Initial AH buying reflected the Q1 beat; later selling reflected Q2 EBITDA guidance and the frozen housing comment. Read-across is positive for proptech platforms gaining share in mortgage and rentals, but negative for any housing-exposed equity dependent on a near-term transaction recovery.
+
 KEY ISSUES TO MONITOR
+
 Q2 EBITDA / Why it matters: Soft guidance was the stock’s main negative catalyst.
 Mortgage origination growth / Why it matters: +96% volume is the strongest platform-transition signal.
 Rentals growth / Why it matters: +30% growth is insulated from housing turnover.
 Enhanced markets penetration / Why it matters: 49% of connections must move toward the 75% target.
 FTC trial / Why it matters: Regulatory risk can limit multiple expansion.
+
 BOTTOM LINE
+
 Zillow’s Q1 operations improved materially.
 Mortgage, rentals and enhanced markets are all moving in the right direction.
 Housing remains effectively flat and management is not assuming recovery.
 Q2 EBITDA guidance caused the stock reversal.
 Improvement in the business, but not yet a clean stock re-rating.
+
 <<Z_EARNINGS_END>>
 
 <<SNAP_EARNINGS_BEGIN>>
