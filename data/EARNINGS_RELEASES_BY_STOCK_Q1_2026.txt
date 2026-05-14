@@ -808,7 +808,7 @@ The next issue is whether Q2 confirms that BNY has structurally lifted its opera
 <<ABT_EARNINGS_BEGIN>>
 TICKER: ABT
 COMPANY: Abbott Laboratories
-SECTOR: Healthcare
+SECTOR: Health Care
 SUBSECTOR: Medical Devices & Diagnostics
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-16
@@ -1412,8 +1412,8 @@ The next issue is not Q1; it is whether Labor Day conversion and Q4 run-rate ret
 <<TSM_EARNINGS_BEGIN>>
 TICKER: TSM
 COMPANY: Taiwan Semiconductor Manufacturing Company Limited
-SECTOR: Semiconductors
-SUBSECTOR: Foundry / AI Infrastructure
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Foundry / AI Infrastructure
 COUNTRY: Taiwan
 PUBLICATION_DATE: 2026-04-16
 EVENT: Q1 2026
@@ -2691,7 +2691,7 @@ The next issue is whether supply-chain clearance forces a formal raise later in 
 <<UNH_EARNINGS_BEGIN>>
 TICKER: UNH
 COMPANY: UnitedHealth Group Incorporated
-SECTOR: Healthcare
+SECTOR: Health Care
 SUBSECTOR: Managed Care & Health Services
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-21
@@ -2950,7 +2950,7 @@ The next issue is whether commercial softness stays contained while Raytheon con
 <<DHR_EARNINGS_BEGIN>>
 TICKER: DHR
 COMPANY: Danaher Corporation
-SECTOR: Healthcare
+SECTOR: Health Care
 SUBSECTOR: Life Science Tools & Diagnostics
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-21
@@ -3460,8 +3460,8 @@ The next issue is whether the Aerospace spin unlocks value after the near-term g
 <<INTC_EARNINGS_BEGIN>>
 TICKER: INTC
 COMPANY: Intel Corporation
-SECTOR: Semiconductors
-SUBSECTOR: CPUs / Data Center / Foundry
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / CPUs / Data Center / Foundry
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-23
 EVENT: Q1 2026
@@ -4893,7 +4893,7 @@ The next issue is whether deposits and Gold growth keep reducing reliance on cry
 <<NVS_EARNINGS_BEGIN>>
 TICKER: NVS
 COMPANY: Novartis AG
-SECTOR: Healthcare
+SECTOR: Health Care
 SUBSECTOR: Pharmaceuticals
 COUNTRY: Switzerland
 PUBLICATION_DATE: 2026-04-28
@@ -5944,8 +5944,8 @@ False dawn: operating thesis intact, capital-allocation narrative deteriorated.
 <<QCOM_EARNINGS_BEGIN>>
 TICKER: QCOM
 COMPANY: Qualcomm Incorporated
-SECTOR: Semiconductors
-SUBSECTOR: Mobile / Automotive / Custom Silicon
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Mobile / Automotive / Custom Silicon
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-29
 EVENT: Q2 FY2026
@@ -7569,8 +7569,8 @@ The next issue is whether HRC pricing and West Virginia ramp keep the upcycle ex
 <<ASMI_EARNINGS_BEGIN>>
 TICKER: ASMI
 COMPANY: ASM International N.V.
-SECTOR: Semiconductors
-SUBSECTOR: Deposition Equipment / ALD / Wafer Fab Equipment
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / ALD / Wafer Fab Equipment
 COUNTRY: Netherlands
 PUBLICATION_DATE: 2026-04-21
 EVENT: Q1 2026
@@ -7722,8 +7722,8 @@ ASMI remains a premium AI/WFE compounder, but the stock must keep delivering bec
 <<LRCX_EARNINGS_BEGIN>>
 TICKER: LRCX
 COMPANY: Lam Research Corporation
-SECTOR: Semiconductors
-SUBSECTOR: Wafer Fab Equipment / Etch & Deposition
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Wafer Fab Equipment / Etch & Deposition
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-22
 EVENT: Q3 FY2026 / Calendar Q1 2026
@@ -7873,8 +7873,8 @@ Lam is in an accelerating WFE upcycle, with China/export-control risk the main c
 <<TXN_EARNINGS_BEGIN>>
 TICKER: TXN
 COMPANY: Texas Instruments Incorporated
-SECTOR: Semiconductors
-SUBSECTOR: Analog & Embedded Processing
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Analog & Embedded Processing
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-22
 EVENT: Q1 2026
@@ -8026,8 +8026,8 @@ TXN has moved from quality-in-downturn to quality-recovery / FCF-harvest stock.
 <<CDNS_EARNINGS_BEGIN>>
 TICKER: CDNS
 COMPANY: Cadence Design Systems, Inc.
-SECTOR: Software
-SUBSECTOR: Electronic Design Automation / AI Design Software
+SECTOR: Information Technology
+SUBSECTOR: Software / Electronic Design Automation / AI Design Software
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-27
 EVENT: Q1 2026
@@ -8178,8 +8178,8 @@ The stock dipped because Hexagon dilution interrupted the clean beat-and-raise p
 <<CLS_EARNINGS_BEGIN>>
 TICKER: CLS
 COMPANY: Celestica Inc.
-SECTOR: Technology Hardware
-SUBSECTOR: Electronics Manufacturing Services / AI Data Center Infrastructure
+SECTOR: Information Technology
+SUBSECTOR: Technology Hardware / Electronics Manufacturing Services / AI Data Center Infrastructure
 COUNTRY: Canada
 PUBLICATION_DATE: 2026-04-27
 EVENT: Q1 2026
@@ -8334,8 +8334,8 @@ CLS remains a structural AI manufacturing winner, but it is high-beta and execut
 <<AMKR_EARNINGS_BEGIN>>
 TICKER: AMKR
 COMPANY: Amkor Technology, Inc.
-SECTOR: Semiconductors
-SUBSECTOR: Advanced Packaging & Testing
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Advanced Packaging & Testing
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-27
 EVENT: Q1 2026
@@ -8469,8 +8469,8 @@ AMKR remains a valid advanced-packaging proxy, but not yet a clean margin / FCF 
 <<RMBS_EARNINGS_BEGIN>>
 TICKER: RMBS
 COMPANY: Rambus Inc.
-SECTOR: Semiconductors
-SUBSECTOR: Memory Interface IP & Data Center Connectivity
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Memory Interface IP & Data Center Connectivity
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-27
 EVENT: Q1 2026
@@ -8604,7 +8604,7 @@ RMBS remains a quality AI memory-bandwidth derivative, but Q2 must show product 
 <<IBM_EARNINGS_BEGIN>>
 TICKER: IBM
 COMPANY: International Business Machines Corporation
-SECTOR: Technology
+SECTOR: Information Technology
 SUBSECTOR: Software, Consulting & Infrastructure
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-22
@@ -8740,8 +8740,8 @@ But consulting softness and no guide raise keep the stock in stabilization, not 
 <<NOW_EARNINGS_BEGIN>>
 TICKER: NOW
 COMPANY: ServiceNow, Inc.
-SECTOR: Software
-SUBSECTOR: Enterprise Workflow & AI
+SECTOR: Information Technology
+SUBSECTOR: Software / Enterprise Workflow & AI
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-22
 EVENT: Q1 2026
@@ -8877,8 +8877,8 @@ NOW remains a top-tier enterprise AI workflow asset, but the market will not for
 <<VZ_EARNINGS_BEGIN>>
 TICKER: VZ
 COMPANY: Verizon Communications Inc.
-SECTOR: Telecommunications
-SUBSECTOR: Wireless, Broadband & Fiber
+SECTOR: Communication Services
+SUBSECTOR: Telecommunications / Wireless, Broadband & Fiber
 COUNTRY: United States
 PUBLICATION_DATE: 2026-04-27
 EVENT: Q1 2026
@@ -12524,8 +12524,8 @@ PM focus: Q4 delivery, margin, OCS backlog, supply and hyperscaler commitment co
 <<MSTR_EARNINGS_BEGIN>>
 TICKER: MSTR
 COMPANY: Strategy Inc.
-SECTOR: Financials / Bitcoin Treasury / Enterprise Software
-SUBSECTOR: Bitcoin Treasury Vehicle / Digital Credit / Business Intelligence Software
+SECTOR: Information Technology
+SUBSECTOR: Financials / Bitcoin Treasury Vehicle / Digital Credit / Business Intelligence Software
 COUNTRY: United States
 PUBLICATION_DATE: 2026-05-05
 EVENT: Q1 2026
@@ -14157,8 +14157,8 @@ The stock reaction is justified; next test is sustaining SVOD margin while parks
 <<UBER_EARNINGS_BEGIN>>
 TICKER: UBER
 COMPANY: Uber Technologies, Inc.
-SECTOR: Industrials / Consumer Internet
-SUBSECTOR: Mobility / Delivery / Platform Marketplace / Autonomous Vehicle Partnerships
+SECTOR: Industrials
+SUBSECTOR: Consumer Internet / Delivery / Platform Marketplace / Autonomous Vehicle Partnerships
 COUNTRY: United States
 PUBLICATION_DATE: 2026-05-06
 EVENT: Q1 2026
@@ -15098,8 +15098,8 @@ FY guidance raise should drive upward revisions.
 <<Z_EARNINGS_BEGIN>>
 TICKER: Z / ZG
 COMPANY: Zillow Group, Inc.
-SECTOR: Communication Services / Real Estate Technology
-SUBSECTOR: PropTech / Housing Marketplace / Mortgage / Rentals
+SECTOR: Communication Services
+SUBSECTOR: Real Estate Technology / Housing Marketplace / Mortgage / Rentals
 COUNTRY: United States
 PUBLICATION_DATE: 2026-05-06
 EVENT: Q1 2026
@@ -15256,7 +15256,7 @@ Improvement in the business, but not yet a clean stock re-rating.
 <<MCD_EARNINGS_BEGIN>>
 TICKER: MCD
 COMPANY: McDonald's Corporation
-SECTOR: Consumer Discretionary / Consumer Staples
+SECTOR: Consumer Discretionary
 SUBSECTOR: Quick Service Restaurants / Global Franchised Foodservice
 COUNTRY: United States
 PUBLICATION_DATE: 2026-05-07
@@ -15566,8 +15566,8 @@ The next proof point is whether product velocity converts into sustained nights 
 <<COIN_EARNINGS_BEGIN>>
 TICKER: COIN
 COMPANY: Coinbase Global, Inc.
-SECTOR: Financials / Information Technology
-SUBSECTOR: Crypto Exchange / Onchain Infrastructure / Stablecoins / Derivatives / Prediction Markets
+SECTOR: Financials
+SUBSECTOR: Crypto Exchange / Onchain Infrastructure / Stablecoins / Information Technology / Prediction Markets
 COUNTRY: United States
 PUBLICATION_DATE: 2026-05-07
 EVENT: Q1 2026
@@ -15723,7 +15723,7 @@ The stock now needs 2H26 proof from crypto volumes, regulation, derivatives, pre
 <<MELI_EARNINGS_BEGIN>>
 TICKER: MELI
 COMPANY: MercadoLibre, Inc.
-SECTOR: Consumer Discretionary / Financials
+SECTOR: Consumer Discretionary
 SUBSECTOR: LATAM E-Commerce / Marketplace / Fintech / Credit / Payments
 COUNTRY: Uruguay / Latin America
 PUBLICATION_DATE: 2026-05-07
