@@ -229,6 +229,42 @@ CSS = """
   margin-top: 2px;
 }
 
+/* Section nav — a horizontal st.radio dressed up as a tab bar. Used instead
+   of st.tabs because st.tabs loses the active tab on every rerun. */
+div[data-testid="stRadio"] > div[role="radiogroup"] {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 1px solid rgba(120,120,140,0.30);
+  margin-bottom: 12px;
+}
+div[data-testid="stRadio"] > div[role="radiogroup"] > label {
+  margin: 0;
+  padding: 6px 14px;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+div[data-testid="stRadio"] > div[role="radiogroup"] > label:hover {
+  background: rgba(147,197,253,0.08);
+}
+/* hide the actual radio dot — keep just the label text */
+div[data-testid="stRadio"] > div[role="radiogroup"] > label > div:first-child {
+  display: none;
+}
+div[data-testid="stRadio"] > div[role="radiogroup"] > label p {
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+/* highlight the selected section */
+div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) {
+  border-bottom: 2px solid #3b82f6;
+  background: rgba(59,130,246,0.10);
+}
+div[data-testid="stRadio"] > div[role="radiogroup"] > label:has(input:checked) p {
+  color: #93c5fd;
+}
+
 /* segment table 'partial' badge */
 .e-partial {
   display: inline-block;

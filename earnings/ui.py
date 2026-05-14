@@ -49,24 +49,36 @@ def render_earnings_tab() -> None:
 
     _render_header(recap["meta"], recap_src, stock_src)
 
-    sub = st.tabs(
-        [
-            "PM Read-Across",
-            "Sector Dashboard",
-            "Scout Tracker",
-            "Company Notes",
-            "Themes",
-        ]
+    # NOTE: we deliberately do *not* use ``st.tabs`` here. ``st.tabs`` does not
+    # persist the active tab across reruns -- so when a widget *inside* a
+    # sub-section triggers a rerun (e.g. typing a company in the Company Notes
+    # search box and pressing Enter), Streamlit snaps the view back to the
+    # first tab ("PM Read-Across"). A ``st.radio`` keyed into session_state
+    # remembers the open section, so the user stays where they were.
+    sections = [
+        "PM Read-Across",
+        "Sector Dashboard",
+        "Scout Tracker",
+        "Company Notes",
+        "Themes",
+    ]
+    section = st.radio(
+        "Section",
+        sections,
+        horizontal=True,
+        key="earnings_section",
+        label_visibility="collapsed",
     )
-    with sub[0]:
+
+    if section == "PM Read-Across":
         _render_pm_read_across(recap)
-    with sub[1]:
+    elif section == "Sector Dashboard":
         _render_sector_dashboard(recap, company_blocks, company_df)
-    with sub[2]:
+    elif section == "Scout Tracker":
         _render_scout_tracker(scout_df)
-    with sub[3]:
+    elif section == "Company Notes":
         _render_company_notes(company_blocks, company_df)
-    with sub[4]:
+    elif section == "Themes":
         _render_themes(recap, company_blocks)
 
 
