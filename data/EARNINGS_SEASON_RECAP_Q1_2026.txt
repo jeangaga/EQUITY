@@ -47,6 +47,50 @@ Q1 2026 earnings are strong, but increasingly concentrated, capex-intensive, qua
 <<SECTOR_RECAP_BEGIN>>
 
 <<SECTOR_BEGIN>>
+SECTOR: Communication Services
+SECTOR_STATE_TRANSITION: Mixed
+SECTOR_IMPORTANCE: ****
+EVIDENCE_TICKERS: GOOGL, META, NFLX, VZ, TMUS, LYV
+
+SUMMARY:
+Communication Services delivered a strong but quality-adjusted earnings signal. Alphabet remains one of the season’s most important positive prints because Search, Cloud growth, Cloud margin and backlog gave investors a credible revenue-conversion bridge against AI capex, but reported EPS was materially flattered by a large equity-security gain. Meta confirmed advertising and engagement strength, but the stock reaction showed that higher AI capex, FCF pressure and cash-return uncertainty now matter as much as the operating beat. Netflix remained a high-quality streaming compounder, but the Warner Bros. termination fee means reported EPS should not be read mechanically. Telecom was constructive at the execution level, with TMUS still the cleanest wireless growth name and Verizon showing real turnaround evidence, but the sector remains more value / income than broad growth. Live Nation supported the premium experience-demand thesis despite legal / accrual noise. Sector conclusion: Communication Services remains a key earnings contributor, but the market is separating durable platform monetization from one-off EPS gains and capex-heavy AI spending.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Consumer Discretionary
+SECTOR_STATE_TRANSITION: Mixed
+SECTOR_IMPORTANCE: ****
+EVIDENCE_TICKERS: SBUX, GM, TSLA, DASH, ABNB, DUOL, CPNG, AAL
+
+SUMMARY:
+Consumer Discretionary confirms that the US consumer is still spending, but the signal is increasingly selective and energy-sensitive. Starbucks delivered one of the cleaner turnaround prints, with traffic and margin evidence supporting a genuine state transition rather than only easier comps. GM executed well and benefited from strong guide / tariff dynamics, while Tesla was the clearest false-dawn signal because inventory, margin, EPS and FCF pressure overwhelmed the narrative. DoorDash and Airbnb confirmed resilient local commerce and travel / experience demand, but both still sit inside a market that demands clean forward guidance and margin conversion. Duolingo and Coupang showed the penalty for bookings deceleration, MAU quality concerns, voucher costs, breach recovery expenses or margin repair that does not clear elevated expectations. Airlines belong in GICS Industrials, but AAL is relevant to the discretionary read because fuel pressure is directly hitting travel affordability and earnings conversion. Sector conclusion: discretionary demand is not broken, but the market is rewarding premium / experience demand and clear execution while punishing inventory build, bookings deceleration, cost-heavy growth and fuel sensitivity.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Consumer Staples
+SECTOR_STATE_TRANSITION: Mixed
+SECTOR_IMPORTANCE: ***
+EVIDENCE_TICKERS: KO, PEP, PG, PM, OR
+
+SUMMARY:
+Consumer Staples delivered a resilient but not uniformly clean defensive signal. Coca-Cola executed well and confirmed that strong brands can still hold volume / pricing balance when innovation and distribution are effective. PepsiCo and P&G showed that the mass consumer remains responsive to affordability and value resets, but gross-margin pressure, input costs and price sensitivity remain visible. Philip Morris remains one of the cleaner staples compounders because smoke-free execution continues to support premiumization and growth visibility. L’Oréal was a major positive exception in global beauty, reversing the slowing-beauty narrative and showing selective China recovery, but it should not be extrapolated into broad consumer strength. The audit adds a medium-term allocation caveat: the BofA-style bear case prefers staples over discretionary if AI disruption, rates, inflation or fuel costs pressure labor income and consumption into 2026. Sector conclusion: Staples are defensive but not immune; the best names show brand-led pricing power, while weaker mass-consumer pockets still need affordability and margin repair.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Energy
+SECTOR_STATE_TRANSITION: Mixed
+SECTOR_IMPORTANCE: ****
+EVIDENCE_TICKERS: BP, E, SLB, XOM, CVX, FANG, ET, OXY, SU
+
+SUMMARY:
+Energy is no longer only an oil-beta sector in the recap; it is also a transmission channel for the broader earnings season. BP and Eni monetized parts of the energy / refining / trading shock, while Diamondback, Energy Transfer, Suncor and Oxy supported the cash-flow, production and capital-return story. Exxon and Chevron remain important cash-generation anchors, but reported EPS needs adjustment for timing effects, derivative marks, hedging, commodity-price movements and working-capital distortions. SLB is the clearest negative signal because Middle East demobilization hit organic revenue, margins and FCF, even though the long-cycle digital / international thesis remains relevant. The sector benefits from higher energy pricing in some pockets, but that same shock is a cost headwind for airlines, logistics, consumer budgets, European industry and central-bank reaction functions. Sector conclusion: Energy is investable through cash flow and capital discipline, but reported EPS quality and cross-sector fuel transmission matter more than headline oil-price sensitivity.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
 SECTOR: Financials
 SECTOR_STATE_TRANSITION: Mixed
 SECTOR_IMPORTANCE: ****
@@ -58,79 +102,46 @@ Financials delivered one of the most important sector read-across clusters of th
 <<SECTOR_END>>
 
 <<SECTOR_BEGIN>>
-SECTOR: Semiconductors / AI Infrastructure / Electronics
-SECTOR_STATE_TRANSITION: Improvement
-SECTOR_IMPORTANCE: ****
-EVIDENCE_TICKERS: TSM, ASMI, LRCX, TXN, INTC, QCOM, AMD, ARM, AMKR, RMBS, CLS, LITE, CRWV
-
-SUMMARY:
-The semiconductor and AI infrastructure cohort produced one of the clearest improvement signals of the season. The cycle is no longer only a hyperscaler GPU story: TSM confirms foundry demand, LRCX and ASMI confirm WFE acceleration, TXN confirms analog / industrial destocking has ended, AMD confirms Data Center scale and guide upside, and ARM confirms the AI royalty story despite timing / valuation friction. The electronics and packaging layer is more mixed: AMKR, RMBS, CLS and LITE support the AI hardware-chain expansion but also show margin, setup and financing sensitivity. CoreWeave is the most important new caution inside the AI infrastructure bucket: backlog is extremely strong, but capex, debt, interest expense and light near-term guidance force investors to model conversion rather than simply capitalize demand. The second-pass audit adds two important caveats: some strategists now prefer software over semis after the AI-disruption derating, and NVDA’s data-center growth / guidance is the next breadth tripwire for the whole AI multiple complex. Sector conclusion: AI infrastructure demand is accelerating and broadening, but the market is moving from demand validation to supply, margin, capex, financing, valuation and circularity scrutiny.
-
-<<SECTOR_END>>
-
-<<SECTOR_BEGIN>>
-SECTOR: Technology / Software / Digital Platforms
-SECTOR_STATE_TRANSITION: Mixed
-SECTOR_IMPORTANCE: ****
-EVIDENCE_TICKERS: GOOGL, MSFT, AMZN, META, NFLX, IBM, NOW, PLTR, DDOG, NET, FTNT, DUOL, DASH, ABNB, CPNG, Z, ZG, LYV
-
-SUMMARY:
-Technology and digital platforms delivered the strongest absolute contribution to index earnings, but the audit requires a sharper breadth caveat. The headline strength is heavily concentrated in mega-cap and AI-linked names, and Mag-7 ex-NVDA earnings growth is weaker than the broad S&P 493. Alphabet, Microsoft, Amazon and selected AI-linked software names confirmed that AI is monetizable when it appears in Cloud revenue, backlog, Search resilience, data-center demand, security demand or enterprise software usage. Datadog and Fortinet were especially important because they showed AI demand extending into observability, security and enterprise infrastructure software, not only semis and hyperscalers. Palantir delivered exceptional growth and operating leverage, but its valuation bar remains high; ServiceNow and Cloudflare showed the opposite side of the trade, where operating beats were overwhelmed by margin compression, restructuring uncertainty or AI-disruption narratives. Meta remains a strong advertising machine, but its stock reaction shows capex and FCF are now the binding debate for AI-heavy platforms. The second-pass strategist tape creates a useful tension: Wilson / Lee-style views are more constructive on software over semis than the stock-level tape alone would imply, so the sector summary should not become structurally bearish on software because of NOW / NET. Sector conclusion: technology is still the earnings engine of the season, but the sector is no longer rewarded for AI exposure or reported EPS alone; it must prove operating leverage, FCF, backlog conversion, clean guidance and sustainable cash-return capacity.
-
-<<SECTOR_END>>
-
-<<SECTOR_BEGIN>>
-SECTOR: Industrials / Aerospace / Defense / Transportation / Telecom
-SECTOR_STATE_TRANSITION: Mixed
-SECTOR_IMPORTANCE: ****
-EVIDENCE_TICKERS: GE, BA, RTX, LMT, HON, UPS, AAL, VZ, TMUS, TDG, CMI
-
-SUMMARY:
-Industrials, aerospace, defense, transportation and telecom produced a strong but uneven read-across. Aerospace aftermarket and defense demand remain powerful: GE and RTX showed order / backlog strength, BA showed turnaround credibility, and TDG preserved its premium aftermarket compounder profile. The caveat is conversion: LMT failed the FCF / margin test, GE sold off because the guide was held despite excellent demand, and HON was noisy because Middle East revenue timing complicated the industrial read. Transportation is more challenged after the audit because fuel is now a central P&L variable, not a secondary macro caveat: AAL confirmed strong demand but fuel is the earnings problem, while the wider airline tape shows guide pressure and suspended visibility. UPS is strategically improving mix but still has to prove margin recovery after shedding Amazon volume. Telecom is constructive at the execution level, with TMUS remaining the cleanest US wireless growth name and Verizon showing real turnaround evidence, but telecom still sits in value / income rather than broad growth identity. Sector conclusion: demand is visible in aerospace, defense, power systems and telecom, but conversion, fuel, logistics and guide discipline determine whether investors treat prints as rerating events or merely confirmation.
-
-<<SECTOR_END>>
-
-<<SECTOR_BEGIN>>
-SECTOR: Healthcare / Life Sciences
+SECTOR: Health Care
 SECTOR_STATE_TRANSITION: Mixed
 SECTOR_IMPORTANCE: ***
 EVIDENCE_TICKERS: UNH, DHR, NVS, PFE
 
 SUMMARY:
-Healthcare and life sciences are mixed, with genuine repair in some pockets and structural transition risk in others. UNH delivered the most important healthcare reversal because MCR, Optum remediation and guidance moved in the right direction after a long managed-care compression cycle. DHR showed early improvement in bioprocessing, which matters because the market needed proof that life-sciences orders were bottoming rather than simply stabilizing. Novartis and Pfizer are more transitional: priority brands, launched / acquired products and legal / patent visibility help, but patent cliffs, old cash-engine erosion and lack of aggressive guide raises keep the sector from being a clean growth call. The second-pass strategist tape is constructive on healthcare as part of the broadening / quality-repair trade, but the stock-block evidence is still company-specific rather than sector-wide. It reads as selective repair in managed care and life-sciences tools, plus stabilization in large pharma where portfolio transition is improving but not yet fully de-risked. Sector conclusion: healthcare is no longer deteriorating uniformly, but the earnings signal remains less index-supportive than technology, financials or power unless the repair broadens beyond UNH / DHR-style evidence.
+Health Care is mixed, with genuine repair in some pockets and structural transition risk in others. UNH delivered the most important healthcare reversal because MCR, Optum remediation and guidance moved in the right direction after a long managed-care compression cycle. DHR showed early improvement in bioprocessing, which matters because the market needed proof that life-sciences orders were bottoming rather than simply stabilizing. Novartis and Pfizer are more transitional: priority brands, launched / acquired products and legal / patent visibility help, but patent cliffs, old cash-engine erosion and lack of aggressive guide raises keep the sector from being a clean growth call. The second-pass strategist tape is constructive on healthcare as part of the broadening / quality-repair trade, but the stock-block evidence is still company-specific rather than sector-wide. It reads as selective repair in managed care and life-sciences tools, plus stabilization in large pharma where portfolio transition is improving but not yet fully de-risked. Sector conclusion: Health Care is no longer deteriorating uniformly, but the earnings signal remains less index-supportive than technology, financials or power unless the repair broadens beyond UNH / DHR-style evidence.
 
 <<SECTOR_END>>
 
 <<SECTOR_BEGIN>>
-SECTOR: Consumer
+SECTOR: Industrials
 SECTOR_STATE_TRANSITION: Mixed
 SECTOR_IMPORTANCE: ****
-EVIDENCE_TICKERS: KO, PEP, PG, PM, OR, SBUX, GM, TSLA, DASH, ABNB, DUOL, CPNG, LYV, AAL, V
+EVIDENCE_TICKERS: GE, GEV, BA, RTX, LMT, HON, UPS, AAL, TDG, CMI, VRT
 
 SUMMARY:
-The consumer sector confirms resilience but not uniform strength. Premium and brand-led demand remains durable: PM confirms smoke-free execution, L’Oréal reversed the slowing-beauty narrative, Starbucks delivered a genuine traffic-led turnaround, Visa shows payment volume and cross-border resilience, and Live Nation shows strong experience demand despite legal accrual noise. Mass consumer staples are stabilizing but margin-sensitive: Coca-Cola executed well, PepsiCo and P&G show affordability and volume repair, but cost, tariff and gross-margin pressure remain key issues. Autos are bifurcated: GM’s guide and execution improved, but Tesla’s EPS / margin / inventory / FCF profile created a false-dawn signal. Consumer platforms also split between forward momentum and margin pressure: DoorDash improved, Airbnb improved operationally, Duolingo sold off on bookings / MAU concerns, and Coupang remains pressured by profitability and recovery costs. The audit adds a stronger energy and allocation caveat: fuel and energy costs are now a more direct transmission channel into discretionary budgets, travel margins and delivery economics, while the BofA-style bear case explicitly prefers staples over discretionary if AI, rates and inflation pressure the labor / consumption channel. Sector conclusion: the consumer is not broken, but the equity market is rewarding premium demand, affordability execution and clear forward guidance while punishing margin pressure, inventory build, bookings deceleration and cost-heavy growth.
+Industrials produced a powerful but uneven earnings read-across across aerospace, defense, transportation, power equipment and data-center infrastructure. Aerospace aftermarket and defense demand remain strong: GE, RTX, BA and TDG showed order / backlog strength, turnaround credibility or premium aftermarket economics. The caveat is conversion: LMT failed the FCF / margin test, GE sold off because the guide was held despite excellent demand, and HON was noisy because Middle East timing complicated the industrial read. Transportation is more challenged because fuel is now a central P&L variable: AAL confirmed strong demand but fuel was the earnings problem, while UPS is strategically improving mix but still has to prove margin recovery after shedding Amazon volume. GEV, VRT and CMI are critical because they show that AI infrastructure is also an industrial power, cooling, grid and equipment cycle, not only a semiconductor cycle. Sector conclusion: demand is visible in aerospace, defense, power systems and selected transport / logistics, but conversion, fuel, execution, capex discipline and guide credibility determine whether investors treat prints as rerating events or merely confirmation.
 
 <<SECTOR_END>>
 
 <<SECTOR_BEGIN>>
-SECTOR: Energy / Utilities / Power
+SECTOR: Information Technology
 SECTOR_STATE_TRANSITION: Improvement
 SECTOR_IMPORTANCE: ****
-EVIDENCE_TICKERS: BP, E, SLB, XOM, CVX, FANG, ET, OXY, SU, NEE, GEV, VRT, VST, CMI
+EVIDENCE_TICKERS: TSM, ASMI, LRCX, TXN, INTC, QCOM, AMD, ARM, AMKR, RMBS, CLS, LITE, MSFT, IBM, NOW, PLTR, CDNS, DDOG, NET, FTNT, CRWV
 
 SUMMARY:
-Energy, utilities and power produced a major cross-sector signal because the AI power-demand theme is now tied directly to earnings, backlog and capex. GEV, VRT, NEE, VST and CMI show that power generation, grid, cooling, contracted power and data-center load are central beneficiaries of the AI cycle, although valuation and guide conversion matter. Traditional energy is more mixed but still investable through cash flow: BP and Eni monetized parts of the energy shock, Diamondback, Energy Transfer and Suncor delivered strong cash / production / capital-return signals, and Oxy showed balance-sheet repair despite commodity sensitivity. SLB is the clearest deterioration because Middle East demobilization hit organic revenue, margins and FCF, even though the digital milestone and long-cycle recovery thesis remain intact. Reported EPS quality is a major caveat across energy because hedging, derivative marks, working capital, refining / trading effects and commodity timing distort GAAP results. The audit strengthens the geopolitical read: energy is not just a beneficiary sector; fuel availability and refined-product costs are now actively reshaping airline, logistics, consumer and European macro earnings. Sector conclusion: the best part of the sector is no longer only oil beta; it is power availability, contracted infrastructure and cash-flow discipline, while energy-price transmission is now a cross-sector earnings variable.
+Information Technology is the dominant earnings engine of the season, but the sector is now being judged on conversion, FCF and valuation discipline rather than AI exposure alone. The semiconductor and AI infrastructure chain delivered broad improvement: TSM confirms foundry demand, LRCX and ASMI confirm WFE acceleration, TXN confirms analog / industrial destocking has ended, AMD confirms Data Center scale and guide upside, and ARM confirms the AI royalty story despite timing / valuation friction. Packaging, EMS and hardware-adjacent names such as AMKR, RMBS, CLS and LITE support the AI hardware-chain expansion but also show margin and setup sensitivity. Software is more nuanced: Datadog and Fortinet showed AI demand translating into revenue acceleration, billings strength, FCF and guidance support, while ServiceNow and Cloudflare showed that AI narrative is not enough when margin compression, restructuring uncertainty or dilution pressure dominate. Microsoft remains a high-quality AI / Cloud compounder, but hyperscaler capex is now large enough to affect cash-return profiles and investor patience. CoreWeave adds the most visible financing caution because backlog is strong but capex, debt, interest expense and light near-term guidance force investors to model conversion rather than simply capitalize demand. Sector conclusion: Information Technology remains the strongest earnings impulse, but the market is moving from AI demand validation to margin, FCF, capex, financing, valuation, NVDA breadth and circularity scrutiny.
 
 <<SECTOR_END>>
 
 <<SECTOR_BEGIN>>
-SECTOR: Materials / Mining / Metals
+SECTOR: Materials
 SECTOR_STATE_TRANSITION: Improvement
 SECTOR_IMPORTANCE: ***
 EVIDENCE_TICKERS: RIO, BHP, VALE, NUE
 
 SUMMARY:
-Materials, mining and metals delivered a selective improvement signal, but this block should not be overextended into a broad cyclical acceleration thesis. Rio Tinto and BHP show that the global mining complex is not collapsing despite uneven China demand, with Simandou, copper and potash diversification improving the medium-term asset story. Vale produced better volumes and base-metals diversification evidence, but BRL-driven cost inflation kept the print from being clean. Nucor delivered the clearest cyclical reversal in the group, with evidence that steel has exited the trough and that backlog, pricing and capital-harvest dynamics are improving. The second-pass audit argues for lower prominence here, because materials / mining are less central to the public strategist debate than AI capex, EPS quality, Europe, bank NII and fuel transmission. The sector does not support a broad commodity supercycle conclusion, but it does support selective recovery in steel and strategic resource assets. Sector conclusion: materials are improving where supply discipline, copper / base-metals exposure, steel pricing and project execution are visible, but cost inflation, China unevenness and valuation discipline keep the signal selective.
+Materials delivered a selective improvement signal, but this block should not be overextended into a broad cyclical acceleration thesis. Rio Tinto and BHP show that the global mining complex is not collapsing despite uneven China demand, with Simandou, copper and potash diversification improving the medium-term asset story. Vale produced better volumes and base-metals diversification evidence, but BRL-driven cost inflation kept the print from being clean. Nucor delivered the clearest cyclical reversal in the group, with evidence that steel has exited the trough and that backlog, pricing and capital-harvest dynamics are improving. The second-pass audit argues for lower prominence here because materials / mining are less central to the public strategist debate than AI capex, EPS quality, Europe, bank NII and fuel transmission. The sector does not support a broad commodity supercycle conclusion, but it does support selective recovery in steel and strategic resource assets. Sector conclusion: Materials are improving where supply discipline, copper / base-metals exposure, steel pricing and project execution are visible, but cost inflation, China unevenness and valuation discipline keep the signal selective.
 
 <<SECTOR_END>>
 
@@ -138,10 +149,21 @@ Materials, mining and metals delivered a selective improvement signal, but this 
 SECTOR: Real Estate
 SECTOR_STATE_TRANSITION: Improvement
 SECTOR_IMPORTANCE: **
-EVIDENCE_TICKERS: AMT, Z, ZG, NEE, VST
+EVIDENCE_TICKERS: AMT, Z, ZG
 
 SUMMARY:
-The real-estate-linked evidence is narrow but useful. AMT improved because data-center optionality and CoreSite growth helped offset tower-specific churn issues, making digital infrastructure more important than traditional wireless-tower framing alone. Zillow showed operational improvement across mortgage, rentals and enhanced markets, but the stock remains capped by frozen housing turnover, soft Q2 EBITDA guidance and FTC / regulatory risk. Power-linked real estate and infrastructure demand also appears indirectly through NEE and VST, where data-center load and contracted power demand are relevant for land, grid and capacity economics. The sector signal is not a broad real-estate recovery; it is a narrow improvement in digital infrastructure and platform execution. The audit does not change the sector state materially, but it does raise the financing-cost caveat for data-center and power-linked real assets if AI capex becomes more debt-funded. Sector conclusion: real-estate exposure is investable where it is linked to data centers, power or platform share gain, but housing turnover and financing costs remain macro ceilings.
+The Real Estate evidence is narrow but useful. AMT improved because data-center optionality and CoreSite growth helped offset tower-specific churn issues, making digital infrastructure more important than traditional wireless-tower framing alone. Zillow showed operational improvement across mortgage, rentals and enhanced markets, but the stock remains capped by frozen housing turnover, soft Q2 EBITDA guidance and FTC / regulatory risk. The sector signal is not a broad real-estate recovery; it is a narrow improvement in digital infrastructure and platform execution. Data-center-linked real estate demand remains relevant, but the financing-cost caveat has become more important if AI infrastructure becomes more debt-funded. Housing turnover remains the main macro ceiling for real-estate platforms. Sector conclusion: Real Estate exposure is investable where it is linked to data centers, towers, digital infrastructure or platform share gain, but housing turnover and financing costs remain binding constraints.
+
+<<SECTOR_END>>
+
+<<SECTOR_BEGIN>>
+SECTOR: Utilities
+SECTOR_STATE_TRANSITION: Improvement
+SECTOR_IMPORTANCE: ****
+EVIDENCE_TICKERS: NEE, VST
+
+SUMMARY:
+Utilities have moved from defensive yield bucket to a core AI infrastructure battleground. NEE and VST show that data-center load, contracted power, renewable / grid capacity and power availability are now directly linked to the AI capex cycle. The earnings signal is not simply “higher power demand”; it is the repricing of scarce reliable generation, grid access, contracted capacity and balance-sheet capacity to fund infrastructure. The caveat is valuation and capital intensity: utilities and IPPs can benefit from AI demand but still need capex discipline, regulatory clarity, financing access and credible contracted returns. The sector also interacts with Energy and Industrials, because gas turbines, cooling, grid equipment and fuel availability determine how quickly AI demand can be served. Sector conclusion: Utilities are now one of the highest PM read-across sectors in the season because power availability has become a gating condition for AI growth, but the market will still require evidence of contracted economics and funding discipline.
 
 <<SECTOR_END>>
 
