@@ -219,7 +219,8 @@ def parse_earnings_recap(text: str) -> dict[str, Any]:
     dict with keys:
         meta : dict             -- season-level KV header (SEASON, AS_OF, ...)
         macro : dict[str, str]  -- {section_name: paragraph_text}
-        sectors : list[dict]    -- {sector, stocks: [{...}]}
+        sectors : list[dict]    -- {sector, state_transition, importance,
+                                   importance_n, evidence_tickers, summary}
         themes : list[dict]     -- {theme, commentary}
     """
     body = _extract_block(text, "EARNINGS_SEASON_RECAP")
@@ -279,95 +280,65 @@ def _parse_macro_sections(text: str) -> dict[str, str]:
     return out
 
 
+# Field labels inside a v3 <<SECTOR_BEGIN>> block, in document order.
+_SECTOR_FIELD_LABELS: list[str] = [
+    "SECTOR",
+    "SECTOR_STATE_TRANSITION",
+    "SECTOR_IMPORTANCE",
+    "EVIDENCE_TICKERS",
+    "SUMMARY",
+]
+
+
 def _parse_sector_block(text: str) -> dict[str, Any]:
-    """Parse one ``<<SECTOR_BEGIN>> ... <<SECTOR_END>>`` body.
+    """Parse one ``<<SECTOR_BEGIN>> ... <<SECTOR_END>>`` body (v3 recap format).
 
-    Each block contains:
-    - one ``SECTOR: <name>`` header line,
-    - zero-or-more bracketed stock entries followed by a commentary paragraph,
-    - optional ALL-CAPS sector-level notes (e.g. ``ENERGY EPS-QUALITY CAVEAT``)
-      followed by their own paragraph. These are stored separately in
-      ``notes`` so they don't pollute the previous stock's commentary.
+    The block is a flat set of labelled fields::
 
-    Stocks expose v2.4 fields ``sector`` / ``subsector`` (empty string when the
-    block uses the legacy 4-dash layout) and ``publication_date`` (with the
-    legacy ``publi_date`` alias retained for backward compatibility).
+        SECTOR: <name>
+        SECTOR_STATE_TRANSITION: <state>
+        SECTOR_IMPORTANCE: <stars>
+        EVIDENCE_TICKERS: <comma-separated tickers>
+        SUMMARY: <free-text paragraph, may span lines>
+
+    Labels may all share one line or be split across lines; each value runs
+    until the next recognised label. The per-stock bracket entries of the old
+    format are gone -- the Sector Dashboard now lists stocks from the company
+    blocks and uses this block only for the sector-level header.
+
+    Returns a dict with keys: ``sector``, ``state_transition``, ``importance``,
+    ``importance_n``, ``evidence_tickers`` (list[str]), ``summary``.
     """
-    sector_name = ""
-    stocks: list[dict[str, Any]] = []
-    notes: list[dict[str, str]] = []
+    flat = " ".join(ln.strip() for ln in text.splitlines())
+    flat = " ".join(flat.split())  # collapse runs of whitespace
 
-    lines = text.splitlines()
-    # current_target is whichever dict is "owning" current_buf right now —
-    # either a stock dict or a note dict. ``current_kind`` says which.
-    current_target: dict[str, Any] | None = None
-    current_kind: str | None = None  # "stock" | "note" | None
-    current_buf: list[str] = []
+    # Locate each label; first occurrence wins. Values run to the next label.
+    positions: list[tuple[int, int, str]] = []
+    for label in _SECTOR_FIELD_LABELS:
+        m = re.search(rf"\b{label}\s*:", flat)
+        if m:
+            positions.append((m.start(), m.end(), label))
+    positions.sort()
 
-    # Heuristic to spot inline sector-note headers: an ALL-CAPS line that is
-    # not the SECTOR: label and not a bracket line.
-    note_header_re = re.compile(r"^[A-Z][A-Z0-9 /\-\(\)\&\.]+$")
+    fields: dict[str, str] = {}
+    for i, (_start, label_end, label) in enumerate(positions):
+        value_end = positions[i + 1][0] if i + 1 < len(positions) else len(flat)
+        fields[label] = flat[label_end:value_end].strip()
 
-    def _flush() -> None:
-        """Flush whichever target is currently accumulating into ``current_buf``."""
-        nonlocal current_target, current_kind, current_buf
-        if current_target is not None:
-            current_target["commentary"] = " ".join(
-                ln.strip() for ln in current_buf if ln.strip()
-            ).strip()
-            if current_kind == "stock":
-                stocks.append(current_target)
-            elif current_kind == "note":
-                notes.append(current_target)
-        current_target = None
-        current_kind = None
-        current_buf = []
-
-    for raw in lines:
-        line = raw.rstrip()
-        s = line.strip()
-        if not s:
-            continue
-        if s.upper().startswith("SECTOR:"):
-            sector_name = s.split(":", 1)[1].strip()
-            continue
-
-        d = _match_sector_bracket(s)
-        if d is not None:
-            _flush()
-            sector_v = d.get("sector", "").strip()
-            subsector_v = d.get("subsector", "").strip()
-            current_target = {
-                "ticker": d["ticker"].strip(),
-                "company": d["company"].strip(),
-                "sector": sector_v,
-                "subsector": subsector_v,
-                "display_sector": sector_v,
-                "display_subsector": subsector_v,
-                "country": d["country"].strip(),
-                "publication_date": d["date"].strip(),
-                "publi_date": d["date"].strip(),  # legacy alias
-                "importance": d["importance"].strip(),
-                "importance_n": _stars_to_count(d["importance"]),
-                "sector_group": sector_name,
-                "commentary": "",
-            }
-            current_kind = "stock"
-            continue
-
-        # ALL-CAPS line that is neither SECTOR: nor a bracket → sector-level note.
-        if note_header_re.match(s) and len(s) <= 80 and not s.endswith("."):
-            _flush()
-            current_target = {"title": s, "commentary": ""}
-            current_kind = "note"
-            continue
-
-        # Otherwise, it's part of whichever paragraph we're currently building.
-        if current_target is not None:
-            current_buf.append(s)
-
-    _flush()
-    return {"sector": sector_name, "stocks": stocks, "notes": notes}
+    importance = fields.get("SECTOR_IMPORTANCE", "").strip()
+    evidence = [
+        t.strip()
+        for t in re.split(r"[,;]", fields.get("EVIDENCE_TICKERS", ""))
+        if t.strip()
+    ]
+    return {
+        "sector": fields.get("SECTOR", "").strip(),
+        "state_transition": fields.get("SECTOR_STATE_TRANSITION", "").strip(),
+        "importance": importance,
+        "importance_n": _stars_to_count(importance),
+        "evidence_tickers": evidence,
+        "summary": fields.get("SUMMARY", "").strip(),
+    }
 
 
 def _parse_themes_block(text: str) -> list[dict[str, str]]:

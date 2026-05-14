@@ -79,7 +79,7 @@ def render_earnings_tab() -> None:
     if section == "PM Read-Across":
         _render_pm_read_across(recap)
     elif section == "Sector Dashboard":
-        _render_sector_dashboard(company_blocks, company_df)
+        _render_sector_dashboard(recap, company_blocks, company_df)
     elif section == "Scout Tracker":
         _render_scout_tracker(company_df)
     elif section == "Company Notes":
@@ -154,6 +154,7 @@ def _render_pm_read_across(recap: dict[str, Any]) -> None:
 
 
 def _render_sector_dashboard(
+    recap: dict[str, Any],
     company_blocks: list[dict[str, Any]],
     company_df: pd.DataFrame,
 ) -> None:
@@ -224,11 +225,23 @@ def _render_sector_dashboard(
     for c in kept:
         by_sector.setdefault(_sector_of(c), []).append(c)
 
+    # Sector-level recap headers from the recap file's <<SECTOR_BEGIN>> blocks,
+    # keyed by a normalised sector name so minor casing/spacing differences
+    # between the recap file and the company blocks still line up.
+    recap_by_sector: dict[str, dict[str, Any]] = {
+        (rec.get("sector", "") or "").strip().casefold(): rec
+        for rec in recap.get("sectors", [])
+        if rec.get("sector")
+    }
+
     st.caption(f"Showing {len(kept)} of {len(company_blocks)} releases")
 
     for sec_name in sorted(by_sector):
         stocks = by_sector[sec_name]
         st.markdown(f"### {html.escape(sec_name)}  ·  {len(stocks)}")
+        sector_recap = recap_by_sector.get(sec_name.strip().casefold())
+        if sector_recap:
+            _render_sector_recap_header(sector_recap)
         for c in stocks:
             _render_sector_card(c)
 
@@ -271,6 +284,33 @@ def _render_sector_card(c: dict[str, Any]) -> None:
     # Every card links straight to its full note — same data, expanded.
     with st.expander(f"Full note — {ticker}", expanded=False):
         _render_company_block(c, in_expander=True)
+
+
+def _render_sector_recap_header(rec: dict[str, Any]) -> None:
+    """Render the sector-level recap above that sector's stock cards.
+
+    Sourced from the recap file's ``<<SECTOR_BEGIN>>`` blocks: the sector
+    state transition, importance, evidence tickers and the summary paragraph.
+    """
+    state_html = styles.state_badge_html(rec.get("state_transition", ""))
+    stars = styles.stars_html(rec.get("importance_n", 0))
+    summary = html.escape(rec.get("summary", ""))
+    tickers = rec.get("evidence_tickers", [])
+
+    badge_line = ""
+    if stars or state_html:
+        badge_line = f'<div style="margin-bottom:6px;">{stars} {state_html}</div>'
+    body = f"<p>{summary}</p>" if summary else ""
+    ev_line = ""
+    if tickers:
+        ev_line = (
+            '<div style="margin-top:6px;font-size:0.78rem;color:#a1a1aa;">'
+            f'Evidence: {html.escape(" · ".join(tickers))}</div>'
+        )
+    st.markdown(
+        f'<div class="e-macro">{badge_line}{body}{ev_line}</div>',
+        unsafe_allow_html=True,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -590,7 +630,8 @@ def _render_compact_table(
     raw = (fallback_text or "").strip()
     if raw and "|" in raw:
         st.markdown(f"**{title}**")
-        st.markdown(raw)
+        # Escape $ so a dollar figure in a raw table cell isn't read as math.
+        st.markdown(raw.replace("$", r"\$"))
 
 
 def _render_segment_compact(c: dict[str, Any]) -> None:
@@ -654,8 +695,14 @@ def _render_section(sections: dict[str, str], name: str, *, expanded: bool) -> N
 
 
 def _format_paragraphs(text: str) -> str:
-    """Render plain text with paragraph + line breaks preserved."""
+    """Render plain text with paragraph + line breaks preserved.
+
+    Also escapes ``$`` so Streamlit doesn't treat dollar figures in the notes
+    (e.g. ``$2.08B``) as LaTeX math delimiters and mangle whole paragraphs
+    into run-together italics.
+    """
     # Split on blank line into paragraphs; render each as markdown.
+    text = text.replace("$", r"\$")
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
     return "\n\n".join(paras)
 
