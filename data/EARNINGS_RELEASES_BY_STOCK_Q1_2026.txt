@@ -15252,3 +15252,626 @@ Q2 EBITDA guidance caused the stock reversal.
 Improvement in the business, but not yet a clean stock re-rating.
 
 <<Z_EARNINGS_END>>
+
+<<MCD_EARNINGS_BEGIN>>
+TICKER: MCD
+COMPANY: McDonald's Corporation
+SECTOR: Consumer Discretionary / Consumer Staples
+SUBSECTOR: Quick Service Restaurants / Global Franchised Foodservice
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Initial earnings-beat enthusiasm faded as investors focused on U.S. company-operated margin pressure, Q2 deceleration risk and lower-income consumer pressure.
+PM_READ: McDonald’s delivered a clean headline beat and positive global comps, but the print was FX-aided and the call shifted attention back to consumer pressure, U.S. owned-store margins and possible refranchising.
+THEMES: Value menu, low-income consumer, QSR traffic, FX-aided EPS, company-operated margins, refranchising review, Q2 deceleration, fuel and grocery pressure, World Cup, beverage platform
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Stabilization. McDonald’s Q1 was numerically better than feared: global comparable sales rose 3.8%, U.S. comps rose 3.9%, revenue grew 9% reported and 4% constant currency, and adjusted EPS of $2.83 beat consensus while GAAP EPS was $2.78. The company also disclosed $47 million of restructuring charges and noted that adjusted EPS growth was only 1% in constant currency, which keeps the quarter from reading as a clean acceleration.
+
+The market issue was not the Q1 print itself; it was the quality of the beat and the forward setup. The stock fade makes sense because the call pushed investors toward U.S. company-operated margin pressure, elevated fuel / grocery pressure on lower-income consumers, and a likely Q2 comp deceleration against a difficult prior-year promotional compare.
+
+The under-discussed signal is strategic rather than quarterly: management is openly evaluating whether some U.S. company-operated restaurants are best held by McDonald’s or moved into stronger operator hands. That is not an earnings crisis, but it is a P&L mix and capital-allocation signal that matters beyond Q1.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $6.52B | $6.47B-$6.53B consensus range | Beat | +9% reported; +4% constant currency | Not confirmed | Revenue beat was real but not large, with FX lifting the reported growth optics. |
+| EPS / Earnings | $2.78 GAAP EPS; $2.83 adjusted EPS | $2.74-$2.75 consensus range | Beat | +7% GAAP; +6% adjusted; +1% adjusted constant currency | Not confirmed | EPS quality is mixed because $0.13 of benefit came from FX and constant-currency EPS growth was only +1%. |
+| Profitability / Margin | Adjusted operating margin 46%; restaurant margins above $3.6B | Prior not confirmed | Beat | Operating income +12% reported; +6% constant currency | Not confirmed | Corporate margin held up, but U.S. company-operated margin commentary was the negative quality flag. |
+| Guidance / Outlook | FY26 targets reaffirmed; FX EPS tailwind expected at $0.20-$0.30 | Prior guidance reaffirmed | In line | Not applicable | Not applicable | Reaffirmed guide was offset by explicit Q2 deceleration risk and consumer-pressure commentary. |
+| Market reaction | Beat-and-fade; modestly negative net reaction | Not applicable | Mixed | Not applicable | Not applicable | Initial beat reaction was not sustained as investors refocused on margin, consumer and Q2 comparison risk. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Global comparable sales | +3.8% | StreetAccount around +3.7% per scout | Slight beat | Clean headline comp beat across all geographic divisions. |
+| U.S. comparable sales | +3.9% | Prior not confirmed | Positive | Value and check growth supported comps, but traffic / lower-income demand remains the monitoring issue. |
+| International Operated Markets comps | +3.9% | Prior not confirmed | Positive | U.K., Germany and Australia were cited as contributors in the scout and official segment growth was solid. |
+| International Developmental Licensed comps | +3.4% | Prior not confirmed | Positive | Japan-led strength kept global comps broad rather than U.S.-only. |
+| Systemwide sales | Over $34B; +11% reported; +6% constant currency | Prior not confirmed | Positive | Franchised model still compounds system sales even when reported EPS quality is FX-aided. |
+| Adjusted operating margin | 46% | Prior not confirmed | Not confirmed | Group margin is resilient, but company-operated margin pressure limits rerating quality. |
+| Restructuring charge | $47M pre-tax; $0.05 per share | $66M prior-year pre-tax charge | Lower YoY | Adjustment is modest but relevant for clean EPS comparison. |
+| FX EPS impact | $0.13 benefit in Q1; $0.20-$0.30 expected FY26 tailwind | Prior not confirmed | Positive reported optics | FX is a meaningful tailwind and should not be treated as operating acceleration. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+McDonald’s reported consolidated revenue growth of 9% and 4% in constant currencies, with global systemwide sales up 11% and 6% in constant currencies. Global comps were +3.8%, with U.S. +3.9%, International Operated Markets +3.9%, and International Developmental Licensed Markets +3.4%.
+
+Consensus:
+Consensus was mixed across sources. The scout range of $6.47B-$6.53B implies a small revenue beat or high-end match depending on the provider used; the safer archive treatment is a modest beat, not a blowout.
+
+EPS / Earnings:
+GAAP diluted EPS was $2.78, up 7% reported and 2% constant currency. Adjusted EPS excluding the $0.05 restructuring charge was $2.83, up 6% reported but only 1% constant currency, with the call transcript identifying a $0.13 FX benefit.
+
+Profitability / Margins:
+Consolidated operating income rose 12% reported and 6% constant currency; excluding restructuring charges, consolidated operating income rose 11% reported and 5% constant currency. The transcript summary also flags more than $3.6B of restaurant margins and a 46% adjusted operating margin, while management discussion focused investor concern on U.S. company-operated margins.
+
+Key KPI:
+The highest-quality operating KPI is global comparable sales, because all three geographic segments were positive. The lower-quality element is constant-currency EPS growth, because +1% adjusted constant-currency EPS growth does not match the stronger headline EPS beat.
+
+Guidance headline:
+Full-year 2026 targets were reaffirmed and FX was expected to contribute $0.20-$0.30 to EPS for the year, but the market focused more on Q2 deceleration risk and consumer-pressure commentary than on the reaffirmation.
+
+Capital allocation:
+Capital allocation was not the center of the Q1 debate. The relevant capital-allocation angle is the strategic review of company-operated ownership versus franchisee operation and the potential implications for mix, margin and invested capital.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed.
+
+Adjustment issue:
+The main adjustments were a $47M pre-tax restructuring charge linked to Accelerating the Organization and a meaningful FX benefit to EPS; no major non-operating gain drove the beat.
+
+PM interpretation:
+Investors should focus less on headline adjusted EPS and more on constant-currency EPS growth, comparable sales quality, company-operated margins and whether value-driven traffic can be monetized without eroding unit economics.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| U.S. | Not disclosed | Not confirmed | Comparable sales +3.9% | Company-operated margin pressure | Value menu and check growth supported comps, but margin commentary was the core negative signal. |
+| International Operated Markets | Not disclosed | Not confirmed | Comparable sales +3.9% | Not confirmed | U.K., Germany and Australia contributed to broad global performance. |
+| International Developmental Licensed Markets | Not disclosed | Not confirmed | Comparable sales +3.4% | Not confirmed | Japan was highlighted in the scout as a key driver, keeping global comp strength diversified. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+McDonald’s reaffirmed FY26 targets and guided to a $0.20-$0.30 EPS tailwind from FX, but this does not create a clean upward-revision story because Q2 comparable sales are expected to slow against the prior-year Minecraft promotion and management acknowledged a pressured consumer backdrop. Revision direction: no material consensus change to mild mix-shift revisions, with models likely to preserve FY EPS while lowering confidence in U.S. owned-store margin and Q2 comp cadence.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The professional tape should be read as beat-and-fade, not a failed quarter. McDonald’s cleared the near-term comp and EPS bar, but the market treated the print as a stress test of whether value menus can stabilize lower-income traffic without damaging restaurant economics. The answer was only partly reassuring.
+
+The market’s concern is rational. A QSR stock can rally on value-led comps if traffic, franchisee profitability and margins all cooperate. Here, the comp line cooperated, but the call reintroduced two frictions: cost-sensitive consumers remain under pressure and company-operated restaurants are not delivering acceptable margin performance.
+
+The sector read-across is that value is working, but not for free. That matters for QSR peers because value messaging can defend share while simultaneously compressing restaurant-level economics if labor, beef, fuel and promotion costs remain elevated.
+
+COMMENT — ANALYST LAYER
+
+The best signal is the breadth of comparable sales growth across all three geographic divisions. The weakest signal is the gap between reported EPS growth and constant-currency EPS growth, plus the direct management focus on U.S. company-operated margins.
+
+Analysts are likely to keep the global comp trajectory intact but scrutinize U.S. margin bridge assumptions, Q2 deceleration, and whether the new beverage platform can create incremental traffic without requiring excessive promotion.
+
+State transition: Stabilization
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether McDonald’s value reset could repair traffic and affordability perception without turning into a margin give-up. Q1 confirms the sales side of the value strategy, but not yet the margin side. The thesis is stabilized, not upgraded.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a defensive consumer compounder that needed evidence of value-led traffic repair. The comp beat gave that evidence, but the move faded because the quality of EPS, Q2 deceleration risk and U.S. owned-store margin pressure prevented a clean rerating. For the stock to rerate, the next test is whether Q2 deceleration is only a promotional comparison issue rather than a renewed traffic problem. The thesis breaks if lower-income traffic weakens further while company-operated margins require more aggressive refranchising or value subsidization.
+
+Stock identity:
+defensive compounder, yield / income stock, quality compounder. The print reinforces the defensive compounder identity because global comps remained positive in a difficult consumer backdrop, but it challenges the quality-compounder premium because operating quality is not clean when FX, value spend and owned-store margin issues are central to the discussion.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The stock reaction was mixed-to-negative because the market looked through the beat and focused on the call. The relevant peer read-across is negative for any QSR name relying on value to defend traffic while food, labor or fuel pressure remains elevated; it is more constructive for franchise-heavy models with less company-operated margin exposure.
+
+For restaurants, the quarter says consumer demand is not collapsing, but the consumer is price-sensitive. That is a better read for traffic stabilization than for margin expansion.
+
+KEY ISSUES TO MONITOR
+
+Q2 comparable sales / Why it matters: The Minecraft comparison and consumer pressure will determine whether Q1 was a temporary value-led stabilization or the start of a stronger comp path.
+
+U.S. company-operated margins / Why it matters: Owned-store margin weakness could trigger refranchising or reveal that value-led traffic is not sufficiently profitable.
+
+Lower-income traffic / Why it matters: McDonald’s is a direct read on budget-stretched consumers and affordability positioning.
+
+Beverage platform / Why it matters: A successful McCafé beverage push could add higher-frequency traffic and improve mix.
+
+Investor Day / Why it matters: Management may clarify ownership mix, refranchising posture and margin recovery path.
+
+BOTTOM LINE
+
+McDonald’s beat, but not cleanly enough to reset the debate.
+
+The quarter stabilizes the sales thesis.
+
+It does not remove the margin / consumer pressure overlay.
+
+PM focus should stay on Q2 comps, U.S. owned-store margin repair and whether refranchising becomes a real strategic lever.
+
+<<MCD_EARNINGS_END>>
+
+<<ABNB_EARNINGS_BEGIN>>
+TICKER: ABNB
+COMPANY: Airbnb, Inc.
+SECTOR: Consumer Discretionary
+SUBSECTOR: Travel / Lodging / Online Marketplace / Experiences
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Revenue beat and FY guide raise were offset by EPS miss optics, premium valuation and short-term profit-taking after recent upgrades.
+PM_READ: Airbnb’s operating trajectory improved through revenue acceleration, GBV growth, app mix, first-time bookers and a guide raise, but EPS optics were noisy and the market still needs proof that new categories and international expansion can sustain growth.
+THEMES: Travel demand, GBV, nights and seats booked, ADR, app booking mix, Reserve Now Pay Later, Middle East cancellations, World Cup, experiences, services, AI support, fee simplification, buybacks
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Improvement. Airbnb delivered a strong operating quarter: revenue grew 18% to $2.7B, GBV rose 19% to $29.2B, nights and seats booked grew 9%, net income was $160M, adjusted EBITDA was $519M and free cash flow was $1.7B. Management also raised full-year revenue guidance to low-to-mid-teens growth and guided Q2 revenue to $3.54B-$3.60B.
+
+The scout’s operating read is right, but the accounting bridge needs nuance. Airbnb disclosed both a roughly $70M one-time gain from the sale of a privately held equity investment and a roughly $70M deferred-tax-asset adjustment from U.S. Corporate Alternative Minimum Tax changes; these offset directionally, so the EPS miss should not be treated as a simple one-way tax add-back.
+
+The market reaction was therefore mixed rather than fundamentally bearish. Revenue, GBV, app penetration, first-time bookers, expansion markets and guidance all moved in the right direction, but the stock did not get a clean rerating because premium-valuation travel names need both operating acceleration and clean EPS / FCF optics.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $2.7B; approximately $2.678B per scout | $2.62B consensus | Beat | +18%; +15% ex-FX | Not confirmed | Revenue exceeded the high end of guidance and confirms top-line reacceleration. |
+| EPS / Earnings | $0.26 GAAP EPS; $160M net income | $0.30-$0.31 consensus range | Miss | Net income slightly higher YoY; margin 6% | Not confirmed | EPS miss optics are noisy because one-time equity gain and tax adjustment offset directionally. |
+| Profitability / Margin | $519M adjusted EBITDA; 19% margin; $1.7B FCF; 64% FCF margin | Prior adjusted EBITDA $417M; prior margin 18% | Beat | Adjusted EBITDA +24% | Not confirmed | Operating leverage is improving underneath GAAP EPS noise. |
+| Guidance / Outlook | Q2 revenue $3.54B-$3.60B; FY26 revenue growth raised to low-to-mid teens; adjusted EBITDA margin at least 35% | Prior FY outlook low double digit revenue growth | Beat | Not applicable | Not applicable | Guide raise is the key positive revision signal, even with Middle East headwind. |
+| Market reaction | Initially mixed; modestly negative over following sessions per scout | Not applicable | Mixed | Not applicable | Not applicable | Beat-and-raise was partly priced and EPS optics limited immediate rerating. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Gross Booking Value | $29.2B | Prior not confirmed | +19% YoY; +13% ex-FX | Strong demand and ADR supported marketplace volume. |
+| Nights and Seats Booked | 156.2M | Prior not confirmed | +9% YoY | Healthy volume growth despite Middle East cancellation drag. |
+| ADR | $187 | Prior not confirmed | +9% YoY; +4% ex-FX | Pricing and FX helped GBV; ex-FX ADR still positive. |
+| App-booked nights | 63% of total nights | 58% prior year | +5pp | App mix is a quality signal for retention, frequency and direct engagement. |
+| First-time booker growth | +10% YoY | Highest since early 2022 | Accelerated | Brazil, Japan and India drove the expansion-market signal. |
+| Reserve Now Pay Later | Roughly 20% of global GBV | Prior not confirmed | Material adoption | Payment flexibility is increasing lead times and may support conversion. |
+| Adjusted EBITDA | $519M | $417M prior year | +24% YoY | Margin expansion despite reinvestment supports the operating-leverage thesis. |
+| Free cash flow | $1.7B | Prior not confirmed | Slightly down YoY per company commentary | FCF remains very strong, but Reserve Now Pay Later shifts timing of guest payments. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $2.7B, up 18% year over year and 15% ex-FX, above the high end of guidance. GBV grew 19% to $29.2B, driven by nights growth, ADR and FX.
+
+Consensus:
+Consensus was around $2.62B for revenue and $0.30-$0.31 for EPS based on the scout and transcript summary; revenue beat, EPS missed.
+
+EPS / Earnings:
+GAAP EPS was $0.26 and net income was $160M. Net income included both a roughly $70M one-time gain from a private equity investment sale and a roughly $70M one-time deferred-tax-asset adjustment from U.S. Corporate Alternative Minimum Tax changes, so the clean EPS bridge is mixed rather than a simple tax-noise add-back.
+
+Profitability / Margins:
+Adjusted EBITDA was $519M, up 24% from $417M, with adjusted EBITDA margin of 19% versus 18% a year earlier. Free cash flow was $1.7B with a 64% margin, although management noted working-capital timing effects from Reserve Now Pay Later.
+
+Key KPI:
+The best KPI is the combination of GBV +19%, nights and seats +9%, app-booked nights +22%, and first-time bookers +10%. This points to demand and product engagement rather than only price / FX.
+
+Guidance headline:
+Q2 revenue guide of $3.54B-$3.60B implies 14%-16% growth, including around 3% FX tailwind, and management expects Q2 nights growth to decelerate slightly partly due to a roughly 100bp Middle East conflict headwind. Full-year 2026 revenue growth guidance was raised to low-to-mid teens and adjusted EBITDA margin is expected to be at least 35%.
+
+Capital allocation:
+Airbnb repurchased $1.1B of Class A stock in Q1 and had $4.5B of remaining authorization as of March 31, 2026. It also held $12.1B of cash, cash equivalents, short-term investments and restricted cash, completed a $2.5B senior unsecured debt offering, and repaid $2.0B of convertible senior notes.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed.
+
+Adjustment issue:
+Official disclosure shows both a roughly $70M private-equity-investment sale gain and a roughly $70M deferred-tax-asset adjustment tied to U.S. Corporate Alternative Minimum Tax changes; these offset directionally and make the EPS miss less clean than the operating KPIs.
+
+PM interpretation:
+Investors should focus on revenue growth, GBV, nights and seats, adjusted EBITDA, FCF timing, app penetration and guidance, while treating GAAP EPS as noisy rather than the dominant signal.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| North America | Not disclosed | Not disclosed | High-single-digit nights growth | Not disclosed | Domestic travel and longer lead times supported growth, with ADR up 7%. |
+| EMEA | Not disclosed | Not disclosed | Mid-single-digit nights growth | Not disclosed | Middle East conflict drove elevated cancellations and weighed on nights growth. |
+| Latin America | Not disclosed | Not disclosed | High-teens nights growth | Not disclosed | Brazil remained a key engine, with origin nights up over 20% for the third consecutive quarter. |
+| Asia Pacific | Not disclosed | Not disclosed | High-teens nights growth | Not disclosed | India origin nights grew approximately 50% and first-time booker growth accelerated. |
+| Services and experiences | Not disclosed | Not disclosed | Not confirmed | Investment phase | New categories are still early but are being positioned as demand flywheel products. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The guide is constructive: Q2 revenue of $3.54B-$3.60B, FY26 revenue growth raised to low-to-mid teens, and FY adjusted EBITDA margin at least 35%. The caveat is that Q2 nights growth is expected to decelerate slightly and Middle East conflict is assumed to create an estimated roughly 100bp headwind. Revision direction: upward revisions for revenue and likely adjusted EBITDA, with mixed-to-limited EPS revisions because GAAP tax / one-time items and reinvestment complicate the bottom-line bridge.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market had to choose between a clean operating acceleration and noisy EPS optics. The correct read is that the operating model improved: GBV, nights, app mix, first-time bookers, expansion markets, adjusted EBITDA and the guide all point in the same direction.
+
+The reason the stock did not get a cleaner rerating is setup. Travel platforms are being valued on durable demand, take-rate expansion, FCF conversion and international runway. Airbnb improved the evidence on all four, but the EPS miss and one-time-accounting complexity gave investors a reason to avoid chasing.
+
+The forward catalysts are unusually dense: Summer Release, World Cup, continued Reserve Now Pay Later rollout, fee simplification, insurance monetization and AI customer-support productivity. These can sustain a better growth narrative, but they also raise execution expectations.
+
+COMMENT — ANALYST LAYER
+
+The strongest signal is broad-based operating acceleration: revenue above guide, GBV +19%, app-booked nights +22%, first-time bookers +10%, and guidance raised. The weakest signal is GAAP EPS readability because the quarter contains both a one-time gain and a one-time tax adjustment.
+
+Analysts are likely to raise revenue and perhaps adjusted EBITDA assumptions, but they may avoid aggressive EPS upgrades until tax-rate, reinvestment and working-capital timing are cleaner. Consensus may still be too conservative on top-line growth if expansion markets and product initiatives continue to compound.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Airbnb’s product rebuild could restart growth without sacrificing profitability. Q1 strengthens that case, especially through app penetration, first-time bookers and guide raise. The open question is whether this becomes a sustained new growth phase or a temporary FX / pricing-assisted acceleration.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a premium travel marketplace with improving product velocity and recent analyst support. The reaction makes sense: the operating print was good enough to validate the bull case, but not clean enough to force immediate rerating because EPS optics and valuation created room for profit-taking. The next rerating condition is confirmation that Summer Release, World Cup demand and expansion markets translate into durable nights growth and take-rate upside. The thesis breaks if Middle East cancellations broaden, fee simplification creates host friction, or FCF timing weakens more than expected.
+
+Stock identity:
+quality compounder, GARP, expensive but deliverable, setup-risk stock. The print reinforces the quality compounder and GARP identities because growth and EBITDA scaled together, but the premium setup remains fragile when EPS optics are messy and expectations already price successful innovation.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The reaction was mixed: the stock did not reject the operating print, but it also did not fully reward the beat-and-raise. For peers, the read-across is positive for global travel demand and online booking platforms, but less clean for hotels and OTAs because Airbnb’s supply model, Reserve Now Pay Later, app mix and experiences / services expansion are company-specific.
+
+The broader consumer read is also constructive: travel demand remains resilient, but geopolitical disruption is now measurable in cancellations and has to be built into Q2 expectations.
+
+KEY ISSUES TO MONITOR
+
+Summer Release / Why it matters: It is the next catalyst for whether new categories can expand the platform beyond stays.
+
+World Cup demand / Why it matters: Event-driven travel can validate Airbnb’s ability to capture peak-period accommodation demand.
+
+Middle East cancellation drag / Why it matters: A 100bp headwind is manageable; a larger drag would challenge the resilience narrative.
+
+Reserve Now Pay Later / Why it matters: It supports conversion and lead times but changes working-capital timing.
+
+Tax and one-time items / Why it matters: EPS readability must improve for the market to fully credit operating leverage.
+
+BOTTOM LINE
+
+Airbnb improved operationally.
+
+The guide raise matters more than the EPS miss.
+
+The accounting bridge is noisy and not a one-way tax add-back.
+
+The next proof point is whether product velocity converts into sustained nights growth and take-rate lift.
+
+<<ABNB_EARNINGS_END>>
+
+<<COIN_EARNINGS_BEGIN>>
+TICKER: COIN
+COMPANY: Coinbase Global, Inc.
+SECTOR: Financials / Information Technology
+SUBSECTOR: Crypto Exchange / Onchain Infrastructure / Stablecoins / Derivatives / Prediction Markets
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Deterioration
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell after-hours and into the next session as revenue, transaction revenue, subscription revenue and GAAP EPS missed while multiple analysts cut price targets.
+PM_READ: Coinbase deteriorated near term because both transaction and subscription revenue missed and adjusted EBITDA compressed sharply, but the long-term platform thesis remains alive through record market share, derivatives, prediction markets, Base and regulatory optionality.
+THEMES: Crypto cycle, transaction revenue, subscription and services, stablecoins, USDC, Base, derivatives, prediction markets, crypto MTM loss, AI-native finance, workforce restructuring, CLARITY Act, Robinhood competition
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Deterioration. Coinbase missed on the core earnings lines: total revenue was about $1.4B, net loss was $394M, adjusted EBITDA was $303M, transaction revenue was $756M and subscription and services revenue was $584M. The company still produced its 13th consecutive quarter of positive adjusted EBITDA, but adjusted EBITDA was materially lower than the prior year and the operating revenue miss was not just accounting noise.
+
+The GAAP loss was heavily distorted by $482.4M of losses on crypto assets held for investment, which Coinbase excludes from adjusted EBITDA and adjusted net income because it treats those holdings as long-term investments rather than core operating activity. That explains the scale of the GAAP loss, but it does not erase the weaker trading and subscription revenue.
+
+Strategically, the quarter was not a thesis kill. Coinbase reported all-time-high crypto trading volume market share, 169% YoY derivatives trading volume growth, prediction markets scaling to over $100M annualized revenue in less than two months, Base processing 62% of onchain stablecoin transaction volume, and more than 90% share of onchain agentic stablecoin transaction volume.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $1.41B | $1.48B-$1.52B consensus range | Miss | -31% YoY per scout | -21% sequential per transcript summary | Revenue miss reflects weaker crypto prices, volumes and trading activity. |
+| EPS / Earnings | GAAP EPS -$1.49; net loss $394M | +$0.04 to +$0.27 consensus range | Miss | Not meaningful | Not confirmed | GAAP loss was heavily distorted by crypto-asset investment losses but operating revenue also missed. |
+| Profitability / Margin | $303M adjusted EBITDA | $929.9M prior year adjusted EBITDA | Miss | -67% YoY | Down from $565.9M Q4 2025 | Adjusted EBITDA stayed positive but the margin trajectory deteriorated sharply. |
+| Guidance / Outlook | Q2 transaction revenue around $215M through early May; subscription and services guide $565M-$645M | Prior not confirmed | Mixed | Not applicable | Not applicable | Forward guide does not yet prove reacceleration and remains crypto-cycle dependent. |
+| Market reaction | AH down around 4%; next-session drawdown around 6% per scout | Not applicable | Negative | Not applicable | Not applicable | Market treated the print as an expectations reset rather than a platform-thesis collapse. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Transaction revenue | $756M | $805M expected per scout | Miss | Trading revenue missed and remains cycle-sensitive. |
+| Subscription and services revenue | $584M | $619M expected per scout | Miss | Stablecoin and subscription lines were not enough to offset broader weakness. |
+| Stablecoin revenue | $305M | Prior not confirmed | Not confirmed | USDC economics remain a core diversification pillar. |
+| Adjusted EBITDA | $303M | $929.9M prior year; $565.9M Q4 2025 | Down materially | Positive EBITDA streak remains, but profitability reset is real. |
+| Crypto trading market share | 8.6% | Prior not confirmed | All-time high | Share gain partially offsets the weak market backdrop. |
+| Derivatives trading volume | +169% YoY TTM | Prior not confirmed | Strong growth | Key proof point for Everything Exchange strategy. |
+| Prediction markets revenue | Over $100M annualized | Product recently launched | Rapid scale | Important optionality but still early versus core revenue base. |
+| Base stablecoin transaction share | 62% | Prior not confirmed | Leading position | Strong infrastructure signal for stablecoins and agentic commerce. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Coinbase generated around $1.4B of revenue, down 21% sequentially according to the transcript summary, with transaction revenue of $756M and subscription and services revenue of $584M.
+
+Consensus:
+Consensus ranges in the scout show revenue expectations around $1.48B-$1.52B and EPS expectations between +$0.04 and +$0.27. The quarter missed on both revenue and GAAP EPS.
+
+EPS / Earnings:
+Coinbase reported a net loss of $394M. The non-GAAP bridge shows $482.4M of losses on crypto assets held for investment, a major driver of the GAAP loss and a key reason adjusted EBITDA remained positive at $303.3M.
+
+Profitability / Margins:
+Adjusted EBITDA was $303.3M versus $929.9M in Q1 2025 and $565.9M in Q4 2025. Coinbase still delivered positive adjusted EBITDA for the 13th consecutive quarter, but the trajectory is a clear profitability deterioration.
+
+Key KPI:
+The best strategic KPIs are 8.6% crypto trading volume market share, 169% derivatives trading volume growth, Base’s 62% share of onchain stablecoin transactions, and prediction markets at over $100M annualized revenue in less than two months.
+
+Guidance headline:
+Q2 transaction revenue was running around $215M through early May per the scout, and subscription and services guidance was $565M-$645M. The guide is not a clear upward-revision setup because trading activity remains the swing factor.
+
+Capital allocation:
+Coinbase has a substantial liquidity position, but capital return was not the central issue. The more important capital-allocation signal is continued investment in derivatives, prediction markets, Base, stablecoin infrastructure and AI-native finance while restructuring the cost base.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Distorted.
+
+Adjustment issue:
+The major distortion was $482.4M of losses on crypto assets held for investment; Coinbase excludes gains and losses on these holdings from adjusted EBITDA because it classifies them as non-core operating activity.
+
+PM interpretation:
+Investors should not use GAAP EPS alone for the quarter. The cleaner measures are transaction revenue, subscription and services revenue, adjusted EBITDA, trading market share, stablecoin economics and whether new revenue streams reduce dependence on the crypto spot cycle.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Transaction revenue | Approximately 54% of revenue | $756M | Not confirmed | Down sequentially | Core trading revenue missed and remains tied to crypto activity. |
+| Subscription and services | Approximately 41% of revenue | $584M | Not confirmed | Down sequentially | Stablecoin revenue helped, but the line still missed expectations. |
+| Stablecoin / USDC | Not disclosed | $305M stablecoin revenue | Not confirmed | Not disclosed | Strategic diversification pillar with high relevance to Base and payments. |
+| Derivatives | Not disclosed | Retail derivatives annualized revenue above $200M | +169% trading volume TTM | Scaling | Important validation of Everything Exchange beyond spot crypto. |
+| Prediction markets | Not disclosed | Over $100M annualized revenue in March | New product scaling | Early stage | Fast-scaling product but still too early to offset core cyclicality. |
+| Base / Onchain infrastructure | Not disclosed | Not disclosed | Stablecoin volume up strongly | Not disclosed | Base has strategic importance as settlement layer for stablecoins and agentic commerce. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The forward setup is mixed. Q2 transaction revenue run-rate through early May did not by itself imply a sharp rebound, while subscription and services guidance of $565M-$645M gives a broad range rather than a clean acceleration signal. Revision direction: downward revisions near term, especially to revenue, adjusted EBITDA and GAAP EPS, partly offset by unchanged or higher strategic optionality assigned to derivatives, prediction markets, Base and stablecoin infrastructure.
+
+PROFESSIONAL MARKET COMMENTARY
+
+This is a classic crypto-cycle versus infrastructure-platform quarter. Bears can point to missed revenue, missed EPS, lower transaction revenue, lower subscription revenue and a sharp EBITDA reset. Bulls can point to market-share gains, product expansion, derivatives, prediction markets, stablecoins, Base and potential regulatory catalysts.
+
+The stock reaction was rational because the operating miss was real. The market did not overreact to the GAAP loss alone; it also discounted weaker trading activity and the fact that diversification did not yet fully offset crypto-cycle pressure.
+
+The long-term debate remains open. Coinbase is less fragile than a pure spot-crypto broker if Everything Exchange, Base, USDC and prediction markets keep scaling. But the Q1 print shows that the market has not yet been given enough evidence to underwrite the business as a stable financial-infrastructure compounder.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is market-share and product expansion in a weak market. The weakest signal is that both transaction and subscription revenue missed at the same time, while adjusted EBITDA fell sharply.
+
+Analysts are likely to cut near-term revenue and EBITDA assumptions, but keep optionality in out-years where regulatory clarity, stablecoins, derivatives and prediction markets can drive a different mix. Consensus is likely too high for near-term operating leverage but not necessarily too high for long-term platform optionality.
+
+State transition: Deterioration
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Coinbase was becoming less cycle-dependent. Q1 weakens the near-term answer because core revenue missed and EBITDA reset lower. It does not eliminate the long-term platform case, but it raises the burden of proof.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing Coinbase as a high-beta crypto proxy with a growing infrastructure option. The print forced a near-term expectations reset because revenue weakness and EBITDA compression were genuine, while the GAAP loss was only partly explainable by non-operating crypto MTM. For rerating, investors need a BTC / crypto-volume recovery, evidence that derivatives and prediction markets are scaling into material revenue, and regulatory progress. The thesis breaks if Robinhood and other platforms erode share, regulatory catalysts slip, or subscription and services fail to stabilize through the crypto cycle.
+
+Stock identity:
+optionality stock, secular growth at a cyclical multiple, setup-risk stock, crowded long. The quarter challenges the secular-growth identity in the near term because operating revenue missed, but it reinforces optionality through Base, stablecoins, prediction markets and derivatives.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The negative reaction and price-target compression were driven by both the headline miss and a real operating reset. The peer read-across is negative for crypto-exchange earnings sensitivity and positive for platforms with derivatives, stablecoins and tokenization optionality.
+
+For Robinhood and other retail trading platforms, the read-through is mixed: Coinbase still gains crypto market share, but the quarter highlights how quickly trading economics deteriorate when crypto activity softens.
+
+KEY ISSUES TO MONITOR
+
+Crypto trading volume / Why it matters: Transaction revenue remains the main cyclical earnings driver.
+
+Subscription and services stability / Why it matters: This line must prove diversification from spot trading.
+
+Base and stablecoins / Why it matters: Infrastructure economics are the clearest path to lower-cycle revenue.
+
+Prediction markets / Why it matters: Early annualized revenue is promising but needs durability and regulatory clarity.
+
+Adjusted EBITDA / Why it matters: Positive EBITDA streak is intact, but the magnitude of compression matters for valuation.
+
+BOTTOM LINE
+
+Coinbase deteriorated near term.
+
+The GAAP loss is distorted, but the operating miss is real.
+
+Strategic optionality is still high.
+
+The stock now needs 2H26 proof from crypto volumes, regulation, derivatives, prediction markets and Base.
+
+<<COIN_EARNINGS_END>>
+
+<<MELI_EARNINGS_BEGIN>>
+TICKER: MELI
+COMPANY: MercadoLibre, Inc.
+SECTOR: Consumer Discretionary / Financials
+SUBSECTOR: LATAM E-Commerce / Marketplace / Fintech / Credit / Payments
+COUNTRY: Uruguay / Latin America
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares sold off sharply after the market repriced the lower-margin investment cycle, despite the fastest revenue growth since Q2 2022.
+PM_READ: MercadoLibre’s top-line engine accelerated materially, but management effectively confirmed that margin recovery is not the near-term objective, making the stock a duration call on credit, logistics and market-share investments.
+THEMES: LATAM e-commerce, Mercado Pago, credit book, Brazil free shipping, margin compression, logistics investment, GMV, TPV, fintech, Argentina investment, GenAI search, Amazon and Shein competition
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Continuation. MercadoLibre delivered a very strong growth quarter: net revenue and financial income rose 49% to $8.8B, the fastest growth since Q2 2022, while GMV reached $19B and TPV / fintech momentum remained robust. Net income fell to $417M and operating margin compressed to 6.9%, reflecting deliberate investment in logistics, free shipping and credit expansion.
+
+The market reaction was driven by the margin doctrine, not by the revenue line. The company’s profit decline reflected continued investment for market-share gains, while Brazil free-shipping threshold cuts, fintech expansion and credit-card growth were central drivers of the growth / margin trade-off.
+
+This is not a thesis break; it is the formalization of a lower-margin investment phase. Bulls can point to accelerating revenue, Brazil buyer growth, GMV and credit expansion; bears can point to operating margin compression, credit provisioning, and management’s willingness to sacrifice short-term profits for scale.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $8.845B net revenue and financial income | $8.36B-$8.47B consensus range | Beat | +49%; +46% FX-neutral per scout | Not confirmed | Fastest revenue growth since Q2 2022 validates the investment cycle. |
+| EPS / Earnings | $417M net income; adjusted EPS $8.23 per scout | $8.32-$8.83 consensus range | Miss | Net income -15.6% YoY | Not confirmed | Earnings missed because investment and credit growth compressed profitability. |
+| Profitability / Margin | $611M operating income; 6.9% operating margin; 4.7% net margin | 12.9% operating margin prior year | Miss | Operating margin down roughly 6pp YoY | Not confirmed | Margin compression is operational and strategic, not one-time noise. |
+| Guidance / Outlook | Management willing to sustain lower margins near term per scout and Reuters framing | Prior margin recovery debate | Negative for near-term margin revisions | Not applicable | Not applicable | Revenue revisions may rise, but margin recovery expectations move out. |
+| Market reaction | Sharp negative next-session selloff around 12%-13% per scout | Not applicable | Negative | Not applicable | Not applicable | Market repriced the multi-year margin bridge despite strong top-line growth. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| GMV | $19B | Prior not confirmed | +42% YoY | Marketplace growth remains very strong. |
+| Total Payment Volume | $87.2B | Prior not confirmed | +50% YoY; +55% FX-neutral per scout | Mercado Pago remains a major growth engine. |
+| Mercado Pago monthly active users | 83M | Prior not confirmed | +29% YoY | Fintech engagement is scaling. |
+| Credit portfolio | $14.6B | Prior not confirmed | +87% YoY | Credit growth is powerful but provisioning-intensive. |
+| Credit card book | $6.6B | Prior not confirmed | More than doubled YoY | Core source of upside and risk. |
+| New credit cards issued | 2.7M | Prior not confirmed | Material expansion | Credit-card scaling is now central to margin debate. |
+| Brazil sold items | Not confirmed | Prior not confirmed | +56% YoY | Brazil remains the main growth and free-shipping battleground. |
+| Operating margin | 6.9% | 12.9% prior year | Down sharply | Market is repricing the lower-margin investment phase. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+MercadoLibre reported net revenue and financial income of $8.8B, up 49% YoY and described by the company as its fastest growth since Q2 2022. The revenue line was a clear beat.
+
+Consensus:
+Consensus ranges in the scout show revenue expectations of $8.36B-$8.47B and adjusted EPS expectations of $8.32-$8.83. Revenue beat, while EPS missed.
+
+EPS / Earnings:
+Net income was $417M, down 15.6% from a year earlier and below expectations, with the profit decline attributed to investments in logistics, credit expansion and free shipping.
+
+Profitability / Margins:
+Operating income was $611M with a 6.9% operating margin versus 12.9% in Q1 2025. The margin compression is not a one-off accounting item; it is the economic cost of a deliberate investment cycle.
+
+Key KPI:
+The key KPI is the interaction between Brazil marketplace growth and credit expansion. GMV was $19B, Brazil unique buyers were up strongly, Brazil sold items rose materially, Mercado Pago MAUs reached 83M, AUM was near $20B, credit portfolio rose 87% to $14.6B, and credit-card book more than doubled to $6.6B.
+
+Guidance headline:
+No conventional annual financial guide is the center of the debate. The effective guide is management’s willingness to keep investing and accept near-term profit sacrifice for market-share gains.
+
+Capital allocation:
+Capital allocation is being directed toward growth investment rather than near-term margin maximization, including logistics, free shipping, credit expansion and the Argentina investment plan referenced in the scout.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean but lower quality for near-term EPS.
+
+Adjustment issue:
+No single dominant non-operating item explains the miss. The compression is operational, driven by credit provisioning, logistics, free shipping, first-party / cross-border investment and strategic growth spend.
+
+PM interpretation:
+Investors should focus on revenue growth, GMV, TPV, credit-book quality, NPLs, provisioning, operating margin and whether the credit / logistics investments convert into higher lifetime value and future margin recovery.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Commerce / Marketplace | Not disclosed | Not disclosed | GMV +42% YoY | Margin pressured by free shipping and investment | Brazil growth and lowered free-shipping thresholds drove volume and share gains. |
+| Mercado Pago / Fintech | Not disclosed | $4B net revenue per scout | +51% YoY | Pressured by credit provisioning | Payment volume, AUM and credit-card expansion remain major growth drivers. |
+| Credit portfolio | Not disclosed | $14.6B portfolio | +87% YoY | Provisioning-intensive | Credit growth creates upfront margin pressure but potentially high lifetime value. |
+| Brazil | Not disclosed | Not disclosed | Unique buyers +32%; sold items +56% | Investment-heavy | Brazil is the core battleground and the clearest proof point for the growth strategy. |
+| Argentina | Not disclosed | Not disclosed | +65% FX-neutral consolidated revenue per scout | Investment phase | Growth is normalizing but remains high; investment plan keeps strategic importance elevated. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+MercadoLibre’s effective guidance is a strategic posture: management is willing to sacrifice short-term profit to pursue market share across logistics, credit, free shipping and fintech. Revision direction: mix-shift revisions, with revenue estimates likely revised up or sustained, but operating margin and EPS estimates likely revised down or pushed out because the company is not prioritizing near-term margin recovery.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The selloff was fundamental, not just positioning. MercadoLibre did not miss because demand was weak; it missed because the company is choosing to buy growth through credit, free shipping, logistics and category expansion.
+
+That distinction matters. A weak-demand selloff would challenge the platform model. This selloff challenges the valuation duration and the timing of margin recovery. The stock can still work, but the required holding period extends and the next proof points shift from revenue acceleration to credit seasoning and margin stabilization.
+
+The peer read-across is relevant for any marketplace competing against Amazon, Shein or local fintech challengers: scale investment can still drive growth, but public markets are less willing to capitalize indefinite margin compression without evidence of risk discipline.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is the revenue acceleration and Brazil marketplace / fintech growth. The lowest-quality signal is that the margin decline is structural and deliberate, not temporary noise.
+
+Analysts are likely to raise or preserve revenue trajectories but cut near-term EPS and operating-margin assumptions. The debate becomes whether the credit book, free shipping and logistics investments generate enough future cash flow to justify lower margins through 2026 and possibly into 2027.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was already about growth investment versus margin recovery. Q1 confirms both sides: the growth engine is stronger than expected, but margin recovery is further away. The thesis continues, but with a more explicit duration burden.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a premium LATAM compounder with some hope that revenue growth could coexist with gradual margin repair. The print broke that near-term margin repair hope but strengthened the growth story. The reaction makes sense because the valuation bridge depends on when margins normalize. For rerating, MELI needs stable credit quality, evidence that Brazil free-shipping changes generate repeat purchase behavior, and signs that provision growth can season into interest income. The thesis breaks if credit losses rise faster than expected or margin compression fails to produce durable share gains.
+
+Stock identity:
+high-growth compounder, GARP, expensive but deliverable, setup-risk stock. The print reinforces the high-growth compounder identity but challenges the expensive-but-deliverable identity because delivery now requires patience on margins and credit-cycle discipline.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The sharp negative reaction reflects a repricing of the P&L bridge rather than a rejection of marketplace demand. For peer read-across, the quarter is positive for LATAM e-commerce and fintech demand, but negative for margin expectations in competitive marketplace models.
+
+The read-through for global marketplaces is that aggressive reinvestment still works on revenue, but investors are increasingly sensitive to how much operating leverage is deferred.
+
+KEY ISSUES TO MONITOR
+
+Brazil credit book seasoning / Why it matters: Credit growth is the largest upside / downside swing factor for margins and risk perception.
+
+NPLs and coverage / Why it matters: Stable asset quality is essential if the market is to tolerate rapid credit expansion.
+
+Free-shipping ROI / Why it matters: Lower thresholds must produce durable buyer frequency and category share gains.
+
+Operating margin floor / Why it matters: Investors need evidence that 6.9% is near trough rather than a moving lower baseline.
+
+GenAI search deployment / Why it matters: Better conversion and ad returns could partially offset investment-driven margin pressure.
+
+BOTTOM LINE
+
+MercadoLibre’s growth engine accelerated.
+
+The margin bridge moved further out.
+
+This is not a broken platform story.
+
+It is a longer-duration, credit-sensitive, investment-cycle continuation.
+
+<<MELI_EARNINGS_END>>
