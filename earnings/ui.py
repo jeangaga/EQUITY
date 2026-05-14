@@ -81,7 +81,7 @@ def render_earnings_tab() -> None:
     elif section == "Sector Dashboard":
         _render_sector_dashboard(recap, company_blocks, company_df)
     elif section == "Scout Tracker":
-        _render_scout_tracker(company_df)
+        _render_scout_tracker(company_blocks, company_df)
     elif section == "Company Notes":
         _render_company_notes(company_blocks, company_df)
     elif section == "Themes":
@@ -318,7 +318,10 @@ def _render_sector_recap_header(rec: dict[str, Any]) -> None:
 # ---------------------------------------------------------------------------
 
 
-def _render_scout_tracker(company_df: pd.DataFrame) -> None:
+def _render_scout_tracker(
+    company_blocks: list[dict[str, Any]],
+    company_df: pd.DataFrame,
+) -> None:
     """Coverage tracker — auto-generated from the full company blocks.
 
     This used to read a hand-maintained ``<<SCOUT_TRACKER>>`` block. It now
@@ -391,15 +394,24 @@ def _render_scout_tracker(company_df: pd.DataFrame) -> None:
     if country_sel:
         view = view[view["Country"].isin(country_sel)]
 
-    st.caption(f"Showing {len(view)} of {len(company_df)} releases")
+    st.caption(
+        f"Showing {len(view)} of {len(company_df)} releases — "
+        f"click a row to open its full note below"
+    )
 
     # Hide helper / verbose columns; keep the scan-friendly ones.
     hidden = {"Importance N", "Themes List", "Source Role", "Segment Table Status"}
     show_cols = [c for c in view.columns if c not in hidden]
-    st.dataframe(
+    event = st.dataframe(
         view[show_cols],
         hide_index=True,
         width="stretch",
+        on_select="rerun",
+        selection_mode="single-row",
+        # NB: key is intentionally NOT prefixed cn_/sec_/scout_/themes_ so the
+        # session_state keep-alive bounce skips it — a dataframe's selection
+        # state can't be re-assigned via the API and would raise if bounced.
+        key="tracker_table",
         column_config={
             "Publication Date": st.column_config.DateColumn(
                 "Publication Date", width="small", format="YYYY-MM-DD"
@@ -410,6 +422,17 @@ def _render_scout_tracker(company_df: pd.DataFrame) -> None:
             ),
         },
     )
+
+    # ---- selected row -> full earnings note ------------------------------
+    selected_rows = event.selection.rows
+    if selected_rows:
+        ticker = view.iloc[selected_rows[0]]["Ticker"]
+        block = next((c for c in company_blocks if c["ticker"] == ticker), None)
+        st.markdown("---")
+        if block is not None:
+            _render_company_block(block, in_expander=False)
+        else:
+            st.info(f"No full note found for {ticker}.")
 
 
 # ---------------------------------------------------------------------------
