@@ -18,7 +18,6 @@ from .parsers import (
     IMPORTANCE_LEVELS,
     STATE_TRANSITIONS,
     build_company_dataframe,
-    collect_unique_themes,
     parse_company_blocks,
     parse_earnings_recap,
 )
@@ -671,13 +670,46 @@ def _render_themes(
     company_blocks: list[dict[str, Any]],
 ) -> None:
     themes = recap.get("themes", [])
-    company_themes = collect_unique_themes(company_blocks)
 
-    # ---- filter on company-metadata themes ------------------------------
-    if company_themes:
+    # ---- filter companies by theme tag ----------------------------------
+    # The per-company THEMES tags have no controlled vocabulary, so the raw
+    # list is mostly one-off tags. Count how many companies share each tag,
+    # drop the long tail, and order by frequency so the filter is actually
+    # useful for *selecting stocks*.
+    theme_counts: dict[str, int] = {}
+    for c in company_blocks:
+        for t in set(c.get("themes", [])):
+            theme_counts[t] = theme_counts.get(t, 0) + 1
+
+    if theme_counts:
+        max_count = max(theme_counts.values())
+        if max_count >= 2:
+            min_n = st.slider(
+                "Minimum companies sharing a theme",
+                min_value=2,
+                max_value=max_count,
+                value=2,
+                key="themes_min_n",
+            )
+        else:
+            min_n = 1
+        shared = sorted(
+            (t for t, n in theme_counts.items() if n >= min_n),
+            key=lambda t: (-theme_counts[t], t.casefold()),
+        )
+        # Drop any previously-selected tag the current threshold filtered out,
+        # otherwise the multiselect errors on a stale session_state value.
+        prev = st.session_state.get("themes_filter")
+        if prev:
+            st.session_state["themes_filter"] = [t for t in prev if t in shared]
+        if not shared:
+            st.caption(
+                "No themes are shared by that many companies — lower the threshold."
+            )
         sel = st.multiselect(
             "Filter companies by theme (from full notes)",
-            company_themes,
+            shared,
+            format_func=lambda t: f"{t}  ({theme_counts[t]})",
             key="themes_filter",
         )
         if sel:
