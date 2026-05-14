@@ -701,7 +701,7 @@ def _render_hf_take_preview(text: str) -> None:
             unsafe_allow_html=True,
         )
     if rest:
-        with st.expander("HF TAKE — STRATEGIST LAYER (continued)", expanded=False):
+        with st.expander("HF TAKE — STRATEGIST LAYER (continued)", expanded=True):
             st.markdown(_format_paragraphs(rest))
 
 
@@ -713,7 +713,9 @@ def _render_section(sections: dict[str, str], name: str, *, expanded: bool) -> N
         st.markdown(f"**{name}**")
         st.markdown(_format_paragraphs(body))
     else:
-        with st.expander(name, expanded=False):
+        # Expander stays (still collapsible) but opens by default so the whole
+        # note is readable top-to-bottom without clicking each subsection.
+        with st.expander(name, expanded=True):
             st.markdown(_format_paragraphs(body))
 
 
