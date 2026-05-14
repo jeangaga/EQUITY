@@ -15875,3 +15875,627 @@ This is not a broken platform story.
 It is a longer-duration, credit-sensitive, investment-cycle continuation.
 
 <<MELI_EARNINGS_END>>
+
+<<VST_EARNINGS_BEGIN>>
+TICKER: VST
+COMPANY: Vistra Corp.
+SECTOR: Utilities
+SUBSECTOR: Independent Power Producer / Merchant Generation / Nuclear / Gas / AI Power Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell about 4% despite record Q1 EBITDA and reaffirmed guidance because the major upside catalysts remain outside current guidance.
+PM_READ: Vistra’s record Q1 operational execution strengthens the AI-power thesis, but the stock still needs Cogentrix closing and Meta PPA integration into guidance before the embedded option value is fully monetized.
+THEMES: AI power demand, nuclear PPAs, Meta PPA, Cogentrix acquisition, merchant power, hedging, fleet reliability, buybacks, coal retirement, power scarcity, data-center electricity
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Improvement. Vistra delivered a record Q1, with operating revenues of $5.64B, GAAP EPS of $2.87, net income of $1.029B, ongoing operations adjusted EBITDA of $1.494B and operating cash flow of $1.199B. The quarter validated the operational side of the thesis: strong generation performance, winter-storm reliability, and commercial optimization offset mild-weather pressure in retail.
+
+The market did not reward the print because the decisive catalysts are still ahead. FY26 adjusted EBITDA guidance of $6.8B-$7.6B and adjusted free cash flow before growth guidance of $3.925B-$4.725B were reaffirmed, but Cogentrix and the Meta nuclear PPAs are not yet embedded in the guidance framework. The result is an in-line operational beat with embedded future upside rather than an immediate revision event.
+
+The key PM issue is not whether AI power demand is real; the Meta PPA and pending Cogentrix acquisition support that. The issue is sequencing: investors need closure, integration, financing confidence and 2027 guidance incorporation before the stock can rerate cleanly again.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $5.640B operating revenues | $5.22B-$5.40B consensus range | Beat | +43% | Not confirmed | Revenue beat reflects stronger generation and commercial performance. |
+| EPS / Earnings | $2.87 GAAP diluted EPS; $1.029B net income | $1.94-$2.21 EPS consensus range | Beat | Improved from -$0.93 EPS and -$268M net loss | Not confirmed | EPS beat is partly affected by unrealized hedge gains, so adjusted EBITDA is the cleaner measure. |
+| Profitability / Margin | $1.494B ongoing operations adjusted EBITDA | Prior not confirmed | Beat | Record Q1 | Not confirmed | Record EBITDA validates operational execution and fleet availability. |
+| Guidance / Outlook | FY26 adjusted EBITDA $6.8B-$7.6B reaffirmed; adjusted FCFbG $3.925B-$4.725B reaffirmed | Prior guidance reaffirmed | In line | Not applicable | Not applicable | Guide excludes Cogentrix and Meta PPA contribution, leaving future upside outside the current model. |
+| Market reaction | Same-session decline around 4% | Not applicable | Negative | Not applicable | Not applicable | Stock sold off because the print did not accelerate the timing of embedded AI-power catalysts. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Ongoing operations adjusted EBITDA | $1.494B | Prior not confirmed | Record Q1 | Best operating signal in the quarter. |
+| Cash from operations | $1.199B | $599M prior year | Approximately doubled | Supports buybacks, dividends and M&A capacity. |
+| Q1 capex | $883M | Prior not confirmed | Not confirmed | Capex remains elevated as the company expands and maintains generation assets. |
+| Share repurchases | $372M in Q1; about $525M through first four months | Prior not confirmed | Active return | Buyback remains central to equity compounding. |
+| Shares outstanding | About 337M at May 1 | Down about 30% from November 2021 | Material reduction | Long buyback program remains a major EPS and FCF-per-share driver. |
+| FY26 hedged generation | Approximately 100% per scout | Prior not confirmed | High hedge coverage | Reduces near-term commodity exposure while preserving strategic optionality. |
+| Cogentrix portfolio | 5,500 MW pending acquisition | Not applicable | Expected H2 2026 close | Major gas-generation growth lever not yet in guide. |
+| Meta nuclear PPA | 2,609 MW long-term nuclear PPA capacity | Not applicable | New strategic contract | Confirms hyperscaler power demand and contracted nuclear scarcity value. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Operating revenues were $5.640B, up materially from $3.933B in Q1 2025. Revenue was above the scout’s consensus range and reflected stronger generation performance, commercial optimization and favorable portfolio conditions.
+
+Consensus:
+Consensus was mixed across sources, with revenue expectations around $5.22B-$5.40B and EPS expectations around $1.94-$2.21. Vistra beat the headline revenue and EPS bars.
+
+EPS / Earnings:
+GAAP diluted EPS was $2.87 and net income was $1.029B, a major swing from a Q1 2025 net loss of $268M. The EPS beat should be treated carefully because GAAP results included unrealized hedge gains expected to settle in future years.
+
+Profitability / Margins:
+Ongoing operations adjusted EBITDA was $1.494B, described in the scout as record Q1 EBITDA. This is the cleaner operating measure for PM work because it strips out some GAAP volatility and better captures fleet and commercial execution.
+
+Key KPI:
+The dominant KPI is ongoing operations adjusted EBITDA, followed by operating cash flow and fleet availability. Natural gas availability of 97% and nuclear availability of 100% during Winter Storm Fern are central to the reliability and AI-power supplier thesis.
+
+Guidance headline:
+FY26 adjusted EBITDA guidance was reaffirmed at $6.8B-$7.6B and adjusted free cash flow before growth at $3.925B-$4.725B. The guide excludes the pending Cogentrix acquisition and Meta PPA contribution, which makes current guidance conservative relative to the strategic pipeline.
+
+Capital allocation:
+Vistra repurchased $372M of shares in Q1 and about $525M through the first four months of 2026, with about $1.5B of authorization remaining. It also issued substantial debt to extend maturities and fund the next phase of growth and M&A.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed.
+
+Adjustment issue:
+GAAP EPS includes unrealized hedge gains, which inflate the headline EPS beat relative to clean operating power earnings.
+
+PM interpretation:
+Investors should focus on ongoing operations adjusted EBITDA, operating cash flow, hedging, FCF before growth, capital allocation, Cogentrix integration and contracted PPA economics rather than GAAP EPS alone.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Generation / Integrated Power | Not disclosed | Not disclosed | Strong | Positive | Record adjusted EBITDA and high fleet availability validate operational execution. |
+| Retail | Not disclosed | Not disclosed | Not confirmed | Pressured by mild weather | Commercial optimization and generation offset mild-weather impact on retail margins. |
+| Nuclear / PJM PPA assets | Not disclosed | Not disclosed | Strategic growth | Contracting improving | Meta 20-year PPA supports contracted nuclear scarcity value. |
+| Natural gas fleet | Not disclosed | Not disclosed | Not confirmed | Reliable | 97% commercial availability during Winter Storm Fern supports reliability premium. |
+| Cogentrix pending portfolio | Not applicable | Not applicable | Not applicable | Future contribution | 5,500 MW acquisition is a major future growth and guidance-integration catalyst. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+FY26 guidance was reaffirmed rather than raised, which explains why the stock did not rerate despite the record Q1. The embedded upside sits outside current guidance: Cogentrix is targeted for H2 2026 close and the Meta PPA contribution is not yet fully in the model. Revision direction: no material consensus change near term, with potential upward revisions later in 2026 if Cogentrix closes on schedule and management incorporates Meta PPA economics into the 2027 framework.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market treated Vistra as an execution-confirming but catalyst-deferring print. The operational numbers were strong, but the stock needed a guidance bridge on Cogentrix or Meta PPA economics to force a positive revision cycle. Without that, investors could sell the print even though the fundamental thesis improved.
+
+The AI-power narrative remains intact. Vistra is no longer just a merchant IPP with strong buybacks; it is becoming a scarce, contracted power supplier for hyperscaler demand. The market is now asking whether the balance sheet, integration capacity and regulatory path can support the next leg.
+
+The negative reaction is therefore not a rejection of the AI-power thesis. It is a timing and valuation reset around when embedded option value becomes earnings guidance.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is record Q1 adjusted EBITDA combined with high gas and nuclear reliability. The lowest-quality signal is GAAP EPS, because unrealized hedge gains distort the magnitude of the beat.
+
+Analysts are likely to leave FY26 broadly intact but focus on the 2027 bridge, Cogentrix closing assumptions, Meta PPA contribution, balance-sheet capacity and coal retirement economics. Consensus may be too low beyond 2026 if the contracted-power backlog converts, but not necessarily too low for the current-year guide.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Vistra could sustain its AI-power rerating while integrating large strategic growth opportunities. Q1 improves confidence in operating execution but does not yet solve the timing of guidance recognition. The thesis improves, but the market still needs a conversion event.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing an AI-power winner with embedded PPA and M&A upside. The record EBITDA print confirmed the base business, but the move lower makes sense because the upside catalysts are not yet in numbers. For rerating, Vistra needs Cogentrix close, 2027 guidance integration, stable leverage optics and continued fleet reliability. The thesis breaks if integration risk rises, power-price assumptions weaken, or debt funding starts to crowd out capital return.
+
+Stock identity:
+secular growth at a cyclical multiple, quality compounder, crowded long, setup-risk stock. The print reinforces the scarce AI-power compounder identity, but the negative reaction shows that the stock is now priced around catalyst conversion rather than simple earnings beats.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The stock fell around 4% despite a record Q1 because the current guide did not include the major strategic upside. The peer read-across is constructive for IPPs and nuclear-linked power suppliers, but it also warns that AI-power stocks need guidance conversion and balance-sheet clarity to sustain valuation premiums.
+
+For CEG, NRG, TLN and other power-exposed names, the lesson is that AI PPA announcements are no longer enough by themselves; the market wants earnings translation.
+
+KEY ISSUES TO MONITOR
+
+Cogentrix close / Why it matters: The acquisition is the next major growth and guidance-integration catalyst.
+
+Meta PPA economics / Why it matters: Investors need visibility on contracted nuclear revenue, margins and timing.
+
+Leverage and refinancing / Why it matters: Debt issuance supports growth but can cap valuation if funding risk rises.
+
+Fleet reliability / Why it matters: AI-power customers pay for dependable capacity, not just nameplate MW.
+
+Coal retirement and repowering / Why it matters: Retiring 4,578 MW by 2028 changes mix and creates conversion optionality.
+
+BOTTOM LINE
+
+Vistra’s operating print improved the thesis.
+
+The stock reaction was about timing, not broken fundamentals.
+
+GAAP EPS is not the clean metric because hedge gains distort the beat.
+
+The next leg depends on Cogentrix, Meta PPA integration and 2027 guidance conversion.
+
+<<VST_EARNINGS_END>>
+
+<<DDOG_EARNINGS_BEGIN>>
+TICKER: DDOG
+COMPANY: Datadog, Inc.
+SECTOR: Information Technology
+SUBSECTOR: Cloud Observability / Security / AI Software Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Reversal
+IMPORTANCE: ***
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares surged about 31% as revenue growth reaccelerated, EPS beat sharply and FY26 guidance was raised.
+PM_READ: Datadog delivered the cleanest beat-and-raise in the cohort, reversing the usage-based software bear case and validating AI software monetization beyond the GPU layer.
+THEMES: AI software monetization, observability, cloud migration, non-AI customer acceleration, ARR, product expansion, GPU monitoring, Bits AI, MCP Server, enterprise software re-rating, SNOW and MDB sympathy
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Reversal. Datadog delivered a clean beat-and-raise: revenue crossed $1B for the first time, grew 32% YoY, accelerated from the prior quarter, and exceeded guidance. Non-GAAP EPS of $0.60 beat consensus materially, operating cash flow was $335M, free cash flow was $289M and FY26 revenue guidance was raised to $4.30B-$4.34B.
+
+The key signal is not just AI customer demand. The scout highlights that non-AI customer revenue growth improved to the mid-20% range, refuting the bear thesis that usage-based observability growth was becoming dependent only on AI-native customers. AI is now additive to a still-healthy digital-transformation base.
+
+The stock’s about 31% surge and sympathy moves in Snowflake and MongoDB show that the market treated this as a bucket-level re-rating event for AI-adjacent enterprise software. This was not a setup-driven bounce; it was a fundamental reversal of the demand-quality debate.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $1.006B | $960M consensus | Beat | +32% | +6% sequential | Revenue crossed $1B and growth accelerated from 29% last quarter. |
+| EPS / Earnings | $0.60 non-GAAP EPS | $0.42-$0.50 consensus range | Beat | Not confirmed | Not confirmed | EPS beat was operational, not accounting-driven. |
+| Profitability / Margin | $335M operating cash flow; $289M FCF | Prior not confirmed | Beat | Not confirmed | Not confirmed | FCF margin near 29% supports operating leverage. |
+| Guidance / Outlook | FY26 revenue $4.30B-$4.34B; FY26 non-GAAP EPS $2.36-$2.44 | Prior revenue guide $4.06B-$4.10B | Beat | Not applicable | Not applicable | Large FY guide raise confirms durable demand and model upside. |
+| Market reaction | Shares up about 31% intraday; SNOW and MDB rallied in sympathy | Not applicable | Positive | Not applicable | Not applicable | Market repriced the AI software monetization bucket. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| ARR | Above $4B | Prior not confirmed | Milestone crossed | Confirms scale and platform relevance. |
+| $100k ARR customers | About 4,550 | About 3,770 prior year | +21% YoY | Enterprise adoption remains strong and represents about 90% of ARR. |
+| Customer count | About 33,200 | Prior not confirmed | Not confirmed | Broad customer base supports platform expansion. |
+| Non-AI customer growth | Mid-20% range | Prior not confirmed | Reaccelerated | Most important bear-thesis refutation in the print. |
+| AI integration adoption | 20% of customers representing 80% of ARR | Prior not confirmed | Material adoption | AI is now a structural growth pillar, not a narrow customer cohort. |
+| New logo bookings | All-time high annualized bookings | Prior not confirmed | More than doubled YoY | Pipeline quality is improving across observability, security and data. |
+| Free cash flow | $289M | Prior not confirmed | Strong | High FCF conversion supports quality software multiple. |
+| New GA products | MCP Server, Bits AI Security Agent, GPU Monitoring, Experiments | Not applicable | Four launches | Product breadth extends AI observability and security footprint. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $1.006B, up 32% YoY, ahead of the $960M consensus cited in the scout and above the high end of guidance. Sequential growth of about 6% was the strongest Q1 sequential growth since 2022.
+
+Consensus:
+The scout indicates consensus revenue around $960M and non-GAAP EPS expectations around $0.42-$0.50. Datadog beat both meaningfully.
+
+EPS / Earnings:
+Non-GAAP EPS was $0.60. The beat appears operational, driven by revenue acceleration and operating leverage rather than a disclosed one-time accounting item.
+
+Profitability / Margins:
+Operating cash flow was $335M and free cash flow was $289M. The free-cash-flow profile is important because Datadog is being valued not only on revenue acceleration but also on whether AI software demand can generate durable operating leverage.
+
+Key KPI:
+The dominant KPI is non-AI customer growth reaccelerating to the mid-20% range. This matters because it proves Datadog is not only riding AI-native customer demand; traditional enterprise cloud migration and product adoption are also improving.
+
+Guidance headline:
+Q2 revenue guidance was $1.07B-$1.08B, implying 29%-31% growth. FY26 revenue guidance was raised to $4.30B-$4.34B from $4.06B-$4.10B, and FY26 non-GAAP EPS guidance was raised to $2.36-$2.44.
+
+Capital allocation:
+Capital allocation was not the main event. The key capital-allocation equivalent is product investment across AI observability, security, GPU monitoring, MCP Server and agentic security workflows.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean.
+
+Adjustment issue:
+No material non-operating item was identified as driving the EPS beat.
+
+PM interpretation:
+Investors should focus on revenue reacceleration, non-AI customer growth, ARR, $100k customer growth, FCF, new logo bookings and the product-expansion runway rather than searching for accounting noise.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Observability | Not disclosed | Not disclosed | Not confirmed | Strong | Core platform remains the anchor for enterprise cloud monitoring. |
+| Security | Not disclosed | Not disclosed | Not confirmed | Scaling | Security products are part of large deal and cross-sell growth. |
+| Data products | Not disclosed | Not disclosed | Not confirmed | Scaling | Contributed to new logo bookings and product breadth. |
+| AI integrations / AI observability | Used by 20% of customers representing 80% of ARR | Not disclosed | Strong adoption | AI is now a second secular pillar alongside digital transformation. |
+| Early lifecycle products | 18 products | Not disclosed | Early stage | Investment phase | Long product tail supports future cross-sell and ARR expansion. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Guidance was raised materially, with FY26 revenue moving to $4.30B-$4.34B and non-GAAP EPS to $2.36-$2.44. Q2 operating income guidance includes a $15M DASH conference expense, which should be normalized when assessing sequential margin. Revision direction: upward revisions, with analysts likely to raise revenue, EPS and FCF estimates and reassess the AI software monetization premium.
+
+PROFESSIONAL MARKET COMMENTARY
+
+Datadog is the cleanest positive software print in the Thursday cohort. The market was looking for proof that AI infrastructure spending creates monetizable software demand, and Datadog delivered it through revenue reacceleration, non-AI customer strength and a large full-year guide raise.
+
+The sympathy moves in Snowflake and MongoDB matter. They show that investors were not just rewarding Datadog company-specific execution; they were rebuilding exposure to AI-adjacent enterprise software after a period where the AI trade was concentrated in semis and hyperscalers.
+
+The quarter changes the debate from whether usage-based software is still healthy to how much multiple premium Datadog deserves as AI workloads move into production.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is the combination of non-AI customer growth in the mid-20% range and AI integration adoption across customers representing 80% of ARR. That mix refutes the most important bear case: that Datadog was becoming too dependent on AI-native demand.
+
+The lowest-quality signal is valuation sensitivity after a 31% move, not the quarter itself. Analysts are likely to raise models, but the next debate will shift to whether the new guide is conservative enough and whether FCF margins can keep expanding while product investment remains high.
+
+State transition: Reversal
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether usage-based cloud software demand was normalizing after AI-led optimism. Q1 reverses that concern by showing accelerating revenue, broad enterprise demand and formal AI-pillar positioning. The thesis shifts from defense to renewed growth leadership.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing uncertainty around whether observability demand was still broad or only AI-native. The print resolved that asymmetry positively: revenue accelerated, non-AI customer growth improved, guidance rose and adjacent software peers rallied in sympathy. For rerating to continue, Datadog needs sustained non-AI growth, continued AI workload monetization and FCF resilience. The thesis breaks if usage-based growth decelerates again or AI product adoption fails to convert into durable ARR expansion.
+
+Stock identity:
+high-growth compounder, beat-and-raise machine, secular growth at a cyclical multiple, expensive but deliverable. The print strongly reinforces the beat-and-raise and high-growth compounder identity, while the magnitude of the move means the stock is again vulnerable to valuation if the next print is merely good rather than exceptional.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The about 31% rally was driven by a clean beat-and-raise and a major bear-thesis reversal. Snowflake and MongoDB sympathy moves indicate a broader institutional rotation into AI-adjacent infrastructure software.
+
+Peer read-across is positive for observability, data infrastructure, cloud databases, security and developer platforms. It is especially relevant for names that can prove AI usage is additive to traditional enterprise demand rather than cannibalizing it.
+
+KEY ISSUES TO MONITOR
+
+Non-AI customer growth / Why it matters: This is the clearest test of whether Datadog is a broad cloud compounder rather than only an AI workload derivative.
+
+AI integration penetration / Why it matters: Customers representing 80% of ARR using AI integrations creates a large monetization runway.
+
+New product ARR / Why it matters: The 18 early lifecycle products need to scale into the next cross-sell engine.
+
+FCF margin / Why it matters: High-growth software must show operating leverage to sustain a premium multiple.
+
+Sympathy basket persistence / Why it matters: SNOW and MDB reactions show bucket-level positioning that can amplify both upside and downside.
+
+BOTTOM LINE
+
+Datadog delivered a clean reversal print.
+
+The AI software monetization thesis is now better supported by data.
+
+Non-AI customer acceleration is the most important signal.
+
+The stock move was large, but fundamentally justified by the scale of the beat and guide raise.
+
+<<DDOG_EARNINGS_END>>
+
+<<CRWV_EARNINGS_BEGIN>>
+TICKER: CRWV
+COMPANY: CoreWeave, Inc.
+SECTOR: Information Technology
+SUBSECTOR: AI Infrastructure / GPU Cloud / Hyperscaler Compute / Data-Center Capacity
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell sharply after-hours and the next day as a light Q2 guide and higher capex outweighed a very large revenue beat and backlog expansion.
+PM_READ: CoreWeave remains the purest AI infrastructure backlog story, but the Q1 print made financing cost, capex intensity and near-term guide risk impossible to ignore.
+THEMES: AI infrastructure, GPU cloud, backlog, NVIDIA ecosystem, hyperscaler demand, Meta, Anthropic, Jane Street, Vera Rubin, capex, interest expense, debt financing, power capacity, inference, enterprise AI
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Continuation. CoreWeave delivered hyper-growth: revenue was $2.08B, up about 112% YoY, adjusted EBITDA was $1.16B, revenue backlog reached $99.4B, contracted power scaled materially, and the company raised its 2026 exit ARR target to $18B-$19B. The strategic demand signal remains extremely strong.
+
+The stock still sold off because the forward bridge was less clean. Q2 revenue guidance of $2.45B-$2.60B was below the LSEG consensus cited in the scout, FY26 capex was raised to $31B-$35B, GAAP net loss widened to $740M, and Q1 interest expense was $536M. The market is no longer debating demand; it is debating financing math and conversion timing.
+
+The PM read is bifurcated. Backlog near $100B and 2026 capacity effectively sold out validate the AI infrastructure shortage thesis, but a highly levered, capex-intensive model needs revenue conversion, margin stabilization and lower incremental financing stress to sustain the multiple.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $2.08B | $1.97B consensus | Beat | +111.6% | +32% | Revenue growth remains extraordinary and demand-constrained rather than demand-limited. |
+| EPS / Earnings | Adjusted EPS -$1.12; GAAP net loss -$740M | Adjusted EPS -$0.90 consensus | Miss | Net loss widened from -$150M | Not confirmed | EPS and GAAP loss highlight financing and depreciation burden. |
+| Profitability / Margin | $1.16B adjusted EBITDA; 56% margin; $21M adjusted operating income | Prior adjusted EBITDA margin 62%; prior adjusted operating income $163M | Mixed | Adjusted EBITDA +90.9%; adjusted operating income down materially | Not confirmed | EBITDA is strong, but operating income and GAAP bridge are under pressure. |
+| Guidance / Outlook | Q2 revenue $2.45B-$2.60B; FY26 revenue $12B-$13B maintained; capex raised to $31B-$35B | Q2 consensus $2.69B | Mixed | Not applicable | Not applicable | Backlog is strong, but light Q2 guide and capex raise drove the selloff. |
+| Market reaction | AH down about 10%-15%; next-session decline around 12% | Not applicable | Negative | Not applicable | Not applicable | High setup and financing concerns overwhelmed the revenue beat. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Revenue backlog | $99.4B | Prior not confirmed | +50% QoQ per scout | Dominant bull-case signal and many times current quarterly revenue. |
+| Backlog recognition | 36% within 24 months; 75% within 4 years | Not applicable | Not applicable | Provides visibility but still requires execution and financing. |
+| Adjusted EBITDA | $1.16B | Prior not confirmed | +90.9% YoY | High EBITDA validates demand and utilization. |
+| Adjusted EBITDA margin | 56% | 62% prior year | Down 6pp | Margin compression matters despite strong revenue growth. |
+| Adjusted operating income | $21M | $163M prior year | Down sharply | Depreciation and cost structure are pressuring operating economics. |
+| Interest expense | $536M | Prior year about half this level | Doubled YoY | Financing cost is now the central bear variable. |
+| Total debt | About $25B | Prior not confirmed | Elevated | Leverage is the price of scaling AI capacity quickly. |
+| Contracted power | About 3.5 GW total; above 1 GW active | Prior not confirmed | Expanded | Power access is a strategic bottleneck and differentiator. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $2.08B, up 111.6% YoY and 32% sequentially, above the $1.97B consensus cited in the scout. The revenue beat confirms demand for CoreWeave capacity remains extremely strong.
+
+Consensus:
+Consensus was around $1.97B for revenue and around -$0.90 for adjusted EPS. Revenue beat, but adjusted EPS missed and Q2 revenue guidance was below the consensus cited in the scout.
+
+EPS / Earnings:
+Adjusted EPS was -$1.12 versus around -$0.90 expected, while GAAP net loss was -$740M. Diluted net loss per share was -$1.40, slightly better than -$1.49 in Q1 2025 according to the scout, but the absolute GAAP loss remains large.
+
+Profitability / Margins:
+Adjusted EBITDA was $1.16B with a 56% margin, but adjusted operating income was only $21M, or about 1% margin, down from $163M and 17% margin in Q1 2025. This gap captures the core tension between EBITDA-scale demand and depreciation / financing-heavy economics.
+
+Key KPI:
+Revenue backlog of $99.4B is the dominant KPI. It is the clearest evidence that CoreWeave is not demand-constrained; it is execution, power, capex and financing constrained.
+
+Guidance headline:
+Q2 revenue guidance of $2.45B-$2.60B was below the $2.69B consensus cited in the scout. FY26 revenue guidance was maintained at $12B-$13B, FY26 capex was raised to $31B-$35B, 2026 exit ARR was raised to $18B-$19B, and 2027 ARR target above $30B was reiterated.
+
+Capital allocation:
+Capital allocation is dominated by capacity buildout. The company raised more than $20B of debt and equity year to date, had about $25B of debt at quarter-end, and is relying on large-scale financing structures to convert contracted AI infrastructure demand into deployed capacity.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Distorted.
+
+Adjustment issue:
+GAAP net loss is structurally affected by high depreciation, interest expense and financing costs linked to the AI capacity buildout; Q1 interest expense of $536M alone explains a large share of the GAAP loss.
+
+PM interpretation:
+Investors should focus on revenue backlog, capacity deployment, adjusted EBITDA, adjusted operating income, interest expense, capex, power availability and contract conversion rather than GAAP EPS alone.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| GPU cloud infrastructure | Not disclosed | Not disclosed | Very strong | EBITDA-positive | Core business remains demand-constrained with 2026 capacity effectively sold out. |
+| Hyperscaler and AI labs | Not disclosed | Not disclosed | Strong | Not disclosed | Meta and Anthropic commitments support counterparty diversification. |
+| Enterprise verticals | Not disclosed | Not disclosed | Growing | Not disclosed | Financial services backlog approaching $10B per scout indicates broader customer mix. |
+| Power and data-center capacity | Not applicable | Not applicable | Contracted power expanding | Capex-intensive | Active power above 1 GW and path toward 8 GW by 2030 are strategic constraints and assets. |
+| Financing platform | Not applicable | Not applicable | Scaling | Interest burden rising | Investment-grade customer-backed financing is central to the model. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The guide was the source of the selloff. FY26 revenue was maintained at $12B-$13B and 2026 exit ARR target increased to $18B-$19B, but Q2 revenue guidance was light versus consensus and FY26 capex rose to $31B-$35B. Revision direction: mix-shift revisions, with long-term revenue and backlog confidence intact, but near-term EPS, operating income, FCF and leverage assumptions likely pressured by higher capex and interest expense.
+
+PROFESSIONAL MARKET COMMENTARY
+
+CoreWeave’s quarter is not a demand problem. The company has nearly $100B of backlog, expanded customer commitments, and capacity that is effectively allocated. The selloff happened because the market is forcing the bull case through a financing lens.
+
+That is the right framework. AI infrastructure can be structurally scarce and still produce equity volatility if the revenue-recognition timeline, interest cost and capex burden move against short-term expectations. CoreWeave is effectively asking investors to underwrite a massive forward backlog through a levered buildout model.
+
+The stock’s pre-print setup also mattered. With shares up about 80% YTD entering the print, a light Q2 guide and capex increase were enough to trigger a sharp reset even though the underlying backlog story improved.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is backlog growth and customer diversification. The weakest signal is the operating-income and interest-expense bridge, because it shows that revenue growth is not yet translating cleanly into equity earnings.
+
+Analysts are likely to preserve long-term revenue optimism but lower near-term margin, EPS and FCF confidence. The key debate is whether CoreWeave can scale capacity at a cost of capital low enough to preserve equity value after debt, depreciation and customer concentration risks.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether CoreWeave was a scarce AI capacity platform or an overextended financing vehicle. Q1 confirms the scarce-capacity thesis through backlog and customer commitments. It also confirms the financing concern through capex, debt and interest expense.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing CoreWeave as a pure AI-infrastructure growth vehicle after a major YTD run. The revenue beat and backlog expansion supported the thesis, but the light Q2 guide, capex increase and interest expense reset the near-term equity math. For rerating, CoreWeave needs Q2 revenue delivery, improving adjusted operating income, stable cost of debt and proof that 2027 ARR remains contracted and financeable. The thesis breaks if interest expense keeps outpacing revenue conversion or if customer concentration and capacity delays weaken backlog quality.
+
+Stock identity:
+high-growth compounder, optionality stock, expensive and fragile, setup-risk stock, crowded long. The print reinforces the high-growth and optionality identity, but the stock’s fragility is real because valuation depends on financing the backlog without diluting equity economics.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The stock fell roughly 10%-15% after-hours and around 12% into the next session. The reaction was driven by the combination of setup, light Q2 guide, capex raise and financing math, not by demand weakness.
+
+Peer read-across is important for AI infrastructure suppliers, data-center power names, GPU financing vehicles and NVIDIA-linked ecosystems. The quarter says AI demand remains strong, but markets will now scrutinize capital intensity and financing cost much more aggressively.
+
+KEY ISSUES TO MONITOR
+
+Q2 revenue delivery / Why it matters: The light guide becomes manageable only if execution lands cleanly.
+
+Interest expense / Why it matters: Financing cost is the main swing factor between backlog value and equity value.
+
+Capex inflation / Why it matters: Higher component and buildout costs can absorb revenue upside.
+
+Customer diversification / Why it matters: More $1B customers reduce dependency on a narrow hyperscaler base.
+
+Power access / Why it matters: Contracted power is a strategic bottleneck and a barrier to entry.
+
+BOTTOM LINE
+
+CoreWeave’s demand signal remains very strong.
+
+The equity problem is financing, not backlog.
+
+The selloff was rational given setup, capex and Q2 guide.
+
+The stock now needs proof that backlog can convert into operating income after debt and depreciation.
+
+<<CRWV_EARNINGS_END>>
+
+<<NET_EARNINGS_BEGIN>>
+TICKER: NET
+COMPANY: Cloudflare, Inc.
+SECTOR: Information Technology
+SUBSECTOR: Edge Cloud / Cybersecurity / Developer Platform / AI Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-07
+EVENT: Q1 2026
+STATE_TRANSITION: False dawn
+IMPORTANCE: ***
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell more than 20% after a revenue and EPS beat was overwhelmed by a 20% workforce reduction, margin pressure and a slightly soft Q2 revenue guide.
+PM_READ: Cloudflare’s Q1 operating beat looked constructive, but the 20% AI-driven restructuring turned the print into a show-me event on execution, margin recovery and whether agentic productivity is truly accretive.
+THEMES: AI restructuring, agentic AI, edge cloud, Workers, cybersecurity, gross margin compression, enterprise customers, large deals, operating model evolution, workforce reduction, developer platform, AI traffic
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+False dawn. Cloudflare reported a strong Q1 on the surface: revenue grew 34% to $639.8M, non-GAAP EPS was $0.25, non-GAAP operating income was $73.1M, free cash flow was $84.1M and $100k-plus customers rose 25% YoY. FY26 revenue and EPS guidance were raised.
+
+The market rejected the print because the operating beat was overshadowed by a 20% workforce reduction, $140M-$150M of restructuring charges, a slight Q2 revenue guide shortfall versus consensus and non-GAAP gross margin pressure. The stock’s initial positive reaction reversed into a sharp selloff as investors shifted from Q1 execution to restructuring risk.
+
+This is a major cohort signal. Cloudflare joins the AI-driven workforce-restructuring pattern, but the market response shows that investors are no longer automatically rewarding cuts framed as productivity gains. They want proof that agentic AI reduces cost without damaging growth, execution quality or enterprise momentum.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $639.8M | $620.9M-$628M consensus range | Beat | +34% | Not confirmed | Q1 revenue beat was solid and enterprise momentum remained strong. |
+| EPS / Earnings | $0.25 non-GAAP diluted EPS; GAAP net loss -$22.9M | $0.17-$0.24 consensus range | Beat | Non-GAAP net income +61% | Not confirmed | EPS beat was positive, but restructuring and margin pressure dominated market reaction. |
+| Profitability / Margin | $73.1M non-GAAP operating income; 11% margin; $84.1M FCF | Prior non-GAAP operating income $56.0M; prior FCF $52.9M | Beat | Non-GAAP operating income +31%; FCF +59% | Not confirmed | FCF improved, but gross margin compression weakened quality. |
+| Guidance / Outlook | Q2 revenue $664M-$665M; FY26 revenue $2.805B-$2.813B; FY26 EPS $1.19-$1.20 | Q2 revenue consensus about $672M; FY revenue consensus about $2.83B | Mixed | Not applicable | Not applicable | FY EPS guide beat, but Q2 revenue guide and restructuring made the setup fragile. |
+| Market reaction | Initial AH gain reversed into about 23%-24% next-session decline | Not applicable | Negative | Not applicable | Not applicable | Market treated the restructuring as execution risk rather than pure productivity upside. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| $100k-plus ARR customers | 4,416 | Prior year not confirmed | +25% YoY | Large-customer growth remains a quality signal. |
+| Revenue from $100k-plus customers | 72% of revenue | 69% prior year | +3pp | Enterprise mix is improving. |
+| Dollar-based net retention | 118% | Prior quarter 120%; prior year 111% | -2pp QoQ; +7pp YoY | QoQ decline is worth watching despite YoY improvement. |
+| Current RPO growth | +34% YoY | Prior not confirmed | Strong | Supports forward revenue visibility. |
+| Non-GAAP gross margin | 72.8% | 75.1% estimate; prior year higher | Below estimate | Margin compression is the under-discussed bear signal. |
+| Free cash flow | $84.1M | $52.9M prior year | +59% YoY | FCF improved despite margin concerns. |
+| Workforce reduction | About 1,100 employees; 20% workforce | Not applicable | Major restructuring | Defining event of the print and main market concern. |
+| Restructuring charges | $140M-$150M total | Not applicable | Q2-Q3 impact | Will create a larger GAAP and cash bridge in coming quarters. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $639.8M, up 34% YoY, beating the $620.9M-$628M consensus range cited in the scout. Current RPO grew 34% YoY, supporting the forward revenue base.
+
+Consensus:
+The scout indicates revenue consensus around $620.9M-$628M and non-GAAP EPS expectations between $0.17 and $0.24. Cloudflare beat Q1 revenue and EPS, but Q2 revenue guidance was slightly below the consensus cited in the scout.
+
+EPS / Earnings:
+Non-GAAP diluted EPS was $0.25 and non-GAAP net income was $94M. GAAP net loss was -$22.9M. The GAAP loss improved versus the -$38.5M prior-year loss based on the figures in the scout, even though investor focus shifted to future restructuring charges.
+
+Profitability / Margins:
+Non-GAAP operating income was $73.1M, or 11% of revenue, and free cash flow was $84.1M, or 13% of revenue. Non-GAAP gross margin of 72.8% missed the 75.1% estimate cited in the scout and was pressured by mix and network-cost allocation.
+
+Key KPI:
+The central KPI is the interaction between large-customer growth and gross margin. Cloudflare added enterprise scale, but lower-margin developer products and cost allocation pressure created a quality issue.
+
+Guidance headline:
+Q2 revenue guidance of $664M-$665M was slightly below consensus, while FY26 revenue guidance of $2.805B-$2.813B and FY26 non-GAAP EPS guidance of $1.19-$1.20 were constructive. The market focused on Q2 and restructuring rather than the FY EPS raise.
+
+Capital allocation:
+The defining capital-allocation and operating-model event was the 20% workforce reduction, expected to generate $140M-$150M of restructuring charges, with most charges in Q2 and completion substantially by the end of Q3.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed.
+
+Adjustment issue:
+Q1 GAAP and non-GAAP differences are manageable, but the announced $140M-$150M restructuring charge will materially distort Q2 and Q3 GAAP results.
+
+PM interpretation:
+Investors should focus on revenue growth, large-customer expansion, RPO, gross margin, FCF, Q2 revenue guide, and whether the restructuring translates into durable operating leverage without disrupting execution.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Edge cloud / network platform | Not disclosed | Not disclosed | Strong | Margin pressured | Core platform continues to scale but network cost allocation weighed on gross margin. |
+| Cybersecurity | Not disclosed | Not disclosed | Not confirmed | Not disclosed | Security remains part of enterprise expansion and large-deal growth. |
+| Workers / developer platform | Not disclosed | Not disclosed | Strong | Lower-margin mix pressure | AI and developer products support growth but pressured gross margin. |
+| Enterprise customers | 72% of revenue from $100k-plus customers | Not disclosed | +25% customer growth | Not disclosed | Enterprise mix is improving and supports RPO visibility. |
+| AI and agentic workloads | Not disclosed | Not disclosed | Accelerating | Restructuring-linked | Management framed AI as both product tailwind and internal operating-model shift. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+FY26 guidance was raised on revenue and EPS, but Q2 revenue guidance was modestly below consensus and the restructuring introduces near-term execution risk. Revision direction: mix-shift revisions, with FY EPS potentially revised up but near-term revenue confidence, gross margin and GAAP earnings estimates pressured by restructuring charges and execution risk.
+
+PROFESSIONAL MARKET COMMENTARY
+
+Cloudflare’s Q1 was a beat that became a credibility test. The market did not sell the stock because the Q1 numbers were weak. It sold the stock because a 20% workforce cut announced alongside a slightly soft Q2 guide creates uncertainty around execution, culture, sales capacity and whether AI productivity claims can be translated into numbers.
+
+The gross margin miss matters because it gives investors a second reason to demand proof. If the business is shifting toward lower-margin developer and AI products, then restructuring has to do more work to preserve operating leverage.
+
+This is the sharpest example in the cohort of an AI restructuring framed from strength but priced as risk. It changes the market rulebook: investors will not simply capitalize AI-driven headcount cuts unless guidance and margin proof arrive at the same time.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is enterprise momentum: $100k-plus customer growth, current RPO growth, large deals and FY guide improvement. The lowest-quality signal is the combination of gross margin compression, Q2 revenue softness and a very large workforce cut.
+
+Analysts are likely to raise or preserve FY EPS but apply more scrutiny to revenue durability, gross margin, sales productivity and restructuring execution. Consensus may be right on the full-year revenue path, but confidence in the quality of that path has weakened.
+
+State transition: False dawn
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether Cloudflare could monetize AI traffic and enterprise demand while improving operating leverage. Q1 initially appeared to support that thesis. The restructuring converted the print into a show-me event rather than a clean improvement.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a high-growth edge cloud and AI infrastructure platform. The Q1 beat supported the growth story, but the 20% workforce cut and soft Q2 revenue guide changed the reaction function from growth validation to execution risk. For rerating, Cloudflare needs to prove that restructuring improves sales productivity and margins without slowing enterprise momentum. The thesis breaks if net retention declines further, gross margin pressure persists, or the workforce cut disrupts customer-facing execution.
+
+Stock identity:
+high-growth compounder, expensive and fragile, setup-risk stock, optionality stock. The print challenges the high-growth compounder identity because management introduced a large operating-model discontinuity; it reinforces optionality only if agentic AI productivity becomes measurable in margins and FCF.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The stock’s more than 20% selloff was driven by restructuring uncertainty, gross margin pressure and Q2 guide softness, not by the Q1 beat itself. The reaction was rational because the market needs a higher proof threshold when a premium software multiple is paired with a 20% workforce cut.
+
+Peer read-across is important for cybersecurity, edge cloud, software and AI application names. The message is that AI-driven restructuring is not automatically bullish; it must be accompanied by clean guidance, margin expansion and evidence of customer continuity.
+
+KEY ISSUES TO MONITOR
+
+Restructuring execution / Why it matters: A 20% workforce reduction can improve margins or disrupt sales and product execution.
+
+Gross margin / Why it matters: Lower-margin product mix could offset AI productivity gains.
+
+Q2 revenue delivery / Why it matters: The soft guide is now the first test of whether restructuring creates disruption.
+
+Net retention / Why it matters: DBNR at 118% is solid but the QoQ decline needs monitoring.
+
+AI and Workers monetization / Why it matters: The company must prove AI traffic and developer adoption can become durable high-quality revenue.
+
+BOTTOM LINE
+
+Cloudflare beat Q1 numbers but lost the market narrative.
+
+The 20% workforce cut turned strength into uncertainty.
+
+FY guidance is not enough without proof of execution and margin leverage.
+
+This is a false dawn until AI productivity appears in clean operating results.
+
+<<NET_EARNINGS_END>>
