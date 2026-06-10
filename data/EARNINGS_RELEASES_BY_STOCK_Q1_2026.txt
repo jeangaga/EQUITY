@@ -17081,3 +17081,583 @@ The next proof point is whether Q2 confirms the expected loss reduction.
 <<JD_EARNINGS_END>>
 
 
+<<NVDA_EARNINGS_BEGIN>>
+TICKER: NVDA
+COMPANY: NVIDIA
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / AI Accelerators / Data Center Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-20
+EVENT: Q1 FY2027 earnings
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Stock fell roughly −2.8% on day one despite a record beat and strong Q2 guide.
+PM_READ: NVIDIA confirmed accelerating AI-factory demand, but the stock traded as a priced-for-perfection leader where GAAP was inflated by equity marks and the market focused on setup, China and circular-financing risks.
+THEME_BUCKETS: AI Infrastructure, Semiconductors, Cloud / Data Center, Accounting Quality, Capex / FCF Tension
+THEMES: Data Center acceleration, Blackwell ramp, networking inflection, hyperscaler demand, China export controls, equity-investment gains, circular AI financing, buyback authorization, supply commitments
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+NVIDIA delivered another record quarter: revenue of $81.6B, up 85% YoY and 20% QoQ, with Data Center revenue of $75.2B, up 92% YoY and 21% QoQ. Data Center networking was the standout acceleration point, up 199% YoY, while Q2 guidance of $91.0B plus or minus 2% confirmed that the AI-factory buildout remains in acceleration mode even with no China Data Center compute revenue assumed. 
+
+The issue was not the operating print. The issue was setup and quality of headline EPS. GAAP EPS of $2.39 exceeded non-GAAP EPS of $1.87 by roughly 28%, driven by about $15.9B of other income, mainly unrealized gains on AI-company equity investments. The market correctly anchored on operative non-GAAP earnings and the Q2 revenue guide, not the inflated GAAP EPS.
+
+This is a Continuation transition. NVIDIA’s AI demand trajectory, margins, supply commitments and capital-return capacity remain extraordinary, but the one-day negative reaction shows the stock is no longer rewarded for merely beating a very high bar. The new structural watch item is the circular-AI-financing debate around NVIDIA’s equity stakes and customer ecosystem.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                Actual |                                             Consensus / Prior |  Beat / Miss |                        YoY |            QoQ | PM Comment                                                                            |
+| ---------------------- | --------------------------------------------------------------------: | ------------------------------------------------------------: | -----------: | -------------------------: | -------------: | ------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                $81.6B |                                Consensus around $78.0B-$78.5B |         Beat |                       +85% |           +20% | Record revenue and a roughly 3% beat.                                                 |
+| EPS / Earnings         |                                    GAAP EPS $2.39; non-GAAP EPS $1.87 |                               Non-GAAP consensus around $1.77 |         Beat | GAAP +214%; non-GAAP +140% |  Not confirmed | Non-GAAP is the operative anchor because GAAP was inflated by investment gains.       |
+| Profitability / Margin |                                      GAAP GM 74.9%; non-GAAP GM 75.0% |                                        Danger line around 73% |         Beat |              Not confirmed |  Not confirmed | Pricing power held despite scale and China restrictions.                              |
+| Guidance / Outlook     | Q2 revenue $91.0B plus or minus 2%; GM around 75% plus or minus 50bps | Prior Street lower; guide assumes no China DC compute revenue | Beat / raise |             Not applicable | Not applicable | Strong guide confirms demand outside China remains sufficient.                        |
+| Market reaction        |                                                 Roughly −2.8% day one |                                                Not applicable |     Negative |             Not applicable | Not applicable | Fourth straight beat-and-dip, driven by valuation and setup rather than fundamentals. |
+
+SECTOR KPI TABLE
+
+| KPI                              |                     Actual | Prior / Benchmark |              Change | PM Comment                                                               |
+| -------------------------------- | -------------------------: | ----------------: | ------------------: | ------------------------------------------------------------------------ |
+| Data Center revenue              |                     $75.2B |     Not confirmed |  +92% YoY; +21% QoQ | Core AI-factory growth remains parabolic.                                |
+| Data Center compute              |                     $60.4B |     Not confirmed |            +77% YoY | Blackwell and accelerator demand remain dominant.                        |
+| Data Center networking           |                     $14.8B |     Not confirmed | +199% YoY; +35% QoQ | Confirms networking inflection across NVLink, InfiniBand and Spectrum-X. |
+| Hyperscaler share of Data Center | Around 50%; roughly $37.9B |     Not confirmed |       Not confirmed | Demand split still broad enough beyond hyperscalers.                     |
+| Free cash flow                   |              Around $48.6B |     Not confirmed |       Not confirmed | Massive cash generation supports capital return and supply commitments.  |
+| Supply commitments               |                    $119.0B |     Not confirmed |       Not confirmed | Reinforces visibility but also locks in AI-cycle exposure.               |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $81.6B, up 85% YoY and 20% QoQ, above consensus around $78.0B-$78.5B. Data Center revenue reached $75.2B, up 92% YoY and 21% QoQ, with compute at $60.4B and networking at $14.8B.
+
+Consensus:
+Revenue and non-GAAP EPS beat consensus. The stock reaction was therefore not a miss reaction; it was a setup, valuation and quality-of-headline-EPS reaction.
+
+EPS / Earnings:
+GAAP EPS was $2.39, up 214% YoY. Non-GAAP EPS was $1.87, up 140% YoY and above consensus around $1.77. GAAP net income was $58.3B versus non-GAAP net income of $45.5B.
+
+Profitability / Margins:
+GAAP gross margin was 74.9% and non-GAAP gross margin was 75.0%, holding above the roughly 73% danger line. The margin print supports continued pricing power despite export-control restrictions and major platform transitions.
+
+Key KPI:
+The highest-quality operating KPI was Data Center networking, up 199% YoY, because it confirms the AI-factory architecture is broadening beyond GPUs into full-stack infrastructure.
+
+Guidance headline:
+Q2 FY2027 revenue guidance was $91.0B plus or minus 2%, excluding China Data Center compute revenue. Gross margin guidance was roughly 75% plus or minus 50bps.
+
+Capital allocation:
+NVIDIA raised its dividend from $0.01 to $0.25, authorized an additional $80B buyback, and returned roughly $20B in Q1. The capital-return step is a maturation signal, not a strategy reversal.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — operating earnings are exceptional, but GAAP EPS was materially inflated by non-operating investment gains.
+
+Adjustment issue:
+GAAP EPS exceeded non-GAAP EPS by roughly $0.52, or about 28%, mainly because of approximately $15.9B of other income tied to unrealized gains on equity investments in AI companies such as CoreWeave, OpenAI and others.
+
+PM interpretation:
+Investors should anchor on non-GAAP EPS, Data Center growth, networking revenue, gross margin, FCF and supply commitments rather than GAAP EPS inflated by equity-security marks.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                   |                % of Total |             Revenue |                           YoY Growth | Margin Trend  | Key Commentary                                                           |
+| ------------------------- | ------------------------: | ------------------: | -----------------------------------: | ------------- | ------------------------------------------------------------------------ |
+| Data Center               |     Around 92% of revenue |              $75.2B |                                 +92% | Not disclosed | Core AI-factory engine; still accelerating.                              |
+| Data Center compute       | Around 74% of Data Center |              $60.4B |                                 +77% | Not disclosed | Accelerator demand remains the main revenue base.                        |
+| Data Center networking    | Around 20% of Data Center |              $14.8B |                                +199% | Not disclosed | Key read-across to AI networking and infrastructure peers.               |
+| Hyperscalers              | Around 50% of Data Center |       Around $37.9B |                        Not confirmed | Not disclosed | Large but not the only source of demand.                                 |
+| ACIE customers            | Around 50% of Data Center |       Around $37.3B |                        Not confirmed | Not disclosed | AI Clouds, industrial, enterprise and sovereign demand broaden the base. |
+| China Data Center compute |            Not meaningful | $0 Hopper shipments | Down from $4.6B prior-year benchmark | Not disclosed | China is now a visible zero in the guide, not a hidden assumption.       |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Upward revisions: the $91B Q2 guide and 75% gross-margin guide should push forward revenue and earnings expectations higher, while analysts will strip out GAAP equity gains and focus on non-GAAP earnings power. The capital-return message also improves maturity perception, but the large buyback does not remove the main debate: whether AI demand remains organic and usage-driven rather than reinforced by a circular financing ecosystem.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about the gap between great fundamentals and full valuation. NVIDIA beat revenue, beat earnings, held margins, guided well above Street and still fell. That does not imply deterioration in the AI demand signal; it implies that the stock is priced for near-perfect execution and increasingly requires step-change surprises rather than ordinary beats.
+
+The more important new professional debate is accounting and ecosystem quality. The $15.9B paper-gain bridge makes the circular-AI-financing discussion concrete: NVIDIA’s equity stakes in AI customers and partners can lift GAAP earnings and raise questions about the boundary between customer demand, ecosystem financing and valuation marks.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is Data Center networking up 199% YoY, because it validates a broader AI-factory architecture and supports read-across to networking, optics and switching peers. The lowest-quality signal is GAAP EPS, because the $2.39 headline materially overstates operative earnings power.
+
+Analysts will likely raise forward revenue and non-GAAP EPS but increase scrutiny on China, customer concentration, supply commitments and equity-investment marks. Consensus may still be too low on near-term revenue, but the stock can remain range-bound if investors view the AI demand chain as increasingly financialized.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior NVIDIA debate was not whether demand was strong but whether expectations had become too high. Q1 confirms the demand acceleration, especially in Data Center networking, but the fourth straight beat-and-dip confirms the setup problem. The new overlay is the quantified circular-financing debate via equity-investment gains.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing another exceptional AI quarter and got one, but the incremental surprise was not enough to overcome a perfection setup. The negative move makes sense as a positioning and valuation reaction, not as a fundamental rejection. Further rerating requires evidence that the $91B guide is not a near-term peak, that Blackwell supply converts cleanly, and that AI customer demand is usage-backed rather than capital-markets-financed. The thesis would break if hyperscaler capex slows, China restrictions tighten further, margins fall below the low-70s, or customer financing concerns become central. Peer read-across is positive for AI networking, optics, data-center power and memory, but the beat-and-dip pattern warns that elevated AI winners need more than a beat.
+
+Stock identity:
+high-growth compounder, crowded long, expensive but deliverable — NVIDIA continues to deliver extraordinary growth, but the stock trades like a crowded benchmark for the AI cycle where accounting quality and ecosystem financing now matter.
+
+MARKET REACTION / PEER READ-ACROSS
+
+NVIDIA fell roughly −2.8% on day one despite record revenue, a strong Q2 guide and stable gross margin. The reaction was driven by setup, valuation, GAAP quality and China / regulatory overhang rather than an operating miss. Read-across is positive for ANET, AVGO, CSCO, COHR, LITE and AI networking / optics names because networking grew 199%, but negative for crowded AI winners that cannot generate enough incremental surprise.
+
+KEY ISSUES TO MONITOR
+
+Blackwell conversion / Why it matters: The $91B Q2 guide depends on flawless platform ramp and supply execution.
+Data Center networking / Why it matters: Networking growth is the cleanest cross-sector AI-infrastructure read-across.
+Equity-investment gains / Why it matters: GAAP EPS is increasingly exposed to AI-portfolio marks rather than operations.
+China exposure / Why it matters: Q2 assumes no China DC compute revenue, but regulatory risk remains a live overhang.
+Customer concentration / Why it matters: Two large customers representing a high share of sales would amplify capex-cycle risk.
+
+BOTTOM LINE
+
+NVIDIA’s fundamentals remain exceptional.
+The stock fell because the bar is no longer “beat”; it is “beat enough to re-rate perfection.”
+Non-GAAP EPS is the operative anchor; GAAP was inflated by equity-investment marks.
+The networking print strengthens the AI-infrastructure read-across.
+Continuation is right: the demand trajectory is intact, but setup risk and circular-financing scrutiny are now central.
+
+<<NVDA_EARNINGS_END>>
+
+<<WMT_EARNINGS_BEGIN>>
+TICKER: WMT
+COMPANY: Walmart
+SECTOR: Consumer Staples
+SUBSECTOR: Broadline Retail / Grocery / Omnichannel / Advertising
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-21
+EVENT: Q1 FY2027 earnings
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Stock fell roughly −7.3% by the close after an initial pre-market decline widened through the session.
+PM_READ: Walmart’s demand and share-gain engine remained intact, but a light Q2 EPS guide, fuel and regulatory cost pressure, negative FCF and premium valuation drove a sharp multiple reset.
+THEME_BUCKETS: Consumer Demand, Low-Income Consumer, Retail / Inventory, Margin / Cost Discipline, Capex / FCF Tension
+THEMES: US comps, eCommerce delivery, advertising growth, membership income, upper-income trade-down, fuel-cost pressure, pharmacy pricing legislation, negative FCF, CEO transition
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Walmart delivered a solid operating quarter: total revenue was about $177.8B, up 7.3% YoY, U.S. comps rose 4.1% ex-fuel, global eCommerce grew 26%, Walmart U.S. eCommerce delivery grew 45%, and advertising grew 37%. The demand signal was therefore healthy, especially given transaction growth and continued market-share gains. 
+
+The stock reaction was about forward risk and valuation, not the printed quarter. Q2 adjusted EPS guidance of $0.72-$0.74 was slightly below Street, FY guidance was unchanged, operating income faced fuel and regulatory cost headwinds, and FCF was negative because capex rose sharply. At a premium forward multiple, solid results were not enough.
+
+This is a Continuation transition. Walmart’s omnichannel, share-gain and higher-margin profit-diversification story remains intact, but the stock was priced for clean execution and did not tolerate a cautious Q2 EPS guide or cash-flow pressure.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                   Actual |                                       Consensus / Prior |            Beat / Miss |                    YoY |            QoQ | PM Comment                                                                      |
+| ---------------------- | -------------------------------------------------------: | ------------------------------------------------------: | ---------------------: | ---------------------: | -------------: | ------------------------------------------------------------------------------- |
+| Revenue / Sales        |   Total revenue around $177.8B; net sales around $175.7B |                               Consensus around $174.65B |                   Beat |    +7.3% total revenue |  Not confirmed | Total revenue beat, but net sales and total revenue lines must not be confused. |
+| EPS / Earnings         |                                       Adjusted EPS $0.66 | Consensus around $0.65-$0.66; company guide $0.63-$0.65 |      Met / slight beat |          Not confirmed |  Not confirmed | EPS was fine, but forward guide mattered more.                                  |
+| Profitability / Margin | Operating income +5.0%; hit by 250bps fuel-cost pressure |                                           Not confirmed |                  Mixed | +5.0% operating income |  Not confirmed | Cost pressure limited operating leverage.                                       |
+| Guidance / Outlook     |       Q2 EPS $0.72-$0.74; FY27 EPS $2.75-$2.85 unchanged |                                  Street Q2 around $0.75 | Slight miss / cautious |         Not applicable | Not applicable | Light Q2 EPS guide triggered the selloff.                                       |
+| Market reaction        |                                      Roughly −7.3% close |                                          Not applicable |               Negative |         Not applicable | Not applicable | Worst single-day decline since 2023, driven by guide and valuation.             |
+
+SECTOR KPI TABLE
+
+| KPI                                    |  Actual | Prior / Benchmark |         Change | PM Comment                                                    |
+| -------------------------------------- | ------: | ----------------: | -------------: | ------------------------------------------------------------- |
+| Walmart U.S. comp sales ex-fuel        |   +4.1% |     Not confirmed |       Positive | Healthy demand despite regulatory and pharmacy headwinds.     |
+| Global eCommerce growth                |    +26% |     Not confirmed |         Strong | Omnichannel engine remains intact.                            |
+| Walmart U.S. eCommerce delivery growth |    +45% |     Not confirmed |         Strong | Delivery is a key share-gain channel.                         |
+| Advertising growth                     |    +37% |     Not confirmed |         Strong | Higher-margin revenue stream supports profit diversification. |
+| Free cash flow                         | −$1.95B |     Not confirmed | Negative swing | Capex intensity is a key watch item.                          |
+| Capex                                  |  $6.68B |  Prior-year lower |       +34% YoY | Automation and fulfillment spending pressure cash flow.       |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Total revenue was about $177.8B, up 7.3% YoY and above consensus around $174.65B. Net sales were around $175.7B; the tape explicitly distinguishes this from total revenue including membership and other income.
+
+Consensus:
+Revenue beat and adjusted EPS met or slightly exceeded consensus. The miss was forward-looking: Q2 EPS guidance was light versus Street, while FY27 guidance was unchanged.
+
+EPS / Earnings:
+Adjusted EPS was $0.66, above the company’s $0.63-$0.65 guide and around consensus. GAAP EPS was not cleanly confirmed in the tape, and Walmart guides non-GAAP because GAAP includes fair-value changes on equity and other investments.
+
+Profitability / Margins:
+Operating income grew 5.0%, but distribution and fulfillment fuel costs created a roughly 250bps pressure point. Health & Wellness also faced a segment-level headwind from Maximum Fair Pricing legislation, while the consolidated comp headwind was around 100bps.
+
+Key KPI:
+The highest-quality KPI was U.S. comp sales of +4.1% ex-fuel with the strongest transaction growth in six quarters. The highest-risk KPI was negative FCF of −$1.95B.
+
+Guidance headline:
+Q2 net sales were guided up 4%-5% in constant currency, adjusted operating income up 7%-10%, and adjusted EPS at $0.72-$0.74 versus Street around $0.75. FY27 guidance was unchanged at net sales growth of 3.5%-4.5% in constant currency and adjusted EPS of $2.75-$2.85.
+
+Capital allocation:
+Walmart had $28.2B remaining under its $30B buyback authorization. Capital allocation remains supportive, but capex and negative FCF were more important to the stock reaction.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — adjusted EPS is the operative figure, while GAAP EPS was not cleanly confirmed and may be affected by investment fair-value marks.
+
+Adjustment issue:
+No single confirmed non-operating item was available to bridge GAAP and adjusted EPS in the tape. The key quality issue is not a GAAP one-off; it is cost pressure and negative FCF.
+
+PM interpretation:
+Investors should focus on adjusted EPS, U.S. comps, eCommerce growth, operating income pressure, FCF and capex rather than revenue beat alone.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                         |    % of Total |       Revenue |               YoY Growth | Margin Trend                             | Key Commentary                                      |
+| ------------------------------- | ------------: | ------------: | -----------------------: | ---------------------------------------- | --------------------------------------------------- |
+| Walmart U.S.                    | Not disclosed | Not disclosed | Comp sales +4.1% ex-fuel | Pressured by pharmacy and fuel headwinds | Core demand signal was healthy.                     |
+| Global eCommerce                | Not disclosed | Not disclosed |                     +26% | Not disclosed                            | Omnichannel growth remains strong.                  |
+| Walmart U.S. eCommerce delivery | Not disclosed | Not disclosed |                     +45% | Not disclosed                            | Delivery growth supports share gains.               |
+| Advertising                     | Not disclosed | Not disclosed |                     +37% | Higher-margin mix positive               | Advertising is a key profit-diversification driver. |
+| Membership plus advertising     | Not disclosed | Not disclosed |            Not confirmed | Around one-third of operating income     | Higher-margin mix adds resilience.                  |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Revision direction not clear: revenue and comp assumptions may remain supported, but Q2 EPS, fuel costs, regulatory pricing pressure, capex and negative FCF argue against clean upward revisions. FY27 guidance was unchanged, which means the quarter confirms the model rather than forcing a raise. Analysts are likely to adjust mix, with stronger eCommerce / ads offset by cost and cash-flow caution.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about the forward guide and multiple, not the quarter. Walmart delivered a beat with strong comps, eCommerce and advertising, but the Q2 EPS guide was light and the stock was trading at a premium multiple. That combination created a sharp valuation reset.
+
+Professional commentary framed the result as a “solid quarter, ugly reaction” event. The print does not show consumer deterioration; it shows that premium defensive compounders can sell off if cost pressure, capex and guide caution interrupt a perfect-execution story.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is U.S. comp sales growth plus eCommerce and advertising momentum. The lowest-quality signal is FCF, which was negative because capex rose sharply.
+
+Analysts are unlikely to call the consumer read negative from this print. Instead, the debate is whether Walmart can protect margin and FCF while investing in fulfillment, automation and higher-margin digital profit pools. Consensus may be broadly right on FY27, but Q2 EPS expectations need some caution.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior Walmart debate was whether share gains and omnichannel scale could support a premium multiple even as lower-income consumers remained pressured. Q1 confirms share gains and upper-income trade-down, but the cost stack and Q2 guide interrupt the clean compounding narrative. The thesis continues, but the valuation bar was too high.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing Walmart as a premium defensive compounder with resilient comps and margin discipline. The reaction makes sense because Q2 EPS guidance was light, FCF was negative and cost pressure hit at a high multiple. Further rerating requires evidence that fuel and regulatory headwinds fade, capex converts into productivity, and comps remain strong without margin sacrifice. The thesis would break if low-income pressure broadens, traffic slows, or capex fails to produce operating leverage. Peer read-across is important for COST, TGT, DG and DLTR, with dollar stores more exposed to low-income softness.
+
+Stock identity:
+defensive compounder, quality compounder, crowded long — Walmart remains a high-quality share-gainer, but the print shows the stock is vulnerable when a premium multiple meets cautious guidance and cash-flow pressure.
+
+MARKET REACTION / PEER READ-ACROSS
+
+WMT fell roughly −7.3% by the close after an initial pre-market decline widened through the session. The reaction was driven by a light Q2 EPS guide, fuel and regulatory pressure, negative FCF, capex intensity and premium valuation. Peer read-across is not a broad consumer collapse signal; it is a warning that defensive retail winners need clean guides to sustain high multiples.
+
+KEY ISSUES TO MONITOR
+
+Q2 EPS delivery / Why it matters: The stock sold off because guidance was slightly light.
+Fuel and fulfillment costs / Why it matters: Cost pressure can erode operating leverage despite strong comps.
+Free cash flow / Why it matters: Negative FCF challenges the quality of the compounding story.
+Upper-income trade-down / Why it matters: Share gains may depend on continued consumer bifurcation.
+Advertising and membership income / Why it matters: Higher-margin profit pools are central to valuation support.
+
+BOTTOM LINE
+
+Walmart beat on demand but missed the market’s forward-quality bar.
+The selloff was guide, cost, FCF and valuation-driven.
+The consumer read remains healthy, with upper-income trade-down and omnichannel strength.
+Continuation is right: the business model is intact, but the multiple reset was rational.
+The next test is whether Q2 margins and FCF stabilize.
+
+<<WMT_EARNINGS_END>>
+
+<<DE_EARNINGS_BEGIN>>
+TICKER: DE
+COMPANY: Deere
+SECTOR: Industrials
+SUBSECTOR: Agricultural Machinery / Construction Equipment / Precision Agriculture
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-21
+EVENT: Q2 FY2026 earnings
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ***
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Stock fell roughly −7% to a three-month low despite an EPS beat.
+PM_READ: Deere’s headline beat was lower quality because of a tariff recovery and large-ag weakness, but management’s 2026 trough call keeps the stabilization thesis alive for a 2027 recovery.
+THEME_BUCKETS: Industrial Cycle, Autos / Mobility, Margin / Cost Discipline, Accounting Quality, FX / Macro Translation
+THEMES: large-ag downcycle, construction strength, tariff refund, cyclical trough, South America weakness, inventory normalization, LEAP 2030, precision agriculture, cash flow
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Deere beat headline expectations, but the quality of the beat was weak. Net sales and revenues were $13.37B, up 5% YoY, and diluted EPS was $6.55 versus consensus around $5.70, but the quarter included a $272M IEEPA tariff recovery that inflated the result. The stock correctly looked past the beat and focused on large-ag weakness, unchanged FY net income guidance and beat quality. 
+
+Segment divergence was the key message. Construction & Forestry was strong, with revenue up 29% and operating profit up 48%, while Production & Precision Ag revenue fell 14% and operating profit fell 39%. Large ag remains the stock’s master variable.
+
+This is a Stabilization transition because management continued to call 2026 the bottom of the large-ag cycle, supported by lower new and used inventories and early sprayer-order evidence. But the recovery is still mostly a 2027 expectation, not a current-quarter inflection.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                           Actual |                                      Consensus / Prior |        Beat / Miss |                                                 YoY |            QoQ | PM Comment                                                                 |
+| ---------------------- | -----------------------------------------------: | -----------------------------------------------------: | -----------------: | --------------------------------------------------: | -------------: | -------------------------------------------------------------------------- |
+| Revenue / Sales        |                                          $13.37B | Consensus around $12.73B; another source around $11.5B |               Beat |                                                 +5% |  Not confirmed | Revenue beat, but segment mix was uneven.                                  |
+| EPS / Earnings         |            Diluted EPS $6.55; net income $1.773B |       EPS consensus around $5.70; prior-year EPS $6.64 |               Beat | EPS down slightly YoY; net income down slightly YoY |  Not confirmed | Beat was aided by a one-time tariff recovery.                              |
+| Profitability / Margin | PPA margin around 15.7%; C&F margin around 14.8% |                                          Not confirmed |              Mixed |                    PPA profit −39%; C&F profit +48% |  Not confirmed | Construction strength masked large-ag weakness.                            |
+| Guidance / Outlook     |            FY26 net income $4.5B-$5.0B unchanged |                                  Prior guide unchanged | In line / no raise |                                      Not applicable | Not applicable | Holding guide after a beat reinforced quality-of-beat skepticism.          |
+| Market reaction        |                                      Roughly −7% |                                         Not applicable |           Negative |                                      Not applicable | Not applicable | Market looked through headline beat to large-ag weakness and one-time aid. |
+
+SECTOR KPI TABLE
+
+| KPI                                        |                 Actual | Prior / Benchmark |            Change | PM Comment                                              |
+| ------------------------------------------ | ---------------------: | ----------------: | ----------------: | ------------------------------------------------------- |
+| Production & Precision Ag sales            |                $4.503B |     Not confirmed |          −14% YoY | Core large-ag weakness remains the main stock variable. |
+| Production & Precision Ag operating profit | Not disclosed in table |     Not confirmed |          −39% YoY | Weak profit trend reduces beat quality.                 |
+| Small Ag & Turf sales                      |                 $3.49B |     Not confirmed |          +16% YoY | Provides partial offset to large-ag weakness.           |
+| Construction & Forestry sales              |                 $3.79B |     Not confirmed |          +29% YoY | Strongest segment in the quarter.                       |
+| Construction & Forestry operating profit   |                  $561M |     Not confirmed |          +48% YoY | Construction carried profitability.                     |
+| IEEPA tariff recovery                      |                  $272M |    Not applicable | One-time positive | Inflated headline beat.                                 |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Net sales and revenues were $13.37B, up 5% YoY and above consensus. The beat was broad at the headline level but masked material divergence across segments.
+
+Consensus:
+EPS beat consensus by roughly 15%, but the one-time $272M tariff recovery means the clean beat was materially smaller than the headline suggests.
+
+EPS / Earnings:
+Net income was $1.773B versus $1.804B in the prior-year period. Diluted EPS was $6.55 versus $6.64 prior year and around $5.70 consensus.
+
+Profitability / Margins:
+Production & Precision Ag revenue fell 14% and operating profit fell 39%, while Construction & Forestry revenue rose 29% and operating profit rose 48% to $561M. Segment mix therefore improved outside large ag but did not solve the core stock debate.
+
+Key KPI:
+The key KPI is Production & Precision Ag deterioration because large-ag demand governs Deere’s earnings cycle and multiple more than the Construction & Forestry beat.
+
+Guidance headline:
+FY26 net income guidance was unchanged at $4.5B-$5.0B. Construction & Forestry growth guidance was raised to around 20%, Small Ag to around 15%, while Production Ag was guided down 5%-10% and U.S. / Canada large-ag industry demand down 15%-20%.
+
+Capital allocation:
+Deere returned about $635M to shareholders through buybacks and dividends. Equipment-operations cash-flow guidance was $4.5B-$5.5B.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed / distorted — the headline EPS beat was helped by a material one-time tariff recovery.
+
+Adjustment issue:
+A $272M IEEPA tariff recovery was recorded after the Supreme Court invalidation of the tariff mechanism, creating a one-time lift across business units.
+
+PM interpretation:
+Investors should look through the tariff refund and focus on clean segment profit, large-ag demand, inventory normalization, cash flow and FY26 guidance.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                    |                           % of Total |       Revenue |    YoY Growth | Margin Trend                               | Key Commentary                                          |
+| -------------------------- | -----------------------------------: | ------------: | ------------: | ------------------------------------------ | ------------------------------------------------------- |
+| Production & Precision Ag  | Around 34% of net sales and revenues |       $4.503B |          −14% | Operating profit −39%; margin around 15.7% | Core weakness and main reason stock sold off.           |
+| Small Ag & Turf            | Around 26% of net sales and revenues |        $3.49B |          +16% | Operating profit +25%                      | Partial offset to large-ag weakness.                    |
+| Construction & Forestry    | Around 28% of net sales and revenues |        $3.79B |          +29% | Operating profit +48%; margin around 14.8% | Strongest segment and key support to profitability.     |
+| Financial Services / other |                        Not confirmed | Not confirmed | Not confirmed | Not confirmed                              | Not enough detail in tape for clean segment conclusion. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Revision direction not clear: headline EPS beat argues for some support, but the tariff-aided quality of the beat and unchanged FY26 net income guide limit upward revisions. Analysts may raise Construction & Forestry assumptions while keeping large-ag and Production & Precision Ag estimates cautious. The recovery case remains mostly a 2027 story.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about large ag and beat quality. Deere beat, but the beat was partly one-time, the guide was unchanged, and the largest stock-relevant end market remained weak. The −7% move was therefore rational rather than an irrational selloff on good news.
+
+Professional commentary likely centered on whether Construction & Forestry strength can bridge the company to a 2027 large-ag recovery. The answer is partially yes for earnings support, but not enough to re-rate the stock while Production & Precision Ag revenue and profit are still falling.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is Construction & Forestry operating profit growth of 48%, showing diversification support. The lowest-quality signal is headline EPS because the $272M tariff recovery inflated the beat.
+
+Analysts will likely maintain a split view: constructive on a trough forming in large ag, but cautious on timing and quality of near-term earnings. Consensus may be broadly right if 2026 is truly the trough, but the stock needs order evidence and inventory normalization to validate a 2027 recovery.
+
+State transition: Stabilization
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior Deere debate was whether the large-ag downcycle was close enough to trough to own the stock before recovery. Q2 did not show a current large-ag upturn, but management’s trough call and inventory evidence support stabilization. The implication is that Deere is not yet improving, but the downside cycle may be closer to bottoming.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing some trough optimism and got a headline beat, but the beat was low quality and the guide was only held. The selloff makes sense because large-ag weakness is still real and the tariff recovery diluted the EPS signal. Further rerating requires evidence that large-ag orders stabilize, inventories continue to normalize, and South America stops deteriorating. The thesis would break if 2026 is not the trough, if Brazil weakens further, or if tariff / pricing pressure erodes margins. Peer read-across is mixed for CAT, CNH and AGCO: construction strength is constructive, but ag remains weak.
+
+Stock identity:
+cyclical value, setup-risk stock, turnaround — Deere is a trough-cycle candidate, but the current print is stabilization rather than a confirmed recovery.
+
+MARKET REACTION / PEER READ-ACROSS
+
+DE fell roughly −7% despite the headline EPS beat. The move was driven by weak large-ag revenue and profit, unchanged FY net income guidance and a tariff-aided beat. Read-across is negative for pure ag-exposed machinery peers and more mixed for diversified industrials with construction exposure.
+
+KEY ISSUES TO MONITOR
+
+Large-ag orders / Why it matters: This is the main confirmation test for the 2026 trough call.
+Inventory normalization / Why it matters: Lower new and used inventories are the foundation of the 2027 recovery thesis.
+South America demand / Why it matters: Brazil weakness was cut to −15% and remains a pressure point.
+Tariff and price realization / Why it matters: One-time recoveries and tariff headwinds distort clean margin analysis.
+Construction & Forestry durability / Why it matters: This segment is carrying profitability through the ag trough.
+
+BOTTOM LINE
+
+Deere beat, but the beat was not clean.
+Large ag remains the stock’s master variable.
+Construction helped, but not enough to overcome weak Production & Precision Ag.
+Stabilization is fair because management still sees 2026 as the trough.
+The recovery remains a 2027 thesis, not a Q2 fact.
+
+<<DE_EARNINGS_END>>
+
+<<CRM_EARNINGS_BEGIN>>
+TICKER: CRM
+COMPANY: Salesforce
+SECTOR: Information Technology
+SUBSECTOR: Enterprise Software / CRM / AI Agents / Data Cloud
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-27
+EVENT: Q1 FY2027 earnings
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares traded modestly lower after-hours, roughly −1% to −3%, despite a large EPS beat.
+PM_READ: Salesforce showed strong margin, cRPO and Agentforce momentum, but the market still refuses to re-rate software until AI-agent monetization offsets seat-compression fears in bookings.
+THEME_BUCKETS: AI Software, Software Durability, Margin / Cost Discipline, Capex / FCF Tension, Guidance Reset
+THEMES: SaaSpocalypse, Agentforce, Data 360, cRPO, consumption pricing, seat compression, Slack usage, Informatica contribution, ASR, Anthropic token commitment
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Salesforce delivered strong printed numbers: revenue of $11.13B, up 13% YoY, cRPO of $33.6B, up 14%, non-GAAP EPS of $3.88 versus roughly $3.12 expected, and record non-GAAP operating margin of 34.8%. Agentforce plus Data 360 ARR reached $3.4B, up more than 200% YoY, while full-year guidance was raised. 
+
+The market reaction was still modestly negative because the debate is structural, not about the quarter. CRM entered down roughly 33% YTD amid the “SaaSpocalypse” fear that AI agents compress seat-based licensing. A strong EPS beat and record margin were not enough because Q2 revenue guidance was only in-line to light and bookings / cRPO cadence still needs to validate back-half acceleration.
+
+This is a Stabilization transition. Salesforce is executing through the AI-disruption debate, and Agentforce / Data 360 plus consumption pricing are credible responses. But the market is withholding a re-rating until AI monetization appears in durable bookings, not just ARR and narrative KPIs.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                             Actual |                                Consensus / Prior | Beat / Miss |                          YoY |            QoQ | PM Comment                                                         |
+| ---------------------- | ---------------------------------------------------------------------------------: | -----------------------------------------------: | ----------: | ---------------------------: | -------------: | ------------------------------------------------------------------ |
+| Revenue / Sales        |                                                                            $11.13B |                         Consensus around $11.05B |        Beat | +13%; +12% constant currency |  Not confirmed | Revenue beat included $444M from Informatica.                      |
+| EPS / Earnings         |                                                 GAAP EPS $2.42; non-GAAP EPS $3.88 |                  Non-GAAP consensus around $3.12 |        Beat |     GAAP +52%; non-GAAP +50% |  Not confirmed | Large EPS beat, but market focused on forward software durability. |
+| Profitability / Margin |                       GAAP operating margin 21.1%; non-GAAP operating margin 34.8% |                           Record non-GAAP margin |        Beat |      Non-GAAP margin +250bps |  Not confirmed | Strong margin discipline remains a key bull support.               |
+| Guidance / Outlook     | FY27 revenue $45.8B-$46.2B; non-GAAP EPS $14.06-$14.12; Q2 revenue $11.27B-$11.35B | Q2 revenue roughly in-line / light versus Street |       Mixed |               Not applicable | Not applicable | FY raised but Q2 revenue guide did not clear the re-rating bar.    |
+| Market reaction        |                                                     Roughly −1% to −3% after-hours |                                   Not applicable |    Negative |               Not applicable | Not applicable | Structural AI-disruption fear outweighed the printed beat.         |
+
+SECTOR KPI TABLE
+
+| KPI                              |       Actual | Prior / Benchmark |                           Change | PM Comment                                          |
+| -------------------------------- | -----------: | ----------------: | -------------------------------: | --------------------------------------------------- |
+| cRPO                             |       $33.6B |     Not confirmed | +14% YoY; +13% constant currency | Leading indicator supporting stabilization.         |
+| RPO                              |       $67.9B |     Not confirmed |                         +11% YoY | Backlog growth remains solid.                       |
+| Subscription and support revenue |       $10.6B |     Not confirmed |                         +14% YoY | Core recurring revenue base still growing.          |
+| Agentforce plus Data 360 ARR     |        $3.4B |     Not confirmed |                   +200% plus YoY | Bull anchor against SaaS disruption fear.           |
+| Agentforce-specific ARR          | Around $1.2B |     Not confirmed |                    Not confirmed | Important but definition differs from combined ARR. |
+| Free cash flow                   |        $6.6B |     Not confirmed |                    Not confirmed | Strong cash generation supports capital return.     |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $11.13B, up 13% YoY and 12% constant currency, including $444M from Informatica. Subscription and support revenue was $10.6B, up 14%.
+
+Consensus:
+Revenue beat consensus around $11.05B, and non-GAAP EPS beat materially. The market reaction was not about Q1 numbers but about whether Q2 and back-half bookings can validate AI monetization.
+
+EPS / Earnings:
+GAAP EPS was $2.42, up 52% YoY. Non-GAAP EPS was $3.88, up 50% YoY and roughly 24% above consensus around $3.12.
+
+Profitability / Margins:
+Non-GAAP operating margin reached a record 34.8%, up 250bps, while GAAP operating margin was 21.1%. Gross margin was around 77%.
+
+Key KPI:
+The key KPI is cRPO of $33.6B, up 14%, because it is the bridge between strong current earnings and the market’s concern about future bookings under AI disruption.
+
+Guidance headline:
+FY27 guidance was raised to revenue of about $45.8B-$46.2B, non-GAAP EPS of $14.06-$14.12 and non-GAAP operating margin around 34.3%. Q2 revenue guidance of $11.27B-$11.35B was roughly in-line to light.
+
+Capital allocation:
+Salesforce returned $27.5B to shareholders, including $27.1B of buybacks and $365M of dividends. The buyback included a $25B accelerated share repurchase funded by a new $25B debt issuance under the broader $50B authorization.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — non-GAAP operating performance is strong, but the GAAP / non-GAAP wedge is large and typical for software.
+
+Adjustment issue:
+GAAP / non-GAAP difference of roughly 38% is mainly standard software stock-based compensation and acquired-intangible amortization, including Informatica effects, rather than a single non-operating item.
+
+PM interpretation:
+Investors should focus on non-GAAP operating margin, cRPO, RPO, FCF, Agentforce / Data 360 ARR and bookings cadence rather than GAAP EPS alone.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                  |            % of Total |          Revenue |     YoY Growth | Margin Trend     | Key Commentary                                       |
+| ------------------------ | --------------------: | ---------------: | -------------: | ---------------- | ---------------------------------------------------- |
+| Subscription and support | Around 95% of revenue |           $10.6B |           +14% | Not disclosed    | Core recurring base remains durable.                 |
+| Agentforce plus Data 360 |         Not disclosed |        ARR $3.4B |     +200% plus | Not disclosed    | Main AI monetization proof point.                    |
+| Agentforce-specific      |         Not disclosed | ARR around $1.2B |  Not confirmed | Not disclosed    | Important but narrower definition than combined ARR. |
+| Slack                    |         Not disclosed |    Not disclosed | AWUs +350% QoQ | Not disclosed    | Slack featured in around half of $1M plus wins.      |
+| Tableau / Commerce Cloud |         Not disclosed |    Not disclosed |  Not confirmed | Softness flagged | Dragging parts of the portfolio.                     |
+| Informatica contribution |  Around 4% of revenue |            $444M | Not meaningful | Not disclosed    | Acquisition contribution supports reported growth.   |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Mix-shift revisions: FY revenue, EPS and margin guidance were raised, but the Q2 revenue guide was roughly in-line to light, so analysts are likely to increase EPS / margin and capital-return assumptions more confidently than organic growth assumptions. The key model question is whether Agentforce and Data 360 convert into bookings and cRPO acceleration in the back half. The $25B ASR signals management confidence but also increases balance-sheet leverage.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about the structural software question. Salesforce beat revenue and EPS, printed record margin and raised full-year guidance, but the stock still faded because investors are not yet convinced that Agentforce can offset seat-compression risk fast enough.
+
+Professional commentary likely focused on the gap between strong AI-product KPIs and still-unconvincing bookings cadence. The first high-signal Q&A went directly to this tension: Agentforce adoption looks strong, but investors want to see it flow into cRPO and bookings.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is cRPO up 14% with record non-GAAP operating margin, because it shows the core business is not breaking. The most fragile signal is Agentforce ARR, because it is impressive but must still prove durable conversion into bookings, revenue and customer expansion.
+
+Analysts are likely to raise EPS and margin assumptions, while staying divided on organic growth durability. Consensus may be too pessimistic if Agentforce monetizes, but still too optimistic if AI agents cannibalize seat-based pricing faster than consumption revenue ramps.
+
+State transition: Stabilization
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior CRM debate was dominated by whether AI agents would disrupt the SaaS seat model. Q1 did not resolve the question, but it showed that Salesforce can still deliver margin, cRPO growth and early AI ARR while transitioning toward consumption pricing. The implication is stabilization, not yet a confirmed re-rating.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing structural AI disruption, not a normal earnings miss. The reaction makes sense because Q2 revenue guidance was not enough to force a bear capitulation despite a 24% EPS beat. Further rerating requires visible bookings acceleration, cRPO follow-through and proof that Agentforce expands wallet share rather than cannibalizing seats. The thesis would break if Agentforce ARR slows, cRPO decelerates, or pricing shifts hurt net retention. Peer read-across is crucial for NOW, ORCL, ADBE and enterprise software more broadly: AI software winners need bookings proof, not just AI product launches.
+
+Stock identity:
+GARP, setup-risk stock, turnaround — CRM is trying to defend its software franchise through AI agents and consumption pricing, but the market has not yet restored quality-compounder status.
+
+MARKET REACTION / PEER READ-ACROSS
+
+CRM traded roughly −1% to −3% after-hours despite a strong Q1 print. The reaction was driven by the in-line / light Q2 revenue guide and the unresolved seat-compression bear case. Peer read-across is negative for legacy seat-based software models but potentially constructive for software companies that can show AI ARR converting into cRPO and consumption revenue.
+
+KEY ISSUES TO MONITOR
+
+Agentforce monetization / Why it matters: ARR growth must translate into bookings and revenue.
+cRPO cadence / Why it matters: This is the cleanest proof point for back-half acceleration.
+Consumption pricing transition / Why it matters: It is the direct answer to seat-compression risk.
+Tableau and Commerce Cloud softness / Why it matters: Portfolio drag can offset Agentforce momentum.
+Balance-sheet leverage from ASR / Why it matters: Debt-funded buybacks raise confidence but reduce flexibility.
+
+BOTTOM LINE
+
+Salesforce printed strong numbers but did not clear the structural AI-disruption bar.
+Margins, cRPO and Agentforce are good enough for stabilization.
+They are not yet good enough for a full re-rating.
+The software AI debate is now bookings proof versus seat compression.
+The next test is whether Agentforce appears in cRPO and back-half revenue acceleration.
+
+<<CRM_EARNINGS_END>>
