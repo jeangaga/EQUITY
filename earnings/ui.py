@@ -45,6 +45,18 @@ def render_earnings_tab() -> None:
 
     _render_header(recap["meta"], recap_src, stock_src)
 
+    # Reload button — clears the 30-min loader cache and re-fetches the
+    # latest files from GitHub on the next run.
+    _hcol, _bcol = st.columns([5, 1])
+    with _bcol:
+        if st.button(
+            "🔄 Reload data",
+            help="Clear the cache and re-fetch the latest files from GitHub",
+            width="stretch",
+        ):
+            st.cache_data.clear()
+            st.rerun()
+
     # Streamlit discards a widget's state if that widget isn't rendered on a
     # given run. Because only one section below renders at a time, switching
     # sections would otherwise wipe the filters / company selection of the
