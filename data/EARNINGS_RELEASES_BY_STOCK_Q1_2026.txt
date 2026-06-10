@@ -16499,3 +16499,585 @@ FY guidance is not enough without proof of execution and margin leverage.
 This is a false dawn until AI productivity appears in clean operating results.
 
 <<NET_EARNINGS_END>>
+
+
+
+<<CSCO_EARNINGS_BEGIN>>
+TICKER: CSCO
+COMPANY: Cisco Systems
+SECTOR: Information Technology
+SUBSECTOR: Networking / AI Infrastructure / Enterprise Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-13
+EVENT: Q3 FY2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Stock repriced roughly +13–17% across after-hours and next-session windows to record highs.
+PM_READ: Cisco delivered the cleanest AI-infrastructure re-rate in the batch because contracted hyperscaler AI orders, broad order growth and raised guidance overwhelmed elevated setup risk.
+THEME_BUCKETS: AI Infrastructure, Cloud / Data Center, Capex / FCF Tension, Beat-and-Raise
+THEMES: AI networking, hyperscaler orders, Silicon One, optics, campus refresh, Splunk integration, offensive restructuring, backlog visibility
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Cisco’s Q3 FY2026 print was a genuine thesis-upgrade event rather than a simple beat: revenue reached a record $15.84B, non-GAAP EPS beat modestly, but the decisive signal was AI infrastructure orders of $1.9B in the quarter and $5.3B YTD, already above the original FY26 target with one quarter left. The FY26 AI order outlook was raised to $9B and management framed at least $6B of AI hyperscale revenue as a reasonable FY27 expectation. 
+
+The market reaction was fundamental-dominant. CSCO had rallied into the print, but the step-change in contracted AI order visibility was large enough to force a re-rate, unlike the beat-and-fade cohort. The gross-margin mix drag is real, but it is the right kind of margin pressure if it reflects faster growth in AI networking and hyperscale switching.
+
+This is an Improvement transition: Cisco moved from stable enterprise networking / cash-return compounder toward a more credible contracted-backlog AI-infrastructure name. The next test is whether the order book converts into FY27 revenue without deeper product gross-margin compression.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                              Actual |                                                Consensus / Prior |  Beat / Miss |                                     YoY |            QoQ | PM Comment                                                                    |
+| ---------------------- | ----------------------------------------------------------------------------------: | ---------------------------------------------------------------: | -----------: | --------------------------------------: | -------------: | ----------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                             $15.84B |      LSEG consensus around $15.56B; company guide ceiling $15.6B |         Beat |                                    +12% |  Not confirmed | Record revenue and a clear guide beat.                                        |
+| EPS / Earnings         |                                                  GAAP EPS $0.85; non-GAAP EPS $1.06 |                                  Non-GAAP consensus around $1.04 |         Beat |                GAAP +37%; non-GAAP +10% |  Not confirmed | EPS beat was secondary to the AI order-book signal.                           |
+| Profitability / Margin |                               Non-GAAP gross margin 66%; product gross margin 64.3% |                   Prior-year non-GAAP GM 68.6%; product GM 67.6% |        Mixed | Non-GAAP GM −260bps; product GM −330bps |  Not confirmed | Mix and memory costs pressured margin despite stronger demand.                |
+| Guidance / Outlook     | Q4 revenue $16.7B-$16.9B; FY26 revenue $62.8B-$63.0B; FY26 non-GAAP EPS $4.27-$4.29 | Prior FY26 revenue guide $61.2B-$61.7B; Street Q4 around $15.82B | Beat / raise |                          Not applicable | Not applicable | Roughly $3B cumulative FY26 revenue raise and AI order outlook lifted to $9B. |
+| Market reaction        |                                                +13% to +17% across reported windows |                                                   Not applicable |     Positive |                          Not applicable | Not applicable | Re-rate to record highs driven by contracted AI visibility.                   |
+
+SECTOR KPI TABLE
+
+| KPI                        |                 Actual |        Prior / Benchmark |                                Change | PM Comment                                             |
+| -------------------------- | ---------------------: | -----------------------: | ------------------------------------: | ------------------------------------------------------ |
+| Product orders             |               +35% YoY |            Not confirmed |                   Strong acceleration | Broad demand, not a one-line revenue beat.             |
+| Hyperscaler / cloud orders |              +105% YoY |            Not confirmed |                    Major acceleration | Core evidence that AI networking demand is contracted. |
+| AI infrastructure orders   | $1.9B in Q3; $5.3B YTD | Original FY26 target $5B | Already exceeded original FY26 target | Key re-rate driver.                                    |
+| FY26 AI order outlook      |                    $9B |         Prior target $5B |                        Raised sharply | Turns AI from optionality into visible backlog.        |
+| Backlog                    |                 $43.5B |            Not confirmed |                         Not confirmed | Supports multi-quarter revenue visibility.             |
+| Free cash flow             |                 $3.34B |            Not confirmed |                         Not confirmed | Still strong despite AI-related investment outlays.    |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $15.84B, up 12% YoY, above LSEG consensus around $15.56B and above the company’s own guide ceiling. The beat was not just mechanical: product orders grew 35% YoY, hyperscaler / cloud orders grew 105%, networking orders were up more than 50%, campus grew more than 25%, and data-center switching grew more than 40%. 
+
+Consensus:
+Consensus was beaten on revenue and non-GAAP EPS. The cleaner debate is not whether Cisco beat but whether the order book is now large enough to support an AI-infrastructure re-rating.
+
+EPS / Earnings:
+GAAP EPS was $0.85, up 37% YoY; non-GAAP EPS was $1.06, up 10% YoY and above roughly $1.04 consensus. GAAP net income was $3.37B versus $2.49B in the prior-year period.
+
+Profitability / Margins:
+Non-GAAP gross margin was 66%, down 260bps YoY, and product gross margin was 64.3%, down 330bps YoY. The margin drag is mainly mix and memory cost pressure rather than demand weakness.
+
+Key KPI:
+The most important KPI is AI infrastructure orders: $1.9B in Q3 and $5.3B YTD, already above the original full-year $5B target, with the FY26 target raised to $9B.
+
+Guidance headline:
+Q4 revenue guidance of $16.7B-$16.9B was meaningfully above prior Street expectations, and FY26 revenue guidance was raised to $62.8B-$63.0B from $61.2B-$61.7B. Management also framed at least $6B of FY27 AI hyperscale revenue as reasonable to expect.
+
+Capital allocation:
+FCF was $3.34B and OCF was $3.8B. Cisco returned $2.9B to shareholders through $1.7B of dividends and $1.3B of buybacks, with $9.6B remaining under repurchase authorization.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Clean / mixed — operating beat is real, but gross-margin compression needs monitoring.
+
+Adjustment issue:
+No material non-operating item identified as the driver of the print; GAAP / non-GAAP difference is ordinary amortization and stock-based compensation rather than a single thesis-distorting item.
+
+PM interpretation:
+Investors should focus on AI order conversion, revenue guidance, product gross margin and FCF rather than the modest EPS beat.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                               |    % of Total |                          Revenue |                                            YoY Growth | Margin Trend           | Key Commentary                                                                       |
+| ------------------------------------- | ------------: | -------------------------------: | ----------------------------------------------------: | ---------------------- | ------------------------------------------------------------------------------------ |
+| Networking / product orders           | Not disclosed |                    Not disclosed | Orders +35% overall; networking orders more than +50% | Product GM down 330bps | AI and data-center networking drove the narrative.                                   |
+| Hyperscaler / cloud AI infrastructure | Not disclosed | AI orders $1.9B in Q3; $5.3B YTD |                      Hyperscaler / cloud orders +105% | Not disclosed          | Contracted AI visibility is the re-rate driver.                                      |
+| Campus / enterprise                   | Not disclosed |                    Not disclosed |                          Campus orders more than +25% | Not disclosed          | Broadens the story beyond hyperscalers.                                              |
+| Splunk / security integration         | Not disclosed |                    Not disclosed |                                         Not confirmed | Not confirmed          | Integration and new-logo momentum are quiet positives but not the core print driver. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Upward revisions: print and guide together raise the bar; analysts likely take revenue and AI-order assumptions up. The FY26 revenue guide moved to $62.8B-$63.0B, Q4 revenue guidance was well above Street, and FY26 AI order outlook was raised to $9B from $5B. The caveat is margin quality: mix and memory costs need to stabilize for the re-rating to broaden from revenue visibility to earnings leverage.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about the order book, not the EPS beat. The key tape message was that Cisco’s AI networking exposure is now visible in contracted hyperscaler orders, which gives the stock a different setup from a typical enterprise hardware beat. The stock’s move to all-time highs was rational because management raised both near-term revenue and AI-specific forward visibility.
+
+Professional commentary focused on whether Silicon One, optics and AI networking can change Cisco’s multiple. The answer from the print is “more credible, not yet fully proven.” The margin pressure prevents a clean beat-and-raise machine label, but the scale of AI order growth justifies an Improvement transition.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is the AI infrastructure order trajectory: $5.3B YTD, FY26 outlook raised to $9B, and at least $6B AI hyperscale revenue targeted for FY27. The lowest-quality signal is margin mix, because product gross margin was down 330bps and higher memory cost remains a near-term drag.
+
+Analysts are likely to raise revenue, order and AI-infrastructure assumptions, while treating margin flow-through more cautiously. Consensus was probably too low on forward AI networking demand; it may still be too optimistic if AI mix carries structurally lower gross margin than legacy networking.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior Cisco debate was whether AI networking was a real growth leg or a narrative overlay on a mature router / switch business. Q3 moved the debate because the AI order book exceeded the original FY26 target early and the FY26 order outlook was lifted materially. The implication is that Cisco now sits inside the AI-infrastructure basket with more credibility, even if margin conversion remains unproven.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing some AI optimism after a strong pre-print run, but not a $9B FY26 AI order outlook plus a $3B cumulative FY revenue raise. The reaction makes sense because contracted visibility overwhelmed setup risk. For a further rerating, AI orders must convert into FY27 revenue and margins must not deteriorate enough to offset the growth mix. The thesis would break if AI orders prove lumpy, hyperscaler demand pauses, or product gross margin compresses further. Peer read-across is positive for ANET / AVGO and optical / AI networking suppliers, but the lesson is that the market pays for contracted backlog, not generic AI exposure.
+
+Stock identity:
+quality compounder, expensive but deliverable, beat-and-raise machine — the print pushes Cisco closer to a credible AI-infrastructure compounder, but the margin drag keeps it short of a clean high-growth label.
+
+MARKET REACTION / PEER READ-ACROSS
+
+CSCO rose roughly +13–17% across after-hours and next-session windows, reaching record highs. The move was driven by forward AI order visibility, raised guidance and evidence of breadth beyond hyperscalers, not by a small EPS beat. The peer read-across is positive for AI networking, optics, switching silicon and data-center infrastructure names, especially ANET and AVGO, but the market will likely distinguish contracted backlog from general AI-adjacent capability.
+
+KEY ISSUES TO MONITOR
+
+AI order conversion / Why it matters: Orders must translate into FY27 revenue to sustain the multiple reset.
+Product gross margin / Why it matters: AI mix and memory costs could dilute the earnings quality of the growth.
+Hyperscaler concentration / Why it matters: The re-rating depends on durability of hyperscaler demand.
+Campus and non-hyperscaler orders / Why it matters: Breadth would reduce dependence on a single AI order cycle.
+Capital return vs reinvestment / Why it matters: Cisco must balance shareholder returns with offensive AI infrastructure investment.
+
+BOTTOM LINE
+
+Cisco is the cleanest positive read in the tape.
+The market re-rated contracted AI visibility, not a simple EPS beat.
+Margin mix is the main caveat, but not enough to offset the order-book signal.
+Improvement is justified: Cisco now has a credible AI-infrastructure backlog story.
+The next test is FY27 revenue conversion and product-margin resilience.
+
+<<CSCO_EARNINGS_END>>
+
+<<AMAT_EARNINGS_BEGIN>>
+TICKER: AMAT
+COMPANY: Applied Materials
+SECTOR: Information Technology
+SUBSECTOR: Semiconductor Equipment / WFE / Advanced Packaging
+COUNTRY: United States
+PUBLICATION_DATE: 2026-05-14
+EVENT: Q2 FY2026 earnings
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Record results were followed by muted next-day performance and then a roughly −6% downgrade-driven fade.
+PM_READ: AMAT confirmed the WFE / DRAM / HBM up-cycle, but the stock behaved as a fully priced AI-capex beneficiary where valuation and China exposure capped the re-rate.
+THEME_BUCKETS: Semiconductors, AI Infrastructure, Capex / FCF Tension, Accounting Quality
+THEMES: WFE growth, DRAM / HBM, advanced packaging, China exposure, tax-credit EPS distortion, valuation reset, record gross margin
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Applied Materials delivered an excellent fundamental quarter: record revenue of $7.91B, non-GAAP EPS of $2.86, gross margin around 50%, and a Q3 guide implying roughly 23% revenue growth and 36% EPS growth. Management raised calendar-2026 semi-equipment growth to more than 30%, confirming that the DRAM / HBM and advanced-packaging cycle remains strong. 
+
+The stock reaction was the opposite of Cisco. AMAT’s operating data improved, but the market treated the print as already priced, with the follow-on Morgan Stanley downgrade crystallizing valuation, China and DRAM-WFE narrowing concerns. The reaction was setup-dominant rather than data-dominant.
+
+This is a Continuation transition: the WFE up-cycle remains intact, but the print does not force a new regime for the stock. The key PM lesson is that in crowded AI-capex winners, even strong numbers can fade unless forward visibility improves more than the valuation already discounts.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                      Actual |                                                                Consensus / Prior |     Beat / Miss |                      YoY |            QoQ | PM Comment                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------: | --------------: | -----------------------: | -------------: | --------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                                      $7.91B |                             Consensus around $7.68B; company guide around $7.65B |            Beat |                     +11% |  Not confirmed | Record revenue and a clean fundamental beat.                                            |
+| EPS / Earnings         |                                                          GAAP EPS $3.51; non-GAAP EPS $2.86 |                                            Non-GAAP consensus around $2.66-$2.68 |            Beat | GAAP +33%; non-GAAP +20% |  Not confirmed | Non-GAAP EPS is the cleaner operating measure because GAAP was inflated by tax credits. |
+| Profitability / Margin |                                                            GAAP GM 49.9%; non-GAAP GM 50.0% |                                                    Highest in more than 25 years |            Beat |            Not confirmed |  Not confirmed | Margin quality strong at the operating level.                                           |
+| Guidance / Outlook     | Q3 revenue around $8.95B plus or minus $500M; non-GAAP EPS around $3.36 plus or minus $0.20 | Prior Street / guide lower; CY2026 semi-equipment growth raised to more than 30% |    Beat / raise |           Not applicable | Not applicable | Strong guide confirms WFE cycle but did not overcome valuation setup.                   |
+| Market reaction        |                                            Muted next-day then roughly −6% on downgrade leg |                                                                   Not applicable | Negative / fade |           Not applicable | Not applicable | Beat-and-fade driven by valuation, China and positioning.                               |
+
+SECTOR KPI TABLE
+
+| KPI                                    |                            Actual |     Prior / Benchmark |                 Change | PM Comment                                     |
+| -------------------------------------- | --------------------------------: | --------------------: | ---------------------: | ---------------------------------------------- |
+| Semiconductor Systems revenue          |              Around $5.96B-$5.97B |         Not confirmed |                 Strong | Core WFE segment supported the record quarter. |
+| Semiconductor Systems operating margin |                             35.1% | 32.8% prior benchmark |                +230bps | Strong operating leverage.                     |
+| DRAM revenue share                     |                 Around 29%; $1.7B |         Not confirmed |               +18% YoY | Confirms DRAM / HBM-led WFE strength.          |
+| AGS revenue                            |                            $1.67B |         Not confirmed |               +17% YoY | Services growth adds durability.               |
+| Q3 guided revenue                      | Around $8.95B plus or minus $500M |         Not confirmed | Strong forward step-up | Raises model trajectory.                       |
+| CY2026 semi-equipment growth outlook   |                     More than 30% |      Prior around 20% |                 Raised | Strongest forward cycle signal.                |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was $7.91B, up 11% YoY, above consensus around $7.68B and above the company guide around $7.65B. The quarter was record-level, with Semiconductor Systems around $5.96B-$5.97B and AGS at $1.67B.
+
+Consensus:
+Revenue and non-GAAP EPS beat consensus. The stock reaction shows that the issue was not whether AMAT beat, but whether the beat was enough against valuation and positioning.
+
+EPS / Earnings:
+GAAP EPS was $3.51, up 33% YoY, while non-GAAP EPS was $2.86, up 20% YoY and roughly $0.18 above consensus. Non-GAAP EPS is the better operating anchor because GAAP was inflated by tax items.
+
+Profitability / Margins:
+GAAP gross margin was 49.9% and non-GAAP gross margin was 50.0%, the highest in more than 25 years. Semiconductor Systems operating margin improved to 35.1% from 32.8%.
+
+Key KPI:
+The key KPI is the raised calendar-2026 semi-equipment growth outlook to more than 30%, from around 20%, confirming the AI-linked WFE cycle.
+
+Guidance headline:
+Q3 guidance was around $8.95B of revenue plus or minus $500M and non-GAAP EPS around $3.36 plus or minus $0.20, implying strong YoY growth.
+
+Capital allocation:
+The dividend was raised 15% to $0.53 per quarter, the ninth consecutive annual increase. AMAT returned $765M through dividends and buybacks, while FCF was only $210M because OCF of $845M was offset by $635M of capex.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — operating fundamentals were strong, but GAAP EPS was distorted upward by non-operating tax credits.
+
+Adjustment issue:
+GAAP EPS exceeded non-GAAP EPS by $0.65, roughly 23%, mainly because of around $1.1B of investment tax credits tied to government advanced-manufacturing incentives, partially offset by a $253M legal settlement resolving a U.S. export-controls matter. 
+
+PM interpretation:
+Investors should anchor on non-GAAP EPS, operating margin, WFE guidance and FCF rather than the inflated GAAP EPS headline.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                            |                          % of Total |              Revenue |    YoY Growth | Margin Trend                    | Key Commentary                                              |
+| ---------------------------------- | ----------------------------------: | -------------------: | ------------: | ------------------------------- | ----------------------------------------------------------- |
+| Semiconductor Systems              |      Around 75% of reported revenue | Around $5.96B-$5.97B | Not confirmed | Operating margin 35.1% vs 32.8% | Core engine of the record quarter.                          |
+| Foundry / logic within SemiSystems |           Around 67% of SemiSystems |        Not disclosed | Not confirmed | Not disclosed                   | Still the largest mix component.                            |
+| DRAM within SemiSystems            |           Around 29% of SemiSystems |         Around $1.7B |          +18% | Not disclosed                   | DRAM / HBM strength supports AI-infrastructure read-across. |
+| Applied Global Services            |      Around 21% of reported revenue |               $1.67B |          +17% | Operating margin 29.2%          | Services growth adds durability and margin support.         |
+| China exposure                     | 24% of SemiSystems plus AGS revenue |        Not disclosed | Not confirmed | Not disclosed                   | Key valuation and risk overhang.                            |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Upward revisions: print and guide together raise the operating trajectory, especially for revenue, WFE and non-GAAP EPS. However, revisions may be partly offset by valuation-driven skepticism, China exposure and free-cash-flow quality questions. The dividend increase supports confidence, but the market will likely demand evidence that the WFE raise converts into sustainable FCF, not just accounting EPS.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about setup more than the beat. AMAT gave investors record revenue, record-like margins, strong guidance and a raised WFE outlook, but the stock had already priced a large AI-capex and DRAM / HBM cycle. The post-print downgrade made explicit the concern that DRAM-WFE revisions may be narrowing, China remains material, and valuation already captured much of the upside.
+
+The reaction was rational from a positioning perspective, even though the fundamental quarter was strong. This is the canonical beat-and-fade: the print confirms demand, but does not provide enough new asymmetry to extend the multiple.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is the raised CY2026 semi-equipment growth outlook to more than 30% and the 50% gross-margin level. The lowest-quality signal is GAAP EPS, because the headline $3.51 figure includes a major tax-credit distortion.
+
+Analysts are likely to raise operating forecasts, but the debate shifts to the quality of the next leg: China durability, DRAM / HBM sustainability, process-control share, and FCF conversion. Consensus is probably moving higher on numbers, but the stock can still de-rate if the market believes the revision cycle is closer to peak than early acceleration.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior AMAT debate was whether the AI-driven WFE cycle was strong enough to support elevated valuation. Q2 confirmed the cycle, especially in DRAM / HBM and services, but did not eliminate valuation and China concerns. The thesis continues, but the stock reaction shows less tolerance for merely strong numbers.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a very strong WFE / AI-capex cycle before the print. The reaction makes sense because the data were excellent but not sufficiently incremental against a +164% trailing-twelve-month stock move and a crowded semi-equipment setup. Further rerating requires sustained WFE upgrades, China-risk containment and better FCF conversion. The thesis would break if DRAM / HBM orders roll, China restrictions intensify, or gross margin peaks while capex stays high. Peer read-across is positive for LRCX, KLAC and ASML at the demand level, but the AMAT fade warns that stretched semi-equipment peers may also need more than a beat to rally.
+
+Stock identity:
+expensive but deliverable, crowded long, beat-and-raise machine — the company delivered operationally, but the stock traded like a crowded AI-capex winner with limited tolerance for valuation and China risk.
+
+MARKET REACTION / PEER READ-ACROSS
+
+AMAT’s next-day reaction was muted and then turned negative after a downgrade-driven leg of roughly −6%. The move was not driven by a bad quarter; it was driven by setup, valuation, China exposure and the risk that WFE revisions are becoming less asymmetric. Demand read-across is constructive for semi-equipment peers, but the market signal is that the group may be vulnerable to print-and-fade dynamics if expectations are already full.
+
+KEY ISSUES TO MONITOR
+
+WFE revision momentum / Why it matters: The stock needs continued upward revisions to justify valuation.
+China exposure / Why it matters: 24% exposure remains a policy and multiple overhang.
+DRAM / HBM durability / Why it matters: The raised outlook depends heavily on memory-linked AI demand.
+FCF conversion / Why it matters: Strong EPS with weak FCF limits quality of rerating.
+Tax-credit normalization / Why it matters: Investors must not capitalize distorted GAAP EPS.
+
+BOTTOM LINE
+
+AMAT printed strong fundamentals, but the stock faded because the setup was full.
+The correct measure is non-GAAP EPS and operating margin, not tax-credit-inflated GAAP EPS.
+The WFE cycle remains intact and the sector read-across is positive.
+Continuation is the right transition: better numbers, not a new stock narrative.
+The PM takeaway is setup discipline in crowded AI-capex beneficiaries.
+
+<<AMAT_EARNINGS_END>>
+
+<<BABA_EARNINGS_BEGIN>>
+TICKER: BABA
+COMPANY: Alibaba Group
+SECTOR: Consumer Discretionary
+SUBSECTOR: China E-Commerce / Cloud / AI Platform
+COUNTRY: China
+PUBLICATION_DATE: 2026-05-13
+EVENT: Q4 FY2026 earnings
+STATE_TRANSITION: Reversal
+IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Shares sold off pre-market, rallied intraday on AI commentary, then faded again as profit and FCF concerns reasserted.
+PM_READ: Alibaba formally shifted from margin defense to AI-investment maximization, creating a higher-growth cloud narrative but structurally re-basing near-term profits.
+THEME_BUCKETS: AI Infrastructure, Cloud / Data Center, China Demand, Margin / Cost Discipline, Guidance Reset
+THEMES: AI over profits, cloud acceleration, Qwen ecosystem, instant-commerce subsidies, China e-commerce EBITA pressure, first operating loss since 2021, strategic spend cycle
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Alibaba’s Q4 FY2026 was the most important strategic-doctrine change in the tape. Revenue was RMB243.38B, up 3% reported and 11% like-for-like, but profit nearly disappeared: GAAP diluted EPS fell 95% YoY, adjusted EPS / ADS was RMB0.62 versus roughly RMB5.79 expected, and adjusted EBITA fell 84%. 
+
+The offsetting bull anchor was cloud. Cloud Intelligence revenue grew 38%, external cloud grew 40%, and AI-related products represented 30% of external cloud revenue. CEO Eddie Wu’s message was explicit: Alibaba will spend “far, far” more on AI and prioritize growth over near-term bottom line. The stock’s intraday rally and subsequent fade show the market is still adjudicating whether the forward AI / cloud narrative can offset the trailing profit collapse.
+
+This is a Reversal transition: not because the company deteriorated cyclically, but because the strategy has changed. Alibaba is no longer presenting itself primarily as a margin-repair / shareholder-return China internet story; it has moved into an AI investment-maximization phase with 3–5 year payoff claims.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                            Actual |                                              Consensus / Prior |     Beat / Miss |                                             YoY |            QoQ | PM Comment                                                            |
+| ---------------------- | ----------------------------------------------------------------: | -------------------------------------------------------------: | --------------: | ----------------------------------------------: | -------------: | --------------------------------------------------------------------- |
+| Revenue / Sales        |                                             RMB243.38B; US$35.28B |                                    Consensus around RMB247.09B |            Miss |                +3% reported; +11% like-for-like |  Not confirmed | Revenue light, but cloud growth was strong.                           |
+| EPS / Earnings         |              GAAP diluted EPS RMB0.08; adjusted EPS / ADS RMB0.62 | GAAP estimate around RMB5.74; adjusted estimate around RMB5.79 |      Major miss | GAAP EPS −95%; adjusted profit nearly wiped out |  Not confirmed | Profit collapse is operating-investment-driven, not a simple one-off. |
+| Profitability / Margin |                                            Adjusted EBITA RMB5.1B |                                                  Not confirmed |            Miss |                                            −84% |  Not confirmed | Margin re-based by AI infrastructure and instant-commerce spend.      |
+| Guidance / Outlook     | Management signaled much higher AI spend and 3–5 year ROI horizon |                         Prior capex / spend expectations lower | Strategic reset |                                  Not applicable | Not applicable | Forward narrative is cloud / AI acceleration, not near-term profit.   |
+| Market reaction        |  −2.5% to −4% pre-market; +7% to +8% intraday; −4.9% next session |                                                 Not applicable |           Mixed |                                  Not applicable | Not applicable | Bullish AI spike faded as profit and FCF concerns reasserted.         |
+
+SECTOR KPI TABLE
+
+| KPI                                         |        Actual | Prior / Benchmark |                                        Change | PM Comment                                                        |
+| ------------------------------------------- | ------------: | ----------------: | --------------------------------------------: | ----------------------------------------------------------------- |
+| Cloud Intelligence revenue                  |     RMB41.63B |     Not confirmed |                                      +38% YoY | Core bull anchor.                                                 |
+| External cloud revenue                      | Not disclosed |     Not confirmed |                                      +40% YoY | Strongest clean growth signal.                                    |
+| AI-related products share of external cloud |           30% |     Not confirmed | Triple-digit growth for 11th straight quarter | Supports AI monetization narrative.                               |
+| E-commerce revenue                          |     RMB96.29B |     Not confirmed |                                  −1% reported | Core commerce under pressure from subsidy war and contra-revenue. |
+| China e-commerce adjusted EBITA             | Not disclosed |     Not confirmed |                                  −40% to −43% | Margin sink from instant commerce.                                |
+| Quick-commerce revenue                      |      RMB20.8B |     Not confirmed |                                      +56% YoY | Growth is real but costly.                                        |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Revenue was RMB243.38B, or US$35.28B, up 3% reported and 11% like-for-like excluding disposed Sun Art and Intime assets. The figure was slightly below consensus around RMB247.09B.
+
+Consensus:
+Revenue missed modestly, while profit missed dramatically. The market debate is therefore not about the top line; it is whether cloud / AI acceleration deserves to be valued through a near-total profit wipeout.
+
+EPS / Earnings:
+GAAP diluted EPS was RMB0.08, down 95% YoY, and adjusted EPS / ADS was RMB0.62 versus roughly RMB5.79 expected. Quarterly non-GAAP net income was almost zero, down 99.7% YoY.
+
+Profitability / Margins:
+Adjusted EBITA fell 84% to RMB5.1B. The collapse reflects deliberate strategic spend on AI infrastructure and quick commerce rather than a single accounting charge.
+
+Key KPI:
+Cloud Intelligence revenue grew 38%, external cloud grew 40%, and AI-related products were 30% of external cloud revenue. This is the central forward-offset to the profit collapse.
+
+Guidance headline:
+Management did not give a simple earnings-guide beat; it gave a strategic spending doctrine. Wu signaled much higher AI investment and framed the payoff over a 3–5 year horizon.
+
+Capital allocation:
+Capital allocation is now subordinated to AI and quick-commerce investment. The print is not a shareholder-return story; it is a capex / operating-spend reallocation story.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Low quality for near-term EPS, but not because of a single non-operating item; the weakness is operating-investment-driven.
+
+Adjustment issue:
+No clean one-off bridge explains the collapse. GAAP and adjusted profit both fell sharply because the company is deliberately absorbing AI infrastructure and instant-commerce spending.
+
+PM interpretation:
+Investors should focus on cloud revenue, AI-product monetization, cash burn / FCF, China e-commerce EBITA and management’s willingness to subordinate margins to AI growth.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                   |            % of Total |                                Revenue |                                    YoY Growth | Margin Trend                  | Key Commentary                                                                     |
+| ------------------------- | --------------------: | -------------------------------------: | --------------------------------------------: | ----------------------------- | ---------------------------------------------------------------------------------- |
+| Cloud Intelligence        | Around 17% of revenue |                              RMB41.63B |                                          +38% | Not disclosed                 | Bull anchor; external cloud +40% and AI-related products at 30% of external cloud. |
+| China e-commerce          | Around 40% of revenue |                              RMB96.29B |                                  −1% reported | Adjusted EBITA −40% to −43%   | Core commerce profitability hit by instant-commerce subsidy war.                   |
+| Quick commerce            |  Around 9% of revenue |                               RMB20.8B |                                          +56% | Loss-making / margin dilutive | Growth engine and margin sink at the same time.                                    |
+| AI-related cloud products |         Not disclosed | Around RMB9B quarterly implied by tape | Triple-digit growth for 11th straight quarter | Not disclosed                 | Supports the forward AI thesis but requires heavy spend.                           |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Downward revisions: near-term profit estimates are likely to fall because management has explicitly prioritized AI growth and instant-commerce investment over bottom-line defense. Mix-shift revisions are also likely: analysts may raise cloud / AI revenue assumptions while cutting EBITA, FCF and commerce margin assumptions. The print raises long-term optionality but lowers near-term earnings quality.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about the strategic reset. Alibaba’s reported quarter was poor from an EPS and EBITA standpoint, yet the stock rallied intraday because management defended AI ROI and emphasized cloud acceleration. The subsequent fade is equally important: investors did not fully accept that the AI narrative offsets the scale of profit destruction.
+
+Professional commentary likely focused on two conflicting facts: cloud +38% and profit almost zero. That tension defines the stock. The print was not a clean miss or beat; it was a deliberate shift toward profits-secondary AI investment, with the China instant-commerce war amplifying the margin pressure.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is cloud acceleration and the AI-related share of external cloud revenue. The lowest-quality signal is near-term EPS, because it no longer represents normalized profitability under the new spending doctrine.
+
+Analysts will likely raise cloud growth assumptions but cut EBITA and FCF forecasts. Consensus is probably too high on near-term margins if management follows through on “far, far” more AI spend; the debate is whether the long-term cloud / AI revenue curve is now too low.
+
+State transition: Reversal
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior Alibaba debate was whether management could balance cloud growth, commerce discipline and shareholder returns. This quarter changes the hierarchy: AI growth now comes before bottom-line protection. The implication is a longer-duration, higher-variance investment case.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing some China AI / cloud recovery, but not a near-total profit wipeout combined with an explicit profits-secondary doctrine. The intraday rally makes sense as a response to Wu’s AI conviction and cloud acceleration; the fade makes sense because FCF and EBITA were re-based downward. Further rerating requires proof that AI-product revenue can scale faster than spend and that quick-commerce losses do not become open-ended. The thesis breaks if cloud growth slows, AI monetization disappoints, or commerce subsidies remain structurally margin-destructive. Peer read-across is directly relevant to JD and Meituan on instant commerce, and to China internet more broadly on AI capex discipline.
+
+Stock identity:
+optionality stock, turnaround, expensive and fragile — Alibaba is becoming a long-duration AI / cloud optionality stock again, but the print challenges any near-term quality-compounder label because profits are deliberately being sacrificed.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The multi-window reaction was mixed: initial selloff on the profit collapse, intraday rally on AI / cloud conviction, then fade as earnings quality and macro concerns reasserted. The move was driven by narrative versus data divergence. Peer read-across is negative for China internet margins because Alibaba, JD and Meituan are locked in an instant-commerce subsidy war, but positive for China AI infrastructure demand if cloud acceleration continues.
+
+KEY ISSUES TO MONITOR
+
+Cloud growth durability / Why it matters: The AI-over-profits strategy only works if cloud growth remains strong.
+AI-product revenue / Why it matters: Monetization must validate the heavy investment cycle.
+China e-commerce EBITA / Why it matters: Commerce margin erosion can overwhelm cloud upside.
+Quick-commerce subsidy intensity / Why it matters: The subsidy war has no clear endpoint in the tape.
+FCF and capex / Why it matters: The new strategy shifts the debate from EPS to cash-funded growth.
+
+BOTTOM LINE
+
+Alibaba is the clearest strategic reversal in the batch.
+Cloud and AI acceleration are real, but near-term profits have been structurally re-based.
+The market is not ignoring the profit collapse; it is debating whether AI optionality compensates for it.
+Reversal is justified because management’s priority order changed.
+This is now a higher-duration, higher-variance China AI / cloud thesis.
+
+<<BABA_EARNINGS_END>>
+
+<<JD_EARNINGS_BEGIN>>
+TICKER: JD
+COMPANY: JD.com
+SECTOR: Consumer Discretionary
+SUBSECTOR: China E-Commerce / Retail / Logistics / Food Delivery
+COUNTRY: China
+PUBLICATION_DATE: 2026-05-12
+EVENT: Q1 2026 earnings
+STATE_TRANSITION: Stabilization
+IMPORTANCE: ***
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Stock reaction was reported positive intraday around +3% to +8%, but the precise closing move was not confirmed.
+PM_READ: JD showed better core retail profitability and narrowing new-business losses, making it the cleaner stabilization read within China consumer despite still-heavy food-delivery investment.
+THEME_BUCKETS: China Demand, Consumer Demand, Retail / Inventory, Logistics / Transport, Margin / Cost Discipline
+THEMES: JD Retail margin, logistics record profit, food-delivery loss narrowing, K-shaped China consumer, general merchandise strength, electronics weakness, active customer growth
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+JD’s Q1 2026 print was a stabilization signal rather than a clean growth re-acceleration. Revenue was RMB315.7B, up 4.9% YoY, while group GAAP and non-GAAP net income fell sharply because food-delivery and new-business investments weighed on profitability. The important offset was JD Retail: operating income reached RMB15.0B and operating margin rose to 5.6%, a record level. 
+
+The stock reaction was positive, though the exact close was not confirmed. The market looked through group-profit decline because the core retail margin improved, logistics profit reached a record, and New Businesses losses narrowed sequentially from RMB14.8B to RMB10.4B.
+
+This is a Stabilization transition: the profit drag has not disappeared, but the unit-economics direction improved. Within China e-commerce, JD looks later in the loss-absorption curve than Alibaba, where the investment cycle is still widening.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                                     Actual |                         Consensus / Prior |          Beat / Miss |                              YoY |            QoQ | PM Comment                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------: | ----------------------------------------: | -------------------: | -------------------------------: | -------------: | --------------------------------------------------------- |
+| Revenue / Sales        |                                                                                                  RMB315.7B |                   Consensus not confirmed | Modest beat per tape |                            +4.9% |  Not confirmed | Revenue growth modest but better than feared.             |
+| EPS / Earnings         |                                                         GAAP EPS / ADS RMB3.54; non-GAAP EPS / ADS RMB5.12 | Prior-year GAAP RMB7.19; non-GAAP RMB8.41 |                Mixed | GAAP EPS down; non-GAAP EPS down |  Not confirmed | Profit fell sharply, but market looked at unit economics. |
+| Profitability / Margin |                                           JD Retail operating margin 5.6%; JD Logistics net profit RMB880M |          JD Retail margin 4.9% prior-year |  Beat in core retail |             Retail margin +70bps |  Not confirmed | Core retail margin was the highest-quality signal.        |
+| Guidance / Outlook     | Retail rebound expected in H2; Q2 food-delivery losses expected to narrow around 50% YoY per external note |                             Not confirmed |         Constructive |                   Not applicable | Not applicable | Forward loss-narrowing supports stabilization.            |
+| Market reaction        |                                                                        Positive intraday around +3% to +8% |                            Not applicable |             Positive |                   Not applicable | Not applicable | Direction positive, but magnitude precision is low.       |
+
+SECTOR KPI TABLE
+
+| KPI                           |    Actual |   Prior / Benchmark |                     Change | PM Comment                                       |
+| ----------------------------- | --------: | ------------------: | -------------------------: | ------------------------------------------------ |
+| Net revenue                   | RMB315.7B |       Not confirmed |                  +4.9% YoY | Modest growth, but enough given depressed setup. |
+| JD Retail operating income    |  RMB15.0B |       Not confirmed |              Not confirmed | Record profitability in core retail.             |
+| JD Retail operating margin    |      5.6% |     4.9% prior-year |                     +70bps | Best quality signal in the print.                |
+| JD Logistics revenue          |  RMB60.6B |       Not confirmed |                 +29.0% YoY | Strong logistics growth and read-across.         |
+| JD Logistics net profit       |   RMB880M |       Not confirmed |                 +95.2% YoY | Record profit supports margin mix.               |
+| New Businesses operating loss |  RMB10.4B | RMB14.8B in Q4 2025 | Loss narrowed sequentially | Key de-risking signal.                           |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Net revenues were RMB315.7B, up 4.9% YoY. The tape flags a source typo around a US$145.8B figure; RMB315.7B, approximately US$43.5B, is the correct canonical figure.
+
+Consensus:
+Consensus was not fully confirmed in the tape, but revenue was described as a modest beat. Stock reaction precision was also low, so the block avoids false precision on the closing move.
+
+EPS / Earnings:
+GAAP net income attributable to ordinary shareholders was RMB5.1B, down from RMB10.9B. Non-GAAP net income was RMB7.4B, down from RMB12.8B. GAAP EPS / ADS was RMB3.54 versus RMB7.19, and non-GAAP EPS / ADS was RMB5.12 versus RMB8.41.
+
+Profitability / Margins:
+JD Retail operating income was RMB15.0B and operating margin reached 5.6%, versus 4.9% in the prior-year period. JD Logistics delivered RMB880M of net profit, up 95.2%, on RMB60.6B revenue, up 29.0%.
+
+Key KPI:
+The key KPI is New Businesses operating loss narrowing to RMB10.4B from RMB14.8B in Q4 2025, alongside record JD Retail margin.
+
+Guidance headline:
+Management framed JD Retail as likely to rebound in H2 as electronics comps ease, while external commentary pointed to Q2 food-delivery losses narrowing around 50% YoY.
+
+Capital allocation:
+JD bought back $631M of stock, around 44.5M Class A shares or 1.6% of shares, paid a $1.4B annual dividend in April, and had $1.4B remaining under the buyback program.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — headline profit declined materially, but the drag is operating / strategic investment rather than a non-operating distortion.
+
+Adjustment issue:
+No material non-operating item identified. Profit decline reflects food-delivery subsidies, fulfillment and marketing investment.
+
+PM interpretation:
+Investors should focus on JD Retail operating margin, New Businesses loss trajectory, logistics profit and capital return rather than group net income alone.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                        |                  % of Total |       Revenue |                                          YoY Growth | Margin Trend                                   | Key Commentary                                             |
+| ------------------------------ | --------------------------: | ------------: | --------------------------------------------------: | ---------------------------------------------- | ---------------------------------------------------------- |
+| JD Retail                      |               Not disclosed | Not disclosed |                                       Not confirmed | Operating margin 5.6% vs 4.9%                  | Record core profitability offsets group-profit optics.     |
+| JD Logistics                   | Around 19% of group revenue |      RMB60.6B |                                              +29.0% | Net profit RMB880M; +95.2%                     | Logistics is a strong profit and external-revenue signal.  |
+| New Businesses                 |              Not meaningful | Not disclosed |                                       Not confirmed | Operating loss RMB10.4B; sequentially narrower | Food-delivery loss narrowing is the key de-risking signal. |
+| Services / general merchandise |               Not disclosed | Not disclosed | Services +20% plus; general merchandise around +15% | Not disclosed                                  | Stronger than electronics / home appliances.               |
+| Electronics / home appliances  |               Not disclosed | Not disclosed |                         Weaker due to trade-in base | Not disclosed                                  | K-shaped China consumer signal.                            |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Revision direction not clear: revenue and core retail margin may move estimates up, but group profit remains pressured by New Businesses and food delivery. Analysts are likely to shift the mix rather than simply raise all numbers: better JD Retail margin and logistics profit, offset by continued investment losses. If Q2 food-delivery losses narrow as expected, the revision path can turn more clearly positive.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared about loss narrowing and core retail margin, not the headline profit decline. JD’s group earnings were down sharply, but investors looked through that because the drag came from strategic investment and because the core business printed record profitability.
+
+Professional commentary likely framed JD as a cleaner China consumer stabilization read than Alibaba. The subsidy war still matters, but JD’s New Businesses losses narrowed sequentially while JD Retail margin reached a record. That gives JD a more balanced risk / reward profile in the China e-commerce complex.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal is JD Retail operating margin at 5.6%, combined with JD Logistics record profit. The most fragile signal is the assumption that food-delivery losses keep narrowing, because the competitive intensity with Alibaba and Meituan remains unresolved.
+
+Analysts may raise core retail profitability assumptions and logistics profit assumptions, while keeping group-profit forecasts cautious until New Businesses losses fall further. Consensus may be too cautious on core margin but still too optimistic if the food-delivery subsidy war persists.
+
+State transition: Stabilization
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior JD debate centered on whether food-delivery investment would overwhelm the core retail improvement. Q1 shows the drag is still large, but the sequential loss narrowing changes the slope. The implication is a more credible stabilization path, not yet a full profitability recovery.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market was pricing a depressed China consumer setup and concern over food-delivery losses. The positive reaction makes sense because JD delivered record retail margin, strong logistics profit and sequential New Businesses loss narrowing. Further rerating requires confirmation that Q2 losses narrow materially and that electronics weakness does not broaden into general merchandise. The thesis breaks if subsidy intensity re-accelerates, retail margin rolls over, or logistics profit proves one-off. Peer read-across is mixed: positive for JD-specific unit economics, but still negative for China e-commerce sector margins.
+
+Stock identity:
+turnaround, GARP, setup-risk stock — JD is not a clean compounder yet, but the print supports a stabilization / turnaround identity at a depressed valuation.
+
+MARKET REACTION / PEER READ-ACROSS
+
+JD reportedly traded positively intraday, around +3% to +8%, though the precise close was not confirmed. The reaction was driven by margin quality and loss-narrowing rather than headline net income. Peer read-across is important: compared with Alibaba, JD appears further along in demonstrating loss stabilization, while the broader China instant-commerce war remains a sector margin overhang. 
+
+KEY ISSUES TO MONITOR
+
+New Businesses losses / Why it matters: This is the key swing factor for group profitability.
+JD Retail margin / Why it matters: Record core margin must hold as competition intensifies.
+Food-delivery subsidy war / Why it matters: Alibaba, JD and Meituan are all funding the same battleground.
+Logistics external revenue / Why it matters: Sustained external logistics growth supports standalone value and margin durability.
+China consumer mix / Why it matters: Services and general merchandise strength need to offset electronics weakness.
+
+BOTTOM LINE
+
+JD is a stabilization print, not a clean growth breakout.
+Core retail margin and logistics profit were the high-quality signals.
+Food-delivery losses remain material, but the direction improved.
+Compared with Alibaba, JD looks later in the loss-narrowing process.
+The next proof point is whether Q2 confirms the expected loss reduction.
+
+<<JD_EARNINGS_END>>
+
+
