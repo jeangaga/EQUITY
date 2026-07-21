@@ -1,1 +1,688 @@
-c
+<<EARNINGS_RELEASES_BY_STOCK_BEGIN>>
+SEASON: Q2 2026
+ 
+
+<<MU_EARNINGS_BEGIN>>
+TICKER: MU
+COMPANY: Micron Technology
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Memory / AI Infrastructure
+COUNTRY: United States
+PUBLICATION_DATE: 2026-06-24
+EVENT: Fiscal Q3 2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares gained approximately 15.7% in the next regular session after a double-digit after-hours rally.
+PM_READ: A historic beat and substantially stronger guide converted Micron’s AI-memory thesis from a spot-pricing upcycle into a more durable contracted-demand story, although the capex and eventual supply response remain material cycle risks.
+THEME_BUCKETS: AI Infrastructure, Semiconductors, Cloud / Data Center, Capex / FCF Tension
+THEMES: HBM4 shipments, strategic customer agreements, DRAM scarcity, NAND pricing, hyperscaler memory demand, AI capex transmission, advanced packaging, capacity additions
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Micron delivered a historic fiscal Q3, with revenue of $41.46 billion, non-GAAP EPS of $25.11 and non-GAAP operating margin of 81.2%. Revenue exceeded consensus by approximately 16%, while adjusted EPS exceeded the prevailing estimate by more than 20%. The magnitude of the beat reflected both extreme memory pricing and rapidly expanding AI data-center demand.
+
+The more important information was forward-looking. Micron guided fiscal Q4 revenue to $50.0 billion plus or minus $1.0 billion, non-GAAP EPS to $31.00 plus or minus $1.00 and gross margin to approximately 86%. HBM4 entered high-volume shipments for a lead customer, while multi-year strategic customer agreements materially increased visibility beyond the immediate pricing cycle.
+
+The print justifies upward revisions and the immediate re-rating. The remaining debate is no longer whether the current cycle is strong; it is whether contracts and supply discipline can prevent the eventual capacity response from recreating a conventional memory downturn.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                                          Actual |                                                                             Consensus / Prior | Beat / Miss |                                        YoY |                                       QoQ | PM Comment                                                                                                             |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------: | ----------: | -----------------------------------------: | ----------------------------------------: | ---------------------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                                                         $41.46B |                                              $35.85B-$35.91B consensus; $23.86B prior quarter |        Beat |                                      +346% |                                      +74% | The beat was broad and reflected extreme pricing, data-center mix and supply scarcity.                                 |
+| EPS / Earnings         |                                                                                    $25.11 non-GAAP; $24.67 GAAP |                                        $20.78-$20.86 consensus; $12.20 non-GAAP prior quarter |        Beat |                           +1,215% non-GAAP |                            +106% non-GAAP | The small GAAP-to-adjusted gap indicates that the earnings step-up was overwhelmingly operational.                     |
+| Profitability / Margin |                                                    84.9% non-GAAP gross margin; 81.2% non-GAAP operating margin |                                      74.9% gross margin; 69.0% operating margin prior quarter |        Beat |                       +45.9pp gross margin |                      +10.0pp gross margin | Memory pricing and data-center mix generated extraordinary incremental margins.                                        |
+| Guidance / Outlook     | FQ4 revenue $50.0B plus or minus $1.0B; non-GAAP EPS $31.00 plus or minus $1.00; gross margin approximately 86% | Street expectations were materially below the guide; exact comparable consensus not confirmed |        Beat | Approximately +342% implied revenue growth | Approximately +21% implied revenue growth | The guide extended rather than merely maintained the earnings acceleration.                                            |
+| Market reaction        |                                                                               Approximately +15.7% next session |                                                                                Not applicable |    Positive |                             Not applicable |                            Not applicable | The move reflected the guide, HBM visibility and the strategic-agreement structure rather than only the reported beat. |
+
+Official results show revenue of $41.46 billion, GAAP EPS of $24.67, non-GAAP EPS of $25.11, non-GAAP gross margin of 84.9%, non-GAAP operating margin of 81.2% and fiscal Q4 revenue guidance of $50 billion.
+
+SECTOR KPI TABLE
+
+| KPI                           |                                                Actual |                                        Prior / Benchmark |            Change | PM Comment                                                                                                                         |
+| ----------------------------- | ----------------------------------------------------: | -------------------------------------------------------: | ----------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Data-center revenue           |                                        More than $25B |          Prior quarter not confirmed on comparable basis |            Record | Data-center revenue represented an annualized run rate above $100B and is now the dominant earnings driver.                        |
+| HBM4 status                   |               High-volume shipments for lead customer |                    Qualification / ramp phase previously |   Commercial ramp | HBM4 execution reduces the risk that Micron loses share during the next accelerator-platform transition.                           |
+| Strategic customer agreements | 16 multi-year agreements referenced in the scout tape |                  Limited historical contracted structure | Material increase | Longer-duration agreements improve visibility but transfer more risk toward customer creditworthiness and contract enforceability. |
+| Adjusted free cash flow       |                                                $18.3B |                        $6.9B approximately prior quarter |   Strong increase | FCF expanded despite $7.1B of net capital expenditure, demonstrating the current cycle’s cash-conversion power.                    |
+| Fiscal Q4 capital expenditure |                                    Approximately $10B | $8.89B analyst expectation referenced in public coverage | Above expectation | Higher spending supports future supply but increases the eventual risk of overcapacity and peak-cycle capital intensity.           |
+
+Micron disclosed $7.1 billion of net capital expenditure, $18.3 billion of adjusted FCF, HBM4 high-volume shipments and multiple additional memory and storage product ramps.
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Revenue increased to $41.46 billion from $23.86 billion in fiscal Q2 and $9.30 billion in the prior-year period. The increase was not confined to HBM: all four reported business units produced substantial sequential and annual growth.
+
+Cloud Memory revenue reached $13.77 billion, Core Data Center revenue reached $11.52 billion, Mobile and Client revenue reached $11.52 billion and Automotive and Embedded revenue reached $4.63 billion.
+
+Consensus:
+
+Revenue exceeded the approximately $35.85 billion-$35.91 billion consensus range contained in public coverage. The resulting surprise was approximately $5.6 billion, or 16%.
+
+Non-GAAP EPS of $25.11 exceeded the approximately $20.78-$20.86 consensus range by roughly 21%-22%.
+
+EPS / Earnings:
+
+GAAP net income was $28.24 billion, equivalent to $24.67 per diluted share.
+
+Non-GAAP net income was $28.86 billion, equivalent to $25.11 per diluted share. The $0.44 EPS difference was small relative to the scale of the earnings increase.
+
+Profitability / Margins:
+
+GAAP gross margin was 84.6% and non-GAAP gross margin was 84.9%.
+
+GAAP operating margin reached 80.4%, while non-GAAP operating margin reached 81.2%. Non-GAAP operating income more than doubled sequentially to $33.68 billion.
+
+Core Data Center produced the strongest segment gross margin at 87%, while Mobile and Client generated the strongest segment operating margin at 86%.
+
+Key KPI:
+
+The principal KPI is no longer only HBM shipment growth. It is the combination of HBM execution, multi-year customer contracting and the duration of the supply-demand imbalance.
+
+HBM4 entered high-volume shipments for the lead customer’s platform, while qualification samples were delivered to multiple additional customers. HBM4E volume production remains expected in calendar 2027.
+
+Guidance headline:
+
+Fiscal Q4 revenue was guided to $50.0 billion plus or minus $1.0 billion.
+
+GAAP EPS was guided to $30.73 plus or minus $1.00, and non-GAAP EPS to $31.00 plus or minus $1.00.
+
+Gross margin was guided to approximately 86%, indicating additional sequential expansion despite already exceptional fiscal Q3 profitability.
+
+Capital allocation:
+
+Fiscal Q3 net capital expenditure was $7.1 billion, while adjusted free cash flow was $18.3 billion.
+
+Micron ended the quarter with $30.2 billion of cash, marketable investments and restricted cash.
+
+The quarterly dividend remained $0.15 per share. The scout tape also indicated that the fiscal-year capex plan was raised by approximately $5 billion, consistent with the accelerating capacity build.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Clean.
+
+Adjustment issue:
+
+The GAAP-to-non-GAAP EPS difference was limited. Adjustments principally included stock-based compensation, debt-prepayment costs and other relatively small items; no material non-operating gain dominated the quarter.
+
+PM interpretation:
+
+Investors should focus on non-GAAP operating income, gross margin, adjusted FCF and the revenue guide. The reported EPS was a fair representation of underlying operating performance, unlike quarters where valuation gains or tax items dominate the headline.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                               | % of Total | Revenue | YoY Growth | Margin Trend                          | Key Commentary                                                                    |
+| ------------------------------------- | ---------: | ------: | ---------: | ------------------------------------- | --------------------------------------------------------------------------------- |
+| Cloud Memory Business Unit            |      33.2% | $13.77B |      +307% | Operating margin rose to 78% from 46% | Hyperscaler and accelerator-memory demand remained exceptionally strong.          |
+| Core Data Center Business Unit        |      27.8% | $11.52B |      +653% | Operating margin rose to 83% from 20% | The segment delivered the strongest growth and highest gross margin.              |
+| Mobile and Client Business Unit       |      27.8% | $11.52B |      +254% | Operating margin rose to 86% from 15% | Tight industry supply allowed price increases to transmit beyond the data center. |
+| Automotive and Embedded Business Unit |      11.2% |  $4.63B |      +311% | Operating margin rose to 75% from 11% | Higher pricing and AI-edge demand produced substantial operating leverage.        |
+
+Segment figures and margins are drawn from Micron’s official fiscal Q3 business-unit disclosure.
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The fiscal Q4 guide requires another material sequential increase in revenue, EPS and gross margin. This is not a maintenance guide: it implies that both pricing and product mix remain favorable into the August quarter.
+
+The principal embedded assumptions are continued data-center demand growth, persistent industry supply tightness, further HBM shipments and limited customer resistance to rapidly increasing memory costs.
+
+The strategic customer agreements improve revenue visibility and may reduce conventional spot-market volatility. They do not eliminate cycle risk: contractual duration, customer quality, pricing-reset mechanisms and cancellation protections are now critical diligence items.
+
+Capital expenditure is increasing rapidly to expand DRAM, HBM, advanced-packaging and NAND capacity. Current FCF comfortably finances the investment, but capital intensity will become more problematic when pricing normalizes.
+
+Revision direction: **Upward revisions.** The reported results and fiscal Q4 guide require substantial increases to revenue, EPS, gross-margin and FCF models. Longer-dated estimates should rise as well, although the outer-year margin assumptions should remain discounted for eventual supply normalization.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared more about the $50 billion guide and contracted-demand structure than about the fiscal Q3 beat itself. An ordinary large beat would not have been sufficient after Micron’s extreme pre-print appreciation; the guide needed to establish that the earnings acceleration was still increasing.
+
+The strategic agreements altered the quality of the debate. Multi-year arrangements potentially reduce earnings volatility and improve capacity-planning visibility, but they also concentrate risk in the counterparties financing the AI buildout. Investors have not yet fully tested whether these contracts are unconditional take-or-pay arrangements or economically renegotiable when customer returns deteriorate.
+
+The stock’s approximately 15.7% next-session gain was rational because the guide represented a step-change relative to the Street model. The reaction also reversed weakness across parts of the semiconductor complex, creating positive read-across for storage, equipment and other memory names.
+
+The largest counterargument is that memory prices are becoming a tax on the rest of the AI ecosystem. Higher Micron margins are mechanically higher input costs for accelerator systems, servers, neocloud deployments and increasingly memory-intensive inference workloads. If hyperscaler ROI weakens, the strength of Micron’s pricing could eventually become a demand-destructive force.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was the fiscal Q4 guide. A $50 billion revenue midpoint and approximately 86% gross margin demonstrate that current profitability is not simply a quarter-end pricing distortion.
+
+The second-highest-quality signal was the simultaneous revenue and margin expansion across every operating unit. The benefit was not limited to a single HBM customer or one product transition.
+
+The weakest signal is the assumption that strategic customer agreements permanently reduce cyclicality. Contract duration is not equivalent to economic certainty if customers are highly leveraged, dependent on continued capital raising or able to renegotiate deployment schedules.
+
+Analysts will raise near-term revenue, EPS and FCF estimates substantially. The main model debate will move toward fiscal 2027 and fiscal 2028 supply growth, contract economics and the duration of gross margins above historical memory-cycle levels.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether record memory pricing and HBM demand were approaching a cyclical peak. Fiscal Q3 instead showed accelerating revenue, margins and forward guidance, while adding a contracted-demand layer. The thesis has improved, but the risk has shifted from near-term demand visibility to eventual capacity, customer concentration and contract durability.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+The market was pricing a very strong print but not a further $14 billion-plus sequential revenue increase into fiscal Q4. The double-digit rally therefore reflects genuine earnings revision rather than only momentum or positioning.
+
+For a further rerating, Micron must show that fiscal 2027 HBM allocation, contract pricing and advanced-packaging capacity remain tight while capex does not produce evidence of an accelerated supply glut.
+
+The thesis would weaken if customers request contract deferrals, HBM pricing rolls over, non-HBM demand begins to fall under higher system costs or Micron’s capex increases faster than expected future cash generation.
+
+Peer read-across is constructive for SK Hynix, Samsung memory, Western Digital, Sandisk, Seagate and semiconductor-equipment suppliers. It is more ambiguous for GPU and server customers that must absorb higher memory content and pricing.
+
+Stock identity:
+
+**Secular growth at a cyclical multiple; crowded long; setup-risk stock.**
+
+The print reinforces the secular AI-memory identity but does not abolish Micron’s cyclical characteristics. At this level of profitability and expectation, the stock remains highly sensitive to any indication that supply additions, customer financing or memory-content efficiency will reduce the scarcity premium.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Micron rose approximately 15.7% in the first full session following the release, after an initial double-digit after-hours move. The reaction was driven by the guide, HBM visibility and strategic agreements rather than by a non-operating EPS item.
+
+Storage and memory-linked peers rallied, while the print helped reverse a broader semiconductor selloff. The read-across was strongest for companies benefiting from tight memory supply and advanced-packaging demand.
+
+For hyperscalers, neoclouds and accelerator vendors, the read-across is mixed. Strong memory demand confirms AI infrastructure deployment, but rapidly rising memory cost increases the capital required per unit of compute.
+
+KEY ISSUES TO MONITOR
+
+1. Strategic customer agreements / Why it matters: Contract enforceability, pricing resets and customer credit quality determine whether the agreements truly reduce cycle volatility.
+
+2. HBM4 qualification breadth / Why it matters: Additional customer wins are required to reduce dependence on the lead platform and validate share durability.
+
+3. Fiscal 2027 capacity additions / Why it matters: Accelerated DRAM, HBM and packaging supply could bring the eventual pricing correction forward.
+
+4. Memory cost as an AI-system input / Why it matters: Excessive memory pricing could weaken customer ROI and force architecture or deployment changes.
+
+5. FCF versus capex / Why it matters: Current FCF is exceptional, but investment discipline must survive a future normalization in pricing.
+
+BOTTOM LINE
+
+Micron delivered a genuine multi-line step-change, not a conventional memory beat.
+
+The fiscal Q4 guide, HBM4 ramp and strategic customer agreements support major upward revisions and justify the immediate re-rating.
+
+The thesis has improved from spot-cycle scarcity to contracted AI-memory demand, but the outer-year risk has increased through capex, supply additions and customer financing exposure.
+
+The next decisive test is whether contract visibility and HBM leadership remain intact as the cost of memory becomes increasingly material to AI-infrastructure economics.
+
+<<MU_EARNINGS_END>>
+
+<<JPM_EARNINGS_BEGIN>>
+TICKER: JPM
+COMPANY: JPMorgan Chase
+SECTOR: Financials
+SUBSECTOR: Money Center Bank / Consumer Banking / Capital Markets / Wealth
+COUNTRY: United States
+PUBLICATION_DATE: 2026-07-14
+EVENT: Q2 2026 earnings
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares reversed an approximately 2.5% pre-market decline and closed about 2.5% higher as investors looked through the higher expense guide.
+PM_READ: JPMorgan extended its capital-markets, NII and consumer-credit leadership, but the record reported EPS was materially distorted by Visa and equity-investment gains and management itself cautioned against extrapolating peak conditions.
+THEME_BUCKETS: Credit / Banks, Capital Markets, Rates Sensitivity, Accounting Quality
+THEMES: equity trading, investment banking fees, Visa share gain, NII guidance, expense growth, card charge-offs, consumer resilience, capital return, succession
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+JPMorgan reported $58.0 billion of managed revenue, $21.2 billion of net income and GAAP EPS of $7.70. Excluding significant items, net income was $16.9 billion, EPS was $6.14 and ROTCE was 23%. The clean result was still substantially ahead of expectations, driven by record capital-markets activity, higher NII, resilient consumer spending and strong asset-management flows.
+
+Commercial and Investment Bank revenue increased 27% to $24.85 billion. Equity Markets revenue rose 86% to $6.03 billion, Markets revenue increased 35% to $12.1 billion and investment-banking fees increased 30% to $3.28 billion. Consumer credit remained controlled, with the Card Services net charge-off outlook reduced to approximately 3.2%.
+
+Management raised 2026 NII guidance but also increased the adjusted expense outlook to approximately $107.5 billion. The initial market concern around expenses reversed as investors concluded that most of the spending increase was associated with stronger revenue and activity rather than weakening efficiency.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                              Actual |                                                                     Consensus / Prior |    Beat / Miss |                                            YoY |                 QoQ | PM Comment                                                                                                      |
+| ---------------------- | --------------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------: | -------------: | ---------------------------------------------: | ------------------: | --------------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                              $58.0B managed revenue |                 Approximately $49.4B-$50.6B public consensus range; $45.7B prior year |           Beat |         +27%; +15% excluding significant items |                +15% | Revenue strength was broad, but reported growth included material Visa and equity-investment gains.             |
+| EPS / Earnings         |                                                       $7.70 GAAP; $6.14 excluding significant items |                                                           $5.55-$5.85 consensus range |           Beat | +47% GAAP; approximately +13% clean net income |           +30% GAAP | The clean EPS beat was strong, although the reported headline materially overstated operating earnings.         |
+| Profitability / Margin |                             29% ROTCE; 23% excluding significant items; 47% adjusted overhead ratio |                                           21% ROTCE and 52% overhead ratio prior year |           Beat |                            +8pp reported ROTCE | +6pp reported ROTCE | Operating leverage improved despite 15% expense growth because revenue expanded faster.                         |
+| Guidance / Outlook     | FY26 NII approximately $105.5B; adjusted expense approximately $107.5B; card NCO approximately 3.2% | Prior NII $103B; prior expense approximately $106B; prior card NCO approximately 3.4% | Mixed-positive |                                 Not applicable |              Raised | Higher NII and better credit outweighed a further increase in investment and compensation spending.             |
+| Market reaction        |                                                  Approximately +2.5% close after pre-market decline |                                                                        Not applicable |       Positive |                                 Not applicable |      Not applicable | The market initially punished expenses but ultimately rewarded the clean earnings breadth and improved outlook. |
+
+JPMorgan’s official presentation reported $58.0 billion of managed revenue, $21.2 billion of net income, $7.70 of reported EPS and $6.14 excluding significant items.
+
+SECTOR KPI TABLE
+
+| KPI                               |                           Actual |                                           Prior / Benchmark |                        Change | PM Comment                                                                                    |
+| --------------------------------- | -------------------------------: | ----------------------------------------------------------: | ----------------------------: | --------------------------------------------------------------------------------------------- |
+| Net interest income               | $25.6B; $23.7B excluding Markets | $23.3B reported prior year; $22.8B approximately ex-Markets | +10% reported; +4% ex-Markets | Higher deposits, card revolving balances and wholesale loans outweighed lower rates.          |
+| Equity Markets revenue            |                           $6.03B |                                           $3.25B prior year |                          +86% | The principal earnings surprise and the strongest evidence of operating leverage.             |
+| Investment-banking fees           |                           $3.28B |                                           $2.51B prior year |                          +30% | Fees rose across products, with particularly strong equity underwriting.                      |
+| Card Services net charge-off rate |                            3.34% |                       3.40% prior year; 3.47% prior quarter |                      Improved | Consumer normalization remained orderly and management reduced the full-year outlook.         |
+| CET1 ratio                        |               14.1% standardized |                       15.1% prior year; 14.3% prior quarter |                         Lower | Capital remains substantial despite loan growth and increased distributions.                  |
+| AUM                               |                           $5.14T |                                           $4.34T prior year |                          +18% | Strong markets and net inflows supported recurring fee growth in Asset and Wealth Management. |
+
+Official segment and KPI disclosures confirm the NII, trading, card-credit, capital and AUM figures.
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Managed revenue was $58.0 billion, up 27% year over year and 15% excluding significant items.
+
+NII increased 10% to $25.6 billion. Noninterest revenue increased 45% to $32.4 billion, or 20% excluding significant items.
+
+Markets revenue increased 35% to $12.1 billion, primarily due to the 86% increase in Equity Markets revenue.
+
+Consensus:
+
+Public consensus estimates varied because several sources used different revenue definitions and treatment of significant items.
+
+The most relevant clean comparison was adjusted EPS of $6.14 against a consensus range of approximately $5.55-$5.85. JPMorgan cleared that bar without relying on the Visa gain.
+
+EPS / Earnings:
+
+Reported net income was $21.2 billion and GAAP EPS was $7.70.
+
+Excluding significant items, net income was $16.9 billion, EPS was $6.14 and ROTCE was 23%.
+
+Profitability / Margins:
+
+Reported ROTCE was 29%, while ROTCE excluding significant items was 23%.
+
+The managed overhead ratio improved to 47% from 52% in the prior-year quarter.
+
+Expenses increased 15% to $27.3 billion, mainly because of higher revenue-linked compensation, additional front-office employees, brokerage, distribution, marketing, technology and occupancy costs.
+
+Key KPI:
+
+Equity Markets revenue increased 86% to $6.03 billion, driving a disproportionate share of the CIB earnings increase.
+
+FICC revenue increased a more modest 6% to $6.05 billion and was the weaker component relative to expectations.
+
+The Card Services net charge-off rate was 3.34%, down from 3.47% in Q1 and 3.40% one year earlier.
+
+Guidance headline:
+
+Management increased estimated 2026 total NII to approximately $105.5 billion from $103 billion.
+
+NII excluding Markets was increased to approximately $96.5 billion from $95 billion.
+
+Adjusted expense guidance increased to approximately $107.5 billion from approximately $106 billion.
+
+The expected Card Services net charge-off rate was reduced to approximately 3.2% from 3.4%.
+
+Capital allocation:
+
+The firm repurchased $6.2 billion of common shares during Q2.
+
+The Board authorized a new $50 billion repurchase program and announced an increase in the quarterly dividend to $1.65 per share.
+
+The standardized CET1 ratio was 14.1%, with CET1 capital of $303 billion.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Distorted at the reported-EPS level; high quality on an adjusted operating basis.
+
+Adjustment issue:
+
+The quarter included a $4.55 billion pretax gain related to Visa shares, contributing $1.27 to EPS, and $1.03 billion of gains on certain equity investments, contributing $0.29 to EPS.
+
+The combined items increased EPS by $1.56 and after-tax net income by approximately $4.2 billion.
+
+PM interpretation:
+
+Investors should focus on the $6.14 adjusted EPS, 23% adjusted ROTCE, Markets revenue, NII, credit costs and the expense trajectory. Reported EPS of $7.70 should not be capitalized as recurring earnings.
+
+The market correctly looked through the accounting gain and ultimately rewarded the operating result rather than the record GAAP headline.
+
+JPMorgan’s official presentation provides the full bridge from reported to adjusted net income, EPS and ROTCE.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                        | % of Total | Revenue | YoY Growth | Margin Trend                                       | Key Commentary                                                                                                |
+| ------------------------------ | ---------: | ------: | ---------: | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Consumer and Community Banking |      34.9% | $20.27B |        +8% | Overhead ratio increased to 55% from 52%           | Card NII, auto leasing and wealth-management fees offset higher marketing, technology and compensation costs. |
+| Commercial and Investment Bank |      42.8% | $24.85B |       +27% | Overhead ratio improved to 46% from 49%            | Equity trading, investment banking and payments produced the quarter’s highest-quality operating upside.      |
+| Asset and Wealth Management    |      11.8% |  $6.85B |       +19% | Pretax margin increased to 38% from 34%            | Higher management fees, inflows, loan growth and valuation gains supported a 33% increase in net income.      |
+| Corporate                      |      10.4% |  $6.05B |  Up $4.51B | Not meaningful because significant items dominated | Visa and equity-investment gains generated most of the segment’s reported revenue increase.                   |
+
+Segment data are from JPMorgan’s official earnings presentation and press release.
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The higher NII outlook reflects stronger balances and a more favorable revenue base, partly offset by the impact of lower rates. The guide creates upside relative to the pre-print model but is not a pure rate-benefit story.
+
+The higher expense outlook is the principal offset. Management characterized the increase as volume- and revenue-related, including compensation, distribution, client acquisition and technology investment. The market’s initial negative reaction showed that JPMorgan remains vulnerable whenever spending increases faster than anticipated.
+
+The reduction in the expected card net charge-off rate is an important consumer signal. It suggests that lower-income stress has not yet broadened enough to overwhelm healthy aggregate employment, wages and spending.
+
+Capital return increased through repurchases, the new authorization and a higher dividend. The balance sheet retains substantial flexibility, though capital ratios have declined from the prior year as risk-weighted assets and lending increased.
+
+Revision direction: **Upward revisions with an expense offset.** Analysts are likely to raise NII, capital-markets revenue and adjusted EPS while also increasing compensation and operating-expense assumptions. The net direction should remain positive.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market’s first reaction centered on the adjusted expense guide rather than the reported earnings beat. This was logical because the Visa and equity-investment gains were transparent, while the higher spending outlook affects the recurring earnings base.
+
+The later reversal reflected the breadth of the clean result. CIB, CCB and AWM all increased revenue, the NII outlook improved, consumer credit remained controlled and the clean ROTCE stayed above 20%.
+
+JPMorgan shares finished about 2.5% higher, broadly consistent with a fundamental positive reaction rather than a response to the accounting gain. The move occurred during a macro-heavy session that also included inflation data and Fed testimony, so the exact intraday attribution cannot be fully isolated.
+
+Management’s caution is important. A record trading and dealmaking environment does not provide a clean annualized run rate, and Jamie Dimon’s observation that conditions were approaching “as good as it gets” should limit aggressive capitalization of the quarter.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was the combination of record CIB earnings and a higher NII outlook. JPMorgan benefited simultaneously from markets, underwriting, payments, lending and balance-sheet growth.
+
+The second-highest-quality signal was the card-credit performance. The lower charge-off outlook indicates that consumer deterioration remains concentrated rather than systemic.
+
+The lowest-quality signal was reported EPS. Approximately 20% of GAAP EPS came from explicitly identified Visa and equity-investment gains.
+
+The revision debate will focus on how much of the Markets and investment-banking performance is repeatable, whether the higher spending remains revenue-linked and whether NII can meet the raised guide if rates decline.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior thesis was that JPMorgan’s scale, balance sheet and broad fee franchises would allow it to outperform despite expense pressure and gradual credit normalization. Q2 confirmed that thesis through record capital-markets revenue, higher NII guidance and controlled card losses. The print did not create a new regime; it extended an already-established leadership position.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+The market was pricing a strong quarter but remained sensitive to any increase in the cost base. The initial selloff showed the expense concern; the reversal showed that the revenue and credit evidence ultimately cleared the higher hurdle.
+
+Further rerating requires continued CIB backlog conversion, NII delivery and evidence that revenue-linked spending produces operating leverage rather than permanent cost inflation.
+
+The thesis would weaken if trading normalizes rapidly, investment-banking conversion slows and expenses remain above 10% growth. A simultaneous deterioration in card credit would remove the consumer offset.
+
+Peer read-across is positive for GS, MS, BAC and C on capital markets, but JPMorgan’s scale and breadth make its performance difficult to replicate fully.
+
+Stock identity:
+
+**Quality compounder; GARP; beat-and-raise machine.**
+
+The print reinforces JPMorgan’s premium identity within Financials. The franchise continues to produce high returns across different revenue environments, but the stock’s premium increasingly assumes that elevated investment and compensation spending will continue to generate superior revenue growth.
+
+MARKET REACTION / PEER READ-ACROSS
+
+JPMorgan initially fell approximately 2.2%-2.6% before the market open as investors focused on the expense outlook. It subsequently reversed and finished approximately 2.5% higher.
+
+The reversal indicates that investors considered the clean operating beat, NII increase and better credit guidance more important than the additional spending.
+
+The capital-markets result was positive for Goldman Sachs and Morgan Stanley, while the card and deposit data provided a constructive read-through for Bank of America, Citigroup and Wells Fargo.
+
+The quarter also reinforced a sector-level divergence: banks with high capital-markets exposure can offset pressure from deposit competition and rate changes, while more traditional lenders remain more dependent on NII and credit.
+
+KEY ISSUES TO MONITOR
+
+1. Expense growth / Why it matters: JPMorgan must demonstrate that higher compensation, technology and marketing spending remains tied to incremental revenue.
+
+2. Markets normalization / Why it matters: Equity trading increased 86%, creating a difficult comparison and substantial risk of mean reversion.
+
+3. Investment-banking backlog / Why it matters: Backlog conversion is required to sustain fee growth if trading volatility declines.
+
+4. Card charge-offs / Why it matters: The reduced 3.2% outlook supports the consumer thesis but could reverse quickly if labor conditions weaken.
+
+5. NII sensitivity / Why it matters: The $105.5 billion guide depends on balances, deposit pricing and the realized rate path.
+
+BOTTOM LINE
+
+JPMorgan produced another high-quality operating beat, but reported EPS materially overstated recurring profitability.
+
+The clean result still supported higher estimates through capital markets, NII, consumer resilience and wealth flows.
+
+The higher expense guide is manageable while revenue remains exceptional, but it becomes the key downside risk if trading and deal activity normalize.
+
+The stock remains the quality benchmark for large-cap banks, with the next test centered on operating leverage rather than headline growth.
+
+<<JPM_EARNINGS_END>>
+
+<<GS_EARNINGS_BEGIN>>
+TICKER: GS
+COMPANY: The Goldman Sachs Group
+SECTOR: Financials
+SUBSECTOR: Investment Banking / Trading / Asset and Wealth Management
+COUNTRY: United States
+PUBLICATION_DATE: 2026-07-14
+EVENT: Q2 2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares gained approximately 9% and reached a record high as the earnings surprise substantially exceeded the options-implied move.
+PM_READ: Goldman converted the capital-markets recovery into a record operating quarter and a higher-quality forward backlog, although event-driven equity revenue and elevated expectations make repeatability the central risk.
+THEME_BUCKETS: Capital Markets, AI Infrastructure, Margin / Cost Discipline
+THEMES: equity trading, IPO cycle, M&A advisory, SpaceX fees, prime financing, investment-banking backlog, private-equity valuations, capital return
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Goldman Sachs reported record Q2 net revenue of $20.34 billion, net earnings of $6.63 billion and EPS of $20.98. Revenue increased 39% year over year and 18% sequentially, while EPS almost doubled from $10.91 in the prior-year quarter. The result exceeded consensus by roughly 45% on EPS and 25%-26% on revenue.
+
+Global Banking and Markets generated $15.52 billion of revenue, up 53% year over year. Equities revenue increased 72% to $7.42 billion, investment-banking fees increased 55% to $3.40 billion and FICC revenue increased 32% to $4.59 billion. The investment-banking backlog increased sequentially and from year-end, providing a more durable forward signal than the quarter’s event-driven trading revenues.
+
+The 9% stock reaction was justified by the magnitude and operating quality of the surprise. The forward debate is whether Goldman can convert the backlog and sustain the cross-franchise revenue flywheel after exceptional IPO, volatility and equity-financing activity normalize.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                                            Actual |                                                  Consensus / Prior | Beat / Miss |            YoY |                  QoQ | PM Comment                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------: | -----------------------------------------------------------------: | ----------: | -------------: | -------------------: | ---------------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                                                           $20.34B |                   $16.13B-$16.23B consensus; $17.23B prior quarter |        Beat |           +39% |                 +18% | Global Banking and Markets generated most of the surprise, led by equities and underwriting.                     |
+| EPS / Earnings         |                                                                                                            $20.98 |                      $14.48-$14.51 consensus; $17.55 prior quarter |        Beat |           +92% |                 +20% | The earnings surprise was primarily operational rather than the product of one large disclosed gain.             |
+| Profitability / Margin |                                                           23.5% annualized ROE; 58.8% first-half efficiency ratio | 12.8% ROE prior year; 62.0% prior-year first-half efficiency ratio |        Beat |    +10.7pp ROE | +3.7pp versus Q1 ROE | Revenue growth materially exceeded expense growth despite higher compensation and transaction costs.             |
+| Guidance / Outlook     | Investment-banking backlog increased versus Q1 and year-end; management expects the activity flywheel to continue |                            No quantitative revenue or EPS guidance |    Positive | Not applicable |             Improved | The five-year-high backlog provides a stronger forward bridge than relying only on record trading revenue.       |
+| Market reaction        |                                                                                           Approximately +9% close |  Approximately 4.8%-6.0% implied move referenced in the scout tape |    Positive | Not applicable |       Not applicable | Realized movement substantially exceeded the expected move, indicating a genuine model and positioning surprise. |
+
+Goldman officially reported net revenue of $20.34 billion, net earnings of $6.63 billion, EPS of $20.98 and annualized ROE of 23.5%.
+
+SECTOR KPI TABLE
+
+| KPI                                 |                         Actual |                                          Prior / Benchmark |             Change | PM Comment                                                                                              |
+| ----------------------------------- | -----------------------------: | ---------------------------------------------------------: | -----------------: | ------------------------------------------------------------------------------------------------------- |
+| Equities revenue                    |                         $7.42B |                    $4.30B prior year; $5.33B prior quarter | +72% YoY; +39% QoQ | Derivatives, cash products and prime financing all contributed to a record result.                      |
+| Investment-banking fees             |                         $3.40B |                    $2.19B prior year; $2.84B prior quarter | +55% YoY; +20% QoQ | Equity and debt underwriting produced the largest increases, while advisory also improved.              |
+| FICC revenue                        |                         $4.59B |                    $3.49B prior year; $4.01B prior quarter | +32% YoY; +14% QoQ | Rates, commodities, mortgages and financing offset lower credit revenue.                                |
+| Investment-banking backlog          | Increased from Q1 and year-end | Five-year-high framing from management and public coverage |           Improved | Backlog provides the clearest evidence that the fee cycle can extend beyond the quarter.                |
+| Asset and Wealth Management revenue |                         $4.60B |                    $3.83B prior year; $4.08B prior quarter | +20% YoY; +13% QoQ | Management fees and private-equity investment gains offset weaker private-banking spreads.              |
+| Capital returned                    |                         $5.36B |            Not confirmed on comparable prior-quarter basis |             Strong | Repurchases and dividend growth signal confidence while revenue and capital generation remain elevated. |
+
+Official and SEC-filed results provide the detailed Equities, FICC, investment-banking and Asset and Wealth Management figures.
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Net revenue increased to $20.34 billion from $14.58 billion in Q2 2025 and $17.23 billion in Q1 2026.
+
+Global Banking and Markets revenue was $15.52 billion, representing 76% of firmwide revenue and increasing 53% year over year.
+
+Asset and Wealth Management revenue increased 20% to $4.60 billion.
+
+Platform Solutions revenue declined 64% to $221 million, reflecting markdowns associated with the Apple Card loan portfolio held for sale.
+
+Consensus:
+
+EPS of $20.98 exceeded the approximately $14.48-$14.51 consensus range by roughly 45%.
+
+Revenue exceeded the approximately $16.13 billion-$16.23 billion consensus range by roughly 25%-26%.
+
+EPS / Earnings:
+
+Net earnings increased to $6.63 billion from $3.72 billion in the prior-year quarter.
+
+Diluted EPS increased to $20.98 from $10.91 year over year and $17.55 in Q1.
+
+Book value per share increased 1.8% during the quarter to $367.67.
+
+Profitability / Margins:
+
+Annualized ROE was 23.5%.
+
+Operating expenses increased 26% to $11.67 billion, mainly because of higher compensation, improved operating performance and higher transaction-based costs.
+
+The first-half efficiency ratio improved to 58.8% from 62.0% in the prior-year period.
+
+Headcount declined 2% sequentially, demonstrating that the compensation increase was mainly revenue-linked rather than the result of broad hiring.
+
+Key KPI:
+
+Equities revenue of $7.42 billion was the decisive KPI. Intermediation increased 60% year over year, while financing increased 91%, indicating strength in both transaction activity and recurring prime-financing balances.
+
+Investment-banking fees reached $3.40 billion. Equity underwriting increased 130%, debt underwriting increased 75% and advisory increased 17%.
+
+Guidance headline:
+
+Goldman does not provide conventional revenue or EPS guidance.
+
+Management stated that investment-banking backlog increased versus both Q1 and year-end and expected the firm’s cross-business activity flywheel to continue.
+
+Capital allocation:
+
+Goldman returned $5.36 billion to common shareholders during Q2.
+
+Repurchases totaled $4.00 billion at an average price of $984.57, while common dividends totaled $1.36 billion.
+
+The Board increased the quarterly dividend to $5.00 per share from $4.50.
+
+Global core liquid assets averaged $555 billion.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Clean to mixed; predominantly operating.
+
+Adjustment issue:
+
+No single non-operating item comparable to JPMorgan’s Visa gain dominated reported EPS.
+
+Asset and Wealth Management included $441 million of investment revenue, reflecting higher private-equity gains. Platform Solutions also included markdowns on the Apple Card loan portfolio held for sale.
+
+The firm’s first-half results benefited from tax effects associated with employee share-based awards, but no separately quantified Q2 item was large enough to explain the earnings surprise.
+
+PM interpretation:
+
+Investors should focus on Global Banking and Markets revenue, Equities, investment-banking fees, ROE, backlog and the expense-to-revenue relationship.
+
+The private-equity valuation gains should not be treated as fully recurring, but the quarter’s core conclusion remains unchanged: the primary beat came from client and transaction activity.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                     | % of Total | Revenue | YoY Growth | Margin Trend                                               | Key Commentary                                                                                               |
+| --------------------------- | ---------: | ------: | ---------: | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Global Banking and Markets  |      76.3% | $15.52B |       +53% | Revenue growth materially exceeded firmwide expense growth | Record equities, stronger FICC and underwriting produced the operating step-change.                          |
+| Asset and Wealth Management |      22.6% |  $4.60B |       +20% | Positive mix but partly valuation-aided                    | Higher recurring management fees and private-equity gains offset weaker private-banking and lending revenue. |
+| Platform Solutions          |       1.1% |   $221M |       -64% | Deterioration                                              | Apple Card loan-portfolio markdowns continued to depress the residual business.                              |
+
+Official segment data show GBM revenue of $15.52 billion, AWM revenue of $4.60 billion and Platform Solutions revenue of $221 million.
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Goldman provided qualitative rather than numerical guidance. The key forward indicator was an investment-banking backlog that increased from both Q1 and year-end despite record current-quarter fees.
+
+The backlog suggests that advisory, underwriting, financing and associated trading activity can remain elevated. The main uncertainty is conversion: announced transactions may be delayed or cancelled if markets, geopolitical conditions or financing availability deteriorate.
+
+The capital-return profile remains supportive. Goldman repurchased $4.0 billion of shares during the quarter and increased the dividend by 11%.
+
+Revision direction: **Upward revisions.** Analysts are likely to raise investment-banking, Equities, FICC, ROE and EPS assumptions. Estimates should incorporate some normalization from the record quarter, but the backlog requires higher second-half fee expectations.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market focused on the combination of a record Equities result and improving investment-banking visibility. Equities revenue was not merely a directional-trading windfall: intermediation and financing both grew sharply, showing that client volumes, derivatives and prime balances contributed.
+
+The SpaceX IPO and other major transactions were material contributors to the quarter’s activity. This creates a legitimate event-income concern, but Goldman also reported broad strength in underwriting, advisory, FICC and Asset and Wealth Management.
+
+The approximately 9% stock rally was larger than the pre-print implied move and substantially exceeded the reactions of other same-day bank reporters. The relative move isolates the Goldman-specific surprise despite a macro-heavy session.
+
+The market is now capitalizing the backlog rather than the completed quarter. That is reasonable while transaction pipelines remain strong, but it raises the cost of any future disappointment in deal conversion or trading normalization.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was the 53% increase in Global Banking and Markets revenue combined with an improving backlog. This links current earnings to a credible forward pipeline.
+
+The second-highest-quality signal was the internal breadth of Equities. Both intermediation and financing increased materially, limiting the argument that the result was driven by one isolated proprietary position or transaction.
+
+The lowest-quality component was the private-equity investment gain within Asset and Wealth Management. It supported earnings but should not receive the same multiple as recurring management fees.
+
+Analysts will increase second-half investment-banking and trading estimates. The critical debate will be how much of the $7.42 billion Equities result should be annualized and how quickly the backlog converts into fees.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior thesis was that Goldman would participate strongly in an improving deal cycle but remained more volatile than wealth-heavy peers. Q2 moved the firm from participant to cycle leader through record trading revenue, a major fee beat and stronger backlog. The thesis improved, but the stock now embeds greater confidence in repeatability.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+Goldman entered the quarter with elevated expectations, yet the realized EPS and revenue surprise still materially exceeded the implied move. The 9% rally therefore reflects genuine earnings and positioning revision.
+
+Further rerating requires backlog conversion, another strong underwriting quarter and evidence that prime-financing and client activity can remain elevated after major IPO events pass.
+
+The thesis would weaken if Equities revenue rapidly mean-reverts, announced transactions fail to close or compensation remains elevated after revenue normalizes.
+
+Peer read-across is strongest for Morgan Stanley and JPMorgan. It is also constructive for exchanges, alternative-asset managers and private-market investors benefiting from reopened exit channels.
+
+Stock identity:
+
+**Cyclical value; beat-and-raise machine; setup-risk stock.**
+
+The quarter reinforces Goldman’s identity as the highest-beta large-cap expression of the capital-markets cycle. The firm is earning compounder-like returns, but those returns remain more exposed than JPMorgan’s or Morgan Stanley’s to market levels, volatility and transaction timing.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Goldman gained approximately 9%, reached a record high and was the strongest major-bank performer on the reporting day.
+
+The reaction was driven by the EPS surprise, record Equities revenue, underwriting strength and the higher backlog. It was not primarily an accounting-quality reaction.
+
+Morgan Stanley rallied ahead of its own results, reflecting positive expectations for equities trading, underwriting and wealth assets connected with major IPO activity.
+
+The read-across for JPMorgan was positive but less direct because JPMorgan has a broader NII and consumer mix. Citigroup and Wells Fargo did not receive the same benefit because their cost and execution debates remained more company-specific.
+
+KEY ISSUES TO MONITOR
+
+1. Investment-banking backlog conversion / Why it matters: The current valuation assumes that the stronger pipeline becomes recognized revenue rather than delayed or cancelled transactions.
+
+2. Equities normalization / Why it matters: Revenue of $7.42 billion creates an exceptionally difficult comparison and may contain non-repeatable event income.
+
+3. Prime-financing balances / Why it matters: Continued financing growth would indicate that the Equities result has a durable recurring component.
+
+4. Compensation discipline / Why it matters: Higher revenue-linked compensation is acceptable during record activity but would pressure operating leverage after normalization.
+
+5. Private-market exit cycle / Why it matters: Goldman benefits across advisory, underwriting, financing and wealth when private holdings return to public markets.
+
+BOTTOM LINE
+
+Goldman delivered the strongest operating surprise of the large-bank cohort and earned a genuine re-rating.
+
+Record Equities revenue, a 55% increase in investment-banking fees and a stronger backlog shifted the firm from cycle participant to cycle leader.
+
+The quarter was operating-led, although private-equity gains and landmark transactions modestly reduce the quality of annualizing the result.
+
+The next test is backlog conversion: if deal fees replace event-driven trading revenue, the improvement can persist; if both normalize together, the stock’s new expectation level becomes difficult to defend.
+
+<<GS_EARNINGS_END>>
+
+ 
+
+
+
+
+
+
+
+<<EARNINGS_RELEASES_BY_STOCK_END>>
+
