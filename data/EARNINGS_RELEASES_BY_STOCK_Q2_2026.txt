@@ -1563,6 +1563,679 @@ The structural thesis improved, with the next test centered on whether the IPO-t
 
 
 
+Pass 3 converted into full stock blocks for **BLK, ASML and TSM**, without the outer archive envelope. The supplied tape remains the primary construction layer; key ASML and TSM figures were cross-checked against company disclosures.  ([ASML][1])
+
+<<BLK_EARNINGS_BEGIN>>
+TICKER: BLK
+COMPANY: BlackRock
+SECTOR: Financials
+SUBSECTOR: Asset Management / ETFs / Private Markets / Financial Technology
+COUNTRY: United States
+PUBLICATION_DATE: 2026-07-15
+EVENT: Q2 2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ***
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares gained approximately 5% as record flows, stronger fee growth and a five-year-high adjusted margin exceeded expectations.
+PM_READ: BlackRock showed that its earnings engine is broadening beyond market-beta-driven AUM growth through ETFs, private credit, performance fees and Aladdin subscriptions.
+THEME_BUCKETS: Capital Markets, Crypto / Risk Appetite, Fintech / Payments, Margin / Cost Discipline
+THEMES: record AUM, ETF inflows, iShares scale, private credit, HPS integration, Aladdin subscriptions, performance fees, digital assets, organic base-fee growth
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+BlackRock reported Q2 revenue of $7.08 billion and adjusted diluted EPS of $13.91. Revenue increased approximately 31% year over year, while adjusted EPS increased roughly 16% and exceeded consensus by approximately 11%.
+
+Assets under management reached a record $15.34 trillion. Quarterly net inflows were $192 billion, long-term net inflows were approximately $199 billion and first-half inflows reached a record $321 billion. ETFs generated the majority of the quarter’s flows, but active strategies and private markets also contributed.
+
+The more important development was the quality of the fee mix. Adjusted operating margin reached 45.9%, its highest level in approximately five years, as performance fees, private-credit revenue and technology subscriptions supplemented the traditional market-sensitive management-fee base.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                                                 Actual |                               Consensus / Prior | Beat / Miss |             YoY |            QoQ | PM Comment                                                                                                    |
+| ---------------------- | -----------------------------------------------------------------------------------------------------: | ----------------------------------------------: | ----------: | --------------: | -------------: | ------------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                                                 $7.08B |                                $6.77B consensus |        Beat |            +31% |  Not confirmed | Higher management fees, performance fees, technology revenue and acquired private-market fees drove the beat. |
+| EPS / Earnings         |                                                                           $13.91 adjusted; $12.19 GAAP |                         $12.55-$12.70 consensus |        Beat | +15.5% adjusted |  Not confirmed | Adjusted EPS provides the cleaner comparison because transaction and integration items affected GAAP results. |
+| Profitability / Margin |                                                                        45.9% adjusted operating margin |                 Prior-year margin not confirmed |        Beat |        Improved |       Improved | Fee growth and operating scale lifted the margin to its highest level in approximately five years.            |
+| Guidance / Outlook     | Organic base-fee growth remained above long-term targets; quarterly repurchase plan increased to $550M | Prior quarterly repurchases approximately $450M |    Positive |  Not applicable |       Improved | Management signaled confidence in cash generation and continued organic growth.                               |
+| Market reaction        |                                                                                      Approximately +5% |                                  Not applicable |    Positive |  Not applicable | Not applicable | Investors rewarded both the flow result and the diversification of the earnings mix.                          |
+
+BlackRock’s investor-relations site reported adjusted EPS of $13.91 for the quarter. ([ir.blackrock.com][2])
+
+SECTOR KPI TABLE
+
+| KPI                                  |                                    Actual |                                Prior / Benchmark |          Change | PM Comment                                                                                    |
+| ------------------------------------ | ----------------------------------------: | -----------------------------------------------: | --------------: | --------------------------------------------------------------------------------------------- |
+| Assets under management              |                                   $15.34T |    $13.9T approximately in Q1; $12.5T prior year | Record increase | Market appreciation was a major contributor, but organic flows remained independently strong. |
+| Quarterly net inflows                |                                     $192B |               Prior-quarter figure not confirmed |          Strong | Flows were broad across ETFs, active products and private markets.                            |
+| Long-term net inflows                |                                     $199B | $190B Visible Alpha consensus referenced in tape |            Beat | The long-term figure excludes lower-value cash-management volatility.                         |
+| First-half net inflows               |                                     $321B |              Prior-year first half not confirmed |          Record | The result confirms broad institutional and retail demand for the platform.                   |
+| ETF net inflows                      |                                     $178B |               Prior-quarter figure not confirmed |          Strong | iShares remains the dominant organic growth engine.                                           |
+| Active net inflows                   |                                      $53B |               Prior-quarter figure not confirmed |        Positive | Active products contributed meaningfully rather than acting as a drag on ETF strength.        |
+| Organic base-fee growth              | 8% in Q2; 10% over the last twelve months |           Long-term target below reported growth |    Above target | Eight consecutive quarters above 5% strengthen the structural-growth argument.                |
+| Aladdin annual-contract-value growth |                                      +15% |                                Prior-year figure |     Accelerated | Technology revenue increases the durability and valuation quality of the fee stack.           |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Revenue reached approximately $7.08 billion, up 31% year over year.
+
+Growth reflected higher base fees, stronger performance fees, technology-services revenue and contributions from acquired private-market capabilities, including HPS.
+
+Consensus:
+
+Revenue exceeded the approximately $6.77 billion consensus estimate by roughly 5%.
+
+Adjusted EPS of $13.91 exceeded the prevailing $12.55-$12.70 estimate range by approximately 10%-11%.
+
+EPS / Earnings:
+
+Adjusted diluted EPS was $13.91.
+
+GAAP diluted EPS was $12.19. The difference reflected transaction, integration and other adjustment items rather than a deterioration in the operating business.
+
+Profitability / Margins:
+
+Adjusted operating margin reached 45.9%.
+
+Operating income increased approximately 42% on a reported basis and approximately 39% on an adjusted basis.
+
+The margin improvement indicates that revenue from ETFs, performance fees, private markets and technology is scaling faster than the operating cost base.
+
+Key KPI:
+
+The key KPI is organic base-fee growth rather than the absolute AUM level.
+
+AUM rose by approximately $1.4 trillion sequentially, with market appreciation contributing materially. Organic base-fee growth of 8% therefore provides the cleaner measure of underlying franchise momentum.
+
+Guidance headline:
+
+BlackRock does not provide conventional EPS or revenue guidance.
+
+Management indicated that organic growth remains above its long-term target and increased planned quarterly share repurchases to approximately $550 million.
+
+Capital allocation:
+
+BlackRock repurchased approximately $450 million of shares during Q2.
+
+The planned quarterly repurchase pace was increased to approximately $550 million.
+
+Capital continues to be allocated across organic investment, acquisitions, integration spending, dividends and share repurchases.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Mixed at the GAAP level; high quality on an adjusted operating basis.
+
+Adjustment issue:
+
+The GAAP-to-adjusted EPS difference reflected transaction, integration and acquisition-related items associated with BlackRock’s expansion into private markets.
+
+HPS-related transaction fees also contributed to reported revenue and should not be treated as a fully recurring quarterly run rate.
+
+PM interpretation:
+
+Investors should focus on adjusted EPS, adjusted operating margin, organic base-fee growth, long-term flows and technology-subscription growth.
+
+The AUM headline is economically relevant but partly market-driven. Organic fee growth provides the cleaner signal of underlying earnings durability.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                    |    % of Total |                  Revenue |         YoY Growth | Margin Trend | Key Commentary                                                                                           |
+| -------------------------- | ------------: | -----------------------: | -----------------: | ------------ | -------------------------------------------------------------------------------------------------------- |
+| ETFs and index products    | Not confirmed | Not disclosed separately |             Strong | Positive     | ETFs generated approximately $178B of quarterly net inflows and remain the principal scale engine.       |
+| Active investment products | Not confirmed | Not disclosed separately |           Positive | Improving    | Active products generated approximately $53B of inflows, including record liquid-alternative flows.      |
+| Private markets            | Not confirmed | Not disclosed separately |           Positive | Improving    | HPS and other private-market capabilities expanded the fee mix toward higher-value products.             |
+| Technology services        | Not confirmed | Not disclosed separately | +13% approximately | Positive     | Aladdin annual contract value increased approximately 15%, strengthening recurring subscription revenue. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The quarter did not include conventional financial guidance, but management’s operating signals were constructive.
+
+Organic growth remained well above BlackRock’s long-term target. Long-term flows were broad, and the private-market and technology businesses provided incremental revenue that is less directly dependent on equity-market appreciation.
+
+The increased repurchase plan suggests management views current cash generation as sufficient to finance integration, growth investment and higher shareholder returns.
+
+Revision direction: **Upward revisions.** Analysts are likely to increase base fees, performance fees, private-market revenue, technology subscriptions and adjusted margin assumptions.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market initially focused on the record $15.34 trillion AUM figure, but the higher-quality information was the combination of $192 billion of net inflows and 8% organic base-fee growth.
+
+A substantial part of the sequential AUM increase came from market appreciation. That does not invalidate the earnings benefit, but it means the organic-flow and fee-growth numbers deserve greater weight than the headline asset figure.
+
+BlackRock’s earnings identity is also changing. The platform is increasingly combining index scale with private credit, alternatives, technology subscriptions and digital-asset products.
+
+The approximately 5% stock gain was rational because both the current result and the earnings mix improved. This was not simply a beta-driven AUM beat.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was organic base-fee growth of 8%, supported by broad flows across ETF, active and private-market products.
+
+The second-highest-quality signal was the 45.9% adjusted operating margin. It demonstrates that the broader fee stack is creating real operating leverage.
+
+The least durable component was market appreciation within the AUM increase. A reversal in equity and bond markets could reduce assets and fee revenue even if organic flows remain positive.
+
+Analysts should raise adjusted EPS and margin estimates while separating recurring fee growth from acquisition-related and performance-fee variability.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether BlackRock’s growth remained excessively dependent on market appreciation and low-fee index products. Q2 showed continued ETF dominance but also stronger contributions from private markets, performance fees and Aladdin. The earnings mix therefore improved beyond simple AUM compounding.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+The market was pricing continued AUM growth but received stronger organic flows, higher margins and broader fee diversification than expected.
+
+Further rerating requires organic base-fee growth to remain above 5%, private-market integration to support margins and Aladdin growth to remain in the double digits.
+
+The thesis would weaken if market declines expose weak organic flows, acquired private-market revenue fails to scale or integration costs persist longer than expected.
+
+Peer read-across is constructive for alternative managers, ETF providers, financial-data platforms and asset managers with strong technology franchises.
+
+Stock identity:
+
+**Quality compounder; GARP; expensive but deliverable.**
+
+The print reinforces BlackRock’s premium identity within Financials. The firm combines dominant index scale with higher-growth private-market and technology capabilities, although its earnings remain partly exposed to global asset prices.
+
+MARKET REACTION / PEER READ-ACROSS
+
+BlackRock shares gained approximately 5% following the release.
+
+The move was primarily release-specific and reflected record flows, a better fee mix, higher margins and stronger capital return.
+
+The flow data indicate that investors continued to allocate within risk assets despite severe dispersion across sectors. The evidence points to rotation within risk rather than a broad retreat from market exposure.
+
+The read-across is positive for alternative managers and financial-market infrastructure but less directly applicable to traditional active managers lacking ETF scale.
+
+KEY ISSUES TO MONITOR
+
+1. Organic base-fee growth / Why it matters: It separates genuine franchise growth from market-driven AUM appreciation.
+
+2. HPS integration / Why it matters: Private credit must support durable fee growth without prolonged transaction or integration costs.
+
+3. Aladdin growth / Why it matters: Technology subscriptions improve earnings visibility and support a premium valuation.
+
+4. ETF concentration / Why it matters: iShares remains the principal flow engine, leaving BlackRock exposed to fee compression and product concentration.
+
+5. Market beta / Why it matters: AUM and management fees remain sensitive to global equity and bond performance.
+
+BOTTOM LINE
+
+BlackRock delivered record assets and flows, but the fee-stack improvement was the more important result.
+
+Organic base-fee growth remained well above target and adjusted margin reached a five-year high.
+
+Private credit, performance fees and Aladdin are reducing dependence on simple market-beta-driven AUM growth.
+
+The quarter supports upward revisions and reinforces BlackRock’s quality-compounder identity.
+
+<<BLK_EARNINGS_END>>
+
+<<ASML_EARNINGS_BEGIN>>
+TICKER: ASML
+COMPANY: ASML Holding
+SECTOR: Information Technology
+SUBSECTOR: Semiconductor Equipment / EUV Lithography / Installed-Base Services
+COUNTRY: Netherlands
+PUBLICATION_DATE: 2026-07-15
+EVENT: Q2 2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Mixed
+MARKET_REACTION_DETAIL: Shares rose approximately 3% on the print before being pulled lower by the subsequent semiconductor-sector capex selloff.
+PM_READ: ASML delivered a material third guidance increase and unusually strong 2027 demand visibility, directly challenging the market’s semiconductor-overbuild narrative.
+THEME_BUCKETS: AI Infrastructure, Semiconductors, Capex / FCF Tension, Guidance Reset
+THEMES: EUV demand, installed-base management, 2027 capacity, customer commitments, low-NA EUV, DUV immersion, bookings disclosure, semiconductor fab utilization
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+ASML reported Q2 net sales of €9.33 billion, gross margin of 54.0%, net income of €2.92 billion and basic EPS of €7.59. Both revenue and gross margin exceeded the top of management’s prior guidance, largely because Installed Base Management sales were approximately €300 million stronger than expected.
+
+Management guided Q3 revenue to €11.0-€12.0 billion and gross margin to 55%-57%. Full-year revenue guidance increased to €43-€45 billion with gross margin of 54%-56%, representing the third and most substantial guidance increase of 2026.
+
+The strongest forward signal was management’s statement that 2027 customer commitments were already close to the volume needed to support planned capacity. ASML plans to increase both low-NA EUV and DUV immersion capacity by approximately 30% in 2027 relative to 2026. ([ASML][1])
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                      Actual |                                  Consensus / Prior |    Beat / Miss |            YoY |               QoQ | PM Comment                                                                                                      |
+| ---------------------- | --------------------------------------------------------------------------: | -------------------------------------------------: | -------------: | -------------: | ----------------: | --------------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                                      €9.33B | Company guidance €8.4B-€9.0B; €8.77B prior quarter |           Beat |  Not confirmed |               +6% | Installed Base Management revenue drove the result above the guidance ceiling.                                  |
+| EPS / Earnings         |                                          €7.59 basic EPS; €2.92B net income |   Consensus not confirmed; €7.15 EPS prior quarter |           Beat |  Not confirmed |           +6% EPS | Earnings growth was operational and supported by higher sales and gross margin.                                 |
+| Profitability / Margin |                                                          54.0% gross margin |      51%-52% company guidance; 53.0% prior quarter |           Beat |  Not confirmed |            +1.0pp | Services mix and utilization-related activity produced the margin upside.                                       |
+| Guidance / Outlook     | Q3 revenue €11.0B-€12.0B; FY26 revenue €43B-€45B; FY26 gross margin 54%-56% |              Prior FY26 revenue guidance €36B-€40B | Beat and raise | Not applicable | Material increase | The full-year midpoint increased approximately 16%, creating a genuine estimate step-change.                    |
+| Market reaction        |             Approximately +2.9% print day before subsequent sector weakness |                                     Not applicable | Mixed-positive | Not applicable |    Not applicable | ASML’s own print was rewarded before semiconductor-sector capex concerns overwhelmed the company-specific move. |
+
+ASML’s official release confirms Q2 sales of €9.326 billion, a 54.0% gross margin, €2.918 billion of net income and the increased full-year outlook. ([ASML][1])
+
+SECTOR KPI TABLE
+
+| KPI                              |                                                       Actual |                                           Prior / Benchmark |             Change | PM Comment                                                                                    |
+| -------------------------------- | -----------------------------------------------------------: | ----------------------------------------------------------: | -----------------: | --------------------------------------------------------------------------------------------- |
+| Installed Base Management sales  |                                                       €2.76B | €2.49B prior quarter; approximately €300M above expectation |           +11% QoQ | Higher service and upgrade demand indicates strong tool utilization and wafer-start activity. |
+| Net system sales                 |                                                       €6.56B |                                 Prior quarter not confirmed |           Positive | System revenue included approximately €3.8B of EUV sales.                                     |
+| New lithography systems sold     |                                                     86 units |                                      67 units prior quarter |               +28% | Shipment volume increased materially ahead of the stronger second-half guide.                 |
+| Low-NA EUV 2027 capacity plan    |  Approximately +30% versus 2026 capacity of about 65 systems |                                               2026 baseline |  Material increase | Customer commitments are supporting expansion despite market overbuild concerns.              |
+| DUV immersion 2027 capacity plan | Approximately +30% versus 2026 capacity of about 130 systems |                                               2026 baseline |  Material increase | Demand strength is not limited to leading-edge EUV.                                           |
+| Q3 revenue midpoint              |                                                       €11.5B |                                            €9.33B Q2 actual | Approximately +23% | The guide creates meaningful delivery and execution concentration in the second half.         |
+| Quarterly share repurchases      |                                          Approximately €1.1B |                                 Prior quarter not confirmed |             Strong | Capital return remained substantial despite capacity investment.                              |
+
+ASML reported 86 new systems sold, €2.762 billion of Installed Base Management revenue and planned 30% capacity increases for low-NA EUV and DUV immersion in 2027. ([ASML][1])
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Total net sales reached €9.326 billion, above the €8.4-€9.0 billion guidance range.
+
+Net system sales were approximately €6.6 billion, including roughly €3.8 billion from EUV systems.
+
+Installed Base Management sales reached €2.762 billion, approximately €300 million above expectations.
+
+Consensus:
+
+Comparable public consensus was not confirmed.
+
+The relevant benchmark was management’s own guidance, and ASML exceeded the high end on both revenue and gross margin.
+
+EPS / Earnings:
+
+Net income was €2.918 billion.
+
+Basic EPS was €7.59, up from €7.15 in Q1.
+
+No material non-operating item was identified as the principal cause of the beat.
+
+Profitability / Margins:
+
+Gross margin reached 54.0%, compared with guidance of 51%-52%.
+
+The beat was primarily driven by stronger Installed Base Management sales, which typically carry attractive margins and correlate with customer-fleet utilization.
+
+Key KPI:
+
+The principal KPI is 2027 customer commitment coverage.
+
+Management indicated that H1 order activity was extremely strong and that the company was already close to receiving the order volume required to support 2027 plans.
+
+This is particularly significant because ASML plans to expand 2027 low-NA EUV and DUV immersion capacity by approximately 30%.
+
+Guidance headline:
+
+Q3 revenue was guided to €11.0-€12.0 billion, with gross margin of 55%-57%.
+
+Full-year 2026 revenue guidance was raised to €43-€45 billion, with gross margin of 54%-56%.
+
+This compares with the previous €36-€40 billion revenue outlook.
+
+Capital allocation:
+
+ASML repurchased approximately €1.1 billion of shares during Q2.
+
+An interim dividend of €1.88 per ordinary share was declared for payment in August 2026.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Clean.
+
+Adjustment issue:
+
+No material non-operating gain, tax benefit, acquisition gain or fair-value adjustment was identified.
+
+The primary earnings upside came from stronger Installed Base Management revenue and operating mix.
+
+PM interpretation:
+
+Investors should focus on revenue guidance, gross margin, Installed Base Management sales, customer commitments and delivery capacity.
+
+Quarterly bookings are no longer disclosed, increasing the importance of management’s qualitative characterization of future orders and the annual backlog disclosure.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                   |        % of Total |             Revenue |    YoY Growth | Margin Trend | Key Commentary                                                                      |
+| ------------------------- | ----------------: | ------------------: | ------------: | ------------ | ----------------------------------------------------------------------------------- |
+| EUV systems               | Approximately 41% | Approximately €3.8B | Not confirmed | Positive     | Revenue included one High-NA system and continued strong low-NA EUV demand.         |
+| Non-EUV systems           | Approximately 30% | Approximately €2.8B | Not confirmed | Stable       | DUV immersion demand supports both leading-edge and mature-node capacity.           |
+| Installed Base Management | Approximately 30% |              €2.76B | Not confirmed | Improving    | Sales exceeded expectations by approximately €300M and drove the gross-margin beat. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The full-year revenue midpoint increased from €38 billion to €44 billion, representing approximately 16% growth in the guidance midpoint.
+
+The Q3 midpoint of €11.5 billion implies a substantial sequential increase and leaves the year heavily weighted toward second-half shipment execution.
+
+Management’s willingness to expand 2027 EUV and DUV capacity by approximately 30% is supported by customer commitments, but it also raises delivery, supply-chain and execution requirements.
+
+The removal of quarterly net-bookings disclosure reduces transparency at a sensitive point in the cycle. Management argues that bookings are lumpy, but investors now have less direct evidence with which to test the forward demand narrative.
+
+Revision direction: **Upward revisions.** Analysts must increase 2026 revenue, gross-margin, EPS and cash-generation assumptions. The stronger 2027 capacity and order language should also lift outer-year forecasts.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The market cared more about the guidance increase and 2027 visibility than the reported Q2 beat.
+
+Installed Base Management provided important demand-quality evidence. Service and upgrade revenue generally rises with tool utilization, making the €300 million upside a practical indication that installed semiconductor capacity is being used rather than merely built.
+
+The print directly challenges the semiconductor-overbuild narrative. ASML expects customer commitments to support roughly 30% additional low-NA EUV and DUV immersion capacity in 2027.
+
+The stock rose on the day of the report, then weakened during the broader semiconductor selloff following TSMC’s capex increase. These phases should not be conflated: ASML’s company-specific reaction was positive, while its subsequent move was sector-driven.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was customer commitment coverage for 2027 despite planned capacity expansion.
+
+The second-highest-quality signal was Installed Base Management strength, because it indicates high customer-fleet utilization rather than only future fab construction.
+
+The most fragile element is the back-end-loaded delivery plan. Q3 and Q4 must absorb much higher shipment and revenue recognition.
+
+The reduction in bookings disclosure is also analytically negative. It makes order push-outs or changes in mix harder to detect before they appear in annual backlog or revenue.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether AI-driven foundry spending could sustain another ASML guidance increase without creating future overcapacity. Q2 delivered a third raise and stronger-than-expected service activity, while customer commitments supported expanded 2027 capacity. The fundamental thesis improved even as the broader sector narrative turned more skeptical of capex.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+The market entered the print after substantial semiconductor weakness and with uncertainty over whether another guidance raise was possible. ASML delivered a material step-change above the bull-case debate.
+
+The positive initial reaction was justified. The subsequent weakness reflected the sector-wide repricing of AI capital expenditure rather than deterioration in ASML’s own order evidence.
+
+Further rerating requires Q3 and Q4 delivery execution, confirmation that 2027 commitments convert into shipments and no evidence of customer push-outs.
+
+The thesis would weaken if annual backlog indicates front-loaded orders, export restrictions reduce deliverable demand or capacity additions exceed customer deployment.
+
+Stock identity:
+
+**Quality compounder; expensive but deliverable; crowded long.**
+
+ASML remains the highest-quality monopoly-like asset in semiconductor equipment. The print reinforced that identity, but its valuation leaves the stock highly exposed to any weakening in order transparency or leading-edge capital expenditure.
+
+MARKET REACTION / PEER READ-ACROSS
+
+ASML gained approximately 2.9% in the immediate print session and extended the move after hours.
+
+The stock was subsequently pulled into the semiconductor-sector drawdown following TSMC’s larger capex program and broader geopolitical concerns.
+
+The read-across is constructive for semiconductor-equipment demand, particularly EUV, DUV immersion, upgrades and service activity.
+
+The market’s interpretation contains a tension: TSMC’s spending is ASML’s revenue. The sector cannot indefinitely price the same capex as both a foundry liability and an equipment-supplier demand negative.
+
+KEY ISSUES TO MONITOR
+
+1. 2027 customer commitments / Why it matters: They must convert into non-cancellable shipments to validate the capacity expansion.
+
+2. Back-end-loaded 2026 revenue / Why it matters: Delivery timing creates execution and revenue-recognition risk in Q3 and Q4.
+
+3. Installed Base Management / Why it matters: Continued service strength would confirm high wafer-fab utilization.
+
+4. Reduced bookings disclosure / Why it matters: Lower transparency makes order deterioration harder to detect.
+
+5. Export restrictions / Why it matters: Further controls could prevent booked systems or services from converting into revenue.
+
+BOTTOM LINE
+
+ASML delivered one of the strongest fundamental prints in the AI supply chain.
+
+Revenue, margin and full-year guidance all exceeded expectations, while 2027 commitments support materially higher capacity.
+
+The initial positive reaction was company-specific; the subsequent weakness was imposed by the wider semiconductor capex selloff.
+
+The next test is execution and order conversion, not near-term demand discovery.
+
+<<ASML_EARNINGS_END>>
+
+<<TSM_EARNINGS_BEGIN>>
+TICKER: TSM
+COMPANY: Taiwan Semiconductor Manufacturing Company
+SECTOR: Information Technology
+SUBSECTOR: Semiconductor Foundry / Advanced Nodes / AI Infrastructure
+COUNTRY: Taiwan
+PUBLICATION_DATE: 2026-07-16
+EVENT: Q2 2026 earnings
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Taiwan shares rose approximately 1%, but the U.S. ADR declined roughly 6% over two sessions as investors repriced capex, free cash flow and overseas-fab dilution.
+PM_READ: TSMC materially raised its demand and revenue trajectory, but the market shifted from valuing AI scarcity to penalizing the spending required to supply it.
+THEME_BUCKETS: AI Infrastructure, Semiconductors, Capex / FCF Tension, Guidance Reset
+THEMES: advanced-node demand, N2 ramp, HPC mix, AI accelerators, agentic AI CPUs, advanced packaging, Arizona investment, free-cash-flow pressure, overseas-fab dilution
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+TSMC reported Q2 revenue of NT$1.27 trillion, equivalent to approximately $40.2 billion, net income of NT$706.6 billion and diluted EPS of NT$27.25, equivalent to approximately $4.31 per ADR. Revenue increased 36% in New Taiwan dollars and gross margin reached a record 67.7%.
+
+Management guided Q3 revenue to $44.6-$45.8 billion and raised full-year U.S.-dollar revenue growth to slightly above 40%. Fiscal-year capital expenditure increased to $60-$64 billion from $52-$56 billion, while total planned U.S. investment increased by another $100 billion to approximately $265 billion.
+
+The operating result improved across every major demand indicator, but the U.S.-listed shares sold off. Investors shifted their focus from AI demand scarcity toward capital intensity, free-cash-flow timing, overseas-fab dilution and the possibility that spending is approaching an overbuild threshold.
+
+TSMC’s official results show Q2 revenue of $40.2 billion, gross margin of 67.7%, operating margin of 60.3% and Q3 guidance of $44.6-$45.8 billion. ([TSMC][3])
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                    Actual |                                                  Consensus / Prior |      Beat / Miss |                YoY |                 QoQ | PM Comment                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------: | -----------------------------------------------------------------: | ---------------: | -----------------: | ------------------: | ----------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                                        NT$1.270T; $40.20B | $39.0B-$40.2B company guide; approximately $39.9B-$40.0B consensus | Beat at high end | +36% in NT dollars |                +12% | Monthly sales had pre-signaled most of the revenue strength.                                    |
+| EPS / Earnings         |                                     NT$27.25; approximately $4.31 per ADR |                                          $3.80-$3.83 ADR consensus |             Beat |    +77% net income |       Not confirmed | Record margins and advanced-node mix produced a larger EPS beat than the revenue surprise.      |
+| Profitability / Margin |                                67.7% gross margin; 60.3% operating margin | 65.5%-67.5% gross-margin guide; 56.5%-58.5% operating-margin guide |             Beat |           Improved | +1.5pp gross margin | Pricing, utilization and advanced-node mix offset overseas-fab costs.                           |
+| Guidance / Outlook     | Q3 revenue $44.6B-$45.8B; FY26 growth slightly above 40%; capex $60B-$64B |     Prior FY growth approximately above 30%; prior capex $52B-$56B |   Beat and raise |     Not applicable |   Material increase | Revenue estimates rise, but capex and free-cash-flow assumptions deteriorate.                   |
+| Market reaction        |  Taiwan shares approximately +1%; ADR approximately -6% over two sessions |                                                     Not applicable |         Negative |     Not applicable |      Not applicable | Local investors emphasized demand; U.S. investors emphasized spending, margins and positioning. |
+
+SECTOR KPI TABLE
+
+| KPI                                    |                               Actual |                  Prior / Benchmark |             Change | PM Comment                                                                                     |
+| -------------------------------------- | -----------------------------------: | ---------------------------------: | -----------------: | ---------------------------------------------------------------------------------------------- |
+| High-performance-computing revenue mix |                                  66% |    Prior-quarter mix not confirmed |           Dominant | AI and data-center silicon now represent the central revenue engine.                           |
+| 3nm share of wafer revenue             |                                  30% | Prior-quarter figure not confirmed |             Strong | Advanced-node demand remained exceptionally high.                                              |
+| 5nm share of wafer revenue             |                                  33% | Prior-quarter figure not confirmed |             Strong | Combined 3nm and 5nm represented nearly two-thirds of wafer revenue.                           |
+| 2nm share of wafer revenue             |                                   3% |       First disclosed contribution |                New | N2 is beginning to contribute but will dilute near-term gross margin during the ramp.          |
+| Q3 revenue midpoint                    |                               $45.2B |                   $40.2B Q2 actual | +12% approximately | The guide extends the revenue acceleration into the September quarter.                         |
+| FY26 capex                             |                            $60B-$64B |            $52B-$56B prior outlook | +15% approximately | The increase was the central reason for the negative ADR reaction.                             |
+| Q2 capital expenditure                 |                 Approximately $15.7B | Prior-quarter figure not confirmed |               High | Capital spending is rising rapidly before the resulting depreciation and revenue fully arrive. |
+| Advanced-packaging capex allocation    | Approximately 10%-20% of total capex |     Prior allocation not confirmed |           Material | Packaging has become a binding constraint alongside leading-edge wafer capacity.               |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Revenue reached NT$1.270 trillion, equivalent to approximately $40.2 billion.
+
+Revenue increased 36% year over year in New Taiwan dollars and approximately 34% in U.S. dollars.
+
+High-performance computing represented 66% of revenue.
+
+Consensus:
+
+Revenue was near the top of management’s $39.0-$40.2 billion range and marginally above the prevailing consensus.
+
+The larger surprise came from margins and EPS rather than revenue, because monthly sales had already revealed much of the topline outcome.
+
+EPS / Earnings:
+
+Net income reached NT$706.6 billion, up approximately 77% year over year.
+
+Diluted EPS was NT$27.25, equivalent to approximately $4.31 per ADR.
+
+TSMC reports on a GAAP basis, and no material non-operating distortion was identified.
+
+Profitability / Margins:
+
+Gross margin reached a record 67.7%.
+
+Operating margin was 60.3%, and net margin was 55.6%.
+
+Management expects N2 ramp costs to reduce second-half gross margin by approximately three to four percentage points, while overseas fabs currently dilute margin by roughly two to three percentage points.
+
+Key KPI:
+
+The decisive KPI is the gap between leading-edge demand and available supply.
+
+Management described the gap as very large and indicated strong demand visibility through the end of the decade, while also acknowledging that advanced packaging remains a constraint for some customers.
+
+Guidance headline:
+
+Q3 revenue was guided to $44.6-$45.8 billion.
+
+Q3 gross margin was guided to 65%-67%, and operating margin to 56%-58%.
+
+Full-year revenue growth in U.S. dollars was raised to slightly above 40%.
+
+Full-year capital expenditure increased to $60-$64 billion.
+
+Capital allocation:
+
+Q2 capital expenditure was approximately NT$496 billion, equivalent to about $15.7 billion.
+
+First-half capex was approximately $26.8 billion, requiring quarterly spending of roughly $16.6-$18.6 billion during the second half to reach the new target.
+
+Cash from operations remained extremely strong, but free cash flow declined sequentially because capital expenditure accelerated.
+
+TSMC also increased its planned U.S. investment by approximately $100 billion, taking the total commitment to around $265 billion.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Clean.
+
+Adjustment issue:
+
+No material non-operating gain, tax benefit, acquisition gain or fair-value item distorted the quarter.
+
+The principal quality issue is economic rather than accounting: reported earnings are strong today, while the cash cost of future capacity is being incurred immediately.
+
+PM interpretation:
+
+Investors should focus on gross margin, operating margin, capex, free cash flow, advanced-node mix and packaging capacity.
+
+GAAP earnings remain clean, but free cash flow is the better measure for evaluating the cost of the capacity expansion.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment                    |           % of Total |                                 Revenue | YoY Growth | Margin Trend         | Key Commentary                                                                                      |
+| -------------------------- | -------------------: | --------------------------------------: | ---------: | -------------------- | --------------------------------------------------------------------------------------------------- |
+| High-performance computing |                  66% |                Not disclosed separately |     Strong | Positive             | AI accelerators, data-center CPUs and networking silicon remain the principal growth drivers.       |
+| Other platforms            |                  34% |                Not disclosed separately |      Mixed | Mixed                | Smartphone and AI-adjacent mature-node demand coexist with weaker consumer mature-node utilization. |
+| 3nm technology             | 30% of wafer revenue |                Not disclosed separately |     Strong | Accretive            | Advanced-node demand remains capacity constrained.                                                  |
+| 5nm technology             | 33% of wafer revenue |                Not disclosed separately |     Strong | Accretive            | The node remains a major contributor across AI and high-performance-computing products.             |
+| 2nm technology             |  3% of wafer revenue | Not applicable in prior-year comparison |   New ramp | Dilutive during ramp | N2 provides a new growth leg but creates near-term startup and depreciation pressure.               |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The full-year revenue outlook materially improved, but the capex increase changed the valuation debate.
+
+TSMC is no longer being viewed solely as the beneficiary of hyperscaler and semiconductor capital expenditure. It is increasingly being treated as one of the largest direct capital spenders in the AI ecosystem.
+
+The $60-$64 billion capex plan requires a meaningful H2 spending acceleration. This reduces near-term free cash flow before associated revenue and depreciation arrive.
+
+Management argued that demand verification is rigorous, including checks on customers’ physical data-center deployments and equipment installations. This is an important internal control against speculative inventory accumulation.
+
+Revision direction: **Upward earnings revisions with downward free-cash-flow revisions.** Analysts should raise revenue and EPS while increasing capex, depreciation and overseas-fab dilution assumptions.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The reported quarter contained no obvious fundamental deterioration. Revenue, earnings, margins, advanced-node demand and forward guidance all improved.
+
+The stock nevertheless declined because the market changed the object it was pricing. Investors moved from valuing scarcity and pricing power to evaluating the cash cost required to satisfy that demand.
+
+The result is a strong narrative-versus-data divergence. The data argue that demand remains substantially above supply; the market argues that spending itself is now the risk.
+
+The Taiwan-listed shares rose while the U.S. ADR fell materially. That divergence suggests that the capex-risk premium was concentrated in U.S. positioning and semiconductor-complex flows rather than in local interpretation of the operating result.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality signal was the Q3 revenue guide and the increase in full-year growth to slightly above 40%.
+
+The second-highest-quality signal was management’s direct verification of customers’ physical AI deployment. This reduces, but does not eliminate, overbuild risk.
+
+The most fragile signal is free cash flow. H2 capital expenditure must accelerate sharply, while N2 and overseas-fab costs will reduce near-term margins.
+
+The next model debate is therefore not demand. It is whether revenue and capacity utilization arrive quickly enough to outrun depreciation, startup costs and geopolitical duplication.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+The prior debate was whether AI demand could remain strong enough to justify higher leading-edge and packaging capacity. Q2 increased demand visibility, revenue guidance and margin evidence, but also raised the spending required to deliver that growth. The fundamental state improved while the market’s valuation framework shifted toward capital discipline.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+The market was pricing a strong result after a substantial pre-print rally. TSMC exceeded the earnings bar but raised capex enough to create a new free-cash-flow and valuation debate.
+
+The negative ADR reaction therefore reflected both positioning and a genuine change in the investment profile. The stock is now being judged on the return earned on incremental capacity rather than on demand alone.
+
+Further rerating requires hyperscalers to maintain or increase capex, advanced-packaging orders to remain firm and N2 margin dilution to stay within the disclosed range.
+
+The thesis would weaken if customer deployment checks lead to wafer-start reductions, packaging orders are delayed or the next capex outlook falls below management’s higher three-year trajectory.
+
+Stock identity:
+
+**Quality compounder; crowded long; expensive but deliverable; setup-risk stock.**
+
+The print reinforces TSMC’s technological and demand leadership while increasing the capital intensity required to sustain it. The company remains the sector’s highest-quality foundry, but its stock has crossed into a regime where earnings beats alone may not produce rerating.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Taiwan-listed shares gained approximately 1% after the report, while the U.S. ADR declined approximately 2.2% on the first session and another 3%-4% on the following day.
+
+The reaction combined company-specific capex repricing, an existing semiconductor drawdown and broader geopolitical pressure.
+
+The immediate read-across was negative for Nvidia, AMD, Micron and Intel because investors treated TSMC’s higher spending as evidence of rising ecosystem capital intensity.
+
+The read-across for ASML and equipment suppliers should theoretically be positive because TSMC’s capex becomes their revenue. The fact that equipment names also weakened reveals an internally inconsistent sector parse.
+
+KEY ISSUES TO MONITOR
+
+1. H2 capex execution / Why it matters: Spending must convert into revenue-bearing capacity quickly enough to preserve free-cash-flow quality.
+
+2. N2 gross-margin dilution / Why it matters: Dilution above the disclosed three-to-four-point range would challenge the margin outlook.
+
+3. Advanced-packaging constraints / Why it matters: CoWoS and related capacity may remain the binding limit on AI accelerator shipments.
+
+4. Hyperscaler capex / Why it matters: Customer spending plans are the external validation test for TSMC’s demand assumptions.
+
+5. Overseas-fab economics / Why it matters: Arizona and other international fabs increase resilience but structurally dilute margins.
+
+BOTTOM LINE
+
+TSMC delivered a record quarter and materially increased the earnings trajectory.
+
+The stock fell because the market shifted from rewarding AI scarcity to penalizing the spending required to supply it.
+
+Fundamentals improved, but free cash flow, depreciation and overseas-fab dilution are now the valuation battleground.
+
+The next arbitration event is hyperscaler capex guidance: sustained customer spending would validate TSMC’s expansion and expose the current sector selloff as a positioning reset rather than an earnings break.
+
+<<TSM_EARNINGS_END>>
+
+
+
+
+
 
 <<EARNINGS_RELEASES_BY_STOCK_END>>
 
