@@ -1,6 +1,12 @@
-"""Earnings module — parses Q1 2026 earnings recap + stock-by-stock notes."""
+"""Earnings module — parses per-quarter earnings recap + stock-by-stock notes."""
 
-from .loader import load_text_from_github, load_recap_text, load_stock_text
+from .loader import (
+    AVAILABLE_QUARTERS,
+    DEFAULT_QUARTER,
+    load_text_from_github,
+    load_recap_text,
+    load_stock_text,
+)
 from .parsers import (
     parse_earnings_recap,
     parse_scout_tracker,
@@ -14,6 +20,8 @@ from .parsers import (
 )
 
 __all__ = [
+    "AVAILABLE_QUARTERS",
+    "DEFAULT_QUARTER",
     "load_text_from_github",
     "load_recap_text",
     "load_stock_text",

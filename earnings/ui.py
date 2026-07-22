@@ -13,7 +13,12 @@ import pandas as pd
 import streamlit as st
 
 from . import styles
-from .loader import load_recap_text, load_stock_text
+from .loader import (
+    AVAILABLE_QUARTERS,
+    DEFAULT_QUARTER,
+    load_recap_text,
+    load_stock_text,
+)
 from .parsers import (
     IMPORTANCE_LEVELS,
     STATE_TRANSITIONS,
@@ -31,10 +36,46 @@ def render_earnings_tab() -> None:
     """Render the full 'Earnings' tab. Call this from your main app."""
     styles.inject()
 
+    # ---- quarter toggle (drives every section below) ---------------------
+    # A single season selector, defaulting to the latest quarter. All five
+    # sections read from the recap + by-stock files of the selected quarter,
+    # so the toggle is effectively global for this screen.
+    _qcol, _sp, _bcol = st.columns([1.3, 3.7, 1.2])
+    with _qcol:
+        quarter = st.selectbox(
+            "Quarter",
+            AVAILABLE_QUARTERS,
+            index=AVAILABLE_QUARTERS.index(DEFAULT_QUARTER),
+            key="earnings_quarter",
+            label_visibility="collapsed",
+            help="Earnings season shown in every section",
+        )
+    with _bcol:
+        # Reload button — clears the 30-min loader cache and re-fetches the
+        # latest files from GitHub on the next run.
+        if st.button(
+            "🔄 Reload data",
+            help="Clear the cache and re-fetch the latest files from GitHub",
+            width="stretch",
+        ):
+            st.cache_data.clear()
+            st.rerun()
+
+    # When the quarter changes, drop all section-scoped widget state (filters,
+    # selections, search boxes). Options differ between seasons — a stale
+    # multiselect value that no longer exists in the new quarter's options
+    # would make Streamlit raise — and a clean slate is the sane UX anyway.
+    # Safe to delete here: no section widget has been instantiated yet this run.
+    if st.session_state.get("_earnings_active_quarter") != quarter:
+        for _k in list(st.session_state.keys()):
+            if _k.startswith(("cn_", "sec_", "scout_", "themes_")):
+                del st.session_state[_k]
+        st.session_state["_earnings_active_quarter"] = quarter
+
     # Load + parse (cached at the loader layer)
     try:
-        recap_text, recap_src = load_recap_text()
-        stock_text, stock_src = load_stock_text()
+        recap_text, recap_src = load_recap_text(quarter)
+        stock_text, stock_src = load_stock_text(quarter)
     except FileNotFoundError as e:
         st.error(str(e))
         return
@@ -44,18 +85,6 @@ def render_earnings_tab() -> None:
     company_df = build_company_dataframe(company_blocks)
 
     _render_header(recap["meta"], recap_src, stock_src)
-
-    # Reload button — clears the 30-min loader cache and re-fetches the
-    # latest files from GitHub on the next run.
-    _hcol, _bcol = st.columns([5, 1])
-    with _bcol:
-        if st.button(
-            "🔄 Reload data",
-            help="Clear the cache and re-fetch the latest files from GitHub",
-            width="stretch",
-        ):
-            st.cache_data.clear()
-            st.rerun()
 
     # Streamlit discards a widget's state if that widget isn't rendered on a
     # given run. Because only one section below renders at a time, switching
