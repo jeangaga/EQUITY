@@ -61,15 +61,29 @@ def render_earnings_tab() -> None:
             st.cache_data.clear()
             st.rerun()
 
-    # When the quarter changes, drop all section-scoped widget state (filters,
+    # When the quarter changes, reset all section-scoped widget state (filters,
     # selections, search boxes). Options differ between seasons — a stale
     # multiselect value that no longer exists in the new quarter's options
     # would make Streamlit raise — and a clean slate is the sane UX anyway.
-    # Safe to delete here: no section widget has been instantiated yet this run.
+    #
+    # IMPORTANT: reset by *assignment*, never ``del``. Deleting the key of a
+    # widget that was instantiated on the previous run desyncs Streamlit: the
+    # frontend keeps showing the old value (e.g. a "Financials" chip in the
+    # Sector multiselect) while the server-side value silently resets to
+    # empty, so the filter looks active but matches nothing. Assigning an
+    # empty value propagates to the frontend and actually clears the widget.
     if st.session_state.get("_earnings_active_quarter") != quarter:
         for _k in list(st.session_state.keys()):
             if _k.startswith(("cn_", "sec_", "scout_", "themes_")):
-                del st.session_state[_k]
+                _v = st.session_state[_k]
+                if isinstance(_v, list):
+                    st.session_state[_k] = []          # multiselects
+                elif isinstance(_v, str):
+                    st.session_state[_k] = ""          # search boxes
+                elif _k == "themes_min_n":
+                    st.session_state[_k] = 2           # slider min_value
+                elif isinstance(_v, int):
+                    st.session_state[_k] = 0           # cn_ticker index
         st.session_state["_earnings_active_quarter"] = quarter
 
     # Load + parse (cached at the loader layer)
@@ -437,7 +451,8 @@ def _render_scout_tracker(
 
     st.caption(
         f"Showing {len(view)} of {len(company_df)} releases — "
-        f"click a row to open its full note below"
+        f"select one or more rows to open the full notes below "
+        f"(and download them as .txt)"
     )
 
     # Hide helper / verbose columns; keep the scan-friendly ones.
@@ -448,7 +463,7 @@ def _render_scout_tracker(
         hide_index=True,
         width="stretch",
         on_select="rerun",
-        selection_mode="single-row",
+        selection_mode="multi-row",
         # NB: key is intentionally NOT prefixed cn_/sec_/scout_/themes_ so the
         # session_state keep-alive bounce skips it — a dataframe's selection
         # state can't be re-assigned via the API and would raise if bounced.
@@ -464,16 +479,38 @@ def _render_scout_tracker(
         },
     )
 
-    # ---- selected row -> full earnings note ------------------------------
+    # ---- selected rows -> full earnings notes + .txt download ------------
     selected_rows = event.selection.rows
     if selected_rows:
-        ticker = view.iloc[selected_rows[0]]["Ticker"]
-        block = next((c for c in company_blocks if c["ticker"] == ticker), None)
-        st.markdown("---")
-        if block is not None:
+        tickers = [view.iloc[i]["Ticker"] for i in selected_rows]
+        sel_blocks = [
+            b
+            for t in tickers
+            for b in (next((c for c in company_blocks if c["ticker"] == t), None),)
+            if b is not None
+        ]
+        missing = [t for t in tickers if all(b["ticker"] != t for b in sel_blocks)]
+
+        if sel_blocks:
+            quarter = st.session_state.get("earnings_quarter", "")
+            txt = _notes_to_txt(sel_blocks, quarter=quarter)
+            tag = quarter.replace(" ", "_") if quarter else "EARNINGS"
+            if len(sel_blocks) <= 6:
+                name_part = "_".join(b["ticker"] for b in sel_blocks)
+            else:
+                name_part = f"{len(sel_blocks)}_stocks"
+            st.download_button(
+                f"⬇️ Download {len(sel_blocks)} note(s) as .txt",
+                data=txt,
+                file_name=f"EARNINGS_NOTES_{tag}_{name_part}.txt",
+                mime="text/plain",
+                key="tracker_download",
+            )
+        for t in missing:
+            st.info(f"No full note found for {t}.")
+        for block in sel_blocks:
+            st.markdown("---")
             _render_company_block(block, in_expander=False)
-        else:
-            st.info(f"No full note found for {ticker}.")
 
 
 # ---------------------------------------------------------------------------
@@ -771,6 +808,121 @@ def _format_paragraphs(text: str) -> str:
     text = text.replace("$", r"\$")
     paras = [p.strip() for p in text.split("\n\n") if p.strip()]
     return "\n\n".join(paras)
+
+
+# ---------------------------------------------------------------------------
+# Plain-text export (Scout Tracker download)
+# ---------------------------------------------------------------------------
+
+
+def _df_to_txt(df) -> str:
+    """Render a parsed table DataFrame as aligned plain text."""
+    if df is None or df.empty:
+        return ""
+    return df.to_string(index=False)
+
+
+def _company_block_to_txt(c: dict[str, Any]) -> str:
+    """Serialize one company note to plain text, mirroring the on-screen
+    layout of :func:`_render_company_block` (same content, same order)."""
+    lines: list[str] = []
+    rule = "=" * 78
+    lines.append(rule)
+    lines.append(f"{c['ticker']} — {c['company']}")
+    lines.append(rule)
+
+    display_sector = c.get("display_sector") or c.get("sector", "")
+    display_subsector = c.get("display_subsector", "")
+    sector_text = display_sector
+    if display_subsector:
+        sector_text = f"{display_sector} / {display_subsector}"
+    meta_rows = [
+        ("Sector", sector_text),
+        ("Country", c.get("country", "")),
+        ("Publication date", c.get("publication_date") or c.get("publi_date", "")),
+        ("Event", c.get("event", "")),
+        ("Importance", c.get("importance", "")),
+        ("State transition", c.get("state_transition", "")),
+        ("Market reaction", c.get("market_reaction", "")),
+        ("Market reaction detail", c.get("market_reaction_detail", "")),
+        ("Themes", ", ".join(c.get("themes", []))),
+    ]
+    for label, value in meta_rows:
+        if value:
+            lines.append(f"{label}: {value}")
+
+    pm_read = c.get("pm_read", "")
+    if pm_read:
+        lines.append("")
+        lines.append(f"PM READ: {pm_read}")
+
+    sections = c["sections"]
+
+    def add_section(title: str, body: str) -> None:
+        body = (body or "").strip()
+        if not body:
+            return
+        lines.append("")
+        lines.append(f"--- {title} ---")
+        lines.append(body)
+
+    add_section("EXEC SUMMARY", sections.get("EXEC SUMMARY", ""))
+
+    # Tables: prefer the parsed DataFrame (clean alignment), fall back to the
+    # raw section text so nothing displayed on screen is missing from the txt.
+    headline_txt = _df_to_txt(c.get("headline_table")) or sections.get(
+        "HEADLINE EARNINGS TABLE", ""
+    )
+    add_section("HEADLINE EARNINGS TABLE", headline_txt)
+
+    kpi_txt = _df_to_txt(c.get("sector_kpi_table")) or sections.get(
+        "SECTOR KPI TABLE", ""
+    )
+    add_section("SECTOR KPI TABLE", kpi_txt)
+
+    seg_status = (c.get("segment_table_status") or "").strip()
+    seg_parts: list[str] = []
+    if seg_status:
+        seg_parts.append(f"[Status: {seg_status}]")
+    if seg_status.lower() != "not meaningful":
+        seg_txt = _df_to_txt(c.get("segment_table"))
+        if seg_txt:
+            seg_parts.append(seg_txt)
+    seg_commentary = sections.get("SEGMENT / BUSINESS BREAKDOWN", "").strip()
+    if seg_commentary:
+        seg_parts.append(seg_commentary)
+    add_section("SEGMENT / BUSINESS BREAKDOWN", "\n\n".join(seg_parts))
+
+    add_section(
+        "HF TAKE — STRATEGIST LAYER", sections.get("HF TAKE — STRATEGIST LAYER", "")
+    )
+
+    # Remaining sections, same canonical order as the on-screen expanders.
+    expander_order = [
+        "OFFICIAL EARNINGS DETAIL",
+        "GUIDANCE / CAPITAL ALLOCATION",
+        "PROFESSIONAL MARKET COMMENTARY",
+        "COMMENT — ANALYST LAYER",
+        "CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE",
+        "MARKET REACTION / PEER READ-ACROSS",
+        "KEY ISSUES TO MONITOR",
+    ]
+    for name in expander_order:
+        add_section(name, sections.get(name, ""))
+
+    add_section("BOTTOM LINE", sections.get("BOTTOM LINE", ""))
+
+    return "\n".join(lines)
+
+
+def _notes_to_txt(blocks: list[dict[str, Any]], *, quarter: str = "") -> str:
+    """Serialize several company notes into one downloadable .txt document."""
+    header = "EARNINGS NOTES EXPORT"
+    if quarter:
+        header += f" — {quarter}"
+    header += f" — {len(blocks)} stock(s): " + ", ".join(b["ticker"] for b in blocks)
+    body = "\n\n\n".join(_company_block_to_txt(b) for b in blocks)
+    return f"{header}\n\n{body}\n"
 
 
 # ---------------------------------------------------------------------------
