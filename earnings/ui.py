@@ -518,14 +518,17 @@ def _render_scout_tracker(
         # Comes AFTER the current-quarter notes above: lets the PM pull up
         # what was written on the same names in earlier earnings seasons.
         if sel_blocks:
-            _render_scout_previous_quarters(
-                [b["ticker"] for b in sel_blocks]
+            _render_previous_quarters(
+                [b["ticker"] for b in sel_blocks], key_prefix="scout_"
             )
 
 
-def _render_scout_previous_quarters(tickers: list[str]) -> None:
-    """Bottom-of-page block: show the selected stocks' notes from an earlier
-    earnings season, with its own .txt download.
+def _render_previous_quarters(tickers: list[str], *, key_prefix: str) -> None:
+    """Bottom-of-page block: show the given stocks' notes from an earlier
+    earnings season, with its own .txt download. Shared by Scout Tracker
+    (``key_prefix="scout_"``) and Company Notes (``key_prefix="cn_"``) — the
+    prefix keeps each section's toggle state independent while still being
+    covered by the keep-alive bounce and the quarter-change reset.
 
     The quarter toggle lists every season older than the currently active one
     (``AVAILABLE_QUARTERS`` is newest-first). Nothing is fetched or rendered
@@ -545,21 +548,22 @@ def _render_scout_previous_quarters(tickers: list[str]) -> None:
 
     # Index-based radio so the session value is always a valid int (a label
     # string could go stale when the available list changes with the quarter).
-    if st.session_state.get("scout_prev_q", 0) not in range(len(prev_quarters)):
-        st.session_state["scout_prev_q"] = 0
+    _q_key = f"{key_prefix}prev_q"
+    if st.session_state.get(_q_key, 0) not in range(len(prev_quarters)):
+        st.session_state[_q_key] = 0
     prev_idx = st.radio(
         "Previous quarter",
         range(len(prev_quarters)),
         format_func=lambda i: prev_quarters[i],
         horizontal=True,
-        key="scout_prev_q",
+        key=_q_key,
         label_visibility="collapsed",
     )
     prev_q = prev_quarters[prev_idx]
 
     show = st.toggle(
         f"Show {prev_q} earnings comments for: {', '.join(tickers)}",
-        key="scout_prev_show",
+        key=f"{key_prefix}prev_show",
     )
     if not show:
         return
@@ -590,10 +594,11 @@ def _render_scout_previous_quarters(tickers: list[str]) -> None:
         data=txt,
         file_name=f"EARNINGS_NOTES_{tag}_{name_part}.txt",
         mime="text/plain",
-        # NB: deliberately NOT scout_-prefixed — button session values cannot
-        # be (re-)assigned via st.session_state, so the keep-alive bounce and
-        # the quarter-change reset must skip this key (same as tracker_table).
-        key="tracker_prev_download",
+        # NB: deliberately NOT cn_/scout_-prefixed — button session values
+        # cannot be (re-)assigned via st.session_state, so the keep-alive
+        # bounce and the quarter-change reset must skip this key (same as
+        # tracker_table).
+        key=f"prev_dl_{key_prefix.rstrip('_')}",
     )
     for b in found:
         st.markdown("---")
@@ -609,8 +614,33 @@ def _render_company_notes(
     company_blocks: list[dict[str, Any]],
     company_df: pd.DataFrame,
 ) -> None:
-    if not company_blocks:
-        st.info("No full company notes found in stock file.")
+    # ---- cross-quarter company universe ----------------------------------
+    # The filters / search must find every company covered in ANY quarter,
+    # not just the active one. Build one entry per ticker: the active-quarter
+    # block when it exists, otherwise the most recent older-quarter block
+    # (AVAILABLE_QUARTERS is newest-first, so first hit wins). Filters and
+    # search then run against that "latest known" block.
+    active_q = st.session_state.get("earnings_quarter", DEFAULT_QUARTER)
+    universe: dict[str, dict[str, Any]] = {
+        c["ticker"]: {"block": c, "quarter": active_q, "in_active": True}
+        for c in company_blocks
+    }
+    try:
+        older_quarters = AVAILABLE_QUARTERS[AVAILABLE_QUARTERS.index(active_q) + 1:]
+    except ValueError:
+        older_quarters = []
+    for q in older_quarters:
+        try:
+            prev_text, _src = load_stock_text(q)
+        except FileNotFoundError:
+            continue
+        for c in parse_company_blocks(prev_text):
+            if c["ticker"] not in universe:
+                universe[c["ticker"]] = {"block": c, "quarter": q, "in_active": False}
+
+    entries = list(universe.values())
+    if not entries:
+        st.info("No full company notes found in any quarter's stock file.")
         return
 
     # ---- left controls (top of page on narrow viewports) -----------------
@@ -618,25 +648,29 @@ def _render_company_notes(
 
     with left:
         st.markdown("**Filters**")
+        blocks_all = [e["block"] for e in entries]
         # Prefer the display_sector (v2.3 SECTOR) so legacy + v2.3 blocks group
         # under the same top-level sector value.
         sectors = sorted({
             (c.get("display_sector") or c.get("sector", ""))
-            for c in company_blocks
+            for c in blocks_all
             if c.get("display_sector") or c.get("sector")
         })
         sector_sel = st.multiselect("Sector", sectors, key="cn_sector")
 
-        imp_present = [i for i in reversed(IMPORTANCE_LEVELS) if any(c["importance"] == i for c in company_blocks)]
+        imp_present = [i for i in reversed(IMPORTANCE_LEVELS) if any(c["importance"] == i for c in blocks_all)]
         imp_sel = st.multiselect("Importance", imp_present, key="cn_imp")
 
-        states_present = [s for s in STATE_TRANSITIONS if any(c["state_transition"] == s for c in company_blocks)]
+        states_present = [s for s in STATE_TRANSITIONS if any(c["state_transition"] == s for c in blocks_all)]
         state_sel = st.multiselect("State transition", states_present, key="cn_state")
 
         search = st.text_input("Search", "", placeholder="Free text…", key="cn_search")
 
-        # Apply filters to derive the ticker selectbox options
-        def keep(c: dict[str, Any]) -> bool:
+        # Apply filters to derive the ticker selectbox options. For a company
+        # absent from the active quarter, this filters on its latest known
+        # note (importance / state / text from the older season).
+        def keep(e: dict[str, Any]) -> bool:
+            c = e["block"]
             sector_for_filter = c.get("display_sector") or c.get("sector", "")
             if sector_sel and sector_for_filter not in sector_sel:
                 return False
@@ -655,12 +689,16 @@ def _render_company_notes(
                     return False
             return True
 
-        filtered = [c for c in company_blocks if keep(c)]
+        filtered = [e for e in entries if keep(e)]
         if not filtered:
             st.warning("No matches.")
             return
 
-        labels = [f"{c['ticker']} — {c['company']}" for c in filtered]
+        labels = [
+            f"{e['block']['ticker']} — {e['block']['company']}"
+            + ("" if e["in_active"] else f"  (no {active_q} release)")
+            for e in filtered
+        ]
         # The cn_ticker selection is kept alive across section switches, but a
         # previous (longer) filter set could leave it pointing past the end of
         # a now-shorter list. Clamp it before the widget renders.
@@ -675,7 +713,16 @@ def _render_company_notes(
         selected = filtered[idx]
 
     with right:
-        _render_company_block(selected, in_expander=False)
+        block = selected["block"]
+        if selected["in_active"]:
+            _render_company_block(block, in_expander=False)
+        else:
+            st.markdown(f"## {html.escape(block['ticker'])} — {html.escape(block['company'])}")
+            st.info(f"Not yet released or commented in {active_q}.")
+        # Previous earnings seasons for this name — shown in ALL cases, so an
+        # older note is always one toggle away (and the only content when the
+        # company hasn't reported in the active quarter yet).
+        _render_previous_quarters([block["ticker"]], key_prefix="cn_")
 
 
 def _render_company_block(c: dict[str, Any], *, in_expander: bool) -> None:
