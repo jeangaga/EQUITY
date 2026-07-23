@@ -80,10 +80,12 @@ def render_earnings_tab() -> None:
                     st.session_state[_k] = []          # multiselects
                 elif isinstance(_v, str):
                     st.session_state[_k] = ""          # search boxes
+                elif isinstance(_v, bool):             # toggles (check before
+                    st.session_state[_k] = False       # int: bool is an int!)
                 elif _k == "themes_min_n":
                     st.session_state[_k] = 2           # slider min_value
                 elif isinstance(_v, int):
-                    st.session_state[_k] = 0           # cn_ticker index
+                    st.session_state[_k] = 0           # index-based widgets
         st.session_state["_earnings_active_quarter"] = quarter
 
     # Load + parse (cached at the loader layer)
@@ -511,6 +513,91 @@ def _render_scout_tracker(
         for block in sel_blocks:
             st.markdown("---")
             _render_company_block(block, in_expander=False)
+
+        # ---- previous-quarter notes for the selected stocks --------------
+        # Comes AFTER the current-quarter notes above: lets the PM pull up
+        # what was written on the same names in earlier earnings seasons.
+        if sel_blocks:
+            _render_scout_previous_quarters(
+                [b["ticker"] for b in sel_blocks]
+            )
+
+
+def _render_scout_previous_quarters(tickers: list[str]) -> None:
+    """Bottom-of-page block: show the selected stocks' notes from an earlier
+    earnings season, with its own .txt download.
+
+    The quarter toggle lists every season older than the currently active one
+    (``AVAILABLE_QUARTERS`` is newest-first). Nothing is fetched or rendered
+    until the user flips the show toggle on.
+    """
+    current_q = st.session_state.get("earnings_quarter", DEFAULT_QUARTER)
+    try:
+        prev_quarters = AVAILABLE_QUARTERS[AVAILABLE_QUARTERS.index(current_q) + 1:]
+    except ValueError:
+        prev_quarters = []
+
+    st.markdown("---")
+    st.markdown("#### Previous earnings quarters")
+    if not prev_quarters:
+        st.caption(f"No quarter older than {current_q} is available.")
+        return
+
+    # Index-based radio so the session value is always a valid int (a label
+    # string could go stale when the available list changes with the quarter).
+    if st.session_state.get("scout_prev_q", 0) not in range(len(prev_quarters)):
+        st.session_state["scout_prev_q"] = 0
+    prev_idx = st.radio(
+        "Previous quarter",
+        range(len(prev_quarters)),
+        format_func=lambda i: prev_quarters[i],
+        horizontal=True,
+        key="scout_prev_q",
+        label_visibility="collapsed",
+    )
+    prev_q = prev_quarters[prev_idx]
+
+    show = st.toggle(
+        f"Show {prev_q} earnings comments for: {', '.join(tickers)}",
+        key="scout_prev_show",
+    )
+    if not show:
+        return
+
+    try:
+        prev_text, _src = load_stock_text(prev_q)
+    except FileNotFoundError as e:
+        st.error(str(e))
+        return
+
+    by_ticker = {b["ticker"]: b for b in parse_company_blocks(prev_text)}
+    found = [by_ticker[t] for t in tickers if t in by_ticker]
+    not_covered = [t for t in tickers if t not in by_ticker]
+
+    if not_covered:
+        st.info(f"No {prev_q} note for: {', '.join(not_covered)}")
+    if not found:
+        return
+
+    txt = _notes_to_txt(found, quarter=prev_q)
+    tag = prev_q.replace(" ", "_")
+    if len(found) <= 6:
+        name_part = "_".join(b["ticker"] for b in found)
+    else:
+        name_part = f"{len(found)}_stocks"
+    st.download_button(
+        f"⬇️ Download {len(found)} {prev_q} note(s) as .txt",
+        data=txt,
+        file_name=f"EARNINGS_NOTES_{tag}_{name_part}.txt",
+        mime="text/plain",
+        # NB: deliberately NOT scout_-prefixed — button session values cannot
+        # be (re-)assigned via st.session_state, so the keep-alive bounce and
+        # the quarter-change reset must skip this key (same as tracker_table).
+        key="tracker_prev_download",
+    )
+    for b in found:
+        st.markdown("---")
+        _render_company_block(b, in_expander=False)
 
 
 # ---------------------------------------------------------------------------
