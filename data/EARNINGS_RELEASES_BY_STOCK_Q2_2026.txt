@@ -7964,8 +7964,861 @@ Until then, the state is **Improvement — early-stage and still unpaid**.
 <<MC.PA_EARNINGS_END>>
 ```
  
+<<RMS.PA_EARNINGS_BEGIN>>
+TICKER: RMS.PA
+COMPANY: Hermes International
+SECTOR: Consumer Discretionary
+SUBSECTOR: Ultra-Luxury / Leather Goods / Fashion
+COUNTRY: France
+PUBLICATION_DATE: 2026-07-29
+EVENT: H1 2026 results
+STATE_TRANSITION: Continuation
+IMPORTANCE: ***
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell approximately 11%, their worst session in more than 15 years, as Q2 growth merely met expectations and management indicated that Greater China had not yet materially reaccelerated.
+PM_READ: Hermes remains the highest-quality and least economically sensitive luxury model, but Q2 disproved the stronger claim of absolute demand inelasticity: U.S. and leather-goods demand stayed exceptional while China remained only modestly positive.
+THEME_BUCKETS: Premium Consumer, China Demand, Margin / Cost Discipline
+THEMES: Leather Goods, Birkin, Kelly, ultra-high-net-worth consumer, China, Americas, production capacity, scarcity
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
 
+EXEC SUMMARY
 
+H1 revenue reached €8.16B, +6.1% at constant exchange rates and +1.6% reported.
+
+Q2 growth accelerated modestly to +6.7% cFX.
+
+Recurring operating profit reached €3.35B and recurring operating margin remained an exceptional 41.0%, versus 41.4% one year earlier.
+
+Leather Goods and Saddlery remained the core engine at +9.8% H1 and +10.2% Q2 cFX.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| H1 cFX sales | +6.1% | Q1 +5.6% | Accelerated | Franchise remains resilient but growth is no longer extraordinary. |
+| Q2 cFX sales | +6.7% | Consensus approximately +7% | In line | Insufficient to support the prior valuation premium. |
+| Leather Goods H1 | +9.8% | Prior year | Strong | Scarcity-driven core remains intact. |
+| Leather Goods Q2 | +10.2% | Q1 +9.4% | Accelerated | Best evidence of continued top-end spending resilience. |
+| Recurring operating margin | 41.0% | 41.4% prior year | -0.4pp | Still structurally unmatched in global luxury. |
+| Americas H1 | +15.3% cFX | Prior year | Very strong | Wealth effect remains a major demand support. |
+| Asia ex-Japan H1 | +2.4% cFX | Q1 +2.2% | Only modest | China has stabilized, not meaningfully reaccelerated. |
+| Adjusted FCF | €2.18B | Prior year | +18% | Excellent cash conversion. |
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality: Clean.
+
+No material equity mark, disposal gain or accounting benefit alters the operating picture.
+
+Net income remained approximately €2.25B despite adverse currencies and the exceptional French corporate-profit contribution.
+
+PM interpretation:
+
+The 41% margin is genuine operating quality.
+
+The analytical caution is demand geography, not earnings quality.
+
+BOTTOM LINE
+
+Hermes remains the **ultra-luxury quality benchmark**, but “absolute demand inelasticity” is too strong.
+
+Leather goods and the Americas remain exceptional.
+
+China is only stabilizing.
+
+The 11% stock decline shows that at Hermes' valuation, **resilience is insufficient when investors are positioned for structural immunity plus acceleration**.
+
+State transition: Continuation.
+
+<<RMS.PA_EARNINGS_END>>
+
+<<KER.PA_EARNINGS_BEGIN>>
+TICKER: KER.PA
+COMPANY: Kering
+SECTOR: Consumer Discretionary
+SUBSECTOR: Luxury Fashion / Leather Goods / Jewelry
+COUNTRY: France
+PUBLICATION_DATE: 2026-07-28
+EVENT: H1 2026 results / Q2 sales
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares surged 16.9%, their largest gain in almost 24 years, as Gucci's decline narrowed substantially more than expected and balance-sheet repair progressed.
+PM_READ: Kering supplied the clearest soft-luxury turnaround signal of the season: Gucci remains in contraction, but new-product traction, sequential retail improvement and aggressive debt reduction materially improve the probability that the trough has passed.
+THEME_BUCKETS: Turnaround / Self-Help, Premium Consumer, China Demand, Margin / Cost Discipline
+THEMES: Gucci turnaround, Borsetto, Paparazzo, Luca de Meo, debt reduction, jewelry, aspirational luxury
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+H1 revenue was €7.22B, +1% comparable despite a 3% reported decline.
+
+Q2 group revenue returned to **+2% comparable**, the first meaningful group-level return to growth in the current turnaround.
+
+Gucci Q2 revenue was €1.41B, down 2% comparable versus roughly -4% consensus and a much weaker Q1.
+
+Recurring operating income reached €921M and recurring operating margin held at 12.8%.
+
+Net debt declined to €3.3B, down €4.7B from year-end.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Group Q2 comparable sales | +2% | Q1 negative | Returned to growth | First important confirmation that stabilization is broadening. |
+| Gucci Q2 sales | -2% comparable | Q1 materially weaker; consensus approximately -4% | Major improvement | Turnaround is gaining measurable commercial traction. |
+| Gucci directly operated retail | -2% | 7pp sequential improvement | Strong acceleration | New collections are beginning to work at retail. |
+| Gucci H1 margin | 17.0% | 16.0% prior year | +1pp | Cost discipline is preventing further operating deleverage. |
+| Kering Jewelry Q2 | +18% comparable | Prior year | Strong | Hard-luxury exposure provides an internal offset to Gucci. |
+| Net debt | €3.3B | €8.0B approximately year-end | -€4.7B | Balance-sheet risk has been materially reduced. |
+
+PROFESSIONAL MARKET COMMENTARY
+
+This is not yet a completed Gucci recovery.
+
+It is the first print where the evidence moved beyond management promises.
+
+The key evidence stack is:
+
+new handbags gaining traction;
+retail decline narrowing sharply;
+North America leading;
+Western Europe and Asia Pacific improving;
+Gucci margin rising despite still-negative revenue.
+
+The 16.9% reaction reflects the deeply negative setup.
+
+Unlike Hermes, Kering did not need extraordinary growth.
+
+It needed evidence that **less bad could become good**.
+
+It delivered that threshold.
+
+Stock identity:
+
+Deep value / turnaround / setup-risk stock.
+
+KEY ISSUES TO MONITOR
+
+1. Gucci comparable sales / Why it matters: Positive growth is the next major turnaround milestone.
+2. China / Why it matters: Mainland China remains the principal unresolved regional weakness.
+3. Gucci margin / Why it matters: Revenue recovery must arrive before cost cuts become the only earnings lever.
+4. Net debt / Why it matters: Balance-sheet repair materially changes the equity risk profile.
+
+BOTTOM LINE
+
+Kering delivered the European luxury season's **largest positive state transition**.
+
+Gucci is still shrinking, but at -2% rather than the prior high-single-digit pace, and retail trends improved by seven points sequentially.
+
+With debt falling sharply and margins stabilizing, the turnaround has moved from **hope to early evidence**.
+
+<<KER.PA_EARNINGS_END>>
+
+<<CFR.SW_EARNINGS_BEGIN>>
+TICKER: CFR.SW
+COMPANY: Compagnie Financiere Richemont
+SECTOR: Consumer Discretionary
+SUBSECTOR: Luxury Jewelry / Watches
+COUNTRY: Switzerland
+PUBLICATION_DATE: 2026-07-15
+EVENT: FY27 Q1 sales
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares rose approximately 5.5%-6% as 20% constant-currency sales growth substantially exceeded the approximately 11% market expectation.
+PM_READ: Richemont delivered the strongest clean luxury demand print: branded jewelry is significantly outperforming soft fashion, with strength simultaneously visible in Greater China, the Americas, Europe and Japan.
+THEME_BUCKETS: Premium Consumer, China Demand
+THEMES: Cartier, Van Cleef, branded jewelry, watches, Greater China, Americas, retail
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+Q1 sales reached €6.33B, +20% constant currency and +17% reported.
+
+Consensus sales were approximately €5.9B.
+
+Jewellery Maisons grew **24% cFX**, their seventh consecutive quarter of double-digit growth.
+
+Specialist Watchmakers returned to stronger growth at +8%.
+
+Retail sales increased 24%, and every geographic region posted positive growth.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Group sales | +20% cFX | Approximately +11% expected | Major beat | Strongest luxury revenue surprise in the European build. |
+| Jewellery Maisons | +24% | Prior quarter already double-digit | Accelerated | Hard luxury remains structurally superior to fashion. |
+| Specialist Watches | +8% | Prior weaker trend | Improved | Watch recovery broadens the earnings base. |
+| Americas | +27% cFX | Strong prior base | Accelerated | Premium U.S. consumer exceptionally strong. |
+| Asia Pacific | +21% | Prior weaker China environment | Reaccelerated | Greater China returned to double-digit growth. |
+| Japan | +36% | Weak prior comparison | Strong | Local and tourist demand both supportive. |
+| Retail | +24% | Prior year | Strong | Direct-client economics strengthen revenue quality. |
+
+BOTTOM LINE
+
+Richemont is the **cleanest hard-luxury long** in the current earnings set.
+
+Jewelry is outperforming fashion structurally, not merely cyclically.
+
+The most important cross-read is Greater China: Richemont confirms that premium Chinese demand can recover strongly even while aspirational fashion remains uneven.
+
+State transition: Improvement.
+
+<<CFR.SW_EARNINGS_END>>
+
+<<OR.PA_EARNINGS_BEGIN>>
+TICKER: OR.PA
+COMPANY: L'Oreal
+SECTOR: Consumer Staples
+SUBSECTOR: Beauty / Cosmetics / Dermatology
+COUNTRY: France
+PUBLICATION_DATE: 2026-07-29
+EVENT: H1 2026 results
+STATE_TRANSITION: Continuation
+IMPORTANCE: ***
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares gained approximately 3% the following session after Q2 adjusted like-for-like growth of 6.3% exceeded the 5.7% consensus.
+PM_READ: L'Oreal continues to demonstrate that beauty is structurally more resilient than conventional consumer staples, combining volume, mix, premiumization and e-commerce while maintaining record margins.
+THEME_BUCKETS: Consumer Demand, Premium Consumer, Margin / Cost Discipline
+THEMES: beauty resilience, Consumer Products, dermatology, professional products, e-commerce, North Asia, premiumization
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+H1 sales reached €23.78B.
+
+Reported growth was +5.8%.
+
+Headline like-for-like growth was +6.8%, while **adjusted LFL was +6.5%** after correcting for the timing effect of the IT-system transformation.
+
+Q2 adjusted LFL growth was +6.3% versus approximately 5.7% consensus.
+
+Operating margin rose 20bp to a record **21.3%** despite increased brand investment.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| H1 adjusted LFL | +6.5% | Global beauty market lower | Outperformance | Better measure than raw +6.8% because of IT phasing. |
+| Q2 adjusted LFL | +6.3% | Consensus +5.7% | Beat | Growth remains strong despite tougher comparisons. |
+| Consumer Products H1 | +4.3% adjusted LFL | Mass consumer weakness elsewhere | Resilient | L'Oreal Paris and online execution offset softer mass-category conditions. |
+| Professional Products | +11.6% adjusted LFL | Prior year | Strong | Premium haircare remains a major growth engine. |
+| Dermatological Beauty | +10.6% adjusted LFL | Prior year | Strong | Structurally high-quality category growth. |
+| L'Oreal Luxe | +5.1% adjusted LFL | Prior year | Solid | Premium demand remains healthy. |
+| Operating margin | 21.3% | 21.1% prior year | +20bp | Record despite higher marketing investment. |
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality: Clean.
+
+Adjustment issue:
+
+The important reconciliation is commercial rather than accounting:
+
+H1 headline LFL +6.8%;
+H1 adjusted LFL +6.5%.
+
+The adjustment reflects timing around the new IT system and gives a cleaner view of underlying demand.
+
+BOTTOM LINE
+
+The "lipstick effect" framing is directionally right, but L'Oreal's result is stronger than simple defensive resilience.
+
+It is gaining through **innovation, premiumization, dermatology and e-commerce**.
+
+The business remains a quality compounder rather than a cyclical recovery.
+
+<<OR.PA_EARNINGS_END>>
+
+<<NESN.SW_EARNINGS_BEGIN>>
+TICKER: NESN.SW
+COMPANY: Nestle
+SECTOR: Consumer Staples
+SUBSECTOR: Packaged Food / Coffee / Petcare / Nutrition
+COUNTRY: Switzerland
+PUBLICATION_DATE: 2026-07-23
+EVENT: H1 2026 results
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell approximately 8%, their worst session in decades, as improving volumes failed to compensate for margin disappointment, portfolio restructuring and a still-subdued earnings trajectory.
+PM_READ: Nestle's operating demand state is improving, but it remains the weakest conversion story of the European staples group: volume growth is returning while commodity costs, marketing reinvestment and portfolio cleanup prevent that improvement from flowing cleanly into earnings.
+THEME_BUCKETS: Consumer Demand, Margin / Cost Discipline, Turnaround / Self-Help, Accounting Quality
+THEMES: RIG, pricing, coffee, cocoa, portfolio pruning, infant formula, cost savings, emerging markets
+SEGMENT_TABLE_STATUS: Partial
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+H1 organic growth was 3.6%, comprising **1.5% RIG and 2.1% pricing**.
+
+Q2 organic growth improved to 3.7%, with **RIG accelerating to 1.8% from 1.2% in Q1** and pricing moderating to 1.9%.
+
+Reported sales fell 2.5% because FX contributed a 6.2% headwind.
+
+Underlying trading operating margin fell 10bp to 16.4%.
+
+FCF improved 46% to CHF3.38B.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality: Distorted.
+
+GAAP net income fell 31.4% to CHF3.47B and basic EPS to CHF1.35.
+
+Underlying EPS declined only 2.4% to CHF2.22.
+
+The large gap reflects:
+
+- higher restructuring costs;
+- approximately CHF1.3B non-cash write-down associated with businesses classified as held for sale;
+- tax effects associated with those items.
+
+PM interpretation:
+
+The source table's statement that RIG "turned positive" should be corrected.
+
+RIG was already positive.
+
+The meaningful development is **acceleration**:
+
+H1 1.5%;
+Q1 1.2%;
+Q2 1.8%.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| H1 RIG | +1.5% | +0.2% prior year | Major improvement | Volume recovery is real. |
+| Q2 RIG | +1.8% | Q1 +1.2% | Accelerated | Moving toward >2% medium-term goal. |
+| Pricing | +2.1% H1 | +2.7% prior year | Moderated | Growth mix is becoming healthier. |
+| UTOP margin | 16.4% | 16.5% | -10bp | Volume leverage has not yet translated into margin expansion. |
+| FCF | CHF3.38B | CHF2.31B | +46% | Cash conversion improved materially. |
+| Emerging markets ex-China | OG +7.1%; RIG +3.9% | Prior | Strong | Main source of volume momentum. |
+
+BOTTOM LINE
+
+Nestle is in a **volume recovery**, but not yet a clean earnings recovery.
+
+That distinction explains the violent stock reaction.
+
+The market now wants RIG above 2% **and** margin expansion rather than simply replacing price-led growth with volume.
+
+State transition: Improvement operationally; earnings conversion still unproven.
+
+<<NESN.SW_EARNINGS_END>>
+
+<<ULVR.L_EARNINGS_BEGIN>>
+TICKER: ULVR.L
+COMPANY: Unilever
+SECTOR: Consumer Staples
+SUBSECTOR: Personal Care / Home Care / Beauty / Foods
+COUNTRY: United Kingdom
+PUBLICATION_DATE: 2026-07-28
+EVENT: H1 2026 results
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Shares surged approximately 8%, their strongest session in several years, after Q2 delivered the best quarterly volume growth in more than a decade and management upgraded the full-year sales outlook.
+PM_READ: Unilever is the clear volume winner among European staples: growth is coming primarily from units and market-share gains rather than continued inflationary pricing, providing the cleanest evidence that its portfolio and execution reset are working.
+THEME_BUCKETS: Consumer Demand, Margin / Cost Discipline, Turnaround / Self-Help
+THEMES: volume growth, Power Brands, Dove, Home Care, emerging markets, market share, pricing normalization
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Brief note
+
+EXEC SUMMARY
+
+H1 underlying sales growth was **4.8%**, comprising **4.2% volume and just 0.6% price**.
+
+Q2 accelerated to **5.8% USG and 5.5% volume**, the strongest quarterly volume performance in more than a decade.
+
+Power Brands, representing 78% of turnover, grew 6.0% with 5.4% volume.
+
+Underlying operating margin increased 10bp to 20.3%.
+
+Management upgraded FY26 expectations to 4%-6% USG with roughly 3% full-year volume growth.
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| H1 USG | +4.8% | Prior range lower | Strong | Growth is broad and volume-led. |
+| H1 volume | +4.2% | Prior year materially lower | Strong | Best peer-group unit momentum. |
+| Q2 volume | +5.5% | H1 +4.2% | Accelerated | Exceptional for a mature staples portfolio. |
+| Power Brands USG | +6.0% | Group +4.8% | Outperformance | Portfolio concentration is working. |
+| Home Care USG | +7.6% | Prior year | Strong | Driven almost entirely by +7.4% volume. |
+| Beauty & Wellbeing USG | +5.9% | Prior | Healthy | Dove, Sunsilk, Vaseline and prestige brands strong. |
+| Underlying operating margin | 20.3% | 20.2% | +10bp | Volume leverage offset commodity and promotional pressure. |
+
+PROFESSIONAL MARKET COMMENTARY
+
+Unilever is the most important staples tape for the **price-to-volume regime change**.
+
+The inflation-era formula was:
+
+high pricing + weak units.
+
+Q2 is almost the inverse:
+
+5.5% volume + 0.2% price.
+
+That is much higher-quality growth.
+
+It also gives the European Staples pair a clean ranking:
+
+**Unilever:** volume acceleration + guidance raise.
+
+**Nestle:** volume recovery, but margin conversion still weak.
+
+**L'Oreal:** structurally higher category growth with both volume and mix.
+
+KEY ISSUES TO MONITOR
+
+1. Q3 volume / Why it matters: Persistence above 3%-4% would validate a genuine market-share cycle.
+2. H2 pricing / Why it matters: Management expects pricing to return as commodities rise; volume elasticity becomes the test.
+3. Gross margin / Why it matters: It fell 70bp despite excellent volumes.
+4. Europe / Why it matters: Europe remains soft despite strength elsewhere.
+
+BOTTOM LINE
+
+Unilever produced the **cleanest volume-led staples print**.
+
+The business is no longer relying on inflation to produce organic growth.
+
+Units, market share and Power Brands are doing the work.
+
+State transition: Improvement.
+
+<<ULVR.L_EARNINGS_END>>
+
+<<NVO_EARNINGS_BEGIN>>
+TICKER: NVO
+COMPANY: Novo Nordisk
+SECTOR: Health Care
+SUBSECTOR: Pharmaceuticals / Diabetes and Obesity / GLP-1
+COUNTRY: Denmark
+PUBLICATION_DATE: 2026-08-04
+EVENT: Q2 2026 earnings / H1 2026 results
+STATE_TRANSITION: Improvement
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: NVO ADRs fell 5.97% on August 4 and Novo B fell 4.32% in Copenhagen on August 5 despite a large adjusted operating-profit beat and another FY26 guidance raise; investors focused on slightly soft Wegovy pill sales, injectable pricing pressure and pipeline concerns.
+PM_READ: Novo's commercial state improved materially from Q1 as GLP-1 volumes accelerated and guidance rose again, but the market is demanding more than volume recovery: the next rerating requires convincing evidence that oral Wegovy can sustain leadership while price compression and Lilly competition remain manageable and the next-generation pipeline regains credibility.
+THEME_BUCKETS: Drug Pricing / PBM, Beat-and-Raise, Accounting Quality, Guidance Reset
+THEMES: Wegovy pill, GLP-1 volumes, US pricing, obesity care, Ozempic, Lilly competition, CagriSema, 340B, pipeline impairments, access expansion
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Novo Nordisk reported Q2 sales of DKK 78.49B. Reported sales increased 3% at CER, while adjusted sales increased 7% at CER. The difference is entirely a comparison-base issue: Q2 2025 contained a DKK 2.65B 340B rebate-provision reversal, while Q2 2026 contained no current-quarter 340B adjustment. Adjusted obesity-care sales increased 16% at CER, driven by GLP-1 volume growth partly offset by lower realized prices.
+
+Adjusted operating profit increased 11% at CER to DKK 33.39B, versus a company-compiled mean forecast of DKK 28.74B. Reported operating profit fell 16% at CER because Q2 2026 included DKK 6.3B of non-cash pipeline impairments and also lapped the prior-year 340B benefit. Adjusted diluted EPS increased 5% to DKK 6.18.
+
+Management raised FY26 adjusted sales growth and adjusted operating-profit growth to **0% to -6% at CER**, from **-4% to -12%** previously. The market nevertheless sold the shares because Wegovy pill revenue of DKK 3.218B was slightly below expectations and recent CagriSema and ziltivekimab data kept the pipeline-replacement debate alive.
+
+HEADLINE EARNINGS TABLE
+
+| Metric                 |                                                                Actual |                                                                             Consensus / Prior |       Beat / Miss |                         YoY |                                         QoQ | PM Comment                                                                                                 |
+| ---------------------- | --------------------------------------------------------------------: | --------------------------------------------------------------------------------------------: | ----------------: | --------------------------: | ------------------------------------------: | ---------------------------------------------------------------------------------------------------------- |
+| Revenue / Sales        |                                          DKK 78.49B; +7% CER adjusted |                                       DKK 74.21B adjusted prior year; consensus not confirmed |          Positive |            +7% adjusted CER | Major acceleration from Q1 -4% CER adjusted | Volume recovery is real; lower realized prices remain the offset.                                          |
+| EPS / Earnings         |                          DKK 6.18 adjusted diluted; DKK 4.75 reported |                                                                  DKK 5.89 adjusted prior year | Positive adjusted | +5% adjusted; -20% reported |                                    Improved | Reported EPS is distorted by pipeline impairments and prior-year comparison effects.                       |
+| Profitability / Margin | DKK 33.39B adjusted operating profit; 42.5% adjusted operating margin | DKK 28.74B mean operating-profit forecast; 41% range prior-year adjusted margin approximately |              Beat |           +11% CER adjusted |                                    Improved | Material operating beat despite lower realized GLP-1 prices.                                               |
+| Guidance / Outlook     |         FY26 adjusted sales and operating profit growth 0% to -6% CER |                                                                             Prior -4% to -12% |             Raise |              Not applicable |                      Second upward revision | Stronger GLP-1 expectations materially improve the downside range but still imply possible FY contraction. |
+| Market reaction        |                      ADR -5.97%; Copenhagen -4.32% next local session |                                                                                Not applicable |          Negative |              Not applicable |                              Not applicable | The market priced pill expectations and pipeline quality above the headline beat-and-raise.                |
+
+SECTOR KPI TABLE
+
+| KPI                              |            Actual |                           Prior / Benchmark |           Change | PM Comment                                                                    |
+| -------------------------------- | ----------------: | ------------------------------------------: | ---------------: | ----------------------------------------------------------------------------- |
+| Obesity-care adjusted sales      |        DKK 23.15B |                                  Prior year |         +16% CER | Principal growth engine.                                                      |
+| US obesity-care sales            |        DKK 12.82B |                                  Prior year |          +4% CER | Volume growth continues but pricing significantly dilutes revenue conversion. |
+| International obesity-care sales |        DKK 10.33B |                                  Prior year |         +37% CER | International rollout is increasingly important to the growth mix.            |
+| Wegovy injectable sales          |        DKK 19.48B |                                  Prior year | +1% CER globally | US injectable sales remained under price pressure despite higher volumes.     |
+| Wegovy pill sales                |        DKK 3.218B |             Approximately DKK 3.3B expected |      Slight miss | Strong launch but expectations had risen faster than reported sales.          |
+| Weekly Wegovy pill prescriptions | More than 265,000 |                              January launch |    Strong uptake | More than 5M cumulative prescriptions since launch.                           |
+| Diabetes-care adjusted sales     |        DKK 50.43B |                                  Prior year |          +3% CER | Much slower than obesity; price/mix pressure continues.                       |
+| Adjusted operating margin        |             42.5% | Prior-year adjusted level approximately 41% |         Improved | Cost discipline offset much of the pricing pressure.                          |
+| Q2 free cash flow                |        DKK 42.52B |              DKK 27.11B prior year restated |             +57% | Strong cash generation remains a major quality support.                       |
+
+Novo reports Q2 obesity-care sales of DKK 23.15B, with US obesity care +4% CER and International Operations +37%; Wegovy pill contributed DKK 3.218B globally.
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+
+Q2 reported sales were DKK 78.49B, up 2% in Danish kroner and 3% at CER.
+
+Adjusted sales were also DKK 78.49B in absolute current-quarter terms because there was no Q2 2026 340B adjustment.
+
+The adjusted growth rate is nevertheless **7% at CER**, because Novo removes the DKK 2.65B Q2 2025 340B reversal from the comparison base.
+
+This distinction is essential.
+
+The Q2 operating trajectory is therefore materially better than the reported +3% CER headline suggests.
+
+Consensus:
+
+Adjusted operating profit of DKK 33.39B materially exceeded the DKK 28.74B company-compiled mean forecast.
+
+Wegovy pill sales of approximately DKK 3.22B were slightly below the approximately DKK 3.3B analyst expectation.
+
+Reliable group-sales consensus was not confirmed and is therefore not inserted.
+
+EPS / Earnings:
+
+Reported Q2 net profit was DKK 20.99B, down 21%.
+
+Reported diluted EPS was DKK 4.75, down 20%.
+
+Adjusted net profit was DKK 27.42B, up 5%.
+
+Adjusted diluted EPS was DKK 6.18, up 5%.
+
+Profitability / Margins:
+
+Reported operating profit was DKK 27.06B, down 16% at CER.
+
+Adjusted operating profit was DKK 33.39B, up 11% at CER.
+
+Reported operating margin was 34.5%.
+
+Adjusted operating margin was 42.5%.
+
+Adjusted gross margin was 78.2%.
+
+The operating improvement came from higher sales and lower quarterly costs, while pricing remains the principal structural headwind.
+
+Key KPI:
+
+The central KPI is now the **price-volume conversion of the total Wegovy franchise**.
+
+The pill is a clear volume success.
+
+Weekly pill prescriptions exceeded 265,000 by mid-July, and cumulative prescriptions exceeded 5M.
+
+But quarterly pill sales were only approximately DKK 3.22B and slightly missed elevated market expectations.
+
+Meanwhile, US injectable Wegovy sales declined 22% at CER because lower realized prices more than offset higher volumes.
+
+That split captures the investment debate:
+
+**excellent patient uptake versus weakening revenue per patient.**
+
+Guidance headline:
+
+Adjusted FY26 sales growth is now expected at **0% to -6% CER**.
+
+Adjusted FY26 operating-profit growth is also expected at **0% to -6% CER**.
+
+The previous ranges were -4% to -12% for both metrics.
+
+Novo says the improvement is driven by higher expected GLP-1 sales.
+
+On a non-adjusted basis, the midpoint corresponds to approximately +5% sales growth and +12% operating-profit growth at CER because the large Q1 340B provision reversal remains in reported figures.
+
+Capital allocation:
+
+H1 shareholder distributions totaled DKK 41.2B:
+
+DKK 35.3B in dividends.
+
+DKK 5.9B in share repurchases.
+
+This directly contradicts the preliminary tape's phrase **"capital-return doctrine break."**
+
+There is no evidence of a capital-return break in Q2.
+
+The business continues returning substantial cash while funding significant R&D and manufacturing investment.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+
+Distorted but transparently reconciled.
+
+Adjustment issue:
+
+Two items dominate comparability.
+
+**1. Pipeline impairments**
+
+Q2 contained DKK 6.3B of non-recurring, non-cash intangible-asset impairment charges.
+
+Monlunabant accounted for DKK 4.0B.
+
+Total IFRS impairment losses and reversals on intangible assets were DKK 6.52B.
+
+**2. 340B provision reversals**
+
+Q2 2025 contained a DKK 2.65B 340B rebate-provision reversal.
+
+Q1 2026 contained a much larger DKK 26.76B reversal.
+
+Q2 2026 itself contained no 340B reversal.
+
+The adjustments therefore distort both quarter-on-quarter and year-on-year reported growth, especially at H1 level.
+
+PM interpretation:
+
+Adjusted sales, adjusted operating profit and adjusted EPS are the correct operating measures.
+
+This is not a low-quality earnings beat.
+
+After stripping the impairment and 340B effects, adjusted operating profit still rose 11% at CER.
+
+The market's negative response was therefore not an accounting-quality judgment.
+
+It was a judgment on **future franchise quality**: pill monetization, pricing, competition and pipeline succession.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment       |    % of Total |             Revenue | YoY Growth | Margin Trend  | Key Commentary                                                                                 |
+| ------------- | ------------: | ------------------: | ---------: | ------------- | ---------------------------------------------------------------------------------------------- |
+| Obesity Care  | Not disclosed | DKK 23.15B adjusted |   +16% CER | Not disclosed | Strong GLP-1 volume growth; International +37%, US +4% as pricing offsets volume.              |
+| Diabetes Care | Not disclosed | DKK 50.43B adjusted |    +3% CER | Not disclosed | Ozempic supported growth, but lower realized prices and weaker Rybelsus trends remain offsets. |
+| Rare Disease  | Not disclosed |  DKK 4.91B adjusted |    +6% CER | Not disclosed | Small relative contribution; recovered from Q1 wholesaler timing effects.                      |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+The guidance raise is significant because it follows an adjusted Q1 in which sales declined 4% at CER.
+
+Q2 adjusted sales then grew 7% and adjusted obesity care grew 16%.
+
+The company is therefore demonstrating a genuine sequential commercial improvement.
+
+But the quality of that improvement is mixed.
+
+Volume is doing more work.
+
+Price is doing less.
+
+The US MFN/access framework expands addressable patient access while explicitly lowering economics per prescription.
+
+That can still be value-accretive if volumes respond sufficiently.
+
+The investment case therefore increasingly resembles a classic price-elasticity problem:
+
+**lower price → more access → more patients → can volume growth exceed price erosion?**
+
+Revision direction: **Upward near-term operating revisions / mix-shift longer-term revisions.**
+
+FY26 sales and operating-profit estimates move upward following the guidance raise.
+
+US realized-pricing assumptions remain under pressure.
+
+Longer-term forecasts remain dependent on pill persistence and pipeline succession.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The most important feature of Q2 is the divergence between the **operating print** and the **equity reaction**.
+
+Operating data improved substantially.
+
+Adjusted sales accelerated from -4% CER in Q1 to +7% in Q2.
+
+Adjusted operating profit grew 11%.
+
+Obesity care grew 16%.
+
+Guidance was raised sharply.
+
+Yet the ADR fell 6%.
+
+The reason is that Novo is no longer being valued on whether current Wegovy demand exists.
+
+That question is settled.
+
+The market is asking whether Novo can defend the **economics and duration** of the franchise against three pressures:
+
+**pricing; Lilly; next-generation pipeline quality.**
+
+The Wegovy pill illustrates the new bar perfectly.
+
+DKK 3.22B of first-half ramp revenue would ordinarily look impressive for a newly launched product.
+
+At Novo's current setup, being slightly below DKK 3.3B expectations was enough to outweigh a major group operating-profit beat.
+
+COMMENT — ANALYST LAYER
+
+The highest-quality positive signal is **Q2 adjusted sales +7% CER after Q1 -4%**.
+
+That is a genuine state change.
+
+The second is obesity care +16%, with International Operations +37%.
+
+The third is the FY guidance raise.
+
+The most important negative signal is **price realization**.
+
+US obesity-care sales grew only 4% despite strong volume.
+
+US injectable Wegovy revenue declined 22% at CER.
+
+The second negative signal is pipeline credibility.
+
+The monlunabant impairment, failed ZEUS cardiovascular trial and CagriSema comparison keep pressure on Novo to prove that growth can persist beyond the current semaglutide franchise.
+
+State transition: Improvement
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+Q1 showed strong Wegovy pill adoption but an adjusted business still contracting because US pricing was overwhelming underlying volume growth.
+
+Q2 changed that balance.
+
+Adjusted sales returned to growth.
+
+Adjusted operating profit accelerated.
+
+Management raised guidance again.
+
+The debate has therefore shifted from **"Can commercial momentum stabilize?"** to **"Can that momentum generate durable earnings despite lower price and tougher competition?"**
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+
+This is a classic **beat-and-raise that failed the quality-of-growth test**.
+
+Adjusted operating profit beat consensus by a wide margin.
+
+Guidance moved materially higher.
+
+The stock still fell 6%.
+
+That tells us exactly where the market's bar sits.
+
+Investors no longer require proof that oral Wegovy can attract patients.
+
+They require proof that:
+
+1. patient growth offsets price compression;
+2. oral Wegovy retains leadership as Lilly scales its competing franchise;
+3. Novo can replace semaglutide with differentiated next-generation assets.
+
+The slight pill-sales miss and CagriSema data both touched those longer-duration questions.
+
+This is therefore not best described as a "regime-suppressed" reaction.
+
+It is a **release-specific negative reaction to forward franchise quality despite improving near-term fundamentals**.
+
+Stock identity:
+
+**Quality compounder in repair; GARP; turnaround / self-help; setup-risk stock.**
+
+Novo remains an exceptionally profitable global pharmaceutical franchise, but its historical scarcity premium has been damaged by competition and price normalization.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The ADR fell **5.97% on August 4**.
+
+The Copenhagen line then fell **4.32% on August 5**.
+
+Reuters identified three main reasons:
+
+* Wegovy pill sales were slightly below expectations;
+* short-term positioning was demanding;
+* CagriSema's latest comparison failed to establish a decisive efficacy advantage over Lilly's competing therapy.
+
+The reaction is therefore more negative than the supplied tape suggested.
+
+The market did not ignore the guide raise.
+
+It explicitly judged that the guide raise did not resolve the long-duration competitive question.
+
+GLP-1 / CONSUMPTION READ-ACROSS
+
+Novo's patient reach continues to expand rapidly.
+
+That is relevant to the broader consumer-discretionary debate because GLP-1 use can affect food consumption, restaurant frequency and category mix.
+
+However, **this earnings release does not establish a causal chain from NVO prescription growth to PEP or MCD traffic declines**.
+
+The proper PM treatment is:
+
+**GLP-1 adoption = structural consumption-change overlay to monitor.**
+
+PEP/MCD traffic weakness = independent consumer data.
+
+A causal link requires additional evidence such as cohort-level spending, prescription penetration versus local restaurant consumption, or company-disclosed GLP-1 effects.
+
+The cross-batch connection should therefore remain a **hypothesis/watch item**, not an established transmission chain.
+
+PIPELINE / FRANCHISE-DURATION CHECK
+
+Current franchise:
+
+Wegovy pill prescriptions >5M cumulative.
+
+Weekly pill prescriptions >265,000.
+
+Obesity-care Q2 adjusted sales +16% CER.
+
+International obesity care +37%.
+
+Pressure points:
+
+Wegovy pill sales slightly missed expectations.
+
+US injectable Wegovy revenue -22% CER despite higher volumes.
+
+Monlunabant impaired by DKK 4.0B.
+
+ZEUS ziltivekimab Phase 3 failed its primary endpoint.
+
+CagriSema matched rather than clearly surpassed Lilly's comparator on key recent data.
+
+This makes the pipeline the main determinant of whether Novo eventually earns back its historical structural-growth premium.
+
+KEY ISSUES TO MONITOR
+
+1. Wegovy pill prescriptions and revenue / Why it matters: Strong TRx must convert into revenue growth despite lower prices and channel mix.
+
+2. US GLP-1 price-volume mix / Why it matters: The central earnings question is whether access-led volume growth can outrun lower realized prices.
+
+3. Lilly oral competition / Why it matters: Novo's current first-mover advantage in oral obesity therapy must remain durable as competitor promotion and distribution scale.
+
+4. CagriSema and next-generation pipeline / Why it matters: Novo needs differentiated assets to preserve franchise duration beyond semaglutide.
+
+5. International obesity growth / Why it matters: +37% CER provides the cleanest diversification away from US pricing pressure.
+
+BOTTOM LINE
+
+Novo Nordisk's **fundamental state improved materially in Q2**, but its valuation problem did not disappear.
+
+Adjusted sales accelerated from -4% CER in Q1 to **+7%**.
+
+Adjusted operating profit rose **11%**.
+
+Obesity care grew **16%**.
+
+FY26 guidance was raised from **-4% to -12%** to **0% to -6%** for both adjusted sales and adjusted operating profit.
+
+That is a genuine operating improvement.
+
+But the stock fell approximately 6% because the market is looking past 2026.
+
+The unresolved question is:
+
+**Can Novo translate exceptional GLP-1 patient growth into durable earnings while realized prices decline, Lilly intensifies competition and the next-generation pipeline remains less differentiated than investors once assumed?**
+
+The state transition is therefore **Improvement**, but it is an improvement in current commercial momentum rather than a restoration of the old scarcity-premium investment case.
+
+The rerating trigger is no longer a software-style backlog metric.
+
+It is sustained evidence of **strong oral Wegovy monetization, acceptable US price-volume conversion and renewed pipeline differentiation**.
+
+<<NVO_EARNINGS_END>>
 
 
 <<EARNINGS_RELEASES_BY_STOCK_END>>
