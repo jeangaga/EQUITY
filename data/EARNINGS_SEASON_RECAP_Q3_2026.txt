@@ -1,1 +1,5 @@
-
+<<EARNINGS_SEASON_RECAP_BEGIN>>
+SEASON: Q3 2026
+AS_OF: 2026-10-26
+FILE_TYPE: Earnings Season Recap
+STYLE: Global Macro PM
