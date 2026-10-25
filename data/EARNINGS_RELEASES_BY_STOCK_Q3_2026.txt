@@ -1,2 +1,450 @@
 <<EARNINGS_RELEASES_BY_STOCK_BEGIN>>
 SEASON: Q2 2026
+<<MU_EARNINGS_BEGIN>>
+TICKER: MU
+COMPANY: Micron Technology
+SECTOR: Information Technology
+SUBSECTOR: Semiconductors / Memory / DRAM and NAND / AI Data Center
+COUNTRY: United States
+PUBLICATION_DATE: 2026-09-30
+EVENT: Fiscal Q4 FY2026 results (fiscal quarter ended 2026-09-03); calendar Q3 earnings-season monitoring
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Positive
+MARKET_REACTION_DETAIL: Initial after-hours indications varied around flat; MU rose approximately 3% on 2026-10-01 in a secondary closing-price record, following a substantial pre-print rally.
+PM_READ: Another material beat-and-raise with extraordinary memory pricing power and customer prepayments, but sustainability, future supply and capital intensity matter more than the current peak margins.
+THEME_BUCKETS: AI Infrastructure, Semiconductors, Cloud / Data Center, Capex / FCF Tension
+THEMES: DRAM pricing, HBM allocation, data center memory, strategic customer agreements, customer prepayments, memory supply discipline, gross margin peak, forward capex
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+Micron reported $54.23B fiscal Q4 revenue, up about 379% y/y and 31% q/q, with 87.0% non-GAAP gross margin and $33.42 adjusted EPS. The fiscal Q1 2027 guide of $61.5B revenue and $38.15 adjusted EPS was also above the secondary consensus benchmarks captured by the scout. These are official record operating figures, not a small accounting-aided beat; revenue and gross margin indicate extraordinary tightness across memory end markets.
+
+The more durable signal is customer-funded visibility: $12.75B of customer contract-liability deposits flowed through fiscal 2026 financing cash flow and noncurrent customer contract liabilities stood at $12.90B at fiscal year-end. This supports the contracted-demand narrative, but the contractual conditions, customer concentration, prepayment refundability and exact HBM allocation are not confirmed. The guidance embeds a 75bp sequential dip in non-GAAP gross margin to roughly 86.25%, and the next capex cycle remains a crucial counterweight.
+
+The approximately 3% next-day gain looks measured against the extraordinary operating beat and the prior share-price run. This is continuation, not proof that memory cyclicality has disappeared. The next thesis test is whether pricing, contractual protection and cash conversion remain durable as output capacity and customer AI-platform designs evolve.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $54.229B | $51.51B secondary consensus; $41.456B prior q | Beat | +379% | +30.8% | Very large growth in both core data center and diversified memory demand; vendor consensus definitions differ. |
+| EPS / Earnings | $33.42 non-GAAP; $32.87 GAAP | $31.82 secondary consensus; $25.11 prior-q non-GAAP | Beat | +1003% adjusted vs $3.03 | +33.1% adjusted | GAAP-adjusted bridge needs scrutiny, but operating profit and cash flow validate much of the upside. |
+| Profitability / Margin | 87.0% non-GAAP GM; 82.3% non-GAAP operating margin | 84.9% prior-q GM; 45.7% year-ago GM | Improved | +41.3ppt GM | +2.1ppt GM | Extreme economics reflect price and product mix, not a normalized cycle margin. |
+| Guidance / Outlook | FQ1 FY27 revenue $61.5B +/- $1.5B; nGAAP GM 86.25%; EPS $38.15 +/- $1.00 | Secondary consensus $57.93B revenue; EPS $35.92 | Above | Not applicable | GM -0.75ppt vs FQ4 | Guide extends record revenue and EPS while accepting a near-term gross-margin step-down. |
+| Market reaction | Approximately +3% on Oct 1 by secondary closing-price record | Pre-report close approximately $1,065; post-call AH indications varied by observation time | Positive | Not applicable | Not applicable | Much of the strength may have been pre-positioned; reaction is not commensurate with arithmetic beat size. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Core Data Center revenue | $18.002B | $11.524B previous quarter | +56% q/q | Fastest high-value segment expansion; 90% gross margin supports sector pricing-power read-across. |
+| Core Data Center gross margin | 90% | 87% prior quarter | +3ppt | Key profit engine; high level raises the sustainability bar. |
+| Cloud Memory revenue | $16.283B | $13.769B prior quarter | +18% q/q | Expansion beyond one product family supports broad memory demand. |
+| Mobile and Client revenue | $13.114B | $11.521B prior quarter | +14% q/q | Broadens pricing-power signal beyond hyperscaler memory. |
+| Automotive and Embedded revenue | $6.824B | $4.634B prior quarter | +47% q/q | Broad end-market benefit, although auto/embedded cyclicality may differ from HBM. |
+| Noncurrent customer contract liabilities | $12.90B | $0.568B prior quarter, official balance sheet | Sharply higher | Official balances are confirmed; deposit contract terms require verification. |
+| Operating cash flow | $43.97B | $25.39B prior quarter | +73% q/q | Validates cash generation, although prepayments can pull cash forward. |
+| Adjusted free cash flow | $33.20B | Not confirmed | Not confirmed | FCF is exceptional; must distinguish structural earnings from customer-funding timing. |
+| FY26 net capex | $27.37B | Government incentives already netted | Not applicable | FY27 capex outlook not verified; supply response remains an important forward risk. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Fiscal Q4 revenue was $54.229B versus $41.456B in FQ3 and $11.315B a year earlier. Full-year fiscal 2026 revenue was $133.188B compared with $37.378B in fiscal 2025. The segment mix is broad: Cloud Memory $16.283B; Core Data Center $18.002B; Mobile and Client $13.114B; Automotive and Embedded $6.824B.
+
+Consensus:
+The scout's secondary revenue consensus was $51.51B and adjusted EPS $31.82; an additional public transcript recap used $50.45B and $31.16, showing meaningful vendor / timestamp differences. Both pairs imply a clear beat. LSEG / FactSet quarter-specific consensus remains not confirmed; no falsely precise universal beat percentage should be assumed.
+
+EPS / Earnings:
+GAAP net income $37.70B and diluted EPS $32.87; non-GAAP net income $38.40B and EPS $33.42. Non-GAAP operating profit $44.636B and 82.3% operating margin. Fiscal 2026 non-GAAP EPS was $75.52 and GAAP EPS $74.33.
+
+Profitability / Margins:
+Non-GAAP gross margin 87.0% versus 84.9% prior quarter and 45.7% a year earlier. Non-GAAP operating margin 82.3% versus 81.2% prior quarter and 35.0% a year earlier. Gross-margin expansion was accompanied by broad segment margin gains rather than a single business-unit anomaly.
+
+Key KPI:
+Official noncurrent contract liabilities $12.90B and FY26 customer deposits in financing cash inflows $12.75B. Those show actual cash-backed commitments but do not by themselves establish take-or-pay pricing, refund terms or full future volumes. Specific HBM revenue and DRAM-versus-NAND revenue split were not disclosed in the cited release.
+
+Guidance headline:
+FQ1 FY27 revenue $61.5B +/- $1.5B; non-GAAP GM about 86.25%; non-GAAP opex about $2.06B; non-GAAP EPS $38.15 +/- $1.00. GAAP GM guide 85.95% and GAAP EPS $37.84 +/- $1.00. A numeric FY27 capex budget was not confirmed from the official release.
+
+Capital allocation:
+FY26 operating cash flow $89.68B; quarterly OCF $43.97B; FY26 net capex $27.37B after government incentives; FQ4 net capex $10.77B; FY26 adjusted FCF $62.31B. Cash, investments and restricted cash $73.48B; dividend $0.15/share; scout reports FY26 buybacks $650M. A material buyback-cadence change remains unconfirmed without an official call transcript.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — exceptionally strong underlying operating earnings and cash generation, with discrete non-GAAP adjustments and potentially significant customer-prepayment working-capital timing.
+
+Adjustment issue:
+Official release identifies a $500M patent-license charge in operating costs excluded from non-GAAP and a $9M debt-prepayment loss. The $0.55 gap between GAAP and adjusted diluted EPS is material for clean-versus-reported comparison but very small relative to the $33-plus EPS run-rate. Customer prepayments also complicate extrapolation of contemporaneous FCF.
+
+PM interpretation:
+Prefer revenue growth, segment gross margins, adjusted operating income and underlying cash generation to the raw EPS beat. Discount any notion that extraordinary 87% gross margin and advance cash collections are permanent. Analyze gross-margin floor, contract-liability roll-forward, inventory turns and net capex together.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Cloud Memory | 30.0% | $16.283B | +258% | GM 83%, flat q/q; op margin 76%, -2ppt q/q | Cloud AI-linked memory grows rapidly but margin trajectory is less favorable than in core data center. |
+| Core Data Center | 33.2% | $18.002B | +1041% | GM 90%, +3ppt q/q; op margin 85%, +2ppt | Extraordinary data-center ramp and economics; primary AI infrastructure profit pool. |
+| Mobile and Client | 24.2% | $13.114B | +249% | GM 90%, +3ppt q/q; op margin 88%, +2ppt | Memory pricing strength extends well beyond the AI server segment. |
+| Automotive and Embedded | 12.6% | $6.824B | +376% | GM 84%, +5ppt q/q; op margin 79%, +4ppt | Diversified demand recovery is helpful, but these markets can revert independently. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Upward revisions are likely for FQ1 revenue and EPS against the scout's secondary consensus, although some of the move may have preceded the release and estimate-vintage differences are material. FQ1 GM guidance of 86.25%, below FQ4's 87%, is an explicit near-term margin moderation; it is not evidence by itself of a cycle reversal. The key model variable is pricing and gross-profit growth after incremental fab spending, rather than whether next-quarter EPS again beats. A company-wide FY27 capex figure and full customer-contract economics are not confirmed.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The print tests a more demanding debate than a routine semiconductor beat. A very large pre-report share-price appreciation implied the market expected pricing tightness, AI-server memory scarcity and outsized margin. The quarter and forward revenue guide delivered on that narrative. The less dramatic next-session stock advance suggests much of the upside was already in estimates, price and positioning.
+
+A meaningful nuance is that the high-margin acceleration is not only HBM. Mobile/client and auto/embedded revenues also surged, and all four business units posted exceptionally high gross margins. That argues for broad memory supply tightness, raising the potential for a later supply response. Conversely, Core Data Center's exceptionally high margin and customer deposits show that the AI-memory value capture is real rather than merely a promotional inference from hyperscaler capex headlines.
+
+A later Oct 13 decline linked by the scout to China CXMT supply news is a separate event from the earnings reaction and should not be incorporated as a negative earnings-day move. It does, however, identify exactly the forward variable to monitor: the timing and credibility of incremental industry capacity.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality evidence: official $54.23B sales, 87% gross margin, $43.97B operating cash flow and balance-sheet customer contract liabilities. Lowest-quality evidence: the scout's AI-generated call details about supply commitments, 2027 HBM bit contracting, price increases, FY27 spending and specific buyback timing; these cannot be promoted to confirmed facts without transcript verification.
+
+The revision debate is pricing-duration versus supply normalization. The FQ1 guide should lift near-term forecasts while FY27/28 estimates hinge on the gross-margin trajectory as fabs ramp. Decomposition into DRAM, NAND and HBM pricing/volume remains a material evidence gap. A decline in deposits alongside rising inventory would matter more for duration than another quarter with headline EPS above the Street.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+FQ3 FY26 already showed a strong memory upcycle with $41.46B revenue and 84.9% non-GAAP gross margin. FQ4 extended both revenue and profitability sharply and added balance-sheet-visible contractual funding. The core supercycle thesis is confirmed for the present quarter, but visibility into the end of the cycle is not established.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The market priced substantial scarcity and possibly an unusually long memory earnings cycle; the print validated current economics but delivered less new information on normalized FY28 returns. A near-term rerating requires both higher forward earnings and confidence that contracts limit reversal risk. The thesis weakens if HBM de-specification, contract renegotiation, industry capacity additions or slower AI capex drive weaker DRAM prices while inventories accumulate. Positive read-across to memory peers, equipment demand and AI infrastructure financing is conditional on suppliers retaining margin power through new capacity installation.
+
+Stock identity:
+Beat-and-raise machine; crowded long; setup-risk stock. Those tags can coexist: operational delivery is remarkable, but expectations and memory cyclicality remain material even with secular AI demand. The prepayment buffer is a real support, not equivalent to unconditional revenue guarantees.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Initial AH quotes ranged around flat as the call and market digest evolved; a separate secondary history records Oct 1 close $1,097.39 versus the pre-reaction $1,065.11, around +3%. The reaction is positive but modest compared with the headline arithmetic and the prior one-year rally. Read-across: supports DRAM/NAND pricing, AI-server memory demand and hyperscaler supply bottlenecks; not a mechanically positive signal for every chipmaker, because Micron's exceptional margins could invite competition and capex acceleration. No precisely matched SOX or peer return comparison was confirmed.
+
+KEY ISSUES TO MONITOR
+
+- Contract liabilities / Why it matters: track whether cash-backed commitments roll forward, amortize into sales or require refunds, and distinguish new commitments from timing.
+- DRAM, NAND and HBM pricing / Why it matters: price, mix and volume decomposition is necessary to test the sustainability of 87% gross margin.
+- FY27 net capex and new fab output / Why it matters: a capacity response could cap the industry's currently extraordinary margins.
+- Gross-margin floor / Why it matters: confirm whether FQ1's 86.25% guide is transitory or the beginning of sequential compression.
+- Customer platform design and inventory / Why it matters: HBM de-specification, competing architectures and rising days of inventory would undermine durable pricing.
+
+BOTTOM LINE
+
+- **** importance: one of the highest-signal AI infrastructure and global semiconductor earnings releases in this monitoring window.
+- Operating beat-and-raise is official and substantial; the $12.9B customer-contract liability is the distinctive balance-sheet signal.
+- Consensus near-term revisions should rise; the argument for extending peak margins into later years remains conditional.
+- Continuation, not a declared new regime: contracts, capex and memory pricing are the falsification tests.
+
+<<MU_EARNINGS_END>>
+
+<<MCPA_EARNINGS_BEGIN>>
+TICKER: MC.PA
+COMPANY: LVMH Moet Hennessy Louis Vuitton
+SECTOR: Consumer Discretionary
+SUBSECTOR: Luxury Goods / Fashion and Leather Goods / Watches and Jewelry / Beauty Retail
+COUNTRY: France
+PUBLICATION_DATE: 2026-10-12
+EVENT: Q3 / nine-month 2026 revenue update (revenue-only; not a full quarterly earnings release)
+STATE_TRANSITION: Deterioration
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Paris shares fell approximately 1.8% in 2026-10-13 morning reporting, alongside luxury peers; a reliable same-day Paris close was not established from the scout.
+PM_READ: Group revenue was broadly in line but the profit-critical fashion and leather-goods division returned to contraction as China weakened, challenging the tentative Q2 recovery.
+THEME_BUCKETS: China Demand, Premium Consumer, Europe Demand, Guidance Reset
+THEMES: China luxury cluster, fashion and leather goods, high-end jewelry, Sephora share gains, regional mix, brand renovation, organic growth, EBIT weighting, portfolio disposals
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+LVMH's Q3 2026 organic revenue rose 1% versus 3% in Q2; reported revenue was EUR18.504B versus EUR18.280B a year earlier. The group number was broadly in line with the scout's Visible Alpha/BofA secondary benchmark, but the core Fashion and Leather Goods division contracted 5% organically after expanding 1% in Q2. That division's weighting in group operating profit makes this a worse print than the headline suggests.
+
+The key geographic swing was Asia excluding Japan at -5% organic versus +4% in Q2, according to secondary call coverage; US +5%, Japan +6% and Europe +4% cushioned the group. The five operating business groups diverged materially: Wines and Spirits +6%, Watches and Jewelry +6% and Selective Retailing +8% contrasted with Fashion and Leather Goods -5%. These results are a change in the luxury demand debate, not confirmation of a synchronized sector collapse.
+
+LVMH issued no numeric profit guidance, and the Q3 release contains no EPS or quarterly operating margins. A Barclays estimate revision relayed by the scout cut its Q4 Fashion and Leather Goods organic-growth assumption from +1.2% to -1.1% and its target from EUR590 to EUR470. This is house commentary rather than company guidance. The print supports a Deterioration state transition for the prior soft-luxury recovery thesis.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | Q3 EUR18.504B; 9M EUR57.148B | Q3 EUR18.487B Visible Alpha relay; Q3 2025 EUR18.280B | Broadly in line | +1.2% Q3 reported; +1% organic | Q2 organic +3% to Q3 +1% | Headline masks weakness in the highest-profit business group. |
+| EPS / Earnings | Not reported — revenue-only update | Not applicable | Not applicable | Not applicable | Not applicable | No Q3 group earnings or EPS were released. |
+| Profitability / Margin | Not reported — revenue-only update | F&LG estimated near 70% of group EBIT in cited press commentary | Not applicable | Not applicable | Not applicable | EBIT exposure to Fashion and Leather Goods is the key qualitative asymmetry, not an official Q3 margin datapoint. |
+| Guidance / Outlook | Qualitative confidence; no numerical FY26 target | Barclays house Q4 group organic +2.2% vs previous +3.9% | Revision risk | Not applicable | Not applicable | House forecast reduction is not corporate guidance. |
+| Market reaction | Approximately -1.8% Paris intraday Oct 13; US ADR approximately -2.3% Oct 12 evening | Same-day Paris closing move not confirmed by scout | Negative initially | Not applicable | Not applicable | Reaction tied to Fashion and Leather Goods and China, with sector-wide expression. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Group organic growth | +1% | +3% Q2 | -2ppt q/q | Deceleration despite a headline broadly in line with sales consensus. |
+| Fashion and Leather Goods organic | -5% | +1% Q2; -2% consensus relay | -6ppt q/q; miss vs consensus | The dominant profit engine reversed from nascent recovery. |
+| Asia ex-Japan organic | -5% | +4% Q2; secondary call relay | -9ppt q/q | Main geographical driver of the soft-luxury concern. |
+| US organic | +5% | +6% Q2; secondary call relay | -1ppt q/q | US demand remains a partial offset. |
+| Japan organic | +6% | +14% Q2; secondary call relay | -8ppt q/q | Positive but cooling regional growth. |
+| Europe organic | +4% | 0% Q2; secondary call relay | +4ppt q/q | Europe offsetting some Asia softness; reported versus tourist-demand drivers unresolved. |
+| Watches and Jewelry organic | +6% | +11% Q2 | -5ppt q/q | Solid growth and jewelry resilience despite slowdown from Q2. |
+| Selective Retailing organic | +8% | +6% Q2 | +2ppt q/q | Sephora market-share performance offers genuinely positive internal read-across. |
+| Nine-month organic growth | +2% | Not confirmed | Not confirmed | Shows headline group resilience but is backward-looking. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Q3 group revenue EUR18.504B versus EUR18.280B one year earlier. Organic growth +1%; Q3 scope impact -2% and currency impact +2%. Nine-month revenue EUR57.148B versus EUR58.090B, down 2% reported and up 2% organic; 9M scope impact -1% and FX impact -3%. These are official figures.
+
+Consensus:
+Secondary Visible Alpha/BofA relay: group revenue EUR18.487B and organic growth +1.4% versus actual EUR18.504B and +1%. Fashion and Leather Goods organic -5% versus reported external market benchmark around -2%; BofA's separate own forecast was -4%. LSEG and Bloomberg equivalent benchmarks were not confirmed. Treat the group as essentially in line but the core division as a miss.
+
+EPS / Earnings:
+Not reported — revenue-only update. A profit-and-loss inference from segment revenue trends alone is inappropriate.
+
+Profitability / Margins:
+Not reported — revenue-only update. Fashion and Leather Goods reportedly accounts for around 70% of group EBIT according to the scout's professional media source; this is an external approximation, not a disclosed quarter-specific margin.
+
+Key KPI:
+Fashion and Leather Goods organic -5%; Asia ex-Japan -5% secondary relay; Selective Retailing +8% and Watches and Jewelry +6%. The dominant earnings signal is the divergence between high-profit soft luxury and other categories.
+
+Guidance headline:
+Management reaffirmed qualitative confidence and brand strategy in uncertain conditions, without supplying quantitative full-year guidance. Barclays' Q4 organic-growth forecast reductions and 2027-30 growth assumptions belong to the analyst layer, not the company outlook.
+
+Capital allocation:
+Not a capital-return event. LVMH confirmed the Sept 1 sale of Marc Jacobs to WHP Global and said most DFS businesses were sold. Scope changes contributed -2% to Q3 reported growth. Disposal proceeds, new leverage metrics, buyback changes and Q3 free cash flow are not disclosed in this release.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Not applicable — operational review; Q3 revenue-only announcement.
+
+Adjustment issue:
+No quarterly EPS or net income was reported. Group revenue is influenced by perimeter changes and FX, hence organic growth is the cleaner demand metric. Do not treat the group +1% organic figure as a proxy for EBIT trend given business-unit mix.
+
+PM interpretation:
+Use organic growth by division and region, cross-check with EBIT concentration and brand mix. Avoid manufacturing quarterly margin or EPS estimates from a revenue-only update. Separate underlying China sales trends from acquisition/disposal scope and currency translation.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Wines and Spirits | 7.7% | EUR1.429B | +6% organic | Not reported | Champagne improved in Europe and cognac showed Asia momentum. |
+| Fashion and Leather Goods | 44.6% | EUR8.245B | -5% organic | Not reported | Declining China demand offsets buoyant US business; dominant profit contribution makes this critical. |
+| Perfumes and Cosmetics | 10.9% | EUR2.008B | +1% organic | Not reported | Modest growth and selectively strong brand momentum. |
+| Watches and Jewelry | 13.5% | EUR2.500B | +6% organic | Not reported | Jewelry resilient; Tiffany and Bvlgari cited as brand supports. |
+| Selective Retailing | 22.0% | EUR4.070B | +8% organic | Not reported | Sephora growth and share gains; not sufficient to neutralize Fashion profit risk. |
+| Other and eliminations | 1.4% | EUR0.251B | Not meaningful | Not reported | Residual category; percentage reflects net reported sales after eliminations. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Downward revisions are likely for EBIT-weighted near-term Fashion and Leather Goods expectations despite the group revenue headline matching consensus. Barclays' house revision provides a directional example: Q4 Fashion and Leather Goods growth assumption +1.2% to -1.1%, Q4 China -7%, Q4 Watches and Jewelry +10% to +5%, and Q4 group organic +3.9% to +2.2%. Its longer-term group sales growth assumption fell approximately 5% to 4%. These are broker forecasts, not validated company guidance or market-wide consensus changes.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The stock's weakness is rationally linked to composition, not total group revenue. In luxury, a sales miss in the largest high-contribution division carries substantially more valuation weight than growth in a lower-margin retail activity; the +1% group organic number obscures that asymmetry. A sector with an already depressed equity setup can still sell off if the expected China recovery loses evidence.
+
+The key professional debate is company-specific luxury execution versus common Chinese luxury-spending deterioration. The scout captures Bernstein's concern about the Fashion miss, RBC's question about breadth of the slowdown and Barclays' more negative China/Q4 assumptions; these are desk-level public relays rather than verified verbatim individual-analyst quotations. Management's comments on a brand-related controversy add a potential one-off drag, but the mechanism and size could not be confirmed. It should not be used to explain away all the Chinese weakness.
+
+This is not a uniform consumer message: group Watches and Jewelry and Sephora remained resilient, and the US, Europe and Japan remained positive. The equity implication is high dispersion within luxury, with the split between high-ticket jewelry and leather goods as the more informative near-term sector signal.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality signal: official -5% organic Fashion and Leather Goods versus +1% Q2, supported by management's China commentary and the quarterly segment appendix. Lowest-quality: unquantified controversy effects and overconfident extrapolation of one-quarter Asia weakness into multi-year aggregate luxury demand. Region-by-division detail was relayed secondhand, not contained in the main official release.
+
+The next estimate bridge should separate volume/traffic, price/mix, brand recovery, China exposure, US demand and retail versus wholesale contributions. The group could sustain moderate organic growth while operating-profit forecasts fall if the earnings-rich segment contracts. Q4 Fashion and Leather Goods is the decisive test of whether Q2's tentative recovery was a temporary bounce.
+
+State transition: Deterioration
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+Q2 showed +3% group organic growth and +1% Fashion and Leather Goods, compatible with a tentative luxury recovery. Q3 group growth slowed to +1% and the fashion division returned to -5%. A fresh China-related drag therefore weakens the previous recovery thesis without overturning the resilience in jewelry and beauty retail.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+Investors had to distinguish a low-expectation share-price setup from whether the operating recovery was occurring. The group-level in-line result might look reassuring, but a contraction in the high-profit division plus China deterioration is a valid reason to reduce near-term EBIT expectations. Re-rating needs clear Q4 Asia and Fashion improvement, not merely group sales stabilization. Falsification of the negative transition would be positive Asian Fashion organic growth without scope/FX help, alongside stable US demand and transparent management evidence that the brand-specific disruption has passed. Read-across applies to European soft-luxury peers, not automatically to jewelry or beauty distribution.
+
+Stock identity:
+Turnaround; setup-risk stock. A depressed valuation or price history does not by itself validate a turnaround. Q3 weakens confirmation of the operating trough even as differentiated retail and jewelry businesses support optionality.
+
+MARKET REACTION / PEER READ-ACROSS
+
+The scout recorded a US ADR decline of roughly 2.3% after the Oct 12 release and Paris share weakness around 1.8% on Oct 13 morning; the precise Paris close was not confirmed within the tape. Concurrent luxury-peer losses were approximately Hermes -2.8%, Kering -2.0% and Moncler -1.6% at a common intraday observation, so the move was part company-specific and part sector-level interpretation. The main follow-up is whether peers independently corroborate the Chinese Fashion weakness and whether hard-luxury resilience persists.
+
+KEY ISSUES TO MONITOR
+
+- Asia ex-Japan Fashion sales / Why it matters: a return to positive organic growth is needed to rebuild confidence in the core division.
+- US premium and aspirational demand / Why it matters: continued US resilience must offset China without rising promotional pressure.
+- Fashion and Leather Goods EBIT mix / Why it matters: a division-level top-line miss can drive disproportionate group profit revisions.
+- Jewelry and Sephora / Why it matters: strength in different luxury and retail categories tests whether weakness is selective or broadening.
+- Brand-event effect and scope / Why it matters: management needs to distinguish a measurable temporary disruption from persistent regional demand deterioration.
+
+BOTTOM LINE
+
+- **** importance: a key Europe/China/premium-consumer and global luxury bellwether.
+- Group +1% organic growth understates the deterioration: Fashion and Leather Goods -5% after +1% in Q2.
+- Hard luxury, beauty retail and the US remain partial offsets; this is dispersion, not uniform collapse.
+- Deterioration is the appropriate state transition until Q4 China/Fashion trends repair the earnings-weighted miss.
+
+<<MCPA_EARNINGS_END>>
+
+<<JPM_EARNINGS_BEGIN>>
+TICKER: JPM
+COMPANY: JPMorgan Chase & Co.
+SECTOR: Financials
+SUBSECTOR: Universal Bank / Money Center Bank / Investment Banking / Asset and Wealth Management
+COUNTRY: United States
+PUBLICATION_DATE: 2026-10-13
+EVENT: Q3 2026 financial results
+STATE_TRANSITION: Continuation
+IMPORTANCE: ****
+MARKET_REACTION: Negative
+MARKET_REACTION_DETAIL: Shares fell sharply immediately on the release but recovered much of the loss intraday; a public market report placed the Oct 13 closing decline around 1%.
+PM_READ: Consumer credit and core lending remain solid, but the clean EPS miss, softer fixed-income and investment-banking momentum, wholesale reserves and lower buybacks temper the franchise story.
+THEME_BUCKETS: Credit / Banks, Capital Markets, Rates Sensitivity, Margin / Cost Discipline
+THEMES: net interest income, deposit and loan growth, securities repositioning, wholesale reserves, credit card charge-offs, fixed-income trading, equity derivatives, investment banking fees, operating leverage, CET1, buybacks
+SEGMENT_TABLE_STATUS: Full
+SOURCE_ROLE: Full note
+
+EXEC SUMMARY
+
+JPMorgan posted Q3 2026 reported revenue $50.17B, managed revenue $50.91B and reported EPS $5.57 versus a scout-captured LSEG consensus of $5.85. The quarter contained a disclosed $658M pretax investment-securities loss, $498M after tax, equivalent to $0.18 EPS. Excluding the loss, earnings were $5.75, still below the $5.85 reference expectation; therefore the miss was not wholly accounting noise. Reported ROTCE was 20% and 21% ex-significant item.
+
+Underlying lending and consumer behavior were resilient: NII rose 13% y/y, NII ex-Markets 6%, average loans 10%, and the card net charge-off rate was 2.91%. The capital-markets mix was less encouraging. Equities trading grew 49% y/y, but FICC declined 4%, and investment-banking fees fell 8% q/q despite rising 14% y/y. Expenses rose 12%, faster than managed revenues at 8%, while a $539M reserve build was concentrated in Wholesale.
+
+JPM reduced net share repurchases to $664M under its stated capital-allocation hierarchy. The overall franchise remains strong, so the scout's 'no material change' thesis maps to locked state Continuation, not an unauthorized STATE_TRANSITION value. For the PM, the forward issue is whether the bank can restore balanced capital-markets momentum without faster wholesale credit deterioration or worsening operating leverage.
+
+HEADLINE EARNINGS TABLE
+
+| Metric | Actual | Consensus / Prior | Beat / Miss | YoY | QoQ | PM Comment |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue / Sales | $50.172B reported; $50.907B managed | Reported $46.427B; managed $47.120B in Q3 2025; consensus not confirmed | Consensus not confirmed | +8% | Managed -12% q/q | NII and equities trading supported revenue; business mix was uneven. |
+| EPS / Earnings | $5.57 GAAP; $5.75 ex-significant item | LSEG $5.85 via scout's public relay; Q3 2025 $5.07 | Miss, including ex-item | +10% reported | -28% reported | $0.18 securities repositioning loss explains most but not all of the miss. |
+| Profitability / Margin | ROTCE 20%; 21% excluding item; ROE 17%; overhead ratio 54% | ROTCE 20% and ROE 17% Q3 2025 | Mixed | Flat ROTCE | Not meaningful | Expense +12% outpaced +8% revenue; reported ROTCE unchanged y/y. |
+| Guidance / Outlook | FY26 NII ~$106.2B; ex-Markets ~$97.2B; expense ~$108.6B; card NCO ~3.2% | Quartr / wire relay; exact management call wording not independently confirmed | Not confirmed | Not applicable | Not applicable | Directionally supportive NII outlook, but higher expense assumptions limit clean upgrades. |
+| Market reaction | Approximately -1% Oct 13 close by public market report | Approximately -3% initially then near-flat at a 10:00 ET scout snapshot | Negative | Not applicable | Not applicable | Peers also saw selling, suggesting high bank-sector expectations. |
+
+SECTOR KPI TABLE
+
+| KPI | Actual | Prior / Benchmark | Change | PM Comment |
+|---|---:|---:|---:|---|
+| Net interest income | $27.1B | Q3 2025 | +13% y/y | Strong headline benefit from lending and balance-sheet mix. |
+| NII excluding Markets | $24.7B | Q3 2025 | +6% y/y | Cleaner core interest income metric; management noted lower-rate offset. |
+| Average firmwide loans | $1.6T | Q3 2025 | +10% y/y | Economy and credit demand read-across remain supportive. |
+| Average firmwide deposits | Not confirmed in absolute terms in scout | Q3 2025 | +8% y/y | Deposits and funding franchise support core earnings. |
+| Card Services net charge-off rate | 2.91% | FY26 outlook approximately 3.2% secondary call relay | Below outlook | Consumer asset quality has not shown widespread stress. |
+| Net reserve build | $539M | Q3 2025 $810M; mainly Wholesale in current quarter | Lower y/y | Composition matters: Wholesale forward risk despite improving aggregate provision. |
+| CIB reserve build | $452M | Not confirmed | Not confirmed | Dominant share of firmwide build; monitor exposure concentration. |
+| Equity Markets revenue | $5.0B | Q3 2025 | +49% y/y | Derivatives and prime financing offset FICC weakness. |
+| Fixed Income Markets revenue | $5.4B | Q3 2025 | -4% y/y | Rates, commodities, credit and public finance weakness; EM FX partial offset. |
+| Investment Banking fees | $3.0B | Q2 2026 and Q3 2025 | -8% q/q; +14% y/y | Weaker sequential deal completion despite healthy comparative growth. |
+| Standardized CET1 | 13.9% | Not confirmed | Not confirmed | Capital position strong, but buyback intensity fell. |
+| Net common stock repurchases | $664M | Previous quarter figure not confirmed | Reduced per management | Capital allocated to the franchise rather than immediate shareholder return. |
+
+OFFICIAL EARNINGS DETAIL
+
+Revenue / Sales:
+Reported revenue $50.172B and managed revenue $50.907B, both +8% y/y. NII $27.1B +13%, NII excluding Markets $24.7B +6%, and noninterest revenue $23.8B +3%. The managed basis includes fully taxable-equivalent reclassifications and should not be mistaken for additional GAAP income. Average loans grew 10% y/y, average firmwide deposits 8%.
+
+Consensus:
+The scout cites an LSEG $5.85 EPS consensus as publicly relayed, versus $5.57 GAAP and $5.75 excluding the $0.18 significant item. Revenue consensus was not confirmed. The EPS shortfall is $0.28 on GAAP and $0.10 after stripping out the disclosed securities loss. Broader consensus details and the exact pre-report revenue bar are not confirmed.
+
+EPS / Earnings:
+Net income $15.305B, +6% y/y; reported EPS $5.57, +10% y/y; ex-significant item net income approximately $15.8B, EPS $5.75 and ROTCE 21%. The after-tax adjustment is $498M against a $658M pretax net investment securities loss.
+
+Profitability / Margins:
+ROE 17%, ROTCE 20% and ex-item ROTCE 21%; overhead ratio 54%. Noninterest expense $27.295B, +12% y/y against managed revenue +8%, indicating negative year-over-year cost-to-revenue growth differential. Expense pressures included compensation, marketing, technology and distribution costs.
+
+Key KPI:
+$539M firmwide net reserve build, primarily Wholesale; Wholesale/CIB build $452M, versus CCB $50M. Net charge-offs $2.2B, down $389M y/y, and card NCO ratio 2.91%. Equities Markets +49% while Fixed Income Markets -4%; IB fees -8% sequentially.
+
+Guidance headline:
+A Quartr/event-summary and public wire relay points to FY26 NII approximately $106.2B, NII ex-Markets approximately $97.2B, adjusted expense $108.6B and card NCO around 3.2%. The exact call phrasing and baseline-versus-raised bridge are not established by the official earnings-release narrative and should be treated as secondary until the transcript is read.
+
+Capital allocation:
+Net repurchases $664M versus $4.4B common dividends ($1.65/share), LTM net payout 61%, standardized CET1 13.9%, advanced CET1 14.1%, SLR 5.5%; tangible book value $112.64/share, +7% y/y. Management explicitly described fewer buybacks as consistent with a hierarchy that prioritizes attractive organic reinvestment and customer deployment.
+
+ACCOUNTING / EPS QUALITY CHECK
+
+Reported earnings quality:
+Mixed — a separately disclosed securities repositioning loss depressed reported EPS, but the cleaned number also fell short of the scout's reference consensus and capital-markets / expense weakness was operational.
+
+Adjustment issue:
+Corporate reported $658M pretax net investment securities losses, after-tax $498M and a $0.18 negative EPS effect. Management's ex-significant-item EPS of $5.75 and ROTCE 21% are useful comparators, but not a substitute for GAAP performance. No comparable material tax gain or litigation accounting boost was identified in the supplied release.
+
+PM interpretation:
+Look through the portfolio-repositioning EPS loss when evaluating ongoing bank franchise earnings, but do not look through the $0.10 residual clean miss. The higher-value signal is ex-Markets NII, expense trajectory, loan/deposit behavior, Wholesale provisioning and the FICC versus Equities revenue split.
+
+SEGMENT / BUSINESS BREAKDOWN
+
+SEGMENT TABLE
+
+| Segment | % of Total | Revenue | YoY Growth | Margin Trend | Key Commentary |
+|---|---:|---:|---:|---|---|
+| Consumer and Community Banking | 41.6% managed | $21.171B | +9% | Net income +13%; segment ROE 36% | Card and Auto +15% revenue; checking accounts expanded; net charge-offs manageable. |
+| Commercial and Investment Bank | 44.7% managed | $22.734B | +14% | Net income +20%; segment ROE 18% | Strong Equities, soft FICC and sequentially weaker investment-banking fees; $452M reserve build. |
+| Asset and Wealth Management | 13.6% managed | $6.909B | +14% | Net income +11%; segment ROE 45% | AUM $5.2T +13%; reported $263B net client-asset inflows. |
+| Corporate | 0.2% managed | $0.093B | Not meaningful | Net loss $455M | $658M securities losses significantly affected reported Corporate result. |
+
+GUIDANCE / CAPITAL ALLOCATION
+
+Revision direction not clear. Higher FY26 NII guidance, if confirmed against the prior official baseline, would support upward interest-income changes, but offsetting expense assumptions, lower capital-return intensity and less favorable Markets / investment-banking mix argue against mechanically higher EPS. A cleaner segment-level model may show mix-shift revisions rather than large aggregate EPS upgrades. Capital deployment rather than buybacks is management's explicit preference at current opportunity costs; the return on those deployments will matter for medium-term tangible-book and ROTCE progression.
+
+PROFESSIONAL MARKET COMMENTARY
+
+The reported EPS miss initially looked worse than the cleaned quarter because of the $0.18 securities-repositioning effect. Early share-price weakness largely moderated, suggesting the market discounted that mechanical noise. But the clean $5.75 result still missed the public $5.85 reference and Q3 price action across major banks showed investors looking past absolute year-on-year strength toward the deceleration in transaction-sensitive franchises and elevated expectations.
+
+The risk is not broad US consumer stress at this stage. The 2.91% card NCO rate, loan and deposit growth, consumer acquisition and core interest income all point to resilience. The more informative warning is the $452M CIB reserve build and slowing transaction activity, even while reported firmwide charge-offs improved. That is a composition issue, not a conclusion that a credit downturn is already under way.
+
+JPM's Markets mix also matters for the sector. Equities +49% y/y is an impressive but potentially volatility-dependent engine; FICC -4% and investment-banking fees -8% q/q make the franchise less uniformly robust. Peers reporting in the same cluster corroborated elevated earnings and forward-expectation dispersion, making a pure standalone event-study attribution difficult.
+
+COMMENT — ANALYST LAYER
+
+Highest-quality evidence: official NII, loan/deposit growth, card charge-offs, Equities/FICC split and reserve-build attribution. Lower-quality evidence: secondary FY26 forward guide wording and exact Street consensus comparators. The $0.18 securities item should be removed only for the clean recurring earnings comparison, not used to justify dismissing all forecast misses.
+
+Analyst estimates could move up for ex-Markets NII while moving down for capital-markets fees, buyback contribution or cost leverage. Watch investment-banking conversion of announced versus completed deals, FICC recovery and Wholesale loss emergence. A stable 20%-plus ROTCE against a large loan base is structurally valuable, but sustainable per-share compounding must account for retained capital and lower repurchase activity.
+
+State transition: Continuation
+
+CONTEXT FROM PRIOR QUARTER / PRIOR DEBATE
+
+JPM entered Q3 with the market debating whether strong bank profitability and deal activity could extend amid changing rates, volatility and geopolitical uncertainty. Q3 preserved core consumer, lending and deposit resilience but revealed weaker transaction-business mix. The new watch items are Wholesale provisioning and lower buybacks rather than a confirmed deterioration in franchise-wide asset quality.
+
+HF TAKE — STRATEGIST LAYER
+
+Print reaction function:
+The setup appears to have embedded a high bar for high-quality banks, which explains why nominally strong profits did not assure a positive stock move. Cleaning the securities item explains much of the miss but not all; continued multiple support requires balanced Markets, IB fee conversion and expenses growing no faster than revenues. The thesis would deteriorate if Wholesale reserve builds broaden into charge-offs and deposit costs squeeze ex-Markets NII. Recovery in FICC and IB with stable consumer credit could upgrade the state. Read-across to GS, BAC, MS, C and WFC should distinguish interest-income beta from capital-markets franchises rather than impose one broad bank narrative.
+
+Stock identity:
+Quality compounder; setup-risk stock. Scale, deposit economics, management and diverse fee businesses warrant the franchise-quality identity, while the near-term premium valuation/expectation setup is vulnerable to negative jaws and slower capital return.
+
+MARKET REACTION / PEER READ-ACROSS
+
+Scout sequence: approximately -3% immediate reaction, then premarket stabilization and near-flat at one 10:00 ET snapshot; subsequent public reporting described an approximately -1% Oct 13 finish. Sector cluster included Goldman Sachs, Wells Fargo and Citigroup results with sharply different operating mixes and reactions. Therefore the stock move combines a genuine JPM-specific clean EPS / FICC / IB concern with banking-sector positioning and macro-rate backdrop. JPM's clean-consumer versus cautious-Wholesale split is the more durable macro read-across than a one-day equity move.
+
+KEY ISSUES TO MONITOR
+
+- Wholesale credit provisioning / Why it matters: reserve builds must be compared with ensuing actual nonperformers and net charge-offs.
+- NII ex-Markets / Why it matters: loan demand, deposit pricing and rates sensitivity determine recurring bank earnings quality.
+- Fixed-income and investment-banking fees / Why it matters: Q4 rebound versus further transaction slowdown will determine capital-markets revisions.
+- Expense growth and technology spend / Why it matters: 12% cost growth versus 8% revenue growth cannot persist without pressuring operating leverage.
+- Capital deployment and buybacks / Why it matters: lower share repurchases alter per-share earnings growth and the balance between franchise investment and distributions.
+
+BOTTOM LINE
+
+- **** importance: a US lending, bank-credit, rates and capital-markets bellwether.
+- Reported EPS missed; stripping out $0.18 of securities losses still leaves a modest miss versus the scout's LSEG benchmark.
+- Consumer and core interest income remain resilient, while FICC, IB fees, expenses and Wholesale reserves warrant monitoring.
+- Continuation of franchise quality, with a weaker tactical setup and mixed near-term revision direction.
+
+<<JPM_EARNINGS_END>>
