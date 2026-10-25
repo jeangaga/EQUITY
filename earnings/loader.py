@@ -33,8 +33,8 @@ GITHUB_DATA_PATH = os.environ.get("EARNINGS_GH_DATA_PATH", "data")
 
 # Earnings seasons available in the repo, newest first. The UI exposes these
 # in a quarter toggle; DEFAULT_QUARTER is what every section shows on launch.
-AVAILABLE_QUARTERS = ["Q2 2026", "Q1 2026"]
-DEFAULT_QUARTER = "Q2 2026"
+AVAILABLE_QUARTERS = ["Q3 2026", "Q2 2026", "Q1 2026"]
+DEFAULT_QUARTER = "Q3 2026"
 
 
 def _quarter_filenames(quarter: str) -> tuple[str, str]:
